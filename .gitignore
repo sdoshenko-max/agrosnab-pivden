@@ -38,3 +38,4 @@ out/
 .env.production
 products.json
 make_culture_svgs.py
+cleanup_catalog.py

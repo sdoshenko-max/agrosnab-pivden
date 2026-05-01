@@ -16,7 +16,7 @@ export function Header({ lang }: { lang: Lang }) {
 
   return (
     <>
-    <RateBar />
+    <RateBar lang={lang} />
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-border">
       <div className="container-w flex items-center justify-between h-16 gap-3">
         <Link href={`${base}/`} className="shrink-0">
