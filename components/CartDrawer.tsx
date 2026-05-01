@@ -110,7 +110,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
                   <span className="text-muted">{t.productCard.priceCash}</span>
                   <span className="font-semibold">{cur}{cart.totalCash.toFixed(2)}</span>
                 </div>
-                <button onClick={() => setStage("form")} className="btn-primary w-full">{labels.checkout}</button>
+                <div className="grid grid-cols-2 gap-2"><button onClick={onClose} className="btn-outline">{labels.continueShopping}</button><button onClick={() => setStage("form")} className="btn-primary">{labels.checkout}</button></div>
               </div>
             </>
           )
