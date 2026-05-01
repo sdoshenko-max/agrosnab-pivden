@@ -39,3 +39,4 @@ out/
 products.json
 make_culture_svgs.py
 cleanup_catalog.py
+redistribute_cultures.py
