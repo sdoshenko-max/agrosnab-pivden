@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { X, Send, Check } from "lucide-react";
 import { dict, type Lang } from "@/lib/i18n";
+import { PhoneInput, isValidPhone } from "./PhoneInput";
 
 const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivden-form.sdoshenko.workers.dev";
 
@@ -45,7 +46,7 @@ export function RequestModal({
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (!consent || phone.length < 10) return;
+    if (!consent || !isValidPhone(phone)) return;
     setStatus("sending");
     try {
       const res = await fetch(WORKER_URL, {
@@ -89,7 +90,7 @@ export function RequestModal({
             </div>
             <form onSubmit={submit} className="p-5 space-y-3">
               <input type="text" placeholder={t.form.name} value={name} onChange={e => setName(e.target.value)} required className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
-              <input type="tel" placeholder={t.form.phone + " *"} value={phone} onChange={e => setPhone(e.target.value)} required className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
+              <PhoneInput value={phone} onChange={setPhone} placeholder={t.form.phone + " *"} />
               <div>
                 <label className="text-xs text-muted">{t.form.region}</label>
                 <select value={region} onChange={e => setRegion(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">
@@ -121,7 +122,7 @@ export function RequestModal({
                 <input type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} className="mt-0.5" required />
                 <span>{t.form.consent}</span>
               </label>
-              <button type="submit" disabled={status === "sending" || !consent} className="w-full btn-primary disabled:opacity-50">
+              <button type="submit" disabled={status === "sending" || !consent || !isValidPhone(phone)} className="w-full btn-primary disabled:opacity-50">
                 {status === "sending" ? t.form.sending : t.form.submit}
                 <Send className="w-4 h-4" />
               </button>

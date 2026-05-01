@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, Search, Menu, X } from "lucide-react";
+import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Logo } from "./Logo";
+import { CartButton } from "./CartButton";
 import { dict, type Lang } from "@/lib/i18n";
 
 export function Header({ lang }: { lang: Lang }) {
@@ -13,13 +14,10 @@ export function Header({ lang }: { lang: Lang }) {
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-border">
-      <div className="container-w flex items-center justify-between h-16 gap-4">
-        {/* Лого */}
+      <div className="container-w flex items-center justify-between h-16 gap-3">
         <Link href={`${base}/`} className="shrink-0">
           <Logo className="h-9 w-auto" />
         </Link>
-
-        {/* Десктоп-навигация */}
         <nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-ink">
           <Link href={`${base}/kultury`} className="hover:text-brand">{t.nav.cultures}</Link>
           <Link href={`${base}/grupy`} className="hover:text-brand">{t.nav.groups}</Link>
@@ -27,43 +25,21 @@ export function Header({ lang }: { lang: Lang }) {
           <Link href={`${base}/baza-znan`} className="hover:text-brand">{t.nav.knowledge}</Link>
           <Link href={`${base}/kontakty`} className="hover:text-brand">{t.nav.contacts}</Link>
         </nav>
-
-        {/* Правый блок */}
-        <div className="flex items-center gap-3">
-          {/* Переключатель языка */}
+        <div className="flex items-center gap-2">
           <div className="hidden sm:flex items-center text-sm font-semibold border border-border rounded-lg overflow-hidden">
-            <Link
-              href="/"
-              className={`px-3 py-1.5 ${lang === "uk" ? "bg-brand text-white" : "hover:bg-bg"}`}
-            >
-              UA
-            </Link>
-            <Link
-              href="/ru"
-              className={`px-3 py-1.5 ${lang === "ru" ? "bg-brand text-white" : "hover:bg-bg"}`}
-            >
-              RU
-            </Link>
+            <Link href="/" className={`px-3 py-1.5 ${lang === "uk" ? "bg-brand text-white" : "hover:bg-bg"}`}>UA</Link>
+            <Link href="/ru" className={`px-3 py-1.5 ${lang === "ru" ? "bg-brand text-white" : "hover:bg-bg"}`}>RU</Link>
           </div>
-
-          {/* CTA — звонок */}
+          <CartButton lang={lang} />
           <a href="#quick-call" className="btn-primary !py-2 !px-3 text-sm hidden md:inline-flex">
             <Phone className="w-4 h-4" />
             <span className="hidden lg:inline">{t.cta.callMe}</span>
           </a>
-
-          {/* Бургер */}
-          <button
-            className="lg:hidden p-2 -mr-2"
-            onClick={() => setOpen(!open)}
-            aria-label="Menu"
-          >
+          <button className="lg:hidden p-2 -mr-2" onClick={() => setOpen(!open)} aria-label="Menu">
             {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>
-
-      {/* Мобильное меню */}
       {open && (
         <div className="lg:hidden border-t border-border bg-white">
           <div className="container-w py-3 flex flex-col gap-1">
