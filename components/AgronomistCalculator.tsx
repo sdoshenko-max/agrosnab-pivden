@@ -6,19 +6,22 @@ import type { Product } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { useCart } from "./CartContext";
 
+function getPackSize(packaging: string): number {
+  const m = packaging.match(/[\d.,]+/);
+  if (!m) return 1;
+  return parseFloat(m[0].replace(",", "."));
+}
+
 export function AgronomistCalculator({ product, lang }: { product: Product; lang: Lang }) {
-  const t = dict[lang];
   const cart = useCart();
   const [area, setArea] = useState<string>("");
   const [rate, setRate] = useState<string>("");
   const [added, setAdded] = useState<boolean>(false);
+  const packSize = getPackSize(product.packaging);
 
   const defaultRate = useMemo(() => {
     const m = product.rate.match(/[\d.,]+/g);
-    if (m && m.length >= 2) {
-      const avg = (parseFloat(m[0].replace(",", ".")) + parseFloat(m[1].replace(",", "."))) / 2;
-      return avg.toFixed(2);
-    }
+    if (m && m.length >= 2) return ((parseFloat(m[0].replace(",", ".")) + parseFloat(m[1].replace(",", "."))) / 2).toFixed(2);
     if (m && m.length === 1) return m[0].replace(",", ".");
     return "";
   }, [product.rate]);
@@ -28,16 +31,16 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
     const r = parseFloat(rate || defaultRate);
     if (!a || !r) return null;
     const total = a * r;
-    const packSize = parseFloat((product.packaging.match(/[\d.,]+/) || ["1"])[0].replace(",", "."));
     const cans = packSize > 0 ? Math.ceil(total / packSize) : 0;
-    const priceVat = +(total * product.priceVat).toFixed(2);
-    const priceCash = +(total * product.priceCash).toFixed(2);
-    return { total: total, totalStr: total.toFixed(2), cans, priceVat, priceCash };
-  }, [area, rate, defaultRate, product]);
+    const totalRoundedUp = cans * packSize;
+    const priceVat = +(totalRoundedUp * product.priceVat).toFixed(2);
+    const priceCash = +(totalRoundedUp * product.priceCash).toFixed(2);
+    return { total, cans, totalRoundedUp, priceVat, priceCash };
+  }, [area, rate, defaultRate, product, packSize]);
 
   const titles = lang === "uk"
-    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", total: "Загальна потреба", cans: "Каністри", priceV: "Сума з ПДВ", priceC: "Сума готівкою", addCart: "Додати в кошик", added: "Додано в кошик" }
-    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", total: "Общая потребность", cans: "Канистры", priceV: "Сумма с НДС", priceC: "Сумма наличными", addCart: "Добавить в корзину", added: "Добавлено в корзину" };
+    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buy: "До купівлі (округлено вгору)", priceV: "Сума з ПДВ", priceC: "Сума готівкою", addCart: "Додати в кошик", added: "Додано", cansLabel: "каністр" }
+    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buy: "К покупке (округлено вверх)", priceV: "Сумма с НДС", priceC: "Сумма наличными", addCart: "Добавить в корзину", added: "Добавлено", cansLabel: "канистр" };
 
   function addToCart() {
     if (!result) return;
@@ -46,8 +49,9 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
       name: lang === "uk" ? product.name : product.nameRu,
       manufacturer: product.manufacturer,
       packaging: product.packaging,
+      packSize,
       unit: product.unit,
-      qty: Math.round(result.total * 100) / 100,
+      qty: result.cans,
       priceVat: product.priceVat,
       priceCash: product.priceCash,
       currency: product.currency
@@ -75,13 +79,13 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
       {result && (
         <>
           <div className="bg-white rounded-lg p-3 space-y-1.5 text-sm border border-border">
-            <div className="flex justify-between"><span className="text-muted">{titles.total}:</span><span className="font-semibold">{result.totalStr} {product.unit}</span></div>
-            <div className="flex justify-between"><span className="text-muted">{titles.cans} ({product.packaging}):</span><span className="font-semibold">{result.cans}</span></div>
+            <div className="flex justify-between"><span className="text-muted">{titles.need}:</span><span className="font-semibold">{result.total.toFixed(2)} {product.unit}</span></div>
+            <div className="flex justify-between"><span className="text-muted">{titles.buy}:</span><span className="font-semibold">{result.cans} {titles.cansLabel} × {product.packaging} = {result.totalRoundedUp} {product.unit}</span></div>
             <div className="flex justify-between border-t border-border pt-1.5 mt-1.5"><span className="text-muted">{titles.priceV}:</span><span className="font-bold text-brand">${result.priceVat}</span></div>
             <div className="flex justify-between"><span className="text-muted">{titles.priceC}:</span><span className="font-semibold">${result.priceCash}</span></div>
           </div>
           <button onClick={addToCart} className={`w-full mt-3 ${added ? "btn-secondary" : "btn-primary"}`}>
-            {added ? <><Check className="w-4 h-4" />{titles.added}</> : <><ShoppingCart className="w-4 h-4" />{titles.addCart} ({result.totalStr} {product.unit})</>}
+            {added ? <><Check className="w-4 h-4" />{titles.added}</> : <><ShoppingCart className="w-4 h-4" />{titles.addCart}: {result.cans} × {product.packaging}</>}
           </button>
         </>
       )}

@@ -7,10 +7,11 @@ export type CartItem = {
   name: string;
   manufacturer: string;
   packaging: string;
+  packSize: number;       // розмір однієї каністри (5, 10, 20)
   unit: "л" | "кг";
-  qty: number;
-  priceVat: number;
-  priceCash: number;
+  qty: number;            // кількість КАНІСТР
+  priceVat: number;       // ціна за 1 л/кг
+  priceCash: number;      // ціна за 1 л/кг
   currency: "USD" | "EUR";
 };
 
@@ -36,7 +37,7 @@ function reducer(state: CartState, action: Action): CartState {
       return { items: [...state.items, action.item] };
     }
     case "update":
-      return { items: state.items.map(i => i.slug === action.slug ? { ...i, qty: action.qty } : i).filter(i => i.qty > 0) };
+      return { items: state.items.map(i => i.slug === action.slug ? { ...i, qty: Math.max(0, action.qty) } : i).filter(i => i.qty > 0) };
     case "remove":
       return { items: state.items.filter(i => i.slug !== action.slug) };
     case "clear":
@@ -79,8 +80,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
     try { localStorage.setItem("agrosnab_cart", JSON.stringify(state)); } catch {}
   }, [state]);
 
-  const totalVat = state.items.reduce((s, i) => s + i.qty * i.priceVat, 0);
-  const totalCash = state.items.reduce((s, i) => s + i.qty * i.priceCash, 0);
+  // qty * packSize * price = сума за позицію
+  const totalVat = state.items.reduce((s, i) => s + i.qty * i.packSize * i.priceVat, 0);
+  const totalCash = state.items.reduce((s, i) => s + i.qty * i.packSize * i.priceCash, 0);
   const count = state.items.reduce((s, i) => s + i.qty, 0);
 
   const value: CartCtx = {
