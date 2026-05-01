@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { MagnetCards } from "@/components/MagnetCards";
+import { GroupsStrip } from "@/components/GroupsStrip";
 import { CulturesGrid } from "@/components/CulturesGrid";
 import { TankMixesGrid } from "@/components/TankMixesGrid";
 import { WhyUs } from "@/components/WhyUs";
@@ -23,6 +24,7 @@ export default function HomeRu() {
       <main>
         <Hero lang="ru" />
         <MagnetCards lang="ru" />
+        <GroupsStrip lang="ru" />
         <CulturesGrid lang="ru" />
         <TankMixesGrid lang="ru" />
         <WhyUs lang="ru" />
