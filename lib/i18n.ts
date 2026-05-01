@@ -5,6 +5,7 @@ export const dict = {
     nav: {
       cultures: "Культури",
       groups: "Групи ЗЗР",
+      ai: "Діючі речовини",
       mixes: "Бакові суміші",
       knowledge: "База знань",
       contacts: "Контакти"
@@ -104,6 +105,7 @@ export const dict = {
     nav: {
       cultures: "Культуры",
       groups: "Группы СЗР",
+      ai: "Действующие вещества",
       mixes: "Баковые смеси",
       knowledge: "База знаний",
       contacts: "Контакты"

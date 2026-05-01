@@ -21,6 +21,7 @@ export function Header({ lang }: { lang: Lang }) {
         <nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-ink">
           <Link href={`${base}/kultury`} className="hover:text-brand">{t.nav.cultures}</Link>
           <Link href={`${base}/grupy`} className="hover:text-brand">{t.nav.groups}</Link>
+          <Link href={`${base}/diiucha-rechovyna`} className="hover:text-brand">{t.nav.ai}</Link>
           <Link href={`${base}/bakovi-sumishi`} className="hover:text-brand">{t.nav.mixes}</Link>
           <Link href={`${base}/baza-znan`} className="hover:text-brand">{t.nav.knowledge}</Link>
           <Link href={`${base}/kontakty`} className="hover:text-brand">{t.nav.contacts}</Link>
@@ -45,6 +46,7 @@ export function Header({ lang }: { lang: Lang }) {
           <div className="container-w py-3 flex flex-col gap-1">
             <Link href={`${base}/kultury`} onClick={() => setOpen(false)} className="py-2.5 font-medium">{t.nav.cultures}</Link>
             <Link href={`${base}/grupy`} onClick={() => setOpen(false)} className="py-2.5 font-medium">{t.nav.groups}</Link>
+            <Link href={`${base}/diiucha-rechovyna`} onClick={() => setOpen(false)} className="py-2.5 font-medium">{t.nav.ai}</Link>
             <Link href={`${base}/bakovi-sumishi`} onClick={() => setOpen(false)} className="py-2.5 font-medium">{t.nav.mixes}</Link>
             <Link href={`${base}/baza-znan`} onClick={() => setOpen(false)} className="py-2.5 font-medium">{t.nav.knowledge}</Link>
             <Link href={`${base}/kontakty`} onClick={() => setOpen(false)} className="py-2.5 font-medium">{t.nav.contacts}</Link>
