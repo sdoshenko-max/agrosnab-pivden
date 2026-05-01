@@ -18,8 +18,8 @@ export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { 
   const [added, setAdded] = useState<boolean>(false);
   const packSize = getPackSize(product.packaging);
   const labels = lang === "uk"
-    ? { add: "В кошик", added: "Додано", cans: "каністр", canSingular: "каністра" }
-    : { add: "В корзину", added: "Добавлено", cans: "канистр", canSingular: "канистра" };
+    ? { add: "В кошик", added: "Додано", cash: "готівка", vat: "з ПДВ" }
+    : { add: "В корзину", added: "Добавлено", cash: "наличные", vat: "с НДС" };
 
   function add() {
     cart.add({
@@ -39,7 +39,8 @@ export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { 
   }
 
   const totalVolume = qty * packSize;
-  const totalPrice = (qty * packSize * product.priceVat).toFixed(2);
+  const totalCash = (qty * packSize * product.priceCash).toFixed(2);
+  const totalVat = (qty * packSize * product.priceVat).toFixed(2);
 
   return (
     <div className={compact ? "flex items-center gap-2" : "flex flex-col gap-2"}>
@@ -51,7 +52,8 @@ export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { 
         </div>
         <div className="text-sm">
           <p className="text-muted text-xs">{qty} × {product.packaging} = <span className="font-semibold text-ink">{totalVolume} {product.unit}</span></p>
-          <p className="font-bold text-brand">${totalPrice} <span className="text-xs font-normal text-muted">з ПДВ</span></p>
+          <p className="font-bold text-brand text-base">${totalCash} <span className="text-xs font-normal text-muted">{labels.cash}</span></p>
+          <p className="text-xs text-muted">${totalVat} {labels.vat}</p>
         </div>
       </div>
       <button onClick={add} className={`btn-primary ${compact ? "!py-2 !px-3 text-sm" : ""}`}>

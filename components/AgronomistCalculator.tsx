@@ -81,8 +81,8 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
           <div className="bg-white rounded-lg p-3 space-y-1.5 text-sm border border-border">
             <div className="flex justify-between"><span className="text-muted">{titles.need}:</span><span className="font-semibold">{result.total.toFixed(2)} {product.unit}</span></div>
             <div className="flex justify-between"><span className="text-muted">{titles.buy}:</span><span className="font-semibold">{result.cans} {titles.cansLabel} × {product.packaging} = {result.totalRoundedUp} {product.unit}</span></div>
-            <div className="flex justify-between border-t border-border pt-1.5 mt-1.5"><span className="text-muted">{titles.priceV}:</span><span className="font-bold text-brand">${result.priceVat}</span></div>
-            <div className="flex justify-between"><span className="text-muted">{titles.priceC}:</span><span className="font-semibold">${result.priceCash}</span></div>
+            <div className="flex justify-between border-t border-border pt-1.5 mt-1.5"><span className="text-muted">{titles.priceC}:</span><span className="font-bold text-brand text-base">${result.priceCash}</span></div>
+            <div className="flex justify-between"><span className="text-muted text-xs">{titles.priceV}:</span><span className="text-xs">${result.priceVat}</span></div>
           </div>
           <button onClick={addToCart} className={`w-full mt-3 ${added ? "btn-secondary" : "btn-primary"}`}>
             {added ? <><Check className="w-4 h-4" />{titles.added}</> : <><ShoppingCart className="w-4 h-4" />{titles.addCart}: {result.cans} × {product.packaging}</>}

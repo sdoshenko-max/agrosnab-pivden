@@ -93,7 +93,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
                           <button onClick={() => cart.update(i.slug, i.qty + 1)} className="px-2 hover:bg-bg">+</button>
                           <span className="px-2 text-xs text-muted self-center">{labels.cans}</span>
                         </div>
-                        <p className="font-bold text-brand">{cur}{lineSum}</p>
+                        <p className="font-bold text-brand">{cur}{(totalVol * i.priceCash).toFixed(2)}</p>
                       </div>
                       <p className="text-xs text-muted mt-1">{i.qty} × {i.packaging} = {totalVol} {i.unit}</p>
                     </div>
@@ -103,12 +103,12 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
               </div>
               <div className="sticky bottom-0 bg-white border-t border-border p-4 space-y-2">
                 <div className="flex justify-between text-sm">
-                  <span className="text-muted">{t.productCard.priceVat}</span>
-                  <span className="font-bold text-brand text-lg">{cur}{cart.totalVat.toFixed(2)}</span>
-                </div>
-                <div className="flex justify-between text-sm">
                   <span className="text-muted">{t.productCard.priceCash}</span>
-                  <span className="font-semibold">{cur}{cart.totalCash.toFixed(2)}</span>
+                  <span className="font-bold text-brand text-lg">{cur}{cart.totalCash.toFixed(2)}</span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span className="text-muted">{t.productCard.priceVat}</span>
+                  <span className="text-muted">{cur}{cart.totalVat.toFixed(2)}</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2"><button onClick={onClose} className="btn-outline">{labels.continueShopping}</button><button onClick={() => setStage("form")} className="btn-primary">{labels.checkout}</button></div>
               </div>
@@ -133,7 +133,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
               <span>{t.form.consent}</span>
             </label>
             <div className="bg-bg p-3 rounded-lg text-sm">
-              <div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{cur}{cart.totalVat.toFixed(2)}</span></div>
+              <div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{cur}{cart.totalCash.toFixed(2)}</span></div>
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button type="button" onClick={() => setStage("cart")} className="btn-outline">←</button>

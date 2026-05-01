@@ -72,12 +72,12 @@ export function ProductCardFull({
 
       <div className="border-t border-border pt-3 mt-auto">
         <div className="flex justify-between items-baseline mb-1">
-          <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-          <span className="text-lg font-bold text-brand">{cur}{product.priceVat}<span className="text-xs font-normal text-muted">/{unitLabel}</span></span>
+          <span className="text-xs text-muted">{t.productCard.priceCash}</span>
+          <span className="text-lg font-bold text-brand">{cur}{product.priceCash}<span className="text-xs font-normal text-muted">/{unitLabel}</span></span>
         </div>
         <div className="flex justify-between items-baseline">
-          <span className="text-xs text-muted">{t.productCard.priceCash}</span>
-          <span className="text-base font-semibold text-ink">{cur}{product.priceCash}<span className="text-xs font-normal text-muted">/{unitLabel}</span></span>
+          <span className="text-xs text-muted">{t.productCard.priceVat}</span>
+          <span className="text-sm text-muted">{cur}{product.priceVat}<span className="text-xs font-normal">/{unitLabel}</span></span>
         </div>
       </div>
 

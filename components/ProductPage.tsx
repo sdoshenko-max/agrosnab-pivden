@@ -93,12 +93,12 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
 
             <div className="card !p-4 mb-5 bg-bg">
               <div className="flex justify-between items-baseline mb-2">
-                <span className="text-sm text-muted">{t.productCard.priceVat}</span>
-                <span className="text-2xl font-extrabold text-brand">{cur}{product.priceVat}<span className="text-sm font-normal">/{product.unit}</span></span>
+                <span className="text-sm text-muted">{t.productCard.priceCash}</span>
+                <span className="text-3xl font-extrabold text-brand">{cur}{product.priceCash}<span className="text-sm font-normal">/{product.unit}</span></span>
               </div>
               <div className="flex justify-between items-baseline">
-                <span className="text-sm text-muted">{t.productCard.priceCash}</span>
-                <span className="text-xl font-bold text-ink">{cur}{product.priceCash}<span className="text-sm font-normal">/{product.unit}</span></span>
+                <span className="text-xs text-muted">{t.productCard.priceVat}</span>
+                <span className="text-base text-muted">{cur}{product.priceVat}<span className="text-xs font-normal">/{product.unit}</span></span>
               </div>
             </div>
 

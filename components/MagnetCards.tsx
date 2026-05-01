@@ -33,12 +33,12 @@ export function MagnetCards({ lang }: { lang: Lang }) {
             </p>
             <div className="mt-auto pt-3 border-t border-border">
               <div className="flex justify-between items-baseline">
-                <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-                <span className="text-base font-bold text-brand">${p.priceVat}{p.unit === "л" ? t.productCard.perL : t.productCard.perKg}</span>
+                <span className="text-xs text-muted">{t.productCard.priceCash}</span>
+                <span className="text-base font-bold text-brand">${p.priceCash}{p.unit === "л" ? t.productCard.perL : t.productCard.perKg}</span>
               </div>
               <div className="flex justify-between items-baseline">
-                <span className="text-xs text-muted">{t.productCard.priceCash}</span>
-                <span className="text-sm font-semibold text-ink">${p.priceCash}{p.unit === "л" ? t.productCard.perL : t.productCard.perKg}</span>
+                <span className="text-xs text-muted">{t.productCard.priceVat}</span>
+                <span className="text-xs text-muted">${p.priceVat}{p.unit === "л" ? t.productCard.perL : t.productCard.perKg}</span>
               </div>
             </div>
             {p.analog && (
