@@ -49,7 +49,17 @@ export type TankMix = {
   titleRu: string;
   descUk: string;
   descRu: string;
-  components: { name: string; manufacturer: string; role: string; priceVat: number; priceCash: number }[];
+  components: {
+    slug?: string;        // якщо співпадає з products[] — для додавання в кошик
+    name: string;
+    manufacturer: string;
+    role: string;
+    ratePerHa: number;    // л/кг на гектар
+    packSize: number;     // фасовка (5, 10, 20)
+    unit: "л" | "кг";
+    priceVat: number;     // ціна за 1 л/кг
+    priceCash: number;
+  }[];
 };
 
 export function calcCash(priceVat: number): number {
