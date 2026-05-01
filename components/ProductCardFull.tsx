@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, FileText, ArrowRight } from "lucide-react";
+import { FileText, ArrowRight } from "lucide-react";
 import type { Product } from "@/lib/data";
-import { dict, type Lang, COMPANY } from "@/lib/i18n";
+import { dict, type Lang } from "@/lib/i18n";
 import { useCurrency } from "./CurrencyContext";
 import { ProductPlaceholder } from "./ProductPlaceholder";
 
@@ -25,9 +25,9 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
   const detailsLabel = lang === "uk" ? "Деталі" : "Подробнее";
 
   return (
-    <article className="card flex flex-col gap-3">
+    <article className="card flex flex-col gap-3 hover:border-brand hover:shadow-lg transition-all duration-200 group">
       <div className="flex items-start gap-3">
-        <Link href={productHref} className="w-20 h-20 sm:w-24 sm:h-24 shrink-0 bg-bg rounded-lg overflow-hidden flex items-center justify-center border border-border hover:border-brand">
+        <Link href={productHref} className="w-20 h-20 sm:w-24 sm:h-24 shrink-0 bg-bg rounded-lg overflow-hidden flex items-center justify-center border border-border group-hover:border-brand transition-transform duration-200 group-hover:-translate-y-0.5">
           {product.image ? <img src={product.image} alt={name} className="w-full h-full object-contain" loading="lazy" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} /> : <ProductPlaceholder product={product} size="md" />}
         </Link>
         <div className="flex-1 min-w-0">
@@ -35,14 +35,14 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
             <span className={`badge ${tier.cls}`}>{lang === "uk" ? tier.uk : tier.ru}</span>
             {product.saveFromOriginal && (<span className="text-accent font-bold text-sm">−{product.saveFromOriginal}%</span>)}
           </div>
-          <Link href={productHref} className="font-bold text-lg leading-tight hover:text-brand block">{name}</Link>
+          <Link href={productHref} className="font-bold text-lg leading-tight hover:text-brand group-hover:text-brand transition-colors block">{name}</Link>
           <p className="text-xs text-muted">{product.manufacturer}</p>
         </div>
       </div>
 
       <div className="bg-brand/5 rounded-lg p-3">
         <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-1">{t.productCard.activeIngredient}</p>
-        <p className="text-sm font-bold text-ink leading-snug">{ai}, {product.concentration}</p>
+        <p className="text-sm font-bold text-ink leading-snug">{ai}{product.concentration ? `, ${product.concentration}` : ""}</p>
         {product.analog && (<p className="text-xs text-muted mt-1">{t.productCard.analog}: <span className="text-ink font-medium">{product.analog}</span></p>)}
       </div>
 
@@ -66,7 +66,7 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
 
       <div className="grid grid-cols-2 gap-2">
         <button onClick={() => onRequest(name)} className="btn-primary !py-2 !px-3 text-sm"><FileText className="w-4 h-4" />{t.cta.submit}</button>
-        <Link href={productHref} className="btn-outline !py-2 !px-3 text-sm">{detailsLabel}<ArrowRight className="w-4 h-4" /></Link>
+        <Link href={productHref} className="btn-outline !py-2 !px-3 text-sm">{detailsLabel}<ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></Link>
       </div>
     </article>
   );

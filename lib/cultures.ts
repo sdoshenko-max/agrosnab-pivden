@@ -1,7 +1,7 @@
 import type { Culture } from "./types";
 
 export const cultures: Culture[] = [
-  {
+{
     slug: "ozyma-pshenytsa",
     nameUk: "Озима пшениця",
     nameRu: "Озимая пшеница",
@@ -15,20 +15,6 @@ export const cultures: Culture[] = [
       { slug: "fungicid-t1", nameUk: "Фунгіцид Т1", nameRu: "Фунгицид Т1", icon: "🍄" },
       { slug: "fungicid-t2", nameUk: "Фунгіцид Т2/Т3", nameRu: "Фунгицид Т2/Т3", icon: "🛡️" },
       { slug: "insecticid-naliv", nameUk: "Інсектицид (налив)", nameRu: "Инсектицид (налив)", icon: "🐛" }
-    ]
-  },
-  {
-    slug: "yari-zernovi",
-    nameUk: "Ярі зернові (ячмінь)",
-    nameRu: "Яровые зерновые (ячмень)",
-    emoji: "🌾",
-    image: "/cultures/yari-zernovi.jpg",
-    shortUk: "Контроль гельмінтоспоріозів та сітчастої плямистості",
-    shortRu: "Контроль гельминтоспориозов и сетчатой пятнистости",
-    stages: [
-      { slug: "protruyuvannya", nameUk: "Протруювання", nameRu: "Протравливание", icon: "🌱" },
-      { slug: "herbicid", nameUk: "Гербіцид", nameRu: "Гербицид", icon: "💧" },
-      { slug: "fungicid", nameUk: "Фунгіцид", nameRu: "Фунгицид", icon: "🍄" }
     ]
   },
   {
@@ -76,6 +62,20 @@ export const cultures: Culture[] = [
     ]
   },
   {
+    slug: "yari-zernovi",
+    nameUk: "Ярі зернові (ячмінь)",
+    nameRu: "Яровые зерновые (ячмень)",
+    emoji: "🌾",
+    image: "/cultures/yari-zernovi.jpg",
+    shortUk: "Контроль гельмінтоспоріозів та сітчастої плямистості",
+    shortRu: "Контроль гельминтоспориозов и сетчатой пятнистости",
+    stages: [
+      { slug: "protruyuvannya", nameUk: "Протруювання", nameRu: "Протравливание", icon: "🌱" },
+      { slug: "herbicid", nameUk: "Гербіцид", nameRu: "Гербицид", icon: "💧" },
+      { slug: "fungicid", nameUk: "Фунгіцид", nameRu: "Фунгицид", icon: "🍄" }
+    ]
+  },
+  {
     slug: "soya",
     nameUk: "Соя", nameRu: "Соя", emoji: "🌱",
     image: "/cultures/soya.jpg",
@@ -113,6 +113,18 @@ export const cultures: Culture[] = [
     ]
   },
   {
+    slug: "kartoplya",
+    nameUk: "Картопля", nameRu: "Картофель", emoji: "🥔",
+    image: "/cultures/kartoplya.jpg",
+    shortUk: "Захист від колорадського жука та фітофтори в умовах поливу",
+    shortRu: "Защита от колорадского жука и фитофторы в условиях полива",
+    stages: [
+      { slug: "herbicid", nameUk: "Гербіцид", nameRu: "Гербицид", icon: "💧" },
+      { slug: "fungicid", nameUk: "Фунгіцид", nameRu: "Фунгицид", icon: "🍄" },
+      { slug: "insecticid", nameUk: "Інсектицид", nameRu: "Инсектицид", icon: "🐛" }
+    ]
+  },
+  {
     slug: "sorgo",
     nameUk: "Сорго", nameRu: "Сорго", emoji: "🌾",
     image: "/cultures/sorgo.jpg",
@@ -135,17 +147,6 @@ export const cultures: Culture[] = [
       { slug: "strakhovyi", nameUk: "Страховий гербіцид", nameRu: "Страховой гербицид", icon: "🛡️" },
       { slug: "insecticid", nameUk: "Інсектицид", nameRu: "Инсектицид", icon: "🐛" }
     ]
-  },
-  {
-    slug: "kartoplya",
-    nameUk: "Картопля", nameRu: "Картофель", emoji: "🥔",
-    image: "/cultures/kartoplya.jpg",
-    shortUk: "Захист від колорадського жука та фітофтори в умовах поливу",
-    shortRu: "Защита от колорадского жука и фитофторы в условиях полива",
-    stages: [
-      { slug: "herbicid", nameUk: "Гербіцид", nameRu: "Гербицид", icon: "💧" },
-      { slug: "fungicid", nameUk: "Фунгіцид", nameRu: "Фунгицид", icon: "🍄" },
-      { slug: "insecticid", nameUk: "Інсектицид", nameRu: "Инсектицид", icon: "🐛" }
-    ]
   }
+
 ];

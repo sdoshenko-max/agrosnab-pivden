@@ -18,10 +18,10 @@ export function CulturesGrid({ lang }: { lang: Lang }) {
           <Link
             key={c.slug}
             href={`${base}/kultury/${c.slug}`}
-            className="card flex flex-col items-center text-center group hover:border-brand"
+            className="card flex flex-col items-center text-center group hover:border-brand hover:bg-brand/5 hover:shadow-lg transition-all duration-200"
           >
-            <div className="text-5xl mb-3">{c.emoji}</div>
-            <h3 className="font-bold text-base mb-2 group-hover:text-brand">
+            <div className="text-5xl mb-3 transition-transform duration-200 group-hover:-translate-y-2 group-hover:scale-110">{c.emoji}</div>
+            <h3 className="font-bold text-base mb-2 group-hover:text-brand transition-colors">
               {lang === "uk" ? c.nameUk : c.nameRu}
             </h3>
             <p className="text-xs text-muted leading-snug mb-3 line-clamp-3">
@@ -29,7 +29,7 @@ export function CulturesGrid({ lang }: { lang: Lang }) {
             </p>
             <span className="mt-auto inline-flex items-center gap-1 text-sm font-semibold text-brand">
               {t.nav.cultures}
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </span>
           </Link>
         ))}

@@ -25,8 +25,8 @@ export function TankMixesGrid({ lang }: { lang: Lang }) {
           {tankMixes.map(m => {
             const perHaCash = m.components.reduce((s, c) => s + c.ratePerHa * c.priceCash, 0);
             return (
-              <Link key={m.slug} href={`${base}/bakovi-sumishi/${m.slug}`} className="card flex flex-col group hover:border-brand">
-                <h3 className="font-bold text-base mb-2 group-hover:text-brand">{lang === "uk" ? m.titleUk : m.titleRu}</h3>
+              <Link key={m.slug} href={`${base}/bakovi-sumishi/${m.slug}`} className="card flex flex-col group hover:border-brand hover:shadow-lg transition-all duration-200">
+                <h3 className="font-bold text-base mb-2 group-hover:text-brand transition-colors">{lang === "uk" ? m.titleUk : m.titleRu}</h3>
                 <p className="text-sm text-muted leading-snug mb-3">{lang === "uk" ? m.descUk : m.descRu}</p>
                 <ul className="space-y-1 text-sm mb-4">
                   {m.components.map((c, i) => (
@@ -37,7 +37,7 @@ export function TankMixesGrid({ lang }: { lang: Lang }) {
                   <p className="text-[11px] uppercase font-semibold text-muted tracking-wide">{perHaLabel}</p>
                   <div className="flex items-baseline justify-between mt-1">
                     <span className="text-2xl font-extrabold text-brand">{format(perHaCash)}<span className="text-sm font-normal text-muted">/га</span></span>
-                    <ArrowRight className="w-4 h-4 text-brand" />
+                    <ArrowRight className="w-4 h-4 text-brand transition-transform group-hover:translate-x-1" />
                   </div>
                 </div>
               </Link>

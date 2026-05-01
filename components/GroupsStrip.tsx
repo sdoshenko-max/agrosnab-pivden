@@ -14,9 +14,9 @@ export function GroupsStrip({ lang }: { lang: Lang }) {
           const count = products.filter(p => p.groupSlug === g.slug).length;
           return (
             <Link key={g.slug} href={`${base}/grupy/${g.slug}`}
-              className="card !p-3 flex flex-col items-center text-center hover:border-brand group">
-              <div className="text-3xl mb-1">{g.emoji}</div>
-              <p className="font-bold text-sm group-hover:text-brand">{lang === "uk" ? g.nameUk : g.nameRu}</p>
+              className="card !p-3 flex flex-col items-center text-center hover:border-brand hover:bg-brand/5 hover:shadow-md transition-all duration-200 group">
+              <div className="text-3xl mb-1 transition-transform duration-200 group-hover:-translate-y-1 group-hover:scale-110">{g.emoji}</div>
+              <p className="font-bold text-sm group-hover:text-brand transition-colors">{lang === "uk" ? g.nameUk : g.nameRu}</p>
               <p className="text-xs text-muted">{count}</p>
             </Link>
           );

@@ -23,17 +23,17 @@ export default function CulturesRouteRu() {
             {cultures.map(c => {
               const count = products.filter(p => p.cultures.includes(c.slug)).length;
               return (
-                <Link key={c.slug} href={`/ru/kultury/${c.slug}`} className="card hover:border-brand group overflow-hidden !p-0">
+                <Link key={c.slug} href={`/ru/kultury/${c.slug}`} className="card hover:border-brand hover:shadow-lg transition-all duration-200 group overflow-hidden !p-0">
                   {c.image ? (
-                    <div className="aspect-[16/10] overflow-hidden bg-bg"><img src={c.image} alt={c.nameRu} className="w-full h-full object-cover group-hover:scale-105 transition-transform" /></div>
-                  ) : (<div className="aspect-[16/10] bg-bg flex items-center justify-center text-6xl">{c.emoji}</div>)}
-                  <div className="p-5">
+                    <div className="aspect-[16/10] overflow-hidden bg-bg"><img src={c.image} alt={c.nameRu} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" /></div>
+                  ) : (<div className="aspect-[16/10] bg-bg flex items-center justify-center text-6xl transition-transform duration-200 group-hover:scale-110">{c.emoji}</div>)}
+                  <div className="p-5 group-hover:bg-brand/5 transition-colors">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-2xl">{c.emoji}</span>
-                      <h2 className="text-lg font-bold group-hover:text-brand">{c.nameRu}</h2>
+                      <span className="text-2xl transition-transform duration-200 group-hover:-translate-y-1">{c.emoji}</span>
+                      <h2 className="text-lg font-bold group-hover:text-brand transition-colors">{c.nameRu}</h2>
                     </div>
                     <p className="text-sm text-muted mb-3 line-clamp-2">{c.shortRu}</p>
-                    <span className="text-sm font-semibold text-brand inline-flex items-center gap-1">{count} препаратов<ArrowRight className="w-4 h-4" /></span>
+                    <span className="text-sm font-semibold text-brand inline-flex items-center gap-1">{count} препаратов<ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
                   </div>
                 </Link>
               );

@@ -24,11 +24,11 @@ export default function GroupsRoute() {
             {groups.map(g => {
               const count = products.filter(p => p.groupSlug === g.slug).length;
               return (
-                <Link key={g.slug} href={`/grupy/${g.slug}`} className="card hover:border-brand group">
-                  <div className="text-4xl mb-2">{g.emoji}</div>
-                  <h2 className="text-lg font-bold mb-1 group-hover:text-brand">{g.nameUk}</h2>
+                <Link key={g.slug} href={`/grupy/${g.slug}`} className="card hover:border-brand hover:bg-brand/5 hover:shadow-lg transition-all duration-200 group">
+                  <div className="text-4xl mb-2 transition-transform duration-200 group-hover:-translate-y-1 group-hover:scale-110">{g.emoji}</div>
+                  <h2 className="text-lg font-bold mb-1 group-hover:text-brand transition-colors">{g.nameUk}</h2>
                   <p className="text-sm text-muted mb-3">{g.descUk}</p>
-                  <span className="text-sm font-semibold text-brand inline-flex items-center gap-1">{count} препаратів<ArrowRight className="w-4 h-4" /></span>
+                  <span className="text-sm font-semibold text-brand inline-flex items-center gap-1">{count} препаратів<ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
                 </Link>
               );
             })}
