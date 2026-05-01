@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ShoppingCart, Plus, Minus, Check } from "lucide-react";
 import type { Product } from "@/lib/types";
 import { useCart } from "./CartContext";
+import { useCurrency } from "./CurrencyContext";
 import { dict, type Lang } from "@/lib/i18n";
 
 function getPackSize(packaging: string): number {
@@ -14,6 +15,7 @@ function getPackSize(packaging: string): number {
 
 export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { product: Product; lang: Lang; defaultQty?: number; compact?: boolean }) {
   const cart = useCart();
+  const { format } = useCurrency();
   const [qty, setQty] = useState<number>(defaultQty);
   const [added, setAdded] = useState<boolean>(false);
   const packSize = getPackSize(product.packaging);
@@ -26,12 +28,9 @@ export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { 
       slug: product.slug,
       name: lang === "uk" ? product.name : product.nameRu,
       manufacturer: product.manufacturer,
-      packaging: product.packaging,
-      packSize,
-      unit: product.unit,
-      qty,
-      priceVat: product.priceVat,
-      priceCash: product.priceCash,
+      packaging: product.packaging, packSize,
+      unit: product.unit, qty,
+      priceVat: product.priceVat, priceCash: product.priceCash,
       currency: product.currency
     });
     setAdded(true);
@@ -39,8 +38,8 @@ export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { 
   }
 
   const totalVolume = qty * packSize;
-  const totalCash = (qty * packSize * product.priceCash).toFixed(2);
-  const totalVat = (qty * packSize * product.priceVat).toFixed(2);
+  const totalCash = qty * packSize * product.priceCash;
+  const totalVat = qty * packSize * product.priceVat;
 
   return (
     <div className={compact ? "flex items-center gap-2" : "flex flex-col gap-2"}>
@@ -52,8 +51,8 @@ export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { 
         </div>
         <div className="text-sm">
           <p className="text-muted text-xs">{qty} × {product.packaging} = <span className="font-semibold text-ink">{totalVolume} {product.unit}</span></p>
-          <p className="font-bold text-brand text-base">${totalCash} <span className="text-xs font-normal text-muted">{labels.cash}</span></p>
-          <p className="text-xs text-muted">${totalVat} {labels.vat}</p>
+          <p className="font-bold text-brand text-base">{format(totalCash, product.currency)} <span className="text-xs font-normal text-muted">{labels.cash}</span></p>
+          <p className="text-xs text-muted">{format(totalVat, product.currency)} {labels.vat}</p>
         </div>
       </div>
       <button onClick={add} className={`btn-primary ${compact ? "!py-2 !px-3 text-sm" : ""}`}>

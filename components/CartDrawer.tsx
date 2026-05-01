@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { X, ShoppingCart, Trash2, Send, Check } from "lucide-react";
 import { useCart } from "./CartContext";
+import { useCurrency } from "./CurrencyContext";
 import { dict, type Lang } from "@/lib/i18n";
 import { PhoneInput, isValidPhone } from "./PhoneInput";
 
@@ -11,6 +12,7 @@ const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivde
 export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: () => void; lang: Lang }) {
   const t = dict[lang];
   const cart = useCart();
+  const { format, rates } = useCurrency();
   const [stage, setStage] = useState<"cart" | "form">("cart");
   const [name, setName] = useState<string>("");
   const [phone, setPhone] = useState<string>("+380");
@@ -31,14 +33,13 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
     setStatus("sending");
     const cartText = cart.items.map(i => {
       const totalVol = i.qty * i.packSize;
-      const sum = (totalVol * i.priceVat).toFixed(2);
-      return `• ${i.name} (${i.manufacturer}) — ${i.qty} × ${i.packaging} = ${totalVol} ${i.unit} × $${i.priceVat} = $${sum}`;
+      const sumUah = format(totalVol * i.priceVat, i.currency);
+      return `• ${i.name} (${i.manufacturer}) — ${i.qty} × ${i.packaging} = ${totalVol} ${i.unit} = ${sumUah} (${i.currency === "EUR" ? "€" : "$"}${(totalVol * i.priceVat).toFixed(2)})`;
     }).join("\n");
-    const productSummary = `${cart.items.length} ${labels.positions}, $${cart.totalVat.toFixed(2)} з ПДВ / $${cart.totalCash.toFixed(2)} готівка\n\n${cartText}`;
+    const productSummary = `${cart.items.length} ${labels.positions}\nЗ ПДВ: ${format(cart.totalVat, "USD")} / Готівка: ${format(cart.totalCash, "USD")}\nКурс: ${rates.USD} ₴/$\n\n${cartText}`;
     try {
       const res = await fetch(WORKER_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+        method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ formType: "cart", name, phone, region, delivery, payment, comment, product: productSummary, area: "", lang })
       });
       if (!res.ok) throw new Error();
@@ -48,7 +49,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
   }
 
   if (!open) return null;
-  const cur = cart.items[0]?.currency === "EUR" ? "€" : "$";
+  const cur = cart.items[0]?.currency || "USD";
 
   return (
     <div className="fixed inset-0 z-[60] bg-black/60 flex justify-end overflow-y-auto" onClick={onClose}>
@@ -66,24 +67,16 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
           </div>
         ) : stage === "cart" ? (
           cart.items.length === 0 ? (
-            <div className="p-8 text-center">
-              <ShoppingCart className="w-12 h-12 mx-auto mb-3 text-muted" />
-              <p className="text-muted mb-4">{labels.empty}</p>
-              <button onClick={onClose} className="btn-outline">{labels.continueShopping}</button>
-            </div>
+            <div className="p-8 text-center"><ShoppingCart className="w-12 h-12 mx-auto mb-3 text-muted" /><p className="text-muted mb-4">{labels.empty}</p><button onClick={onClose} className="btn-outline">{labels.continueShopping}</button></div>
           ) : (
             <>
               <div className="p-4 space-y-3 flex-1">
                 {cart.items.map(i => {
                   const totalVol = i.qty * i.packSize;
-                  const lineSum = (totalVol * i.priceVat).toFixed(2);
                   return (
                     <div key={i.slug} className="card !p-3">
                       <div className="flex items-start gap-2 mb-2">
-                        <div className="flex-1">
-                          <p className="font-bold text-sm">{i.name}</p>
-                          <p className="text-xs text-muted">{i.manufacturer} · {i.packaging}</p>
-                        </div>
+                        <div className="flex-1"><p className="font-bold text-sm">{i.name}</p><p className="text-xs text-muted">{i.manufacturer} · {i.packaging}</p></div>
                         <button onClick={() => cart.remove(i.slug)} className="text-muted hover:text-red-600" aria-label="remove"><Trash2 className="w-4 h-4" /></button>
                       </div>
                       <div className="flex items-center justify-between gap-2">
@@ -93,7 +86,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
                           <button onClick={() => cart.update(i.slug, i.qty + 1)} className="px-2 hover:bg-bg">+</button>
                           <span className="px-2 text-xs text-muted self-center">{labels.cans}</span>
                         </div>
-                        <p className="font-bold text-brand">{cur}{(totalVol * i.priceCash).toFixed(2)}</p>
+                        <p className="font-bold text-brand whitespace-nowrap">{format(totalVol * i.priceCash, i.currency)}</p>
                       </div>
                       <p className="text-xs text-muted mt-1">{i.qty} × {i.packaging} = {totalVol} {i.unit}</p>
                     </div>
@@ -102,14 +95,8 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
                 <button onClick={() => cart.clear()} className="text-xs text-muted hover:text-red-600 flex items-center gap-1"><Trash2 className="w-3 h-3" />{labels.removeAll}</button>
               </div>
               <div className="sticky bottom-0 bg-white border-t border-border p-4 space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span className="text-muted">{t.productCard.priceCash}</span>
-                  <span className="font-bold text-brand text-lg">{cur}{cart.totalCash.toFixed(2)}</span>
-                </div>
-                <div className="flex justify-between text-xs">
-                  <span className="text-muted">{t.productCard.priceVat}</span>
-                  <span className="text-muted">{cur}{cart.totalVat.toFixed(2)}</span>
-                </div>
+                <div className="flex justify-between text-sm"><span className="text-muted">{t.productCard.priceCash}</span><span className="font-bold text-brand text-lg whitespace-nowrap">{format(cart.totalCash, cur)}</span></div>
+                <div className="flex justify-between text-xs"><span className="text-muted">{t.productCard.priceVat}</span><span className="text-muted whitespace-nowrap">{format(cart.totalVat, cur)}</span></div>
                 <div className="grid grid-cols-2 gap-2"><button onClick={onClose} className="btn-outline">{labels.continueShopping}</button><button onClick={() => setStage("form")} className="btn-primary">{labels.checkout}</button></div>
               </div>
             </>
@@ -118,28 +105,15 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
           <form onSubmit={submit} className="p-4 space-y-3 flex-1">
             <input type="text" placeholder={t.form.name} value={name} onChange={e => setName(e.target.value)} required className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
             <PhoneInput value={phone} onChange={setPhone} />
-            <select value={region} onChange={e => setRegion(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">
-              {t.form.regions.map(r => <option key={r} value={r}>{r}</option>)}
-            </select>
-            <select value={delivery} onChange={e => setDelivery(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">
-              {t.form.deliveryOpts.map(o => <option key={o} value={o}>{o}</option>)}
-            </select>
-            <select value={payment} onChange={e => setPayment(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">
-              {t.form.paymentOpts.map(o => <option key={o} value={o}>{o}</option>)}
-            </select>
+            <select value={region} onChange={e => setRegion(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">{t.form.regions.map(r => <option key={r} value={r}>{r}</option>)}</select>
+            <select value={delivery} onChange={e => setDelivery(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">{t.form.deliveryOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
+            <select value={payment} onChange={e => setPayment(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">{t.form.paymentOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
             <textarea placeholder={t.form.comment} value={comment} onChange={e => setComment(e.target.value)} rows={2} className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none resize-none" />
-            <label className="flex items-start gap-2 text-xs text-muted">
-              <input type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} className="mt-0.5" required />
-              <span>{t.form.consent}</span>
-            </label>
-            <div className="bg-bg p-3 rounded-lg text-sm">
-              <div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{cur}{cart.totalCash.toFixed(2)}</span></div>
-            </div>
+            <label className="flex items-start gap-2 text-xs text-muted"><input type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} className="mt-0.5" required /><span>{t.form.consent}</span></label>
+            <div className="bg-bg p-3 rounded-lg text-sm"><div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{format(cart.totalCash, cur)}</span></div></div>
             <div className="grid grid-cols-2 gap-2">
               <button type="button" onClick={() => setStage("cart")} className="btn-outline">←</button>
-              <button type="submit" disabled={status === "sending" || !consent || !isValidPhone(phone)} className="btn-primary disabled:opacity-50">
-                {status === "sending" ? t.form.sending : t.form.submit}<Send className="w-4 h-4" />
-              </button>
+              <button type="submit" disabled={status === "sending" || !consent || !isValidPhone(phone)} className="btn-primary disabled:opacity-50">{status === "sending" ? t.form.sending : t.form.submit}<Send className="w-4 h-4" /></button>
             </div>
             {status === "error" && <p className="text-sm text-red-600 text-center">{t.form.error}</p>}
           </form>

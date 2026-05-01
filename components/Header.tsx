@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Logo } from "./Logo";
 import { CartButton } from "./CartButton";
 import { SearchBox } from "./SearchBox";
+import { RateBar } from "./RateBar";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
 
 export function Header({ lang }: { lang: Lang }) {
@@ -14,6 +15,8 @@ export function Header({ lang }: { lang: Lang }) {
   const base = lang === "uk" ? "" : "/ru";
 
   return (
+    <>
+    <RateBar />
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-border">
       <div className="container-w flex items-center justify-between h-16 gap-3">
         <Link href={`${base}/`} className="shrink-0">
@@ -67,5 +70,6 @@ export function Header({ lang }: { lang: Lang }) {
         </div>
       )}
     </header>
+    </>
   );
 }

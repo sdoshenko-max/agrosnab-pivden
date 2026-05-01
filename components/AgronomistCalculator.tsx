@@ -5,6 +5,7 @@ import { Calculator, ShoppingCart, Check } from "lucide-react";
 import type { Product } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { useCart } from "./CartContext";
+import { useCurrency } from "./CurrencyContext";
 
 function getPackSize(packaging: string): number {
   const m = packaging.match(/[\d.,]+/);
@@ -14,6 +15,7 @@ function getPackSize(packaging: string): number {
 
 export function AgronomistCalculator({ product, lang }: { product: Product; lang: Lang }) {
   const cart = useCart();
+  const { format } = useCurrency();
   const [area, setArea] = useState<string>("");
   const [rate, setRate] = useState<string>("");
   const [added, setAdded] = useState<boolean>(false);
@@ -33,28 +35,22 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
     const total = a * r;
     const cans = packSize > 0 ? Math.ceil(total / packSize) : 0;
     const totalRoundedUp = cans * packSize;
-    const priceVat = +(totalRoundedUp * product.priceVat).toFixed(2);
-    const priceCash = +(totalRoundedUp * product.priceCash).toFixed(2);
+    const priceVat = totalRoundedUp * product.priceVat;
+    const priceCash = totalRoundedUp * product.priceCash;
     return { total, cans, totalRoundedUp, priceVat, priceCash };
   }, [area, rate, defaultRate, product, packSize]);
 
   const titles = lang === "uk"
-    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buy: "До купівлі (округлено вгору)", priceV: "Сума з ПДВ", priceC: "Сума готівкою", addCart: "Додати в кошик", added: "Додано", cansLabel: "каністр" }
-    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buy: "К покупке (округлено вверх)", priceV: "Сумма с НДС", priceC: "Сумма наличными", addCart: "Добавить в корзину", added: "Добавлено", cansLabel: "канистр" };
+    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buy: "До купівлі", priceV: "Сума з ПДВ", priceC: "Сума готівкою", addCart: "Додати в кошик", added: "Додано", cansLabel: "каністр" }
+    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buy: "К покупке", priceV: "Сумма с НДС", priceC: "Сумма наличными", addCart: "Добавить в корзину", added: "Добавлено", cansLabel: "канистр" };
 
   function addToCart() {
     if (!result) return;
     cart.add({
-      slug: product.slug,
-      name: lang === "uk" ? product.name : product.nameRu,
-      manufacturer: product.manufacturer,
-      packaging: product.packaging,
-      packSize,
-      unit: product.unit,
-      qty: result.cans,
-      priceVat: product.priceVat,
-      priceCash: product.priceCash,
-      currency: product.currency
+      slug: product.slug, name: lang === "uk" ? product.name : product.nameRu,
+      manufacturer: product.manufacturer, packaging: product.packaging, packSize,
+      unit: product.unit, qty: result.cans,
+      priceVat: product.priceVat, priceCash: product.priceCash, currency: product.currency
     });
     setAdded(true);
     setTimeout(() => setAdded(false), 2000);
@@ -81,8 +77,8 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
           <div className="bg-white rounded-lg p-3 space-y-1.5 text-sm border border-border">
             <div className="flex justify-between"><span className="text-muted">{titles.need}:</span><span className="font-semibold">{result.total.toFixed(2)} {product.unit}</span></div>
             <div className="flex justify-between"><span className="text-muted">{titles.buy}:</span><span className="font-semibold">{result.cans} {titles.cansLabel} × {product.packaging} = {result.totalRoundedUp} {product.unit}</span></div>
-            <div className="flex justify-between border-t border-border pt-1.5 mt-1.5"><span className="text-muted">{titles.priceC}:</span><span className="font-bold text-brand text-base">${result.priceCash}</span></div>
-            <div className="flex justify-between"><span className="text-muted text-xs">{titles.priceV}:</span><span className="text-xs">${result.priceVat}</span></div>
+            <div className="flex justify-between border-t border-border pt-1.5 mt-1.5"><span className="text-muted">{titles.priceC}:</span><span className="font-bold text-brand text-base">{format(result.priceCash, product.currency)}</span></div>
+            <div className="flex justify-between"><span className="text-muted text-xs">{titles.priceV}:</span><span className="text-xs">{format(result.priceVat, product.currency)}</span></div>
           </div>
           <button onClick={addToCart} className={`w-full mt-3 ${added ? "btn-secondary" : "btn-primary"}`}>
             {added ? <><Check className="w-4 h-4" />{titles.added}</> : <><ShoppingCart className="w-4 h-4" />{titles.addCart}: {result.cans} × {product.packaging}</>}
