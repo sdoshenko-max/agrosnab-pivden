@@ -8,7 +8,7 @@ export const cultures: Culture[] = [
     emoji: "🌾",
     shortUk: "Захист від клопа черепашки, фузаріозу колоса, кореневих гнилей в умовах посухи",
     shortRu: "Защита от клопа черепашки, фузариоза колоса, корневых гнилей в условиях засухи",
-    image: "/cultures/pshenytsa.jpg",
+    image: "/cultures/ozyma-pshenytsa.jpg",
     stages: [
       { slug: "protruyuvannya", nameUk: "Протруювання насіння", nameRu: "Протравливание семян", icon: "🌱" },
       { slug: "herbicid-vesna", nameUk: "Гербіцид весна", nameRu: "Гербицид весна", icon: "💧" },
@@ -22,6 +22,7 @@ export const cultures: Culture[] = [
     nameUk: "Ярі зернові (ячмінь)",
     nameRu: "Яровые зерновые (ячмень)",
     emoji: "🌾",
+    image: "/cultures/yari-zernovi.jpg",
     shortUk: "Контроль гельмінтоспоріозів та сітчастої плямистості",
     shortRu: "Контроль гельминтоспориозов и сетчатой пятнистости",
     stages: [
@@ -65,6 +66,7 @@ export const cultures: Culture[] = [
     nameUk: "Кукурудза",
     nameRu: "Кукуруза",
     emoji: "🌽",
+    image: "/cultures/kukurudza.jpg",
     shortUk: "Контроль бур'янів до 8-10 листків, стебловий метелик, бавовникова совка",
     shortRu: "Контроль сорняков до 8-10 листьев, стеблевая бабочка, хлопковая совка",
     stages: [
@@ -76,6 +78,7 @@ export const cultures: Culture[] = [
   {
     slug: "soya",
     nameUk: "Соя", nameRu: "Соя", emoji: "🌱",
+    image: "/cultures/soya.jpg",
     shortUk: "Захист на зрошенні: павутинний кліщ, бур'яни, грибкові інфекції",
     shortRu: "Защита на орошении: паутинный клещ, сорняки, грибковые инфекции",
     stages: [
@@ -88,6 +91,7 @@ export const cultures: Culture[] = [
   {
     slug: "ripak-ozymyi",
     nameUk: "Ріпак озимий", nameRu: "Рапс озимый", emoji: "🌼",
+    image: "/cultures/ripak-ozymyi.jpg",
     shortUk: "Стебловий прихованохоботник, бор, рістрегуляція осінь/весна",
     shortRu: "Стеблевой скрытнохоботник, бор, ростовая регуляция осень/весна",
     stages: [
@@ -100,6 +104,7 @@ export const cultures: Culture[] = [
   {
     slug: "ripak-yaryi",
     nameUk: "Ріпак ярий", nameRu: "Рапс яровой", emoji: "🌼",
+    image: "/cultures/ripak-yaryi.jpg",
     shortUk: "Контроль хрестоцвітих блішок на сходах",
     shortRu: "Контроль крестоцветных блошек на всходах",
     stages: [
@@ -110,6 +115,7 @@ export const cultures: Culture[] = [
   {
     slug: "sorgo",
     nameUk: "Сорго", nameRu: "Сорго", emoji: "🌾",
+    image: "/cultures/sorgo.jpg",
     shortUk: "Посухостійка альтернатива кукурудзі. Захист сходів від попелиці",
     shortRu: "Засухостойкая альтернатива кукурузе. Защита всходов от тли",
     stages: [
@@ -121,6 +127,7 @@ export const cultures: Culture[] = [
   {
     slug: "horoh",
     nameUk: "Горох", nameRu: "Горох", emoji: "🟢",
+    image: "/cultures/horoh.jpg",
     shortUk: "Найрентабельніша культура 2025. Захист від брухуса в період бутонізації",
     shortRu: "Самая рентабельная культура 2025. Защита от брухуса в период бутонизации",
     stages: [
@@ -132,6 +139,7 @@ export const cultures: Culture[] = [
   {
     slug: "kartoplya",
     nameUk: "Картопля", nameRu: "Картофель", emoji: "🥔",
+    image: "/cultures/kartoplya.jpg",
     shortUk: "Захист від колорадського жука та фітофтори в умовах поливу",
     shortRu: "Защита от колорадского жука и фитофторы в условиях полива",
     stages: [

@@ -37,3 +37,4 @@ next-env.d.ts
 out/
 .env.production
 products.json
+make_culture_svgs.py

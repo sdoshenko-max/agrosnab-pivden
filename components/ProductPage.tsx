@@ -10,6 +10,7 @@ import { AgronomistCalculator } from "./AgronomistCalculator";
 import { RequestModal } from "./RequestModal";
 import { AddToCart } from "./AddToCart";
 import { useCurrency } from "./CurrencyContext";
+import { ProductPlaceholder } from "./ProductPlaceholder";
 
 const tierLabels: Record<string, { uk: string; ru: string; cls: string }> = {
   econom: { uk: "Економ", ru: "Эконом", cls: "badge-econom" },
@@ -45,7 +46,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
       <section className="bg-white border-b border-border">
         <div className="container-w py-8 lg:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="bg-bg rounded-xl border border-border flex items-center justify-center p-8 min-h-[300px]">
-            {product.image ? <img src={product.image} alt={name} className="max-w-full max-h-[400px] object-contain" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} /> : <div className="text-9xl opacity-30">🧴</div>}
+            {product.image ? <img src={product.image} alt={name} className="max-w-full max-h-[400px] object-contain" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} /> : <ProductPlaceholder product={product} size="lg" />}
           </div>
           <div>
             <div className="flex items-center gap-2 mb-3 flex-wrap">
