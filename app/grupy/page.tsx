@@ -1,0 +1,42 @@
+import Link from "next/link";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { FloatingCallButton } from "@/components/FloatingCallButton";
+import { groups } from "@/lib/groups";
+import { products } from "@/lib/data";
+import { ArrowRight } from "lucide-react";
+
+export const metadata = { title: "Групи ЗЗР", description: "Каталог засобів захисту рослин за групами" };
+
+export default function GroupsRoute() {
+  return (
+    <>
+      <Header lang="uk" />
+      <main>
+        <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
+          <div className="container-w py-10">
+            <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">Групи ЗЗР</h1>
+            <p className="text-white/80">Виберіть категорію препаратів</p>
+          </div>
+        </section>
+        <section className="container-w py-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {groups.map(g => {
+              const count = products.filter(p => p.groupSlug === g.slug).length;
+              return (
+                <Link key={g.slug} href={`/grupy/${g.slug}`} className="card hover:border-brand group">
+                  <div className="text-4xl mb-2">{g.emoji}</div>
+                  <h2 className="text-lg font-bold mb-1 group-hover:text-brand">{g.nameUk}</h2>
+                  <p className="text-sm text-muted mb-3">{g.descUk}</p>
+                  <span className="text-sm font-semibold text-brand inline-flex items-center gap-1">{count} препаратів<ArrowRight className="w-4 h-4" /></span>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      </main>
+      <Footer lang="uk" />
+      <FloatingCallButton />
+    </>
+  );
+}
