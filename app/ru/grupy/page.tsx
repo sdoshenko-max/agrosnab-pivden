@@ -4,8 +4,7 @@ import { Footer } from "@/components/Footer";
 import { FloatingCallButton } from "@/components/FloatingCallButton";
 import { groups } from "@/lib/groups";
 import { products } from "@/lib/data";
-import { activeIngredients } from "@/lib/activeIngredients";
-import { ArrowRight, FlaskConical } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const metadata = { title: "Группы СЗР", description: "Каталог средств защиты растений по группам" };
 
@@ -33,29 +32,6 @@ export default function GroupsRouteRu() {
                 </Link>
               );
             })}
-          </div>
-        </section>
-
-        <section className="bg-white border-t border-border py-10">
-          <div className="container-w">
-            <div className="flex items-center gap-2 mb-2">
-              <FlaskConical className="w-5 h-5 text-brand" />
-              <h2 className="text-xl lg:text-2xl font-bold">Или ищите по действующему веществу</h2>
-            </div>
-            <p className="text-muted mb-5">Знаете, какой химический компонент вам нужен — кликните и увидите все препараты на его основе от разных производителей.</p>
-            <div className="flex flex-wrap gap-2">
-              {activeIngredients.slice(0, 30).map(a => (
-                <Link key={a.slug} href={`/ru/diiucha-rechovyna/${a.slug}`} className="inline-flex items-center gap-1.5 bg-bg hover:bg-brand hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors">
-                  {a.nameRu}
-                  <span className="text-xs opacity-70">{a.productSlugs.length}</span>
-                </Link>
-              ))}
-            </div>
-            {activeIngredients.length > 30 && (
-              <Link href="/ru/diiucha-rechovyna" className="inline-flex items-center gap-1 text-sm font-semibold text-brand mt-4">
-                Все действующие вещества <ArrowRight className="w-4 h-4" />
-              </Link>
-            )}
           </div>
         </section>
       </main>

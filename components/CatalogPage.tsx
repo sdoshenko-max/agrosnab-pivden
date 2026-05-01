@@ -19,42 +19,57 @@ export function CatalogPage({
   title,
   titleRu,
   productSlugs,
-  lang
+  lang,
+  hideAiFilter
 }: {
   title: string;
   titleRu: string;
   productSlugs: string[];
   lang: Lang;
+  hideAiFilter?: boolean;
 }) {
   const baseProducts = useMemo(() => allProducts.filter(p => productSlugs.includes(p.slug)), [productSlugs]);
 
   const [tier, setTier] = useState<string>("all");
   const [manufacturer, setManufacturer] = useState<string>("all");
   const [culture, setCulture] = useState<string>("all");
+  const [ai, setAi] = useState<string>("all");
   const [requestOpen, setRequestOpen] = useState(false);
   const [requestProduct, setRequestProduct] = useState<string>("");
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const manufacturers = Array.from(new Set(baseProducts.map(p => p.manufacturer))).sort();
   const productCultures = Array.from(new Set(baseProducts.flatMap(p => p.cultures)));
+  // Унікальні діючі речовини у вибірці (по основній — першій частині складу)
+  const aiSet = new Map<string, string>();
+  baseProducts.forEach(p => {
+    const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
+    const firstRu = p.activeIngredientRu.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
+    if (firstUk) aiSet.set(firstUk, lang === "uk" ? firstUk : firstRu);
+  });
+  const aiList = Array.from(aiSet.entries()).sort((a, b) => a[0].localeCompare(b[0]));
 
   const filtered = useMemo(() => {
     return baseProducts.filter(p => {
       if (tier !== "all" && p.tier !== tier) return false;
       if (manufacturer !== "all" && p.manufacturer !== manufacturer) return false;
       if (culture !== "all" && !p.cultures.includes(culture)) return false;
+      if (ai !== "all") {
+        const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
+        if (firstUk !== ai) return false;
+      }
       return true;
     });
-  }, [baseProducts, tier, manufacturer, culture]);
+  }, [baseProducts, tier, manufacturer, culture, ai]);
 
   const labels = lang === "uk"
-    ? { back: "Головна", filters: "Фільтри", reset: "Скинути", tier: "Рівень", manufacturer: "Виробник", culture: "Культура", all: "Усі", showing: "Показано", of: "з", noResults: "Немає препаратів за обраними фільтрами" }
-    : { back: "Главная", filters: "Фильтры", reset: "Сбросить", tier: "Уровень", manufacturer: "Производитель", culture: "Культура", all: "Все", showing: "Показано", of: "из", noResults: "Нет препаратов по выбранным фильтрам" };
+    ? { back: "Головна", filters: "Фільтри", reset: "Скинути", tier: "Рівень", manufacturer: "Виробник", culture: "Культура", ai: "Діюча речовина", all: "Усі", showing: "Показано", of: "з", noResults: "Немає препаратів за обраними фільтрами" }
+    : { back: "Главная", filters: "Фильтры", reset: "Сбросить", tier: "Уровень", manufacturer: "Производитель", culture: "Культура", ai: "Действующее вещество", all: "Все", showing: "Показано", of: "из", noResults: "Нет препаратов по выбранным фильтрам" };
 
-  const hasActiveFilter = tier !== "all" || manufacturer !== "all" || culture !== "all";
+  const hasActiveFilter = tier !== "all" || manufacturer !== "all" || culture !== "all" || ai !== "all";
   const base = lang === "uk" ? "" : "/ru";
 
-  function reset() { setTier("all"); setManufacturer("all"); setCulture("all"); }
+  function reset() { setTier("all"); setManufacturer("all"); setCulture("all"); setAi("all"); }
   function openRequest(name: string) { setRequestProduct(name); setRequestOpen(true); }
 
   return (
@@ -98,7 +113,7 @@ export function CatalogPage({
                   {manufacturers.map(m => <option key={m} value={m}>{m}</option>)}
                 </select>
               </div>
-              <div>
+              <div className="mb-4">
                 <p className="text-xs text-muted font-semibold mb-2 uppercase">{labels.culture}</p>
                 <select value={culture} onChange={e => setCulture(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-border bg-white text-sm">
                   <option value="all">{labels.all}</option>
@@ -107,6 +122,15 @@ export function CatalogPage({
                   ))}
                 </select>
               </div>
+              {!hideAiFilter && aiList.length > 1 && (
+                <div>
+                  <p className="text-xs text-muted font-semibold mb-2 uppercase">{labels.ai}</p>
+                  <select value={ai} onChange={e => setAi(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-border bg-white text-sm">
+                    <option value="all">{labels.all}</option>
+                    {aiList.map(([key, label]) => <option key={key} value={key}>{label}</option>)}
+                  </select>
+                </div>
+              )}
             </div>
           </aside>
           <div>

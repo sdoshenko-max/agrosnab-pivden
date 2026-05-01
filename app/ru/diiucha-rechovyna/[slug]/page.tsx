@@ -23,7 +23,7 @@ export default function AIRouteRu({ params }: { params: { slug: string } }) {
     <>
       <Header lang="ru" />
       <main>
-        <CatalogPage title={`Діюча речовина: ${a.nameUk}`} titleRu={`Действующее вещество: ${a.nameRu}`} productSlugs={a.productSlugs} lang="ru" />
+        <CatalogPage title={`Діюча речовина: ${a.nameUk}`} titleRu={`Действующее вещество: ${a.nameRu}`} productSlugs={a.productSlugs} hideAiFilter lang="ru" />
       </main>
       <Footer lang="ru" />
       <FloatingCallButton />
