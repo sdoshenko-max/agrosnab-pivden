@@ -4,15 +4,33 @@ import { CartProvider } from "@/components/CartContext";
 import { GlobalCartDrawer } from "@/components/GlobalCartDrawer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://agrosnab-pivden.com.ua"),
+  metadataBase: new URL("https://agrosnab-pivden.pages.dev"),
   title: { default: "АГРОСНАБ-ПІВДЕНЬ — засоби захисту рослин для Півдня України", template: "%s | АГРОСНАБ-ПІВДЕНЬ" },
-  description: "Інтернет-каталог ЗЗР для фермерів Миколаївської, Херсонської, Одеської областей.",
+  description: "Інтернет-каталог ЗЗР для фермерів Миколаївської, Херсонської, Одеської областей. Чесні дженерики, економія до 60% від оригіналу.",
   icons: { icon: "/favicon.svg" },
-  openGraph: { type: "website", locale: "uk_UA", siteName: "АГРОСНАБ-ПІВДЕНЬ" }
+  openGraph: {
+    type: "website",
+    locale: "uk_UA",
+    siteName: "АГРОСНАБ-ПІВДЕНЬ",
+    images: ["/og.png"]
+  },
+  alternates: {
+    languages: { "uk": "/", "ru": "/ru" }
+  }
 };
 
-export const viewport: Viewport = {
-  width: "device-width", initialScale: 1, maximumScale: 5, themeColor: "#166534"
+export const viewport: Viewport = { width: "device-width", initialScale: 1, maximumScale: 5, themeColor: "#166534" };
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ТОВ АГРОСНАБ-ПІВДЕНЬ",
+  "url": "https://agrosnab-pivden.pages.dev",
+  "logo": "https://agrosnab-pivden.pages.dev/logo.svg",
+  "telephone": "+380660321997",
+  "email": "sdoshenko@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Миколаїв", "addressCountry": "UA" },
+  "areaServed": ["Миколаївська область", "Херсонська область", "Одеська область"]
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -22,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>
       <body>
         <CartProvider>
