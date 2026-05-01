@@ -1,0 +1,8 @@
+name = "agrosnab-pivden-form"
+main = "worker-form.js"
+compatibility_date = "2025-01-01"
+
+# Перед deploy задати секрети:
+# wrangler secret put BOT_TOKEN
+# wrangler secret put CHAT_ID
+# (значення взяти з налаштувань воркера mltd — той самий бот, та сама група "Ліди МИНЕРАЛ-ТРЕЙД")
