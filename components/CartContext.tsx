@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useEffect, useReducer, ReactNode } from "react";
+import { createContext, useContext, useEffect, useReducer, useState, ReactNode } from "react";
 
 export type CartItem = {
   slug: string;
@@ -8,16 +8,13 @@ export type CartItem = {
   manufacturer: string;
   packaging: string;
   unit: "л" | "кг";
-  qty: number; // кількість одиниць (літрів/кг)
+  qty: number;
   priceVat: number;
   priceCash: number;
   currency: "USD" | "EUR";
 };
 
-type CartState = {
-  items: CartItem[];
-};
-
+type CartState = { items: CartItem[] };
 type Action =
   | { type: "add"; item: CartItem }
   | { type: "update"; slug: string; qty: number }
@@ -34,20 +31,12 @@ function reducer(state: CartState, action: Action): CartState {
     case "add": {
       const existing = state.items.find(i => i.slug === action.item.slug);
       if (existing) {
-        return {
-          items: state.items.map(i =>
-            i.slug === action.item.slug ? { ...i, qty: i.qty + action.item.qty } : i
-          )
-        };
+        return { items: state.items.map(i => i.slug === action.item.slug ? { ...i, qty: i.qty + action.item.qty } : i) };
       }
       return { items: [...state.items, action.item] };
     }
     case "update":
-      return {
-        items: state.items
-          .map(i => (i.slug === action.slug ? { ...i, qty: action.qty } : i))
-          .filter(i => i.qty > 0)
-      };
+      return { items: state.items.map(i => i.slug === action.slug ? { ...i, qty: action.qty } : i).filter(i => i.qty > 0) };
     case "remove":
       return { items: state.items.filter(i => i.slug !== action.slug) };
     case "clear":
@@ -66,29 +55,28 @@ type CartCtx = {
   totalVat: number;
   totalCash: number;
   count: number;
+  isOpen: boolean;
+  setOpen: (v: boolean) => void;
 };
 
 const Ctx = createContext<CartCtx | null>(null);
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(reducer, initial);
+  const [isOpen, setOpen] = useState<boolean>(false);
 
   useEffect(() => {
     try {
       const raw = localStorage.getItem("agrosnab_cart");
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (parsed && Array.isArray(parsed.items)) {
-          dispatch({ type: "init", state: parsed });
-        }
+        if (parsed && Array.isArray(parsed.items)) dispatch({ type: "init", state: parsed });
       }
     } catch {}
   }, []);
 
   useEffect(() => {
-    try {
-      localStorage.setItem("agrosnab_cart", JSON.stringify(state));
-    } catch {}
+    try { localStorage.setItem("agrosnab_cart", JSON.stringify(state)); } catch {}
   }, [state]);
 
   const totalVat = state.items.reduce((s, i) => s + i.qty * i.priceVat, 0);
@@ -97,13 +85,12 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const value: CartCtx = {
     items: state.items,
-    add: item => dispatch({ type: "add", item }),
+    add: item => { dispatch({ type: "add", item }); setOpen(true); },
     update: (slug, qty) => dispatch({ type: "update", slug, qty }),
     remove: slug => dispatch({ type: "remove", slug }),
     clear: () => dispatch({ type: "clear" }),
-    totalVat,
-    totalCash,
-    count
+    totalVat, totalCash, count,
+    isOpen, setOpen
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

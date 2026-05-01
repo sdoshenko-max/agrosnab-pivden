@@ -55,7 +55,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
   const cur = cart.items[0]?.currency === "EUR" ? "€" : "$";
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/50 flex justify-end" onClick={onClose}>
+    <div className="fixed inset-0 z-[60] bg-black/60 flex justify-end overflow-y-auto" onClick={onClose}>
       <div className="bg-white w-full max-w-md h-full overflow-y-auto" onClick={e => e.stopPropagation()}>
         <div className="sticky top-0 bg-white border-b border-border p-4 flex items-center justify-between z-10">
           <h2 className="text-xl font-bold flex items-center gap-2">
