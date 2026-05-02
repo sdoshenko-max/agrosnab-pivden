@@ -76,18 +76,17 @@ export function CulturePage({
       <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
         <div className="container-w py-10 lg:py-14">
           <button onClick={() => { if (typeof window !== "undefined" && window.history.length > 1) window.history.back(); else window.location.href = `${base}/kultury`; }} className="inline-flex items-center gap-1 text-white/80 hover:text-white text-sm mb-4"><ChevronLeft className="w-4 h-4" />{labels.back}</button>
-          <div className="flex items-start gap-4 lg:gap-6">
-            <div className="text-6xl lg:text-7xl shrink-0">{culture.emoji}</div>
-            <div>
-              <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">
-                {lang === "uk"
-                  ? `${culture.nameUk} — захист і схема обробки`
-                  : `${culture.nameRu} — защита и схема обработки`}
-              </h1>
-              <p className="text-base lg:text-lg text-white/90 max-w-2xl">
-                {lang === "uk" ? (culture.longUk || culture.shortUk) : (culture.longRu || culture.shortRu)}
-              </p>
-            </div>
+          <div>
+            <span className="float-left mr-4 mb-2 text-6xl lg:text-7xl leading-none select-none">{culture.emoji}</span>
+            <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">
+              {lang === "uk"
+                ? `${culture.nameUk} — захист і схема обробки`
+                : `${culture.nameRu} — защита и схема обработки`}
+            </h1>
+            <p className="text-base lg:text-lg text-white/90">
+              {lang === "uk" ? (culture.longUk || culture.shortUk) : (culture.longRu || culture.shortRu)}
+            </p>
+            <div className="clear-both"></div>
           </div>
         </div>
       </section>
