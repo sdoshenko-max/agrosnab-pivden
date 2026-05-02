@@ -4,7 +4,7 @@ import { createContext, useContext, useEffect, useState, ReactNode } from "react
 
 type Rates = { USD: number; EUR: number; date: string };
 
-const DEFAULT_RATES: Rates = { USD: 44.0, EUR: 51.5, date: "2026-05-01" };
+const DEFAULT_RATES: Rates = { USD: 43.80, EUR: 51.45, date: "2026-05-02" };
 const STORAGE_KEY = "agrosnab_rates";
 const TTL_HOURS = 6;
 
@@ -32,7 +32,7 @@ export function CurrencyProvider({ children }: { children: ReactNode }) {
     } catch {}
 
     setLoading(true);
-    fetch("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=11")
+    fetch("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5")
       .then(r => r.json())
       .then((data: Array<{ ccy: string; buy: string; sale: string }>) => {
         const usd = data.find(d => d.ccy === "USD");

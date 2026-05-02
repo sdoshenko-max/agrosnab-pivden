@@ -19,7 +19,7 @@ export function RateBar({ lang = "uk" }: { lang?: "uk" | "ru" }) {
   return (
     <div className="bg-bg border-b border-border text-xs text-muted">
       <div className="container-w py-1.5 flex items-center justify-between">
-        <span>{left}: 1$ = {rates.USD} ₴ · 1€ = {rates.EUR} ₴</span>
+        <span>{left}: 1$ = {rates.USD.toFixed(2)} ₴ · 1€ = {rates.EUR.toFixed(2)} ₴</span>
         <span className="hidden sm:inline">{right}</span>
       </div>
     </div>
