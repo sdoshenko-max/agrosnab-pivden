@@ -65,3 +65,10 @@ export type TankMix = {
 export function calcCash(priceVat: number): number {
   return Math.round((priceVat / 1.2) * 1.1 * 100) / 100;
 }
+
+// Витягуємо розмір фасовки з рядка: "5 л" → 5, "0.5 кг" → 0.5, "20 л" → 20
+export function getPackSize(packaging: string): number {
+  const m = (packaging || "").match(/[\d.,]+/);
+  if (!m) return 1;
+  return parseFloat(m[0].replace(",", ".")) || 1;
+}

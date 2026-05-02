@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { FileText, ArrowRight } from "lucide-react";
-import type { Product } from "@/lib/data";
+import { type Product, getPackSize } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { useCurrency } from "./CurrencyContext";
 import { ProductPlaceholder } from "./ProductPlaceholder";
@@ -56,11 +56,14 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
       <div className="border-t border-border pt-3 mt-auto">
         <div className="flex justify-between items-baseline mb-1">
           <span className="text-xs text-muted">{t.productCard.priceCash}</span>
-          <span className="text-lg font-bold text-brand whitespace-nowrap">{format(product.priceCash, product.currency)}<span className="text-xs font-normal text-muted">/{product.unit}</span></span>
+          <div className="text-right">
+            <div className="text-lg font-bold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-xs font-normal text-muted"> / {product.packaging}</span></div>
+            <div className="text-[11px] text-muted">{format(product.priceCash, product.currency)}/{product.unit}</div>
+          </div>
         </div>
         <div className="flex justify-between items-baseline">
           <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-          <span className="text-sm text-muted whitespace-nowrap">{format(product.priceVat, product.currency)}<span className="text-xs font-normal">/{product.unit}</span></span>
+          <span className="text-sm text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
         </div>
       </div>
 

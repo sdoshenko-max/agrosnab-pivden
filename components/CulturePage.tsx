@@ -67,18 +67,15 @@ export function CulturePage({
   }
 
   const labels = lang === "uk"
-    ? { back: "Усі культури", tech: "Технологія", stage: "Етап обробки", noProducts: "Немає препаратів у цій категорії", mixForCulture: "Готова бакова суміш для цієї культури", openMix: "Подивитись склад" }
-    : { back: "Все культуры", tech: "Технология", stage: "Этап обработки", noProducts: "Нет препаратов в этой категории", mixForCulture: "Готовая баковая смесь для этой культуры", openMix: "Посмотреть состав" };
+    ? { back: "Назад", tech: "Технологія", stage: "Етап обробки", noProducts: "Немає препаратів у цій категорії", mixForCulture: "Готова бакова суміш для цієї культури", openMix: "Подивитись склад" }
+    : { back: "Назад", tech: "Технология", stage: "Этап обработки", noProducts: "Нет препаратов в этой категории", mixForCulture: "Готовая баковая смесь для этой культуры", openMix: "Посмотреть состав" };
 
   return (
     <>
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
         <div className="container-w py-10 lg:py-14">
-          <Link href={`${base}/`} className="inline-flex items-center gap-1 text-white/80 hover:text-white text-sm mb-4">
-            <ChevronLeft className="w-4 h-4" />
-            {labels.back}
-          </Link>
+          <button onClick={() => { if (typeof window !== "undefined" && window.history.length > 1) window.history.back(); else window.location.href = `${base}/kultury`; }} className="inline-flex items-center gap-1 text-white/80 hover:text-white text-sm mb-4"><ChevronLeft className="w-4 h-4" />{labels.back}</button>
           <div className="flex items-start gap-4 lg:gap-6">
             <div className="text-6xl lg:text-7xl shrink-0">{culture.emoji}</div>
             <div>

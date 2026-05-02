@@ -115,9 +115,7 @@ export function CatalogPage({
     <>
       <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
         <div className="container-w py-8">
-          <Link href={`${base}/`} className="inline-flex items-center gap-1 text-white/80 hover:text-white text-sm mb-3">
-            <ChevronLeft className="w-4 h-4" />{labels.back}
-          </Link>
+          <button onClick={() => { if (typeof window !== "undefined" && window.history.length > 1) window.history.back(); else window.location.href = `${base}/`; }} className="inline-flex items-center gap-1 text-white/80 hover:text-white text-sm mb-3"><ChevronLeft className="w-4 h-4" />{labels.back}</button>
           <h1 className="text-3xl lg:text-4xl font-extrabold">{lang === "uk" ? title : titleRu}</h1>
           <p className="text-white/80 text-sm mt-2">{`${labels.showing} ${pageItems.length} ${labels.of} ${filtered.length}${filtered.length !== baseProducts.length ? ` (${baseProducts.length} ${labels.of === "з" ? "усього" : "всего"})` : ""}`}</p>
         </div>

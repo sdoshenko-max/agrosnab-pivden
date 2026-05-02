@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ChevronLeft, Phone, FileText, Package, Beaker, FlaskConical } from "lucide-react";
-import type { Product } from "@/lib/types";
+import { type Product, getPackSize } from "@/lib/types";
 import { products as allProducts, cultures as allCultures } from "@/lib/data";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
 import { AgronomistCalculator } from "./AgronomistCalculator";
@@ -34,13 +34,22 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
   const related = allProducts.filter(p => p.slug !== product.slug).filter(p => p.cultures.some(c => product.cultures.includes(c))).filter(p => p.stage.some(s => product.stage.includes(s))).slice(0, 4);
 
   const labels = lang === "uk"
-    ? { back: "До каталогу", regulation: "Регламент застосування", related: "Часто беруть разом", crop: "Культура", target: "Призначення", rate: "Норма", manufacturer: "Виробник", about: "Про препарат" }
-    : { back: "К каталогу", regulation: "Регламент применения", related: "Часто берут вместе", crop: "Культура", target: "Назначение", rate: "Норма", manufacturer: "Производитель", about: "О препарате" };
+    ? { back: "Назад", regulation: "Регламент застосування", related: "Часто беруть разом", crop: "Культура", target: "Призначення", rate: "Норма", manufacturer: "Виробник", about: "Про препарат" }
+    : { back: "Назад", regulation: "Регламент применения", related: "Часто берут вместе", crop: "Культура", target: "Назначение", rate: "Норма", manufacturer: "Производитель", about: "О препарате" };
 
   return (
     <>
       <div className="bg-white border-b border-border">
-        <div className="container-w py-3"><Link href={`${base}/`} className="inline-flex items-center gap-1 text-sm text-muted hover:text-brand"><ChevronLeft className="w-4 h-4" />{labels.back}</Link></div>
+        <div className="container-w py-3 flex items-center justify-between gap-3 flex-wrap text-sm">
+          <button onClick={() => { if (typeof window !== "undefined" && window.history.length > 1) window.history.back(); else window.location.href = `${base}/grupy/${product.groupSlug}/`; }} className="inline-flex items-center gap-1 text-muted hover:text-brand transition-colors"><ChevronLeft className="w-4 h-4" />{labels.back}</button>
+          <nav className="flex items-center gap-1 text-xs text-muted overflow-hidden">
+            <Link href={`${base}/`} className="hover:text-brand whitespace-nowrap">{lang === "uk" ? "Головна" : "Главная"}</Link>
+            <span>›</span>
+            <Link href={`${base}/grupy/${product.groupSlug}`} className="hover:text-brand whitespace-nowrap">{product.group}</Link>
+            <span>›</span>
+            <span className="text-ink truncate">{name}</span>
+          </nav>
+        </div>
       </div>
 
       <section className="bg-white border-b border-border">
@@ -69,13 +78,17 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
             </div>
 
             <div className="card !p-4 mb-5 bg-bg">
-              <div className="flex justify-between items-baseline mb-2">
+              <div className="flex justify-between items-baseline mb-1">
                 <span className="text-sm text-muted">{t.productCard.priceCash}</span>
-                <span className="text-3xl font-extrabold text-brand whitespace-nowrap">{format(product.priceCash, product.currency)}<span className="text-sm font-normal">/{product.unit}</span></span>
+                <span className="text-3xl font-extrabold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-sm font-normal text-muted"> / {product.packaging}</span></span>
               </div>
-              <div className="flex justify-between items-baseline">
+              <div className="flex justify-between items-baseline mb-2">
+                <span className="text-xs text-muted invisible">.</span>
+                <span className="text-xs text-muted">{format(product.priceCash, product.currency)}/{product.unit}</span>
+              </div>
+              <div className="flex justify-between items-baseline border-t border-border pt-2">
                 <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-                <span className="text-base text-muted whitespace-nowrap">{format(product.priceVat, product.currency)}<span className="text-xs font-normal">/{product.unit}</span></span>
+                <span className="text-base text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
               </div>
             </div>
 
@@ -112,7 +125,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
                   <span className={`badge ${tierLabels[p.tier].cls} mb-2 inline-block`}>{lang === "uk" ? tierLabels[p.tier].uk : tierLabels[p.tier].ru}</span>
                   <h3 className="font-bold text-sm mb-1 group-hover:text-brand">{lang === "uk" ? p.name : p.nameRu}</h3>
                   <p className="text-xs text-muted mb-2">{p.manufacturer}</p>
-                  <p className="text-base font-bold text-brand whitespace-nowrap">{format(p.priceCash, p.currency)}<span className="text-xs font-normal text-muted">/{p.unit}</span></p>
+                  <p className="text-base font-bold text-brand whitespace-nowrap">{format(p.priceCash * getPackSize(p.packaging), p.currency)}<span className="text-xs font-normal text-muted"> / {p.packaging}</span></p>
                 </Link>
               ))}
             </div>

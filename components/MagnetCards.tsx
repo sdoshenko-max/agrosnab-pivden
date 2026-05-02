@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { TrendingDown, ArrowRight } from "lucide-react";
-import { highlightedProducts } from "@/lib/data";
+import { highlightedProducts, getPackSize } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { useCurrency } from "./CurrencyContext";
 
@@ -30,7 +30,7 @@ export function MagnetCards({ lang }: { lang: Lang }) {
             </div>
             {p.saveFromOriginal && (<span className="text-accent font-bold text-sm shrink-0 hidden md:inline">−{p.saveFromOriginal}%</span>)}
             <div className="text-right shrink-0">
-              <p className="font-bold text-brand whitespace-nowrap">{format(p.priceCash, p.currency)}<span className="text-xs font-normal text-muted">/{p.unit}</span></p>
+              <p className="font-bold text-brand whitespace-nowrap">{format(p.priceCash * getPackSize(p.packaging), p.currency)}<span className="text-xs font-normal text-muted"> / {p.packaging}</span></p>
               <p className="text-[10px] text-muted">готівка</p>
             </div>
             <ArrowRight className="w-4 h-4 text-muted shrink-0 hidden sm:block" />
