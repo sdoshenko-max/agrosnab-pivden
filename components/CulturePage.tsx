@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
-import { ChevronLeft, Beaker } from "lucide-react";
+import { ChevronLeft, ChevronRight, Beaker } from "lucide-react";
 import type { Culture, Product, TankMix } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { ProductCardFull } from "./ProductCardFull";
@@ -26,6 +26,8 @@ export function CulturePage({
   const [stage, setStage] = useState<string>(culture.stages[0]?.slug || "all");
   const [requestOpen, setRequestOpen] = useState(false);
   const [requestProduct, setRequestProduct] = useState<string>("");
+  const [page, setPage] = useState(1);
+  const PAGE_SIZE = 12;
 
   const filtered = useMemo(() => {
     return products.filter(p => {
@@ -36,6 +38,28 @@ export function CulturePage({
       return true;
     });
   }, [products, stage, tech, culture.technologies]);
+
+  useEffect(() => { setPage(1); }, [stage, tech]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const safePage = Math.min(page, totalPages);
+  const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+
+  function goPrev() { if (safePage > 1) { setPage(safePage - 1); window.scrollTo({ top: 0, behavior: "smooth" }); } }
+  function goNext() { if (safePage < totalPages) { setPage(safePage + 1); window.scrollTo({ top: 0, behavior: "smooth" }); } }
+  function goPage(n: number) { setPage(n); window.scrollTo({ top: 0, behavior: "smooth" }); }
+
+  const pageNumbers: number[] = [];
+  if (totalPages <= 7) { for (let i = 1; i <= totalPages; i++) pageNumbers.push(i); }
+  else {
+    pageNumbers.push(1);
+    if (safePage > 4) pageNumbers.push(-1);
+    const start = Math.max(2, safePage - 1);
+    const end = Math.min(totalPages - 1, safePage + 1);
+    for (let i = start; i <= end; i++) pageNumbers.push(i);
+    if (safePage < totalPages - 3) pageNumbers.push(-2);
+    pageNumbers.push(totalPages);
+  }
 
   function openRequest(productName: string) {
     setRequestProduct(productName);
@@ -126,11 +150,27 @@ export function CulturePage({
         {filtered.length === 0 ? (
           <p className="text-muted text-center py-12">{labels.noProducts}</p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filtered.map(p => (
-              <ProductCardFull key={p.slug} product={p} lang={lang} onRequest={openRequest} />
-            ))}
-          </div>
+          <>
+            <p className="text-sm text-muted mb-3">{lang === "uk" ? `Показано ${pageItems.length} з ${filtered.length}` : `Показано ${pageItems.length} из ${filtered.length}`}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {pageItems.map(p => (
+                <ProductCardFull key={p.slug} product={p} lang={lang} onRequest={openRequest} />
+              ))}
+            </div>
+            {totalPages > 1 && (
+              <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <p className="text-sm text-muted">{lang === "uk" ? "Сторінка" : "Страница"} {safePage} {lang === "uk" ? "з" : "из"} {totalPages}</p>
+                <div className="flex items-center gap-1 flex-wrap justify-center">
+                  <button onClick={goPrev} disabled={safePage === 1} className="px-3 py-1.5 rounded-md border border-border text-sm disabled:opacity-40 hover:bg-brand/5 transition-colors flex items-center gap-1"><ChevronLeft className="w-4 h-4" />{lang === "uk" ? "Попередня" : "Предыдущая"}</button>
+                  {pageNumbers.map((n, idx) => n < 0
+                    ? <span key={`e${idx}`} className="px-2 text-muted">…</span>
+                    : <button key={n} onClick={() => goPage(n)} className={`min-w-[36px] px-2 py-1.5 rounded-md text-sm ${n === safePage ? "bg-brand text-white" : "border border-border hover:bg-brand/5"} transition-colors`}>{n}</button>
+                  )}
+                  <button onClick={goNext} disabled={safePage === totalPages} className="px-3 py-1.5 rounded-md border border-border text-sm disabled:opacity-40 hover:bg-brand/5 transition-colors flex items-center gap-1">{lang === "uk" ? "Наступна" : "Следующая"}<ChevronRight className="w-4 h-4" /></button>
+                </div>
+              </div>
+            )}
+          </>
         )}
       </section>
 

@@ -1,13 +1,14 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
-import { ChevronLeft, Filter, X } from "lucide-react";
-import type { Product } from "@/lib/types";
+import { ChevronLeft, ChevronRight, Filter, X } from "lucide-react";
 import { products as allProducts, cultures } from "@/lib/data";
-import { dict, type Lang } from "@/lib/i18n";
+import { type Lang } from "@/lib/i18n";
 import { ProductCardFull } from "./ProductCardFull";
 import { RequestModal } from "./RequestModal";
+
+const PAGE_SIZE = 12;
 
 const tierLabels: Record<string, { uk: string; ru: string }> = {
   econom: { uk: "Економ", ru: "Эконом" },
@@ -37,10 +38,10 @@ export function CatalogPage({
   const [requestOpen, setRequestOpen] = useState(false);
   const [requestProduct, setRequestProduct] = useState<string>("");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [page, setPage] = useState(1);
 
   const manufacturers = Array.from(new Set(baseProducts.map(p => p.manufacturer))).sort();
   const productCultures = Array.from(new Set(baseProducts.flatMap(p => p.cultures)));
-  // Унікальні діючі речовини у вибірці (по основній — першій частині складу)
   const aiSet = new Map<string, string>();
   baseProducts.forEach(p => {
     const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
@@ -62,15 +63,53 @@ export function CatalogPage({
     });
   }, [baseProducts, tier, manufacturer, culture, ai]);
 
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const safePage = Math.min(page, totalPages);
+  const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+
+  // При смене фильтров — сброс на 1 страницу
+  useEffect(() => { setPage(1); }, [tier, manufacturer, culture, ai]);
+
   const labels = lang === "uk"
-    ? { back: "Головна", filters: "Фільтри", reset: "Скинути", tier: "Рівень", manufacturer: "Виробник", culture: "Культура", ai: "Діюча речовина", all: "Усі", showing: "Показано", of: "з", noResults: "Немає препаратів за обраними фільтрами" }
-    : { back: "Главная", filters: "Фильтры", reset: "Сбросить", tier: "Уровень", manufacturer: "Производитель", culture: "Культура", ai: "Действующее вещество", all: "Все", showing: "Показано", of: "из", noResults: "Нет препаратов по выбранным фильтрам" };
+    ? { back: "Головна", filters: "Фільтри", reset: "Скинути", tier: "Рівень", manufacturer: "Виробник", culture: "Культура", ai: "Діюча речовина", all: "Усі", showing: "Показано", of: "з", noResults: "Немає препаратів за обраними фільтрами", page: "Сторінка", prev: "Попередня", next: "Наступна" }
+    : { back: "Главная", filters: "Фильтры", reset: "Сбросить", tier: "Уровень", manufacturer: "Производитель", culture: "Культура", ai: "Действующее вещество", all: "Все", showing: "Показано", of: "из", noResults: "Нет препаратов по выбранным фильтрам", page: "Страница", prev: "Предыдущая", next: "Следующая" };
 
   const hasActiveFilter = tier !== "all" || manufacturer !== "all" || culture !== "all" || ai !== "all";
   const base = lang === "uk" ? "" : "/ru";
 
   function reset() { setTier("all"); setManufacturer("all"); setCulture("all"); setAi("all"); }
   function openRequest(name: string) { setRequestProduct(name); setRequestOpen(true); }
+
+  function goPrev() {
+    if (safePage > 1) {
+      setPage(safePage - 1);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+  function goNext() {
+    if (safePage < totalPages) {
+      setPage(safePage + 1);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+  function goPage(n: number) {
+    setPage(n);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  // Список номеров страниц для отображения (макс 7 кнопок)
+  const pageNumbers: number[] = [];
+  if (totalPages <= 7) {
+    for (let i = 1; i <= totalPages; i++) pageNumbers.push(i);
+  } else {
+    pageNumbers.push(1);
+    if (safePage > 4) pageNumbers.push(-1); // эллипсис
+    const start = Math.max(2, safePage - 1);
+    const end = Math.min(totalPages - 1, safePage + 1);
+    for (let i = start; i <= end; i++) pageNumbers.push(i);
+    if (safePage < totalPages - 3) pageNumbers.push(-2);
+    pageNumbers.push(totalPages);
+  }
 
   return (
     <>
@@ -80,7 +119,7 @@ export function CatalogPage({
             <ChevronLeft className="w-4 h-4" />{labels.back}
           </Link>
           <h1 className="text-3xl lg:text-4xl font-extrabold">{lang === "uk" ? title : titleRu}</h1>
-          <p className="text-white/80 text-sm mt-2">{`${labels.showing} ${filtered.length} ${labels.of} ${baseProducts.length}`}</p>
+          <p className="text-white/80 text-sm mt-2">{`${labels.showing} ${pageItems.length} ${labels.of} ${filtered.length}${filtered.length !== baseProducts.length ? ` (${baseProducts.length} ${labels.of === "з" ? "усього" : "всего"})` : ""}`}</p>
         </div>
       </section>
 
@@ -137,9 +176,25 @@ export function CatalogPage({
             {filtered.length === 0 ? (
               <p className="text-muted text-center py-12">{labels.noResults}</p>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-                {filtered.map(p => (<ProductCardFull key={p.slug} product={p} lang={lang} onRequest={openRequest} />))}
-              </div>
+              <>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                  {pageItems.map(p => (<ProductCardFull key={p.slug} product={p} lang={lang} onRequest={openRequest} />))}
+                </div>
+
+                {totalPages > 1 && (
+                  <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+                    <p className="text-sm text-muted">{labels.page} {safePage} {labels.of} {totalPages}</p>
+                    <div className="flex items-center gap-1 flex-wrap justify-center">
+                      <button onClick={goPrev} disabled={safePage === 1} className="px-3 py-1.5 rounded-md border border-border text-sm disabled:opacity-40 hover:bg-brand/5 transition-colors flex items-center gap-1"><ChevronLeft className="w-4 h-4" />{labels.prev}</button>
+                      {pageNumbers.map((n, idx) => n < 0
+                        ? <span key={`e${idx}`} className="px-2 text-muted">…</span>
+                        : <button key={n} onClick={() => goPage(n)} className={`min-w-[36px] px-2 py-1.5 rounded-md text-sm ${n === safePage ? "bg-brand text-white" : "border border-border hover:bg-brand/5"} transition-colors`}>{n}</button>
+                      )}
+                      <button onClick={goNext} disabled={safePage === totalPages} className="px-3 py-1.5 rounded-md border border-border text-sm disabled:opacity-40 hover:bg-brand/5 transition-colors flex items-center gap-1">{labels.next}<ChevronRight className="w-4 h-4" /></button>
+                    </div>
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>
