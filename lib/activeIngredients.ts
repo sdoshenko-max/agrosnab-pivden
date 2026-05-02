@@ -38,7 +38,7 @@ for (const p of products) {
   });
 }
 
-export const activeIngredients: AIEntry[] = Array.from(map.values()).filter(a => a.productSlugs.length >= 1).sort((a, b) => b.productSlugs.length - a.productSlugs.length);
+export const activeIngredients: AIEntry[] = Array.from(map.values()).filter(a => a.productSlugs.length >= 2).sort((a, b) => b.productSlugs.length - a.productSlugs.length);
 
 export function getAIBySlug(slug: string): AIEntry | undefined {
   return activeIngredients.find(a => a.slug === slug);

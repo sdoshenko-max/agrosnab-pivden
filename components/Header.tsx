@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Phone, Menu, X, MessageCircle, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Logo } from "./Logo";
 import { CartButton } from "./CartButton";
 import { SearchBox } from "./SearchBox";
@@ -15,6 +15,16 @@ export function Header({ lang }: { lang: Lang }) {
   const t = dict[lang];
   const [open, setOpen] = useState(false);
   const base = lang === "uk" ? "" : "/ru";
+
+  // Блокируем скролл body когда открыт mobile-меню
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => { document.body.style.overflow = ""; };
+  }, [open]);
 
   const groupsWithCount = groups.map(g => ({ ...g, count: products.filter(p => p.groupSlug === g.slug).length }));
   const culturesWithCount = cultures.map(c => ({ ...c, count: products.filter(p => p.cultures.includes(c.slug)).length }));
@@ -81,7 +91,7 @@ export function Header({ lang }: { lang: Lang }) {
         <Link href={`${base}/kontakty`} className="hover:text-brand transition-colors">{t.nav.contacts}</Link>
       </nav>
       {open && (
-        <div className="lg:hidden border-t border-border bg-white max-h-[80vh] overflow-y-auto">
+        <div className="lg:hidden fixed inset-x-0 top-[64px] bottom-0 border-t border-border bg-white overflow-y-auto z-50">
           <div className="container-w py-3 flex flex-col gap-1">
             <Link href={`${base}/kultury`} onClick={() => setOpen(false)} className="py-2.5 font-medium border-b border-border">{t.nav.cultures}</Link>
             <div className="pl-3 flex flex-col text-sm">

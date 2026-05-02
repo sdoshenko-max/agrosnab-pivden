@@ -4,9 +4,19 @@ import { Footer } from "@/components/Footer";
 import { FloatingCallButton } from "@/components/FloatingCallButton";
 import { activeIngredients } from "@/lib/activeIngredients";
 
-export const metadata = { title: "Действующие вещества", description: "Каталог по действующему веществу" };
+export const metadata = { title: "Действующие вещества", description: "Каталог по действующему веществу — глифосат, тебуконазол, тиаметоксам и другие" };
+
+function plural(n: number): string {
+  const m10 = n % 10;
+  const m100 = n % 100;
+  if (m10 === 1 && m100 !== 11) return "препарат";
+  if (m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20)) return "препарата";
+  return "препаратов";
+}
 
 export default function AIListRu() {
+  const top = activeIngredients.slice(0, 10);
+  const rest = activeIngredients.slice(10);
   return (
     <>
       <Header lang="ru" />
@@ -17,12 +27,30 @@ export default function AIListRu() {
             <p className="text-white/80">Выберите действующее вещество — увидите все препараты на его основе</p>
           </div>
         </section>
+
+        {top.length > 0 && (
+          <section className="container-w pt-8">
+            <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
+              <span className="text-2xl">🔥</span>Топ-10 самых популярных
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+              {top.map(a => (
+                <Link key={a.slug} href={`/ru/diiucha-rechovyna/${a.slug}`} className="card !p-3 hover:border-brand hover:bg-brand/5 hover:shadow-md transition-all duration-200 group">
+                  <p className="font-bold text-sm mb-1 group-hover:text-brand transition-colors leading-snug">{a.nameRu}</p>
+                  <p className="text-xs text-brand font-semibold">{a.productSlugs.length} {plural(a.productSlugs.length)}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="container-w py-8">
+          {rest.length > 0 && <h2 className="text-xl font-bold mb-3">Все действующие вещества ({activeIngredients.length})</h2>}
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-            {activeIngredients.map(a => (
-              <Link key={a.slug} href={`/ru/diiucha-rechovyna/${a.slug}`} className="card !p-3 hover:border-brand group">
-                <p className="font-bold text-sm mb-1 group-hover:text-brand">{a.nameRu}</p>
-                <p className="text-xs text-muted">{a.productSlugs.length} препаратов</p>
+            {rest.map(a => (
+              <Link key={a.slug} href={`/ru/diiucha-rechovyna/${a.slug}`} className="card !p-3 hover:border-brand hover:bg-brand/5 transition-all duration-200 group">
+                <p className="font-bold text-sm mb-1 group-hover:text-brand transition-colors leading-snug">{a.nameRu}</p>
+                <p className="text-xs text-muted">{a.productSlugs.length} {plural(a.productSlugs.length)}</p>
               </Link>
             ))}
           </div>
