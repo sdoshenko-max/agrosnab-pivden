@@ -10,10 +10,12 @@ import { RateBar } from "./RateBar";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
 import { groups } from "@/lib/groups";
 import { cultures, products } from "@/lib/data";
+import { CallbackModal } from "./CallbackModal";
 
 export function Header({ lang }: { lang: Lang }) {
   const t = dict[lang];
   const [open, setOpen] = useState(false);
+  const [callbackOpen, setCallbackOpen] = useState(false);
   const base = lang === "uk" ? "" : "/ru";
 
   const groupsWithCount = groups.map(g => ({ ...g, count: products.filter(p => p.groupSlug === g.slug).length })).filter(g => g.count > 0);
@@ -44,10 +46,10 @@ export function Header({ lang }: { lang: Lang }) {
             <Link href="/ru" className={`px-3 py-1.5 ${lang === "ru" ? "bg-brand text-white" : "hover:bg-bg"}`}>RU</Link>
           </div>
           <CartButton lang={lang} />
-          <a href={`tel:${COMPANY.phone}`} className="btn-primary !py-2 !px-3 text-sm hidden lg:inline-flex">
+          <button onClick={() => setCallbackOpen(true)} className="btn-primary !py-2 !px-3 text-sm hidden lg:inline-flex">
             <Phone className="w-4 h-4" />
             <span className="hidden xl:inline">{t.cta.callMe}</span>
-          </a>
+          </button>
           <button type="button" className="lg:hidden p-2 -mr-2 relative z-[70]" onClick={() => setOpen(!open)} aria-label="Menu">
             {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -129,11 +131,13 @@ export function Header({ lang }: { lang: Lang }) {
               <Link href="/" onClick={close} className={`flex-1 py-2 text-center rounded-lg border ${lang === "uk" ? "bg-brand text-white border-brand" : "border-border"}`}>UA</Link>
               <Link href="/ru" onClick={close} className={`flex-1 py-2 text-center rounded-lg border ${lang === "ru" ? "bg-brand text-white border-brand" : "border-border"}`}>RU</Link>
             </div>
-            <a href={`tel:${COMPANY.phone}`} className="btn-primary mt-2"><Phone className="w-4 h-4" />{t.cta.callMe}</a>
+            <button onClick={() => { close(); setCallbackOpen(true); }} className="btn-primary mt-2"><Phone className="w-4 h-4" />{t.cta.callMe}</button>
           </div>
         </div>
       </>
     )}
+
+    <CallbackModal open={callbackOpen} onClose={() => setCallbackOpen(false)} lang={lang} />
     </>
   );
 }

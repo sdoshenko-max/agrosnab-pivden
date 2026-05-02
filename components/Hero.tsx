@@ -1,8 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import { ArrowRight, Phone, TrendingDown, MessageCircle, Truck } from "lucide-react";
 import { dict, type Lang } from "@/lib/i18n";
+import { CallbackModal } from "./CallbackModal";
 
 export function Hero({ lang }: { lang: Lang }) {
   const t = dict[lang];
+  const [callbackOpen, setCallbackOpen] = useState(false);
   const badges = lang === "uk"
     ? [
         { icon: TrendingDown, text: "Економія до 60%", sub: "від ціни оригіналу" },
@@ -50,10 +55,10 @@ export function Hero({ lang }: { lang: Lang }) {
               {t.hero.cta1}
               <ArrowRight className="w-5 h-5" />
             </a>
-            <a href="#quick-call" className="btn-outline !border-white !text-white hover:!bg-white hover:!text-brand">
+            <button onClick={() => setCallbackOpen(true)} className="btn-outline !border-white !text-white hover:!bg-white hover:!text-brand">
               <Phone className="w-5 h-5" />
               {t.hero.cta2}
-            </a>
+            </button>
           </div>
           {/* Плашки переваг */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 max-w-3xl">
@@ -69,6 +74,7 @@ export function Hero({ lang }: { lang: Lang }) {
           </div>
         </div>
       </div>
+    <CallbackModal open={callbackOpen} onClose={() => setCallbackOpen(false)} lang={lang} />
     </section>
   );
 }
