@@ -59,7 +59,9 @@ export function CulturePage({
             <div className="text-6xl lg:text-7xl shrink-0">{culture.emoji}</div>
             <div>
               <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">
-                {lang === "uk" ? culture.nameUk : culture.nameRu}
+                {lang === "uk"
+                  ? `${culture.nameUk} — захист і схема обробки`
+                  : `${culture.nameRu} — защита и схема обработки`}
               </h1>
               <p className="text-base lg:text-lg text-white/90 max-w-2xl">
                 {lang === "uk" ? (culture.longUk || culture.shortUk) : (culture.longRu || culture.shortRu)}

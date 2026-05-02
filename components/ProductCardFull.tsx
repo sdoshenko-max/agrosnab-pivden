@@ -48,7 +48,7 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
 
       <div className="grid grid-cols-2 gap-2 text-sm">
         <div><p className="text-xs text-muted">{t.productCard.packaging}</p><p className="font-semibold">{product.packaging}</p></div>
-        <div><p className="text-xs text-muted">{t.productCard.rate}</p><p className="font-semibold">{product.rate}</p></div>
+        {product.rate ? <div><p className="text-xs text-muted">{t.productCard.rate}</p><p className="font-semibold">{product.rate}</p></div> : null}
       </div>
 
       {desc && <p className="text-sm text-muted leading-snug">{desc}</p>}

@@ -65,7 +65,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
 
             <div className="grid grid-cols-2 gap-3 mb-5">
               <div className="card !p-3"><Package className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{t.productCard.packaging}</p><p className="font-bold">{product.packaging}</p></div>
-              <div className="card !p-3"><FlaskConical className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{labels.rate}</p><p className="font-bold">{product.rate}</p></div>
+              {product.rate ? <div className="card !p-3"><FlaskConical className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{labels.rate}</p><p className="font-bold">{product.rate}</p></div> : null}
             </div>
 
             <div className="card !p-4 mb-5 bg-bg">
@@ -95,7 +95,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
         <div className="card overflow-x-auto">
           <table className="w-full text-sm">
             <thead><tr className="border-b border-border"><th className="text-left p-2 font-semibold">{labels.crop}</th><th className="text-left p-2 font-semibold">{labels.target}</th><th className="text-left p-2 font-semibold">{labels.rate}</th></tr></thead>
-            <tbody>{cultureNames.map((cn, i) => (<tr key={i} className="border-b border-border last:border-0"><td className="p-2 font-medium">{cn}</td><td className="p-2 text-muted">{ai}</td><td className="p-2 font-semibold whitespace-nowrap">{product.rate}</td></tr>))}</tbody>
+            <tbody>{cultureNames.map((cn, i) => (<tr key={i} className="border-b border-border last:border-0"><td className="p-2 font-medium">{cn}</td><td className="p-2 text-muted">{ai}</td><td className="p-2 font-semibold whitespace-nowrap">{product.rate || "—"}</td></tr>))}</tbody>
           </table>
         </div>
       </section>

@@ -80,7 +80,7 @@ export function CatalogPage({
             <ChevronLeft className="w-4 h-4" />{labels.back}
           </Link>
           <h1 className="text-3xl lg:text-4xl font-extrabold">{lang === "uk" ? title : titleRu}</h1>
-          <p className="text-white/80 text-sm mt-2">{labels.showing} {filtered.length} {labels.of} {baseProducts.length}</p>
+          <p className="text-white/80 text-sm mt-2">{`${labels.showing} ${filtered.length} ${labels.of} ${baseProducts.length}`}</p>
         </div>
       </section>
 

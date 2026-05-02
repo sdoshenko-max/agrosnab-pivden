@@ -44,29 +44,30 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
     const priceCeil = volCeil * product.priceCash;
     const priceFloor = volFloor * product.priceCash;
     const priceVatCeil = volCeil * product.priceVat;
+    const priceVatFloor = volFloor * product.priceVat;
     const isExact = Math.abs(surplus) < 0.01;
-    return { area: a, rate: r, total, cansCeil, cansFloor, volCeil, volFloor, surplus, shortage, extraHa, shortHa, priceCeil, priceFloor, priceVatCeil, isExact };
+    return { area: a, rate: r, total, cansCeil, cansFloor, volCeil, volFloor, surplus, shortage, extraHa, shortHa, priceCeil, priceFloor, priceVatCeil, priceVatFloor, isExact };
   }, [area, rate, defaultRate, product, packSize]);
 
   const labels = lang === "uk"
-    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buyFull: "Повне покриття", buySave: "Купити менше", cansLabel: "каністр", cashLabel: "готівка", vatLabel: "з ПДВ", added: "Додано", surplusTpl: "каністр × {pack} {unit} = {vol} {unit}. Залишок {surplus} {unit} — вистачить ще на {extra} га.", shortageTpl: "каністр × {pack} {unit} = {vol} {unit}. Цього вистачить тільки на {covered} га. Не вистачить {short} {unit} — потрібно докупити ще 1 каністру.", exactInfo: "Рівно під вашу площу — без залишку." }
-    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buyFull: "Полное покрытие", buySave: "Купить меньше", cansLabel: "канистр", cashLabel: "наличные", vatLabel: "с НДС", added: "Добавлено", surplusTpl: "канистр × {pack} {unit} = {vol} {unit}. Остаток {surplus} {unit} — хватит ещё на {extra} га.", shortageTpl: "канистр × {pack} {unit} = {vol} {unit}. Этого хватит только на {covered} га. Не хватит {short} {unit} — нужно докупить ещё 1 канистру.", exactInfo: "Ровно под вашу площадь — без остатка." };
+    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buyFull: "Повне покриття", buySave: "Купити менше", cansLabel: "каністр", vatLabel: "з ПДВ", added: "Додано в кошик", surplusTpl: "{vol} {unit} = вистачить на всю площу. Залишок {surplus} {unit} ({extra} га).", shortageTpl: "{vol} {unit} = вистачить тільки на {covered} га. Не вистачить {short} {unit} — потрібно докупити ще 1 каністру.", exactInfo: "Рівно під вашу площу — без залишку." }
+    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buyFull: "Полное покрытие", buySave: "Купить меньше", cansLabel: "канистр", vatLabel: "с НДС", added: "Добавлено в корзину", surplusTpl: "{vol} {unit} = хватит на всю площадь. Остаток {surplus} {unit} ({extra} га).", shortageTpl: "{vol} {unit} = хватит только на {covered} га. Не хватит {short} {unit} — нужно докупить ещё 1 канистру.", exactInfo: "Ровно под вашу площадь — без остатка." };
 
   function fmt(n: number, dec: number = 1): string {
     return packSize % 1 ? n.toFixed(dec) : n.toFixed(0);
   }
 
-  function tplSurplus(cans: number, vol: number, surplus: number, extra: number): string {
-    return `${cans} ` + labels.surplusTpl
-      .replace("{pack}", String(packSize)).replace(/{unit}/g, product.unit)
-      .replace("{vol}", fmt(vol)).replace("{surplus}", surplus.toFixed(1))
+  function tplSurplus(vol: number, surplus: number, extra: number): string {
+    return labels.surplusTpl
+      .replace("{vol}", fmt(vol)).replace(/{unit}/g, product.unit)
+      .replace("{surplus}", surplus.toFixed(1))
       .replace("{extra}", extra.toFixed(1));
   }
 
-  function tplShortage(cans: number, vol: number, short: number, covered: number): string {
-    return `${cans} ` + labels.shortageTpl
-      .replace("{pack}", String(packSize)).replace(/{unit}/g, product.unit)
-      .replace("{vol}", fmt(vol)).replace("{covered}", covered.toFixed(1))
+  function tplShortage(vol: number, short: number, covered: number): string {
+    return labels.shortageTpl
+      .replace("{vol}", fmt(vol)).replace(/{unit}/g, product.unit)
+      .replace("{covered}", covered.toFixed(1))
       .replace("{short}", short.toFixed(1));
   }
 
@@ -99,39 +100,46 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
         </div>
       </div>
       {result && (
-        <div className="bg-white rounded-lg p-3 space-y-2 text-sm border border-border">
-          <div className="flex justify-between">
-            <span className="text-muted">{labels.need}:</span>
-            <span className="font-semibold">{result.total.toFixed(2)} {product.unit}</span>
+        <div className="bg-white rounded-lg p-3 space-y-3 text-sm border border-border">
+          <div className="flex justify-between text-muted">
+            <span>{labels.need}:</span>
+            <span className="font-semibold text-ink">{result.total.toFixed(2)} {product.unit}</span>
           </div>
 
-          <div className="border-t border-border pt-2 space-y-1.5">
-            <div className="flex items-center justify-between">
+          {/* Полное покрытие — основной выбор */}
+          <div className="border-t border-border pt-3 space-y-2">
+            <div className="flex items-center justify-between gap-2">
               <span className="text-xs uppercase tracking-wide text-brand font-bold">{labels.buyFull}</span>
-              <span className="font-bold text-brand text-lg">{format(result.priceCeil, product.currency)} <span className="text-xs font-normal text-muted">{labels.cashLabel}</span></span>
+              <div className="text-right">
+                <div className="font-bold text-brand text-xl whitespace-nowrap">{format(result.priceCeil, product.currency)}</div>
+                <div className="text-[11px] text-muted whitespace-nowrap">{format(result.priceVatCeil, product.currency)} {labels.vatLabel}</div>
+              </div>
             </div>
             <p className="flex items-start gap-1.5 text-xs text-muted bg-brand/5 p-2 rounded leading-snug">
               <Info className="w-3.5 h-3.5 text-brand mt-0.5 shrink-0" />
-              <span>{result.isExact ? labels.exactInfo : tplSurplus(result.cansCeil, result.volCeil, result.surplus, result.extraHa)}</span>
+              <span><b className="text-ink">{result.cansCeil} {labels.cansLabel} × {product.packaging}</b> = {result.isExact ? labels.exactInfo : tplSurplus(result.volCeil, result.surplus, result.extraHa)}</span>
             </p>
-            <p className="text-xs text-muted text-right">{format(result.priceVatCeil, product.currency)} {labels.vatLabel}</p>
             <button onClick={() => addToCart(result.cansCeil)} className={`btn-primary w-full !py-2 text-sm ${added ? "!bg-brand-dark" : ""}`}>
-              {added ? <><Check className="w-4 h-4" />{labels.added}</> : <><ShoppingCart className="w-4 h-4" />{result.cansCeil} {labels.cansLabel} × {product.packaging}</>}
+              {added ? <><Check className="w-4 h-4" />{labels.added}</> : <><ShoppingCart className="w-4 h-4" />{result.cansCeil} {labels.cansLabel}</>}
             </button>
           </div>
 
+          {/* Альтернатива «купить меньше» */}
           {!result.isExact && result.cansFloor > 0 && (
-            <div className="border-t border-border pt-2 space-y-1.5">
-              <div className="flex items-center justify-between">
+            <div className="border-t border-border pt-3 space-y-2">
+              <div className="flex items-center justify-between gap-2">
                 <span className="text-xs uppercase tracking-wide text-muted font-semibold">{labels.buySave}</span>
-                <span className="font-semibold text-ink text-base">{format(result.priceFloor, product.currency)} <span className="text-xs font-normal text-muted">{labels.cashLabel}</span></span>
+                <div className="text-right">
+                  <div className="font-semibold text-ink text-lg whitespace-nowrap">{format(result.priceFloor, product.currency)}</div>
+                  <div className="text-[11px] text-muted whitespace-nowrap">{format(result.priceVatFloor, product.currency)} {labels.vatLabel}</div>
+                </div>
               </div>
               <p className="flex items-start gap-1.5 text-xs text-muted bg-amber-50 border border-amber-200 p-2 rounded leading-snug">
                 <AlertCircle className="w-3.5 h-3.5 text-amber-600 mt-0.5 shrink-0" />
-                <span>{tplShortage(result.cansFloor, result.volFloor, result.shortage, result.area - result.shortHa)}</span>
+                <span><b className="text-ink">{result.cansFloor} {labels.cansLabel} × {product.packaging}</b> = {tplShortage(result.volFloor, result.shortage, result.area - result.shortHa)}</span>
               </p>
               <button onClick={() => addToCart(result.cansFloor)} className="btn-outline w-full !py-2 text-sm">
-                <ShoppingCart className="w-4 h-4" />{result.cansFloor} {labels.cansLabel} × {product.packaging}
+                <ShoppingCart className="w-4 h-4" />{result.cansFloor} {labels.cansLabel}
               </button>
             </div>
           )}

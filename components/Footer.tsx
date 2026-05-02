@@ -26,7 +26,7 @@ export function Footer({ lang }: { lang: Lang }) {
           <ul className="space-y-2 text-sm text-slate-300">
             <li className="flex items-start gap-2"><Phone className="w-4 h-4 mt-0.5 shrink-0" /><a href={`tel:${COMPANY.phone}`} className="hover:text-white">{COMPANY.phone}</a></li>
             <li className="flex items-start gap-2"><MessageCircle className="w-4 h-4 mt-0.5 shrink-0" /><a href={`viber://chat?number=%2B${COMPANY.viber.replace(/\D/g, "")}`} className="hover:text-white">Viber</a></li>
-            <li className="flex items-start gap-2"><MessageCircle className="w-4 h-4 mt-0.5 shrink-0" /><a href={`https://t.me/+${COMPANY.telegram.replace(/\D/g, "")}`} className="hover:text-white">Telegram</a></li>
+            <li className="flex items-start gap-2"><MessageCircle className="w-4 h-4 mt-0.5 shrink-0" /><a href={`https://t.me/${COMPANY.telegramUser}`} className="hover:text-white">Telegram</a></li>
             <li className="flex items-start gap-2"><Mail className="w-4 h-4 mt-0.5 shrink-0" /><a href={`mailto:${COMPANY.email}`} className="hover:text-white">{COMPANY.email}</a></li>
             <li className="flex items-start gap-2"><MapPin className="w-4 h-4 mt-0.5 shrink-0" /><span>{warehouse}</span></li>
           </ul>

@@ -212,5 +212,8 @@ export const COMPANY = {
   warehouse: "м. Миколаїв",
   warehouseRu: "г. Николаев",
   viber: "+380660321997",
-  telegram: "+380660321997"
+  telegram: "+380660321997",
+  telegramUser: "SergeyMLTD",
+  workHoursUk: "ПН–ПТ 9:00–18:00 · СБ 9:00–14:00 · НД вихідний",
+  workHoursRu: "ПН–ПТ 9:00–18:00 · СБ 9:00–14:00 · ВС выходной"
 };
