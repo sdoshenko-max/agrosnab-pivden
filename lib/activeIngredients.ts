@@ -25,8 +25,8 @@ for (const p of products) {
   const parts = p.activeIngredient.split(/\s*\+\s*/);
   const partsRu = p.activeIngredientRu.split(/\s*\+\s*/);
   parts.forEach((part, i) => {
-    const main = part.replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
-    const mainRu = (partsRu[i] || part).replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
+    const main = part.replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
+    const mainRu = (partsRu[i] || part).replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
     if (!main) return;
     const slug = slugify(main);
     if (!slug) return;

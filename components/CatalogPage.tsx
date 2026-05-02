@@ -44,8 +44,8 @@ export function CatalogPage({
   const productCultures = Array.from(new Set(baseProducts.flatMap(p => p.cultures)));
   const aiSet = new Map<string, string>();
   baseProducts.forEach(p => {
-    const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
-    const firstRu = p.activeIngredientRu.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
+    const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
+    const firstRu = p.activeIngredientRu.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
     if (firstUk) aiSet.set(firstUk, lang === "uk" ? firstUk : firstRu);
   });
   const aiList = Array.from(aiSet.entries()).sort((a, b) => a[0].localeCompare(b[0]));
@@ -56,7 +56,7 @@ export function CatalogPage({
       if (manufacturer !== "all" && p.manufacturer !== manufacturer) return false;
       if (culture !== "all" && !p.cultures.includes(culture)) return false;
       if (ai !== "all") {
-        const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/,.*$/, "").trim();
+        const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
         if (firstUk !== ai) return false;
       }
       return true;
