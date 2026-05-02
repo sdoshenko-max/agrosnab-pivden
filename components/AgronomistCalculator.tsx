@@ -92,11 +92,11 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
       <div className="grid grid-cols-2 gap-3 mb-4">
         <div>
           <label className="text-xs text-muted">{labels.area}</label>
-          <input type="number" min="1" value={area} onChange={e => setArea(e.target.value)} placeholder="100" className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
+          <input type="number" min="1" max="100000" step="1" value={area} onChange={e => { const v = e.target.value; if (v === "" || (parseFloat(v) >= 0 && parseFloat(v) <= 100000)) setArea(v); }} placeholder="100" className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
         </div>
         <div>
           <label className="text-xs text-muted">{labels.rate} ({product.unit}/га)</label>
-          <input type="number" step="0.01" value={rate} onChange={e => setRate(e.target.value)} placeholder={defaultRate || product.rate} className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
+          <input type="number" min="0.01" max="20" step="0.01" value={rate} onChange={e => { const v = e.target.value; if (v === "" || (parseFloat(v) >= 0 && parseFloat(v) <= 20)) setRate(v); }} placeholder={defaultRate || product.rate} className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
         </div>
       </div>
       {result && (
