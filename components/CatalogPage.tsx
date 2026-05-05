@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, Suspense } from "react";
 import Link from "next/link";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Filter, X } from "lucide-react";
 import { products as allProducts, cultures } from "@/lib/data";
 import { type Lang } from "@/lib/i18n";
@@ -16,29 +17,53 @@ const tierLabels: Record<string, { uk: string; ru: string }> = {
   original: { uk: "Оригінал", ru: "Оригинал" }
 };
 
-export function CatalogPage({
-  title,
-  titleRu,
-  productSlugs,
-  lang,
-  hideAiFilter
-}: {
+type CatalogPageProps = {
   title: string;
   titleRu: string;
   productSlugs: string[];
   lang: Lang;
   hideAiFilter?: boolean;
-}) {
+};
+
+export function CatalogPage(props: CatalogPageProps) {
+  return (
+    <Suspense fallback={null}>
+      <CatalogPageInner {...props} />
+    </Suspense>
+  );
+}
+
+function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter }: CatalogPageProps) {
   const baseProducts = useMemo(() => allProducts.filter(p => productSlugs.includes(p.slug)), [productSlugs]);
 
-  const [tier, setTier] = useState<string>("all");
-  const [manufacturer, setManufacturer] = useState<string>("all");
-  const [culture, setCulture] = useState<string>("all");
-  const [ai, setAi] = useState<string>("all");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const tier = searchParams.get("tier") || "all";
+  const manufacturer = searchParams.get("manufacturer") || "all";
+  const culture = searchParams.get("culture") || "all";
+  const ai = searchParams.get("ai") || "all";
+  const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
+
+  function updateParams(updates: Record<string, string | number | null>) {
+    const sp = new URLSearchParams(searchParams.toString());
+    for (const [k, v] of Object.entries(updates)) {
+      if (v === null || v === "" || v === undefined || v === "all") sp.delete(k);
+      else sp.set(k, String(v));
+    }
+    const qs = sp.toString();
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+  }
+  const setTier = (v: string) => updateParams({ tier: v, page: null });
+  const setManufacturer = (v: string) => updateParams({ manufacturer: v, page: null });
+  const setCulture = (v: string) => updateParams({ culture: v, page: null });
+  const setAi = (v: string) => updateParams({ ai: v, page: null });
+  const setPage = (v: number) => updateParams({ page: v <= 1 ? null : v });
+
   const [requestOpen, setRequestOpen] = useState(false);
   const [requestProduct, setRequestProduct] = useState<string>("");
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const [page, setPage] = useState(1);
 
   const manufacturers = Array.from(new Set(baseProducts.map(p => p.manufacturer))).sort();
   const productCultures = Array.from(new Set(baseProducts.flatMap(p => p.cultures)));
@@ -67,9 +92,6 @@ export function CatalogPage({
   const safePage = Math.min(page, totalPages);
   const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
-  // При смене фильтров — сброс на 1 страницу
-  useEffect(() => { setPage(1); }, [tier, manufacturer, culture, ai]);
-
   const labels = lang === "uk"
     ? { back: "Головна", filters: "Фільтри", reset: "Скинути", tier: "Рівень", manufacturer: "Виробник", culture: "Культура", ai: "Діюча речовина", all: "Усі", showing: "Показано", of: "з", noResults: "Немає препаратів за обраними фільтрами", page: "Сторінка", prev: "Попередня", next: "Наступна" }
     : { back: "Главная", filters: "Фильтры", reset: "Сбросить", tier: "Уровень", manufacturer: "Производитель", culture: "Культура", ai: "Действующее вещество", all: "Все", showing: "Показано", of: "из", noResults: "Нет препаратов по выбранным фильтрам", page: "Страница", prev: "Предыдущая", next: "Следующая" };
@@ -77,7 +99,7 @@ export function CatalogPage({
   const hasActiveFilter = tier !== "all" || manufacturer !== "all" || culture !== "all" || ai !== "all";
   const base = lang === "uk" ? "" : "/ru";
 
-  function reset() { setTier("all"); setManufacturer("all"); setCulture("all"); setAi("all"); }
+  function reset() { updateParams({ tier: null, manufacturer: null, culture: null, ai: null, page: null }); }
   function openRequest(name: string) { setRequestProduct(name); setRequestOpen(true); }
 
   function goPrev() {

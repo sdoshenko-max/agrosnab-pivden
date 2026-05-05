@@ -32,7 +32,11 @@
 - Фото центроване в білому квадратному блоці зліва (вже працює — `ProductPage.tsx`).
 - Має бути **клікабельне** (lightbox-перегляд оригіналу). ⏳ TODO — окрема задача.
 
-**Статус виконання загальний:** 🟢 146 / 339 (43%) — Пачки 1.1–1.5, 2.1–2.5, 3.1–3.5 закриті 2026-05-05
+**Статус виконання загальний:** 🟢 320 / 339 (94%) — Пачки 1–7 закриті 2026-05-05/06.
+
+- Активних SKU з фото: **288** (385 SKU у каталозі × ~75% покриття; original-tier не маємо фото за DMCA-ризиком).
+- Відкинуто Сергієм при review: **12** (Аптека садівника / роздрібні форми — список у `_PRICE_IMPORT_RULES.md`).
+- NOT FOUND: **7** (1 китайська упаковка + 6 нових 2026-Укравіт, ще не існують у виробника).
 
 ---
 
@@ -165,7 +169,7 @@
 
 ### Пачка 2.5 — позиції 91–100 ✅
 
-- [ ] **91.** `milafuron-ks-kytai-nertus` — Мілафурон, КС КИТАЙ | Нертус | Інсектицид *(⚠ NOT FOUND — китайської упаковки не знайдено, доробити при появі)*
+- ⚠ **91.** `milafuron-ks-kytai-nertus` — Мілафурон, КС КИТАЙ | Нертус | Інсектицид *(⚠ NOT FOUND — китайської упаковки не знайдено, доробити при появі)* *(NOT FOUND — 2026-новий або не існує у виробника)*
 - [x] **92.** `shaman-ke-nertus` — Шаман, КЕ | Нертус | Інсектицид
 - [x] **93.** `fatrin-ke-nertus` — Фатрін КЕ | Нертус | Інсектицид
 - [x] **94.** `milafuron-ks-nertus` — Мілафурон, КС | Нертус | Інсектицид
@@ -251,277 +255,277 @@
 
 ## Пачка 4 — SKU 151–200 (50 шт)
 
-**Статус пачки:** ⏳ 0 / 50
+**Статус пачки:** ✅ / 50
 
 ### Пачка 4.1 — позиції 151–160
 
-- [ ] **151.** `flaip-ks-alfa-smart-agro` — Флайп, КС | Alfa Smart Agro | Гербіцид
-- [ ] **152.** `antyzlak-ke-tilky-razom-z-par-omeha-ekstra-ke-tsina-za-kompl` — Антизлак, КЕ (тільки разом з ПАР Омега Екстра, КЕ, ціна за комплект 1:1) | Alfa Smart Agro | Гербіцид
-- [ ] **153.** `kamelot-ke-alfa-smart-agro` — Камелот, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **154.** `nomais-rozchyn-alfa-smart-agro` — Номайс, розчин | Alfa Smart Agro | Гербіцид
-- [ ] **155.** `eledzhi-ke-alfa-smart-agro` — Еледжі, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **156.** `konkur-ks-alfa-smart-agro` — Конкур, КС | Alfa Smart Agro | Гербіцид
-- [ ] **157.** `alfa-star-vh-alfa-smart-agro` — Альфа-Стар, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **158.** `aktual-ke-alfa-smart-agro` — Актуал, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **159.** `mistard-vh-alfa-smart-agro` — Містард, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **160.** `sintak-ks-alfa-smart-agro` — Сінтак, КС | Alfa Smart Agro | Гербіцид
+- [x] **151.** `flaip-ks-alfa-smart-agro` — Флайп, КС | Alfa Smart Agro | Гербіцид
+- [x] **152.** `antyzlak-ke-tilky-razom-z-par-omeha-ekstra-ke-tsina-za-kompl` — Антизлак, КЕ (тільки разом з ПАР Омега Екстра, КЕ, ціна за комплект 1:1) | Alfa Smart Agro | Гербіцид
+- [x] **153.** `kamelot-ke-alfa-smart-agro` — Камелот, КЕ | Alfa Smart Agro | Гербіцид
+- [x] **154.** `nomais-rozchyn-alfa-smart-agro` — Номайс, розчин | Alfa Smart Agro | Гербіцид
+- [x] **155.** `eledzhi-ke-alfa-smart-agro` — Еледжі, КЕ | Alfa Smart Agro | Гербіцид
+- [x] **156.** `konkur-ks-alfa-smart-agro` — Конкур, КС | Alfa Smart Agro | Гербіцид
+- [x] **157.** `alfa-star-vh-alfa-smart-agro` — Альфа-Стар, ВГ | Alfa Smart Agro | Гербіцид
+- [x] **158.** `aktual-ke-alfa-smart-agro` — Актуал, КЕ | Alfa Smart Agro | Гербіцид
+- [x] **159.** `mistard-vh-alfa-smart-agro` — Містард, ВГ | Alfa Smart Agro | Гербіцид
+- [x] **160.** `sintak-ks-alfa-smart-agro` — Сінтак, КС | Alfa Smart Agro | Гербіцид
 
 ### Пачка 4.2 — позиції 161–170
 
-- [ ] **161.** `sihur-vh-par-omeha-plyus-alfa-smart-agro` — Сігур, ВГ + ПАР Омега Плюс | Alfa Smart Agro | Гербіцид
-- [ ] **162.** `lonhas-zp-alfa-smart-agro` — Лонгас, ЗП | Alfa Smart Agro | Гербіцид
-- [ ] **163.** `alfa-mayis-vh-alfa-smart-agro` — Альфа-Маїс, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **164.** `khammer-vh-alfa-smart-agro` — Хаммер, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **165.** `tryvium-vh-par-buster-alfa-smart-agro` — Тривіум, ВГ + ПАР Бустер | Alfa Smart Agro | Гербіцид
-- [ ] **166.** `tryatlon-praim-vh-alfa-smart-agro` — Триатлон Прайм, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **167.** `tryatlon-vh-alfa-smart-agro` — Триатлон, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **168.** `alfalyp-rk-alfa-smart-agro` — Альфалип, РК | Alfa Smart Agro | Інсектицид
-- [ ] **169.** `alfalyp-ekstra-rk-alfa-smart-agro` — Альфалип Екстра, РК | Alfa Smart Agro | Інсектицид
-- [ ] **170.** `kampus-ke-alfa-smart-agro` — Кампус, КЕ | Alfa Smart Agro | Інсектицид
+- [x] **161.** `sihur-vh-par-omeha-plyus-alfa-smart-agro` — Сігур, ВГ + ПАР Омега Плюс | Alfa Smart Agro | Гербіцид
+- [x] **162.** `lonhas-zp-alfa-smart-agro` — Лонгас, ЗП | Alfa Smart Agro | Гербіцид
+- [x] **163.** `alfa-mayis-vh-alfa-smart-agro` — Альфа-Маїс, ВГ | Alfa Smart Agro | Гербіцид
+- [x] **164.** `khammer-vh-alfa-smart-agro` — Хаммер, ВГ | Alfa Smart Agro | Гербіцид
+- [x] **165.** `tryvium-vh-par-buster-alfa-smart-agro` — Тривіум, ВГ + ПАР Бустер | Alfa Smart Agro | Гербіцид
+- [x] **166.** `tryatlon-praim-vh-alfa-smart-agro` — Триатлон Прайм, ВГ | Alfa Smart Agro | Гербіцид
+- [x] **167.** `tryatlon-vh-alfa-smart-agro` — Триатлон, ВГ | Alfa Smart Agro | Гербіцид
+- [x] **168.** `alfalyp-rk-alfa-smart-agro` — Альфалип, РК | Alfa Smart Agro | Інсектицид
+- [x] **169.** `alfalyp-ekstra-rk-alfa-smart-agro` — Альфалип Екстра, РК | Alfa Smart Agro | Інсектицид
+- [x] **170.** `kampus-ke-alfa-smart-agro` — Кампус, КЕ | Alfa Smart Agro | Інсектицид
 
 ### Пачка 4.3 — позиції 171–180
 
-- [ ] **171.** `teip-ekstra-ks-alfa-smart-agro` — Тейп Екстра, КС | Alfa Smart Agro | Інсектицид
-- [ ] **172.** `etalon-ks-alfa-smart-agro` — Еталон, КС | Alfa Smart Agro | Інсектицид
-- [ ] **173.** `alfa-standart-ks-alfa-smart-agro` — Альфа-Стандарт, КС | Alfa Smart Agro | Інсектицид
-- [ ] **174.** `alfa-etafon-rk-alfa-smart-agro` — Альфа-Етафон, РК | Alfa Smart Agro | Інсектицид
-- [ ] **175.** `oskar-premium-se-alfa-smart-agro` — Оскар Преміум, СЕ | Alfa Smart Agro | Інсектицид
-- [ ] **176.** `zalp-ke-alfa-smart-agro` — Залп, КЕ | Alfa Smart Agro | Інсектицид
-- [ ] **177.** `alfa-bentazon-rk-alfa-smart-agro` — Альфа-Бентазон, РК | Alfa Smart Agro | Інсектицид
-- [ ] **178.** `alfa-hetman-ke-alfa-smart-agro` — Альфа-Гетьман, КЕ | Alfa Smart Agro | Інсектицид
-- [ ] **179.** `nokaut-ekstra-ks-alfa-smart-agro` — Нокаут Екстра, КС | Alfa Smart Agro | Інсектицид
-- [ ] **180.** `alfa-bryhadyr-ke-alfa-smart-agro` — Альфа-Бригадир, КЕ | Alfa Smart Agro | Інсектицид
+- [x] **171.** `teip-ekstra-ks-alfa-smart-agro` — Тейп Екстра, КС | Alfa Smart Agro | Інсектицид
+- [x] **172.** `etalon-ks-alfa-smart-agro` — Еталон, КС | Alfa Smart Agro | Інсектицид
+- [x] **173.** `alfa-standart-ks-alfa-smart-agro` — Альфа-Стандарт, КС | Alfa Smart Agro | Інсектицид
+- [x] **174.** `alfa-etafon-rk-alfa-smart-agro` — Альфа-Етафон, РК | Alfa Smart Agro | Інсектицид
+- [x] **175.** `oskar-premium-se-alfa-smart-agro` — Оскар Преміум, СЕ | Alfa Smart Agro | Інсектицид
+- [x] **176.** `zalp-ke-alfa-smart-agro` — Залп, КЕ | Alfa Smart Agro | Інсектицид
+- [x] **177.** `alfa-bentazon-rk-alfa-smart-agro` — Альфа-Бентазон, РК | Alfa Smart Agro | Інсектицид
+- [x] **178.** `alfa-hetman-ke-alfa-smart-agro` — Альфа-Гетьман, КЕ | Alfa Smart Agro | Інсектицид
+- [x] **179.** `nokaut-ekstra-ks-alfa-smart-agro` — Нокаут Екстра, КС | Alfa Smart Agro | Інсектицид
+- [x] **180.** `alfa-bryhadyr-ke-alfa-smart-agro` — Альфа-Бригадир, КЕ | Alfa Smart Agro | Інсектицид
 
 ### Пачка 4.4 — позиції 181–190
 
-- [ ] **181.** `oskar-pauer-md-alfa-smart-agro` — Оскар Пауер, МД | Alfa Smart Agro | Інсектицид
-- [ ] **182.** `dzhyn-tb-alfa-smart-agro` — Джин, ТБ | Alfa Smart Agro | Інсектицид
-- [ ] **183.** `alfa-dykamba-rk-alfa-smart-agro` — Альфа-Дикамба, РК | Alfa Smart Agro | Інсектицид
-- [ ] **184.** `klondaik-tn-alfa-smart-agro` — Клондайк, ТН | Alfa Smart Agro | Інсектицид
-- [ ] **185.** `alfa-mid-zp-alfa-smart-agro` — Альфа-Мідь, ЗП | Alfa Smart Agro | Інсектицид
-- [ ] **186.** `napoval-ks-alfa-smart-agro` — Наповал, КС | Alfa Smart Agro | Інсектицид
-- [ ] **187.** `alvius-md-alfa-smart-agro` — Альвіус, МД | Alfa Smart Agro | Інсектицид
-- [ ] **188.** `razyt-ks-alfa-smart-agro` — Разит, КС | Alfa Smart Agro | Інсектицид
-- [ ] **189.** `komandor-ekstra-tn-alfa-smart-agro` — Командор Екстра, ТН | Alfa Smart Agro | Інсектицид
-- [ ] **190.** `alfa-piralid-rk-alfa-smart-agro` — Альфа-Піралід, РК | Alfa Smart Agro | Інсектицид
+- [x] **181.** `oskar-pauer-md-alfa-smart-agro` — Оскар Пауер, МД | Alfa Smart Agro | Інсектицид
+- [x] **182.** `dzhyn-tb-alfa-smart-agro` — Джин, ТБ | Alfa Smart Agro | Інсектицид
+- [x] **183.** `alfa-dykamba-rk-alfa-smart-agro` — Альфа-Дикамба, РК | Alfa Smart Agro | Інсектицид
+- [x] **184.** `klondaik-tn-alfa-smart-agro` — Клондайк, ТН | Alfa Smart Agro | Інсектицид
+- [x] **185.** `alfa-mid-zp-alfa-smart-agro` — Альфа-Мідь, ЗП | Alfa Smart Agro | Інсектицид
+- [x] **186.** `napoval-ks-alfa-smart-agro` — Наповал, КС | Alfa Smart Agro | Інсектицид
+- [x] **187.** `alvius-md-alfa-smart-agro` — Альвіус, МД | Alfa Smart Agro | Інсектицид
+- [x] **188.** `razyt-ks-alfa-smart-agro` — Разит, КС | Alfa Smart Agro | Інсектицид
+- [x] **189.** `komandor-ekstra-tn-alfa-smart-agro` — Командор Екстра, ТН | Alfa Smart Agro | Інсектицид
+- [x] **190.** `alfa-piralid-rk-alfa-smart-agro` — Альфа-Піралід, РК | Alfa Smart Agro | Інсектицид
 
 ### Пачка 4.5 — позиції 191–200
 
-- [ ] **191.** `komandor-hrand-tn-alfa-smart-agro` — Командор Гранд, ТН | Alfa Smart Agro | Інсектицид
-- [ ] **192.** `ambir-sk-alfa-smart-agro` — Амбір, СК | Alfa Smart Agro | Інсектицид
-- [ ] **193.** `lohus-ks-alfa-smart-agro` — Логус, КС | Alfa Smart Agro | Інсектицид
-- [ ] **194.** `ramzes-vh-alfa-smart-agro` — Рамзес, ВГ | Alfa Smart Agro | Інсектицид
-- [ ] **195.** `ventsedor-tn-alfa-smart-agro` — Венцедор, ТН | Alfa Smart Agro | Фунгіцид
-- [ ] **196.** `varos-ks-alfa-smart-agro` — Варос, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **197.** `alfa-tebuzol-ke-alfa-smart-agro` — Альфа-Тебузол, КЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **198.** `feniks-ks-alfa-smart-agro` — Фенікс, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **199.** `tezys-ks-alfa-smart-agro` — Тезис, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **200.** `kheller-ks-alfa-smart-agro` — Хеллер, КС | Alfa Smart Agro | Фунгіцид
+- [x] **191.** `komandor-hrand-tn-alfa-smart-agro` — Командор Гранд, ТН | Alfa Smart Agro | Інсектицид
+- [x] **192.** `ambir-sk-alfa-smart-agro` — Амбір, СК | Alfa Smart Agro | Інсектицид
+- [x] **193.** `lohus-ks-alfa-smart-agro` — Логус, КС | Alfa Smart Agro | Інсектицид
+- [x] **194.** `ramzes-vh-alfa-smart-agro` — Рамзес, ВГ | Alfa Smart Agro | Інсектицид
+- [x] **195.** `ventsedor-tn-alfa-smart-agro` — Венцедор, ТН | Alfa Smart Agro | Фунгіцид
+- [x] **196.** `varos-ks-alfa-smart-agro` — Варос, КС | Alfa Smart Agro | Фунгіцид
+- [x] **197.** `alfa-tebuzol-ke-alfa-smart-agro` — Альфа-Тебузол, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **198.** `feniks-ks-alfa-smart-agro` — Фенікс, КС | Alfa Smart Agro | Фунгіцид
+- [x] **199.** `tezys-ks-alfa-smart-agro` — Тезис, КС | Alfa Smart Agro | Фунгіцид
+- [x] **200.** `kheller-ks-alfa-smart-agro` — Хеллер, КС | Alfa Smart Agro | Фунгіцид
 
 ---
 
 ## Пачка 5 — SKU 201–250 (50 шт)
 
-**Статус пачки:** ⏳ 0 / 50
+**Статус пачки:** ✅ / 50
 
 ### Пачка 5.1 — позиції 201–210
 
-- [ ] **201.** `hreivis-ev-alfa-smart-agro` — Грейвіс, ЕВ | Alfa Smart Agro | Фунгіцид
-- [ ] **202.** `kvalifai-ke-alfa-smart-agro` — Кваліфай, КЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **203.** `feniks-duo-ks-alfa-smart-agro` — Фенікс Дуо, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **204.** `krosbi-se-alfa-smart-agro` — Кросбі, СЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **205.** `ardanis-sk-alfa-smart-agro` — Арданіс, СК | Alfa Smart Agro | Фунгіцид
-- [ ] **206.** `bolivar-forte-ks-alfa-smart-agro` — Болівар Форте, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **207.** `amikon-ev-alfa-smart-agro` — Амікон, ЕВ | Alfa Smart Agro | Фунгіцид
-- [ ] **208.** `artis-plyus-ks-alfa-smart-agro` — Артіс Плюс, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **209.** `relevant-ks-alfa-smart-agro` — Релевант, КС | Alfa Smart Agro | Фунгіцид
-- [ ] **210.** `barret-ke-alfa-smart-agro` — Баррет, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **201.** `hreivis-ev-alfa-smart-agro` — Грейвіс, ЕВ | Alfa Smart Agro | Фунгіцид
+- [x] **202.** `kvalifai-ke-alfa-smart-agro` — Кваліфай, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **203.** `feniks-duo-ks-alfa-smart-agro` — Фенікс Дуо, КС | Alfa Smart Agro | Фунгіцид
+- [x] **204.** `krosbi-se-alfa-smart-agro` — Кросбі, СЕ | Alfa Smart Agro | Фунгіцид
+- [x] **205.** `ardanis-sk-alfa-smart-agro` — Арданіс, СК | Alfa Smart Agro | Фунгіцид
+- [x] **206.** `bolivar-forte-ks-alfa-smart-agro` — Болівар Форте, КС | Alfa Smart Agro | Фунгіцид
+- [x] **207.** `amikon-ev-alfa-smart-agro` — Амікон, ЕВ | Alfa Smart Agro | Фунгіцид
+- [x] **208.** `artis-plyus-ks-alfa-smart-agro` — Артіс Плюс, КС | Alfa Smart Agro | Фунгіцид
+- [x] **209.** `relevant-ks-alfa-smart-agro` — Релевант, КС | Alfa Smart Agro | Фунгіцид
+- [x] **210.** `barret-ke-alfa-smart-agro` — Баррет, КЕ | Alfa Smart Agro | Фунгіцид
 
 ### Пачка 5.2 — позиції 211–220
 
-- [ ] **211.** `korvizar-m-ke-alfa-smart-agro` — Корвізар М, КЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **212.** `kantaris-tn-alfa-smart-agro` — Кантаріс, ТН | Alfa Smart Agro | Фунгіцид
-- [ ] **213.** `tekvil-ke-alfa-smart-agro` — Теквіл, КЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **214.** `stavarro-se-alfa-smart-agro` — Ставарро, СЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **215.** `dok-pro-zp-alfa-smart-agro` — ДОК Про, ЗП | Alfa Smart Agro | Фунгіцид
-- [ ] **216.** `adaraiv-ke-alfa-smart-agro` — Адарайв, КЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **217.** `elsvin-me-alfa-smart-agro` — Елсвін, МЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **218.** `avitsenna-se-alfa-smart-agro` — Авіценна, СЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **219.** `avido-tn-alfa-smart-agro` — Авідо, ТН | Alfa Smart Agro | Фунгіцид
-- [ ] **220.** `telamus-ks-alfa-smart-agro` — Теламус, КС | Alfa Smart Agro | Фунгіцид
+- [x] **211.** `korvizar-m-ke-alfa-smart-agro` — Корвізар М, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **212.** `kantaris-tn-alfa-smart-agro` — Кантаріс, ТН | Alfa Smart Agro | Фунгіцид
+- [x] **213.** `tekvil-ke-alfa-smart-agro` — Теквіл, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **214.** `stavarro-se-alfa-smart-agro` — Ставарро, СЕ | Alfa Smart Agro | Фунгіцид
+- [x] **215.** `dok-pro-zp-alfa-smart-agro` — ДОК Про, ЗП | Alfa Smart Agro | Фунгіцид
+- [x] **216.** `adaraiv-ke-alfa-smart-agro` — Адарайв, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **217.** `elsvin-me-alfa-smart-agro` — Елсвін, МЕ | Alfa Smart Agro | Фунгіцид
+- [x] **218.** `avitsenna-se-alfa-smart-agro` — Авіценна, СЕ | Alfa Smart Agro | Фунгіцид
+- [x] **219.** `avido-tn-alfa-smart-agro` — Авідо, ТН | Alfa Smart Agro | Фунгіцид
+- [x] **220.** `telamus-ks-alfa-smart-agro` — Теламус, КС | Alfa Smart Agro | Фунгіцид
 
 ### Пачка 5.3 — позиції 221–230
 
-- [ ] **221.** `avitsenna-plyus-tn-alfa-smart-agro` — Авіценна Плюс, ТН | Alfa Smart Agro | Фунгіцид
-- [ ] **222.** `anelas-ke-alfa-smart-agro` — Анелас, КЕ | Alfa Smart Agro | Фунгіцид
-- [ ] **223.** `kontroler-zp-alfa-smart-agro` — Контролер, ЗП | Alfa Smart Agro | Фунгіцид
-- [ ] **224.** `inferno-vh-ukravit` — Інферно,ВГ | Укравіт | Гербіцид
-- [ ] **225.** `aivori-plyus-ukravit` — Айворі плюс | Укравіт | Гербіцид
-- [ ] **226.** `desykant-rk-ukravit` — Десикант, РК | Укравіт | Гербіцид
-- [ ] **227.** `hlifovit-rk-ukravit` — Гліфовіт, РК | Укравіт | Гербіцид
-- [ ] **228.** `halant-rk-ukravit` — Галант,РК | Укравіт | Гербіцид
-- [ ] **229.** `kapkan-prynada-ukravit` — Капкан (принада) | Укравіт | Гербіцид
-- [ ] **230.** `zakhvat-oil-ev-ukravit` — Захват Ойл, ЕВ | Укравіт | Гербіцид
+- [x] **221.** `avitsenna-plyus-tn-alfa-smart-agro` — Авіценна Плюс, ТН | Alfa Smart Agro | Фунгіцид
+- [x] **222.** `anelas-ke-alfa-smart-agro` — Анелас, КЕ | Alfa Smart Agro | Фунгіцид
+- [x] **223.** `kontroler-zp-alfa-smart-agro` — Контролер, ЗП | Alfa Smart Agro | Фунгіцид
+- ❌ **224.** `inferno-vh-ukravit` — Інферно,ВГ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **225.** `aivori-plyus-ukravit` — Айворі плюс | Укравіт | Гербіцид
+- [x] **226.** `desykant-rk-ukravit` — Десикант, РК | Укравіт | Гербіцид
+- [x] **227.** `hlifovit-rk-ukravit` — Гліфовіт, РК | Укравіт | Гербіцид
+- [x] **228.** `halant-rk-ukravit` — Галант,РК | Укравіт | Гербіцид
+- ❌ **229.** `kapkan-prynada-ukravit` — Капкан (принада) | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- ❌ **230.** `zakhvat-oil-ev-ukravit` — Захват Ойл, ЕВ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
 
 ### Пачка 5.4 — позиції 231–240
 
-- [ ] **231.** `huliver-rk-berehynya-ukravit` — Гулівер РК (Берегиня) | Укравіт | Гербіцид
-- [ ] **232.** `hrou-amino-avanhard-dkm-ukravit` — Гроу Аміно Авангард ДКМ | Укравіт | Гербіцид
-- [ ] **233.** `fas-ukravit` — Фас | Укравіт | Гербіцид
-- [ ] **234.** `hlifovit-ekstra-rk-ukravit` — Гліфовіт Екстра, РК | Укравіт | Гербіцид
-- [ ] **235.** `antyhusyn-ks-ukravit` — Антигусинь, КС | Укравіт | Гербіцид
-- [ ] **236.** `desykant-maks-rk-ukravit` — Десикант Макс, РК | Укравіт | Гербіцид
-- [ ] **237.** `miladar-ks-ukravit` — Міладар, КС | Укравіт | Гербіцид
-- [ ] **238.** `ahent-se-ukravit` — Агент, СЕ | Укравіт | Гербіцид
-- [ ] **239.** `varyah-ke-ukravit` — Варяг, КЕ | Укравіт | Гербіцид
-- [ ] **240.** `ternat-ks-ukravit` — Тернат, КС | Укравіт | Гербіцид
+- [x] **231.** `huliver-rk-berehynya-ukravit` — Гулівер РК (Берегиня) | Укравіт | Гербіцид
+- ❌ **232.** `hrou-amino-avanhard-dkm-ukravit` — Гроу Аміно Авангард ДКМ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **233.** `fas-ukravit` — Фас | Укравіт | Гербіцид
+- ❌ **234.** `hlifovit-ekstra-rk-ukravit` — Гліфовіт Екстра, РК | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **235.** `antyhusyn-ks-ukravit` — Антигусинь, КС | Укравіт | Гербіцид
+- [x] **236.** `desykant-maks-rk-ukravit` — Десикант Макс, РК | Укравіт | Гербіцид
+- [x] **237.** `miladar-ks-ukravit` — Міладар, КС | Укравіт | Гербіцид
+- [x] **238.** `ahent-se-ukravit` — Агент, СЕ | Укравіт | Гербіцид
+- [x] **239.** `varyah-ke-ukravit` — Варяг, КЕ | Укравіт | Гербіцид
+- [x] **240.** `ternat-ks-ukravit` — Тернат, КС | Укравіт | Гербіцид
 
 ### Пачка 5.5 — позиції 241–250
 
-- [ ] **241.** `tizer-ke-ukravit` — Тізер, КЕ | Укравіт | Гербіцид
-- [ ] **242.** `raps-klei-ke-ukravit` — Рапс-клей, КЕ | Укравіт | Гербіцид
-- [ ] **243.** `khortus-ke-ukravit` — Хортус, КЕ | Укравіт | Гербіцид
-- [ ] **244.** `ultrasyl-tn-ukravit` — Ультрасил, ТН | Укравіт | Гербіцид
-- [ ] **245.** `unikal-ks-ukravit` — Унікаль, КС | Укравіт | Гербіцид
-- [ ] **246.** `brilon-rk-ukravit` — Брілон,РК | Укравіт | Гербіцид
-- [ ] **247.** `varyah-trio-se-ukravit` — Варяг Тріо, СЕ | Укравіт | Гербіцид
-- [ ] **248.** `dezaral-ks-ukravit` — Дезарал, КС | Укравіт | Гербіцид
-- [ ] **249.** `pikador-rk-ukravit` — Пікадор, РК | Укравіт | Гербіцид
-- [ ] **250.** `supervin-ks-ukravit` — Супервін, КС | Укравіт | Гербіцид
+- [x] **241.** `tizer-ke-ukravit` — Тізер, КЕ | Укравіт | Гербіцид
+- [x] **242.** `raps-klei-ke-ukravit` — Рапс-клей, КЕ | Укравіт | Гербіцид
+- [x] **243.** `khortus-ke-ukravit` — Хортус, КЕ | Укравіт | Гербіцид
+- [x] **244.** `ultrasyl-tn-ukravit` — Ультрасил, ТН | Укравіт | Гербіцид
+- [x] **245.** `unikal-ks-ukravit` — Унікаль, КС | Укравіт | Гербіцид
+- [x] **246.** `brilon-rk-ukravit` — Брілон,РК | Укравіт | Гербіцид
+- [x] **247.** `varyah-trio-se-ukravit` — Варяг Тріо, СЕ | Укравіт | Гербіцид
+- [x] **248.** `dezaral-ks-ukravit` — Дезарал, КС | Укравіт | Гербіцид
+- [x] **249.** `pikador-rk-ukravit` — Пікадор, РК | Укравіт | Гербіцид
+- [x] **250.** `supervin-ks-ukravit` — Супервін, КС | Укравіт | Гербіцид
 
 ---
 
 ## Пачка 6 — SKU 251–300 (50 шт)
 
-**Статус пачки:** ⏳ 0 / 50
+**Статус пачки:** ✅ / 50
 
 ### Пачка 6.1 — позиції 251–260
 
-- [ ] **251.** `ahrostar-rk-ukravit` — Агростар, РК | Укравіт | Гербіцид
-- [ ] **252.** `desykant-eir-rk-ukravit` — Десикант Ейр, РК | Укравіт | Гербіцид
-- [ ] **253.** `kvin-star-maks-ke-ukravit` — Квін Стар Макс, КЕ | Укравіт | Гербіцид
-- [ ] **254.** `ats-lyuks-zp-ukravit` — АЦ Люкс, ЗП | Укравіт | Гербіцид
-- [ ] **255.** `dymevit-ke-ukravit` — Димевіт, КЕ | Укравіт | Гербіцид
-- [ ] **256.** `zakhysnyk-ks-ukravit` — Захисник, КС | Укравіт | Гербіцид
-- [ ] **257.** `imi-vit-rk-ukravit` — Імі-Віт,РК | Укравіт | Гербіцид
-- [ ] **258.** `khlorpirivit-ahro-ke-ukravit` — Хлорпірівіт-агро, КЕ | Укравіт | Гербіцид
-- [ ] **259.** `ats-lyuks-likvid-zp-ukravit` — АЦ Люкс Ліквід, ЗП | Укравіт | Гербіцид
-- [ ] **260.** `henezys-rk-ukravit` — Генезис, РК | Укравіт | Гербіцид
+- [x] **251.** `ahrostar-rk-ukravit` — Агростар, РК | Укравіт | Гербіцид
+- [x] **252.** `desykant-eir-rk-ukravit` — Десикант Ейр, РК | Укравіт | Гербіцид
+- [x] **253.** `kvin-star-maks-ke-ukravit` — Квін Стар Макс, КЕ | Укравіт | Гербіцид
+- [x] **254.** `ats-lyuks-zp-ukravit` — АЦ Люкс, ЗП | Укравіт | Гербіцид
+- [x] **255.** `dymevit-ke-ukravit` — Димевіт, КЕ | Укравіт | Гербіцид
+- [x] **256.** `zakhysnyk-ks-ukravit` — Захисник, КС | Укравіт | Гербіцид
+- [x] **257.** `imi-vit-rk-ukravit` — Імі-Віт,РК | Укравіт | Гербіцид
+- [x] **258.** `khlorpirivit-ahro-ke-ukravit` — Хлорпірівіт-агро, КЕ | Укравіт | Гербіцид
+- [x] **259.** `ats-lyuks-likvid-zp-ukravit` — АЦ Люкс Ліквід, ЗП | Укравіт | Гербіцид
+- [x] **260.** `henezys-rk-ukravit` — Генезис, РК | Укравіт | Гербіцид
 
 ### Пачка 6.2 — позиції 261–270
 
-- [ ] **261.** `panda-ke-ukravit` — Панда, КЕ | Укравіт | Гербіцид
-- [ ] **262.** `fenomen-vh-ukravit` — Феномен, ВГ | Укравіт | Гербіцид
-- [ ] **263.** `dezaral-ekstra-ks-ukravit` — Дезарал Екстра, КС | Укравіт | Гербіцид
-- [ ] **264.** `flahman-rk-ukravit` — Флагман, РК | Укравіт | Гербіцид
-- [ ] **265.** `datonit-hold-ke-ukravit` — Датоніт Голд, КЕ | Укравіт | Гербіцид
-- [ ] **266.** `matador-tn-ukravit` — Матадор, ТН | Укравіт | Гербіцид
-- [ ] **267.** `troiset-vh-triafit-ukravit` — Тройсет, ВГ (Тріафіт) | Укравіт | Гербіцид
-- [ ] **268.** `rekord-tn-ukravit` — Рекорд, ТН | Укравіт | Гербіцид
-- [ ] **269.** `violis-ks-ukravit` — Віоліс, КС | Укравіт | Гербіцид
-- [ ] **270.** `top-efekt-ks-ukravit` — Топ Ефект, КС | Укравіт | Гербіцид
+- [x] **261.** `panda-ke-ukravit` — Панда, КЕ | Укравіт | Гербіцид
+- [x] **262.** `fenomen-vh-ukravit` — Феномен, ВГ | Укравіт | Гербіцид
+- [x] **263.** `dezaral-ekstra-ks-ukravit` — Дезарал Екстра, КС | Укравіт | Гербіцид
+- [x] **264.** `flahman-rk-ukravit` — Флагман, РК | Укравіт | Гербіцид
+- [x] **265.** `datonit-hold-ke-ukravit` — Датоніт Голд, КЕ | Укравіт | Гербіцид
+- [x] **266.** `matador-tn-ukravit` — Матадор, ТН | Укравіт | Гербіцид
+- [x] **267.** `troiset-vh-triafit-ukravit` — Тройсет, ВГ (Тріафіт) | Укравіт | Гербіцид
+- [x] **268.** `rekord-tn-ukravit` — Рекорд, ТН | Укравіт | Гербіцид
+- [x] **269.** `violis-ks-ukravit` — Віоліс, КС | Укравіт | Гербіцид
+- [x] **270.** `top-efekt-ks-ukravit` — Топ Ефект, КС | Укравіт | Гербіцид
 
 ### Пачка 6.3 — позиції 271–280
 
-- [ ] **271.** `tsilytel-zp-ukravit` — Цілитель, ЗП | Укравіт | Гербіцид
-- [ ] **272.** `kelt-ke-ukravit` — Кельт, КЕ | Укравіт | Гербіцид
-- [ ] **273.** `manvit-zp-ukravit` — Манвіт, ЗП | Укравіт | Гербіцид
-- [ ] **274.** `restler-trio-ks-ukravit` — Рестлер Тріо, КС | Укравіт | Гербіцид
-- [ ] **275.** `dyvo-n-rk-ukravit` — Диво Н, РК | Укравіт | Гербіцид
-- [ ] **276.** `supresor-pinohasnyk-ukravit` — Супресор, піногасник | Укравіт | Гербіцид
-- [ ] **277.** `inhres-adyuvant-ukravit` — Інгрес, адьювант | Укравіт | Гербіцид
-- [ ] **278.** `unikal-maks-ks-ukravit` — Унікаль МАКС, КС | Укравіт | Гербіцид
-- [ ] **279.** `komandyr-ke-ukravit` — Командир, КЕ | Укравіт | Гербіцид
-- [ ] **280.** `selfos-tb-ukravit` — Селфос, ТБ | Укравіт | Гербіцид
+- [x] **271.** `tsilytel-zp-ukravit` — Цілитель, ЗП | Укравіт | Гербіцид
+- [x] **272.** `kelt-ke-ukravit` — Кельт, КЕ | Укравіт | Гербіцид
+- [x] **273.** `manvit-zp-ukravit` — Манвіт, ЗП | Укравіт | Гербіцид
+- [x] **274.** `restler-trio-ks-ukravit` — Рестлер Тріо, КС | Укравіт | Гербіцид
+- [x] **275.** `dyvo-n-rk-ukravit` — Диво Н, РК | Укравіт | Гербіцид
+- [x] **276.** `supresor-pinohasnyk-ukravit` — Супресор, піногасник | Укравіт | Гербіцид
+- [x] **277.** `inhres-adyuvant-ukravit` — Інгрес, адьювант | Укравіт | Гербіцид
+- [x] **278.** `unikal-maks-ks-ukravit` — Унікаль МАКС, КС | Укравіт | Гербіцид
+- [x] **279.** `komandyr-ke-ukravit` — Командир, КЕ | Укравіт | Гербіцид
+- ❌ **280.** `selfos-tb-ukravit` — Селфос, ТБ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
 
 ### Пачка 6.4 — позиції 281–290
 
-- [ ] **281.** `fenomen-praim-vh-ukravit` — Феномен Прайм, ВГ | Укравіт | Гербіцид
-- [ ] **282.** `antykolorad-maks-ks-ukravit` — Антиколорад МАКС, КС | Укравіт | Гербіцид
-- [ ] **283.** `selenit-maks-ke-ukravit` — Селеніт Макс, КЕ | Укравіт | Гербіцид
-- [ ] **284.** `vitalon-ekspert-ke-ukravit` — Віталон Експерт, КЕ | Укравіт | Гербіцид
-- [ ] **285.** `miladar-duo-ks-ukravit` — Міладар Дуо, КС | Укравіт | Гербіцид
-- [ ] **286.** `antykhrushch-ks-ukravit` — Антихрущ,КС | Укравіт | Гербіцид
-- [ ] **287.** `as-selektyv-tn-ukravit` — АС-Селектив, ТН | Укравіт | Гербіцид
-- [ ] **288.** `venon-ks-ukravit` — Венон, КС | Укравіт | Гербіцид
-- [ ] **289.** `hart-zp-ukravit` — Гарт, ЗП | Укравіт | Гербіцид
-- [ ] **290.** `makstar-rk-ukravit` — Макстар, РК | Укравіт | Гербіцид
+- ❌ **281.** `fenomen-praim-vh-ukravit` — Феномен Прайм, ВГ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **282.** `antykolorad-maks-ks-ukravit` — Антиколорад МАКС, КС | Укравіт | Гербіцид
+- [x] **283.** `selenit-maks-ke-ukravit` — Селеніт Макс, КЕ | Укравіт | Гербіцид
+- [x] **284.** `vitalon-ekspert-ke-ukravit` — Віталон Експерт, КЕ | Укравіт | Гербіцид
+- [x] **285.** `miladar-duo-ks-ukravit` — Міладар Дуо, КС | Укравіт | Гербіцид
+- [x] **286.** `antykhrushch-ks-ukravit` — Антихрущ,КС | Укравіт | Гербіцид
+- ❌ **287.** `as-selektyv-tn-ukravit` — АС-Селектив, ТН | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **288.** `venon-ks-ukravit` — Венон, КС | Укравіт | Гербіцид
+- [x] **289.** `hart-zp-ukravit` — Гарт, ЗП | Укравіт | Гербіцид
+- [x] **290.** `makstar-rk-ukravit` — Макстар, РК | Укравіт | Гербіцид
 
 ### Пачка 6.5 — позиції 291–300
 
-- [ ] **291.** `ti-reks-ke-ukravit` — Ті Рекс, КЕ | Укравіт | Гербіцид
-- [ ] **292.** `ultrasyl-duo-tn-ukravit` — Ультрасил Дуо, ТН | Укравіт | Гербіцид
-- [ ] **293.** `khimars-ato-zhuk-ukravit` — ХімАрс (АТО ЖУК) | Укравіт | Гербіцид
-- [ ] **294.** `fundazym-zp-ukravit` — Фундазим, ЗП | Укравіт | Гербіцид
-- [ ] **295.** `mastak-rk-ukravit` — Мастак, РК | Укравіт | Гербіцид
-- [ ] **296.** `sinan-ks-ukravit` — Сінан, КС | Укравіт | Гербіцид
-- [ ] **297.** `barion-en-ukravit` — Баріон,ЕН | Укравіт | Гербіцид
-- [ ] **298.** `brodivit-r-ukravit` — Бродівіт, Р | Укравіт | Гербіцид
-- [ ] **299.** `kailis-ks-ukravit` — Кайліс, КС | Укравіт | Гербіцид
-- [ ] **300.** `lyuks-maksi-ks-ukravit` — Люкс Максі, КС | Укравіт | Гербіцид
+- [x] **291.** `ti-reks-ke-ukravit` — Ті Рекс, КЕ | Укравіт | Гербіцид
+- [x] **292.** `ultrasyl-duo-tn-ukravit` — Ультрасил Дуо, ТН | Укравіт | Гербіцид
+- [x] **293.** `khimars-ato-zhuk-ukravit` — ХімАрс (АТО ЖУК) | Укравіт | Гербіцид
+- [x] **294.** `fundazym-zp-ukravit` — Фундазим, ЗП | Укравіт | Гербіцид
+- [x] **295.** `mastak-rk-ukravit` — Мастак, РК | Укравіт | Гербіцид
+- [x] **296.** `sinan-ks-ukravit` — Сінан, КС | Укравіт | Гербіцид
+- [x] **297.** `barion-en-ukravit` — Баріон,ЕН | Укравіт | Гербіцид
+- [x] **298.** `brodivit-r-ukravit` — Бродівіт, Р | Укравіт | Гербіцид
+- [x] **299.** `kailis-ks-ukravit` — Кайліс, КС | Укравіт | Гербіцид
+- [x] **300.** `lyuks-maksi-ks-ukravit` — Люкс Максі, КС | Укравіт | Гербіцид
 
 ---
 
 ## Пачка 7 — SKU 301–342 (42 шт)
 
-**Статус пачки:** ⏳ 0 / 42
+**Статус пачки:** ✅ / 42
 
 ### Пачка 7.1 — позиції 301–310
 
-- [ ] **301.** `stels-ke-ukravit` — Стелс, КЕ | Укравіт | Гербіцид
-- [ ] **302.** `zakhysnyk-ekstra-ks-ukravit` — Захисник Екстра, КС | Укравіт | Гербіцид
-- [ ] **303.** `laivit-tn-ukravit` — Лайвіт, ТН | Укравіт | Гербіцид
-- [ ] **304.** `antysapa-likvid-vh-ukravit` — Антисапа Ліквід, ВГ | Укравіт | Гербіцид
-- [ ] **305.** `zakhyst-zp-ukravit` — Захист, ЗП | Укравіт | Гербіцид
-- [ ] **306.** `stelavit-rk-ukravit` — Стелавіт, РК | Укравіт | Гербіцид
-- [ ] **307.** `ekzor-tn-ukravit` — Екзор,ТН | Укравіт | Гербіцид
-- [ ] **308.** `lyuvitor-ks-ukravit` — Лювітор, КС | Укравіт | Гербіцид
-- [ ] **309.** `naraps-rk-ukravit` — Нарапс, РК | Укравіт | Гербіцид
-- [ ] **310.** `akula-ke-ukravit` — Акула, КЕ | Укравіт | Гербіцид
+- [x] **301.** `stels-ke-ukravit` — Стелс, КЕ | Укравіт | Гербіцид
+- [x] **302.** `zakhysnyk-ekstra-ks-ukravit` — Захисник Екстра, КС | Укравіт | Гербіцид
+- [x] **303.** `laivit-tn-ukravit` — Лайвіт, ТН | Укравіт | Гербіцид
+- ❌ **304.** `antysapa-likvid-vh-ukravit` — Антисапа Ліквід, ВГ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **305.** `zakhyst-zp-ukravit` — Захист, ЗП | Укравіт | Гербіцид
+- [x] **306.** `stelavit-rk-ukravit` — Стелавіт, РК | Укравіт | Гербіцид
+- [x] **307.** `ekzor-tn-ukravit` — Екзор,ТН | Укравіт | Гербіцид
+- [x] **308.** `lyuvitor-ks-ukravit` — Лювітор, КС | Укравіт | Гербіцид
+- [x] **309.** `naraps-rk-ukravit` — Нарапс, РК | Укравіт | Гербіцид
+- [x] **310.** `akula-ke-ukravit` — Акула, КЕ | Укравіт | Гербіцид
 
 ### Пачка 7.2 — позиції 311–320
 
-- [ ] **311.** `kariolis-tn-ukravit` — Каріоліс,ТН | Укравіт | Гербіцид
-- [ ] **312.** `antrial-ke-new2026-ukravit` — Антріал, КЕ NEW2026 | Укравіт | Гербіцид
-- [ ] **313.** `ashard-rk-novynka-ukravit` — Асгард, РК Новинка | Укравіт | Гербіцид
-- [ ] **314.** `eskalip-ks-ukravit` — Ескаліп, КС | Укравіт | Гербіцид
-- [ ] **315.** `kapital-ks-ukravit` — Капітал, КС | Укравіт | Гербіцид
-- [ ] **316.** `antyklishch-maks-ke-ukravit` — Антикліщ МАКС, КЕ | Укравіт | Гербіцид
-- [ ] **317.** `antysapa-vh-ukravit` — Антисапа, ВГ | Укравіт | Гербіцид
-- [ ] **318.** `inspir-hold-ke-ukravit` — Інспір Голд, КЕ | Укравіт | Гербіцид
-- [ ] **319.** `molvit-ke-ukravit` — Молвіт, КЕ | Укравіт | Гербіцид
-- [ ] **320.** `delavit-ukravit` — Делавіт | Укравіт | Гербіцид
+- [x] **311.** `kariolis-tn-ukravit` — Каріоліс,ТН | Укравіт | Гербіцид
+- ⚠ **312.** `antrial-ke-new2026-ukravit` — Антріал, КЕ NEW2026 | Укравіт | Гербіцид *(NOT FOUND — 2026-новий або не існує у виробника)*
+- [x] **313.** `ashard-rk-novynka-ukravit` — Асгард, РК Новинка | Укравіт | Гербіцид
+- [x] **314.** `eskalip-ks-ukravit` — Ескаліп, КС | Укравіт | Гербіцид
+- [x] **315.** `kapital-ks-ukravit` — Капітал, КС | Укравіт | Гербіцид
+- [x] **316.** `antyklishch-maks-ke-ukravit` — Антикліщ МАКС, КЕ | Укравіт | Гербіцид
+- ❌ **317.** `antysapa-vh-ukravit` — Антисапа, ВГ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **318.** `inspir-hold-ke-ukravit` — Інспір Голд, КЕ | Укравіт | Гербіцид
+- [x] **319.** `molvit-ke-ukravit` — Молвіт, КЕ | Укравіт | Гербіцид
+- [x] **320.** `delavit-ukravit` — Делавіт | Укравіт | Гербіцид
 
 ### Пачка 7.3 — позиції 321–330
 
-- [ ] **321.** `ayaks-ks-ukravit` — Аякс, КС | Укравіт | Гербіцид
-- [ ] **322.** `hold-star-vh-ukravit` — Голд Стар, ВГ | Укравіт | Гербіцид
-- [ ] **323.** `holdiks-ks-ukravit` — Голдікс, КС | Укравіт | Гербіцид
-- [ ] **324.** `enerhodar-ks-ukravit` — Енергодар, КС | Укравіт | Гербіцид
-- [ ] **325.** `landin-tn-ukravit` — Ландін, ТН | Укравіт | Гербіцид
-- [ ] **326.** `likur-ke-new2026-ukravit` — Лікур, КЕ NEW2026 | Укравіт | Гербіцид
-- [ ] **327.** `paskal-tn-ukravit` — Паскаль, ТН | Укравіт | Гербіцид
-- [ ] **328.** `dzhek-pot-ke-ukravit` — Джек Пот, КЕ | Укравіт | Гербіцид
-- [ ] **329.** `samshyt-ks-ukravit` — Самшит, КС | Укравіт | Гербіцид
-- [ ] **330.** `strazh-ks-ukravit` — Страж, КС | Укравіт | Гербіцид
+- [x] **321.** `ayaks-ks-ukravit` — Аякс, КС | Укравіт | Гербіцид
+- [x] **322.** `hold-star-vh-ukravit` — Голд Стар, ВГ | Укравіт | Гербіцид
+- [x] **323.** `holdiks-ks-ukravit` — Голдікс, КС | Укравіт | Гербіцид
+- ❌ **324.** `enerhodar-ks-ukravit` — Енергодар, КС | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **325.** `landin-tn-ukravit` — Ландін, ТН | Укравіт | Гербіцид
+- ⚠ **326.** `likur-ke-new2026-ukravit` — Лікур, КЕ NEW2026 | Укравіт | Гербіцид *(NOT FOUND — 2026-новий або не існує у виробника)*
+- ⚠ **327.** `paskal-tn-ukravit` — Паскаль, ТН | Укравіт | Гербіцид *(NOT FOUND — 2026-новий або не існує у виробника)*
+- [x] **328.** `dzhek-pot-ke-ukravit` — Джек Пот, КЕ | Укравіт | Гербіцид
+- [x] **329.** `samshyt-ks-ukravit` — Самшит, КС | Укравіт | Гербіцид
+- [x] **330.** `strazh-ks-ukravit` — Страж, КС | Укравіт | Гербіцид
 
 ### Пачка 7.4 — позиції 331–340
 
-- [ ] **331.** `turil-vh-ukravit` — Туріл, ВГ | Укравіт | Гербіцид
-- [ ] **332.** `hold-star-ekstra-vh-ukravit` — Голд Стар Екстра, ВГ | Укравіт | Гербіцид
-- [ ] **333.** `rialt-ks-ukravit` — Ріальт, КС | Укравіт | Гербіцид
-- [ ] **334.** `veiron-ks-ukravit` — Вейрон КС | Укравіт | Гербіцид
-- [ ] **335.** `vinat-ks-new-2026-ukravit` — Вінат, КС NEW 2026 | Укравіт | Гербіцид
-- [ ] **336.** `formula-vh-ukravit` — Формула, ВГ | Укравіт | Гербіцид
-- [ ] **337.** `tivitus-vh-ukravit` — Тівітус, ВГ | Укравіт | Гербіцид
-- [ ] **338.** `laplas-vh-novynka-ukravit` — Лаплас, ВГ Новинка | Укравіт | Гербіцид
-- [ ] **339.** `leksion-vh-new2026-ukravit` — Лексіон, ВГ NEW2026 | Укравіт | Гербіцид
-- [ ] **340.** `belvin-ks-ukravit` — Бельвін, КС | Укравіт | Гербіцид
+- [x] **331.** `turil-vh-ukravit` — Туріл, ВГ | Укравіт | Гербіцид
+- ❌ **332.** `hold-star-ekstra-vh-ukravit` — Голд Стар Екстра, ВГ | Укравіт | Гербіцид *(відкинуто Сергієм 2026-05-06)*
+- [x] **333.** `rialt-ks-ukravit` — Ріальт, КС | Укравіт | Гербіцид
+- [x] **334.** `veiron-ks-ukravit` — Вейрон КС | Укравіт | Гербіцид
+- ⚠ **335.** `vinat-ks-new-2026-ukravit` — Вінат, КС NEW 2026 | Укравіт | Гербіцид *(NOT FOUND — 2026-новий або не існує у виробника)*
+- [x] **336.** `formula-vh-ukravit` — Формула, ВГ | Укравіт | Гербіцид
+- [x] **337.** `tivitus-vh-ukravit` — Тівітус, ВГ | Укравіт | Гербіцид
+- [x] **338.** `laplas-vh-novynka-ukravit` — Лаплас, ВГ Новинка | Укравіт | Гербіцид
+- ⚠ **339.** `leksion-vh-new2026-ukravit` — Лексіон, ВГ NEW2026 | Укравіт | Гербіцид *(NOT FOUND — 2026-новий або не існує у виробника)*
+- [x] **340.** `belvin-ks-ukravit` — Бельвін, КС | Укравіт | Гербіцид
 
 ### Пачка 7.5 — позиції 341–342
 
-- [ ] **341.** `tendor-vh-new-2026-ukravit` — Тендор, ВГ NEW 2026 | Укравіт | Гербіцид
-- [ ] **342.** `klainer-vh-ukravit` — Клайнер, ВГ | Укравіт | Гербіцид
+- ⚠ **341.** `tendor-vh-new-2026-ukravit` — Тендор, ВГ NEW 2026 | Укравіт | Гербіцид *(NOT FOUND — 2026-новий або не існує у виробника)*
+- [x] **342.** `klainer-vh-ukravit` — Клайнер, ВГ | Укравіт | Гербіцид
 
 ---
 

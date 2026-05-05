@@ -1,32 +1,58 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, Suspense } from "react";
 import Link from "next/link";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Beaker } from "lucide-react";
 import type { Culture, Product, TankMix } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { ProductCardFull } from "./ProductCardFull";
 import { RequestModal } from "./RequestModal";
 
-export function CulturePage({
-  culture,
-  products,
-  tankMixes,
-  lang
-}: {
+type CulturePageProps = {
   culture: Culture;
   products: Product[];
   tankMixes: TankMix[];
   lang: Lang;
-}) {
+};
+
+export function CulturePage(props: CulturePageProps) {
+  return (
+    <Suspense fallback={null}>
+      <CulturePageInner {...props} />
+    </Suspense>
+  );
+}
+
+function CulturePageInner({ culture, products, tankMixes, lang }: CulturePageProps) {
   const t = dict[lang];
   const base = lang === "uk" ? "" : "/ru";
 
-  const [tech, setTech] = useState<string>(culture.technologies?.[0]?.slug || "all");
-  const [stage, setStage] = useState<string>(culture.stages[0]?.slug || "all");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const defaultTech = culture.technologies?.[0]?.slug || "all";
+  const defaultStage = culture.stages[0]?.slug || "all";
+  const tech = searchParams.get("tech") || defaultTech;
+  const stage = searchParams.get("stage") || defaultStage;
+  const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
+
+  function updateParams(updates: Record<string, string | number | null>) {
+    const sp = new URLSearchParams(searchParams.toString());
+    for (const [k, v] of Object.entries(updates)) {
+      if (v === null || v === "" || v === undefined) sp.delete(k);
+      else sp.set(k, String(v));
+    }
+    const qs = sp.toString();
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+  }
+  const setTech = (v: string) => updateParams({ tech: v === defaultTech ? null : v, page: null });
+  const setStage = (v: string) => updateParams({ stage: v === defaultStage ? null : v, page: null });
+  const setPage = (v: number) => updateParams({ page: v <= 1 ? null : v });
+
   const [requestOpen, setRequestOpen] = useState(false);
   const [requestProduct, setRequestProduct] = useState<string>("");
-  const [page, setPage] = useState(1);
   const PAGE_SIZE = 12;
 
   const filtered = useMemo(() => {
@@ -38,8 +64,6 @@ export function CulturePage({
       return true;
     });
   }, [products, stage, tech, culture.technologies]);
-
-  useEffect(() => { setPage(1); }, [stage, tech]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);

@@ -91,20 +91,32 @@ wrangler deploy
 
 Коли купиш домен — у Cloudflare Pages → Custom domains → додати. NS вже мають бути на Cloudflare (як для mltd.com.ua).
 
-## Що залишилось зробити
+## Roadmap
 
-- [ ] Сторінки культур (`/kultury/[slug]/`)
-- [ ] Сторінки товарів (`/produkt/[slug]/`)
-- [ ] Сторінки груп ЗЗР (`/grupy/[slug]/`)
-- [ ] Сторінки діючих речовин (`/diiucha-rechovyna/[slug]/`)
-- [ ] Сторінки бакових сумішей (`/bakovi-sumishi/[slug]/`)
-- [ ] Повна форма заявки з картки товару (модалка)
-- [ ] Калькулятор агронома
-- [ ] База знань / блог
-- [ ] Заповнити каталог усіма позиціями з прайсу
-- [ ] Знайти і додати фото товарів та культур
-- [ ] Сторінки документів (оферта, конфіденційність)
-- [ ] sitemap.xml + robots.txt
+### ✅ Зроблено
+
+- [x] Сторінки культур (`/kultury/[slug]/`) — 10 культур, фільтри по технології + етапу обробки
+- [x] Сторінки товарів (`/produkt/[slug]/`) — 385 товарів з фото, ціною (ПДВ + готівка), діючою речовиною, нормами, культурами, кошиком
+- [x] Сторінки груп ЗЗР (`/grupy/[slug]/`) — 8 груп: гербіциди, фунгіциди, інсектициди, протруйники, десиканти, регулятори росту, адʼюванти, родентициди
+- [x] Сторінки діючих речовин (`/diiucha-rechovyna/[slug]/`) — 83 AI з ≥2 SKU, генеруються автоматично з products.ts
+- [x] Сторінки бакових сумішей (`/bakovi-sumishi/[slug]/`)
+- [x] Повна форма заявки з картки товару (модалка `RequestModal`) + швидкий callback (`CallbackModal`)
+- [x] Калькулятор агронома (`AgronomistCalculator`)
+- [x] База знань / блог (`/baza-znan/`)
+- [x] Каталог заповнено з прайсу `Прайс_05.04.26.xlsx` (385 SKU, з них 12 відкинуто Сергієм за принципом «не наша аудиторія» — список у `_PRICE_IMPORT_RULES.md`)
+- [x] Фото товарів — 288 SKU (~75% покриття; original-tier без фото за DMCA-ризиком)
+- [x] Сторінки документів — оферта (`/oferta/`), конфіденційність (`/konfidentsiynist/`), сертифікати (`/sertyfikaty/`)
+- [x] sitemap.xml + robots.txt
+- [x] Persist фільтрів через URL search params — refresh / browser back повертають той самий стан
+- [x] GA4 + Google Ads conversion tracking (gtag-теги `G-79JCPMNE9D` + `AW-18140720729`, конверсія `generate_lead`, події phone/telegram/viber/whatsapp_click)
+- [x] Worker форми (`agrosnab-pivden-form.sdoshenko.workers.dev`) шле заявки в TG з джерелом сайту в повідомленні
+
+### ⏳ TODO
+
+- [ ] Lightbox для фото на сторінці товара (тимчасово прибрано в commit `46d82d5`)
+- [ ] Lead form extension в Google Ads (потрібен GA4 з налаштованими ключовими подіями)
+- [ ] Google Merchant Center — feed для shopping ads (готовий каталог + 800×800 фото)
+- [ ] Категорія «Біопрепарати» (зараз ризобактерії в `protruyniky` як суміжна)
 
 ## Telegram
 
