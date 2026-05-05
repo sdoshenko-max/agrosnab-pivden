@@ -12,7 +12,7 @@ export const tankMixes: TankMix[] = [
       { name: "Міланіт", manufacturer: "Нопосон", role: "Фунгіцид", ratePerHa: 0.5, packSize: 5, unit: "л", priceVat: 14.61, priceCash: 13.39 },
       { slug: "khlorpirivit-ahro-ke-ukravit", name: "Хлорпірівіт-агро", manufacturer: "Укравіт", role: "Інсектицид", ratePerHa: 1.0, packSize: 5, unit: "л", priceVat: 11.39, priceCash: 10.44 },
       { name: "Скудеро Мульті РК", manufacturer: "Adama", role: "Антистресант", ratePerHa: 1.5, packSize: 10, unit: "л", priceVat: 6.11, priceCash: 5.60 },
-      { slug: "kait-rk-pest-ua", name: "Кайт РК", manufacturer: "PEST.UA", role: "Прилипач", ratePerHa: 0.15, packSize: 5, unit: "л", priceVat: 2.48, priceCash: 2.28 }
+      { name: "Кайт РК", manufacturer: "PEST.UA", role: "Прилипач", ratePerHa: 0.15, packSize: 5, unit: "л", priceVat: 2.48, priceCash: 2.28 }
     ]
   },
   {
