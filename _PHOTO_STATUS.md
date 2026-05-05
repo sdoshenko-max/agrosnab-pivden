@@ -2,7 +2,7 @@
 
 > Робота по додаванню фото для кожного SKU каталогу. Ціль 1 — візуальний апгрейд сторінок товарів і magnets головної. Ціль 2 — підготовка каталогу до Google Merchant Center.
 
-**Загалом дженериків (tier != original):** 342 SKU
+**Загалом дженериків (tier != original):** 339 SKU (було 342, -3 видалено: evadro, elister, tanart — не існують у виробника)
 **Стратегія:** 7 пачок по 50 SKU. У кожній пачці 5 десяток.
 
 ## Вимоги до фото (обовʼязкові)
@@ -32,7 +32,7 @@
 - Фото центроване в білому квадратному блоці зліва (вже працює — `ProductPage.tsx`).
 - Має бути **клікабельне** (lightbox-перегляд оригіналу). ⏳ TODO — окрема задача.
 
-**Статус виконання загальний:** 🟢 99 / 342 (29%) — Пачки 1.1–1.5 і 2.1–2.5 закриті 2026-05-05
+**Статус виконання загальний:** 🟢 146 / 339 (43%) — Пачки 1.1–1.5, 2.1–2.5, 3.1–3.5 закриті 2026-05-05
 
 ---
 
@@ -178,74 +178,74 @@
 
 ---
 
-## Пачка 3 — SKU 101–150 (50 шт)
+## Пачка 3 — SKU 101–150 (50 шт) ✅ 47/50 (3 видалено)
 
-**Статус пачки:** ⏳ 0 / 50
+**Статус пачки:** 🟢 47 / 47 — закрита 2026-05-05 (3 SKU видалено з каталогу)
 
-### Пачка 3.1 — позиції 101–110
+### Пачка 3.1 — позиції 101–110 ✅
 
-- [ ] **101.** `prezyden-ks-nertus` — Президен, КС | Нертус | Інсектицид
-- [ ] **102.** `kontador-maksy-tn-nertus` — Контадор Макси, ТН | Нертус | Інсектицид
-- [ ] **103.** `torsida-ke-nertus` — Торсіда, КЕ | Нертус | Інсектицид
-- [ ] **104.** `tiara-vh-nertus` — Тіара, ВГ | Нертус | Інсектицид
-- [ ] **105.** `maitus-rh-nertus` — Майтус, РГ | Нертус | Інсектицид
-- [ ] **106.** `tioma-ks-nertus` — Тіома, КС | Нертус | Фунгіцид
-- [ ] **107.** `fontes-zp-nertus` — Фонтес ЗП | Нертус | Фунгіцид
-- [ ] **108.** `rinkotseb-z-p-nertus` — Рінкоцеб, з.п. | Нертус | Фунгіцид
-- [ ] **109.** `virtuoz-ke-nertus` — Віртуоз, КЕ | Нертус | Фунгіцид
-- [ ] **110.** `fluafol-ks-nertus` — Флуафол, КС | Нертус | Фунгіцид
+- [x] **101.** `prezyden-ks-nertus` — Президен, КС | Нертус | Інсектицид
+- [x] **102.** `kontador-maksy-tn-nertus` — Контадор Макси, ТН | Нертус | Інсектицид
+- [x] **103.** `torsida-ke-nertus` — Торсіда, КЕ | Нертус | Інсектицид
+- [x] **104.** `tiara-vh-nertus` — Тіара, ВГ | Нертус | Інсектицид
+- [x] **105.** `maitus-rh-nertus` — Майтус, РГ | Нертус | Інсектицид
+- [x] **106.** `tioma-ks-nertus` — Тіома, КС | Нертус | Фунгіцид
+- [x] **107.** `fontes-zp-nertus` — Фонтес ЗП | Нертус | Фунгіцид
+- [x] **108.** `rinkotseb-z-p-nertus` — Рінкоцеб, з.п. | Нертус | Фунгіцид
+- [x] **109.** `virtuoz-ke-nertus` — Віртуоз, КЕ | Нертус | Фунгіцид
+- [x] **110.** `fluafol-ks-nertus` — Флуафол, КС | Нертус | Фунгіцид
 
-### Пачка 3.2 — позиції 111–120
+### Пачка 3.2 — позиції 111–120 ✅
 
-- [ ] **111.** `fidelis-ks-nertus` — Фіделіс, КС | Нертус | Фунгіцид
-- [ ] **112.** `berkut-ke-nertus` — Беркут, КЕ | Нертус | Фунгіцид
-- [ ] **113.** `berkut-forte-ke-nertus` — Беркут Форте, КЕ | Нертус | Фунгіцид
-- [ ] **114.** `kiper-ks-nertus` — Кіпер, КС | Нертус | Фунгіцид
-- [ ] **115.** `tumen-tn-nertus` — Тумен, ТН | Нертус | Фунгіцид
-- [ ] **116.** `shlyakh-ke-new-nertus` — Шлях, КЕ NEW | Нертус | Фунгіцид
-- [ ] **117.** `trynavata-tn-nertus` — Тринавата, ТН | Нертус | Фунгіцид
-- [ ] **118.** `brander-ks-nertus` — Брандер, КС | Нертус | Фунгіцид
-- [ ] **119.** `folio-ke-nertus` — Фоліо, КЕ | Нертус | Фунгіцид
-- [ ] **120.** `bakash-tn-nertus` — Бакаш, ТН | Нертус | Фунгіцид
+- [x] **111.** `fidelis-ks-nertus` — Фіделіс, КС | Нертус | Фунгіцид
+- [x] **112.** `berkut-ke-nertus` — Беркут, КЕ | Нертус | Фунгіцид
+- [x] **113.** `berkut-forte-ke-nertus` — Беркут Форте, КЕ | Нертус | Фунгіцид
+- [x] **114.** `kiper-ks-nertus` — Кіпер, КС | Нертус | Фунгіцид
+- [x] **115.** `tumen-tn-nertus` — Тумен, ТН | Нертус | Фунгіцид
+- [x] **116.** `shlyakh-ke-new-nertus` — Шлях, КЕ NEW | Нертус | Фунгіцид
+- [x] **117.** `trynavata-tn-nertus` — Тринавата, ТН | Нертус | Фунгіцид
+- [x] **118.** `brander-ks-nertus` — Брандер, КС | Нертус | Фунгіцид
+- [x] **119.** `folio-ke-nertus` — Фоліо, КЕ | Нертус | Фунгіцид
+- [x] **120.** `bakash-tn-nertus` — Бакаш, ТН | Нертус | Фунгіцид
 
-### Пачка 3.3 — позиції 121–130
+### Пачка 3.3 — позиції 121–130 ✅
 
-- [ ] **121.** `antal-tn-nertus` — Антал, ТН | Нертус | Фунгіцид
-- [ ] **122.** `skorazol-k-e-nertus` — Скоразол, к.е. | Нертус | Фунгіцид
-- [ ] **123.** `taurt-tn-nertus` — Таурт, ТН | Нертус | Фунгіцид
-- [ ] **124.** `kare-zp-nertus` — Каре, ЗП | Нертус | Фунгіцид
-- [ ] **125.** `sihma-rk-alfa-smart-agro` — Сігма, РК | Alfa Smart Agro | Гербіцид
-- [ ] **126.** `alfa-dykvat-rk-alfa-smart-agro` — Альфа-Дикват, РК | Alfa Smart Agro | Гербіцид
-- [ ] **127.** `otaman-rk-alfa-smart-agro` — Отаман, РК | Alfa Smart Agro | Гербіцид
-- [ ] **128.** `sokar-rk-alfa-smart-agro` — Сокар, РК | Alfa Smart Agro | Гербіцид
-- [ ] **129.** `tsyvik-vk-alfa-smart-agro` — Цивік, ВК | Alfa Smart Agro | Гербіцид
-- [ ] **130.** `alfa-prometryn-ks-alfa-smart-agro` — Альфа-Прометрин, КС | Alfa Smart Agro | Гербіцид
+- [x] **121.** `antal-tn-nertus` — Антал, ТН | Нертус | Фунгіцид
+- [x] **122.** `skorazol-k-e-nertus` — Скоразол, к.е. | Нертус | Фунгіцид
+- [x] **123.** `taurt-tn-nertus` — Таурт, ТН | Нертус | Фунгіцид
+- [x] **124.** `kare-zp-nertus` — Каре, ЗП | Нертус | Фунгіцид
+- [x] **125.** `sihma-rk-alfa-smart-agro` — Сігма, РК | Alfa Smart Agro | Гербіцид
+- [x] **126.** `alfa-dykvat-rk-alfa-smart-agro` — Альфа-Дикват, РК | Alfa Smart Agro | Гербіцид
+- [x] **127.** `otaman-rk-alfa-smart-agro` — Отаман, РК | Alfa Smart Agro | Гербіцид
+- [x] **128.** `sokar-rk-alfa-smart-agro` — Сокар, РК | Alfa Smart Agro | Гербіцид
+- [x] **129.** `tsyvik-vk-alfa-smart-agro` — Цивік, ВК | Alfa Smart Agro | Гербіцид
+- [x] **130.** `alfa-prometryn-ks-alfa-smart-agro` — Альфа-Прометрин, КС | Alfa Smart Agro | Гербіцид
 
-### Пачка 3.4 — позиції 131–140
+### Пачка 3.4 — позиції 131–140 ✅
 
-- [ ] **131.** `otaman-ekstra-rk-alfa-smart-agro` — Отаман Екстра, РК | Alfa Smart Agro | Гербіцид
-- [ ] **132.** `yukon-ks-alfa-smart-agro` — Юкон, КС | Alfa Smart Agro | Гербіцид
-- [ ] **133.** `alfa-dykvat-forte-rk-alfa-smart-agro` — Альфа-Дикват Форте, РК | Alfa Smart Agro | Гербіцид
-- [ ] **134.** `omeha-ekstra-ke-alfa-smart-agro` — Омега Екстра, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **135.** `khammer-duo-se-alfa-smart-agro` — Хаммер Дуо, СЕ | Alfa Smart Agro | Гербіцид
-- [ ] **136.** `buster-rk-alfa-smart-agro` — Бустер, РК | Alfa Smart Agro | Гербіцид
-- [ ] **137.** `superbizon-ke-alfa-smart-agro` — СуперБізон, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **138.** `evadro-rk-alfa-smart-agro` — Евадро, РК | Alfa Smart Agro | Гербіцид
-- [ ] **139.** `lobera-ke-alfa-smart-agro` — Лобера, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **140.** `livendor-me-alfa-smart-agro` — Лівендор, МЕ | Alfa Smart Agro | Гербіцид
+- [x] **131.** `otaman-ekstra-rk-alfa-smart-agro` — Отаман Екстра, РК | Alfa Smart Agro | Гербіцид
+- [x] **132.** `yukon-ks-alfa-smart-agro` — Юкон, КС | Alfa Smart Agro | Гербіцид
+- [x] **133.** `alfa-dykvat-forte-rk-alfa-smart-agro` — Альфа-Дикват Форте, РК | Alfa Smart Agro | Гербіцид
+- [x] **134.** `omeha-ekstra-ke-alfa-smart-agro` — Омега Екстра, КЕ | Alfa Smart Agro | Гербіцид
+- [x] **135.** `khammer-duo-se-alfa-smart-agro` — Хаммер Дуо, СЕ | Alfa Smart Agro | Гербіцид
+- [x] **136.** `buster-rk-alfa-smart-agro` — Бустер, РК | Alfa Smart Agro | Гербіцид
+- [x] **137.** `superbizon-ke-alfa-smart-agro` — СуперБізон, КЕ | Alfa Smart Agro | Гербіцид
+- ❌ **138.** `evadro-rk-alfa-smart-agro` — ВИДАЛЕНО з каталогу (не існує у виробника)
+- [x] **139.** `lobera-ke-alfa-smart-agro` — Лобера, КЕ | Alfa Smart Agro | Гербіцид
+- [x] **140.** `livendor-me-alfa-smart-agro` — Лівендор, МЕ | Alfa Smart Agro | Гербіцид
 
-### Пачка 3.5 — позиції 141–150
+### Пачка 3.5 — позиції 141–150 ✅
 
-- [ ] **141.** `levias-ke-alfa-smart-agro` — Левіас, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **142.** `elister-ridyna-alfa-smart-agro` — Елістер, рідина | Alfa Smart Agro | Гербіцид
-- [ ] **143.** `kaiman-ke-alfa-smart-agro` — Кайман, КЕ | Alfa Smart Agro | Гербіцид
-- [ ] **144.** `tanart-vh-alfa-smart-agro` — Танарт, ВГ | Alfa Smart Agro | Гербіцид
-- [ ] **145.** `pinol-ev-alfa-smart-agro` — Піноль, ЕВ | Alfa Smart Agro | Гербіцид
-- [ ] **146.** `viares-ks-alfa-smart-agro` — Віарес, КС | Alfa Smart Agro | Гербіцид
-- [ ] **147.** `veritan-rk-alfa-smart-agro` — Верітан, РК | Alfa Smart Agro | Гербіцид
-- [ ] **148.** `santal-rk-alfa-smart-agro` — Сантал, РК | Alfa Smart Agro | Гербіцид
-- [ ] **149.** `lendinh-ks-alfa-smart-agro` — Лендінг, КС | Alfa Smart Agro | Гербіцид
-- [ ] **150.** `hladiator-ks-alfa-smart-agro` — Гладіатор, КС | Alfa Smart Agro | Гербіцид
+- [x] **141.** `levias-ke-alfa-smart-agro` — Левіас, КЕ | Alfa Smart Agro | Гербіцид
+- ❌ **142.** `elister-ridyna-alfa-smart-agro` — ВИДАЛЕНО з каталогу (не існує у виробника)
+- [x] **143.** `kaiman-ke-alfa-smart-agro` — Кайман, КЕ | Alfa Smart Agro | Гербіцид
+- ❌ **144.** `tanart-vh-alfa-smart-agro` — ВИДАЛЕНО з каталогу (не існує у виробника)
+- [x] **145.** `pinol-ev-alfa-smart-agro` — Піноль, ЕВ | Alfa Smart Agro | Гербіцид
+- [x] **146.** `viares-ks-alfa-smart-agro` — Віарес, КС | Alfa Smart Agro | Гербіцид
+- [x] **147.** `veritan-rk-alfa-smart-agro` — Верітан, РК | Alfa Smart Agro | Гербіцид
+- [x] **148.** `santal-rk-alfa-smart-agro` — Сантал, РК | Alfa Smart Agro | Гербіцид
+- [x] **149.** `lendinh-ks-alfa-smart-agro` — Лендінг, КС | Alfa Smart Agro | Гербіцид
+- [x] **150.** `hladiator-ks-alfa-smart-agro` — Гладіатор, КС | Alfa Smart Agro | Гербіцид
 
 ---
 
