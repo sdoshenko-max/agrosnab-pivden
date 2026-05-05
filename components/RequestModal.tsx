@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { X, Send, Check } from "lucide-react";
 import { dict, type Lang } from "@/lib/i18n";
 import { PhoneInput, isValidPhone } from "./PhoneInput";
+import { trackLeadConversion } from "@/lib/analytics";
 
 const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivden-form.sdoshenko.workers.dev";
 
@@ -60,6 +61,7 @@ export function RequestModal({
         })
       });
       if (!res.ok) throw new Error();
+      trackLeadConversion({ form_type: "full", product_name: product, region });
       setStatus("ok");
     } catch {
       setStatus("error");

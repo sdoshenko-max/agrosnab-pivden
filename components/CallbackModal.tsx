@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { X, Send, Check, Phone } from "lucide-react";
 import { PhoneInput, isValidPhone } from "./PhoneInput";
 import { type Lang, COMPANY } from "@/lib/i18n";
+import { trackLeadConversion } from "@/lib/analytics";
 
 const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivden-form.sdoshenko.workers.dev";
 
@@ -64,6 +65,7 @@ export function CallbackModal({ open, onClose, lang }: { open: boolean; onClose:
         body: JSON.stringify({ formType: "callback", name, phone, comment: message, region: "", delivery: "", payment: "", product: "", area: "", lang })
       });
       if (!res.ok) throw new Error();
+      trackLeadConversion({ form_type: "callback" });
       setStatus("ok");
       setTimeout(() => {
         setName(""); setPhone(""); setMessage(""); setStatus("idle"); onClose();
