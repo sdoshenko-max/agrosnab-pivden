@@ -113,7 +113,6 @@ wrangler deploy
 
 ### ⏳ TODO
 
-- [ ] Lightbox для фото на сторінці товара (тимчасово прибрано в commit `46d82d5`)
 - [ ] Lead form extension в Google Ads (потрібен GA4 з налаштованими ключовими подіями)
 - [ ] Google Merchant Center — feed для shopping ads (готовий каталог + 800×800 фото)
 - [ ] Категорія «Біопрепарати» (зараз ризобактерії в `protruyniky` як суміжна)
