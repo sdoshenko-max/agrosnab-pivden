@@ -40,3 +40,16 @@ products.json
 make_culture_svgs.py
 cleanup_catalog.py
 redistribute_cultures.py
+
+# Photo workflow — review folder (not deployed)
+_photo_review/
+
+# Тимчасові файли скриптів аудиту
+scripts/_products_old.txt
+scripts/_ok_meta.json
+scripts/_audit_report.txt
+scripts/_decisions.json
+scripts/_to_delete_photos.txt
+scripts/_pack*_log.json
+scripts/_fetch*.js
+scripts/_tg_msg.json
