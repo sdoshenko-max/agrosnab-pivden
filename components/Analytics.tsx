@@ -17,6 +17,10 @@ export function Analytics() {
         track("email_click", { email: href.slice(7), location: window.location.pathname });
       } else if (/wa\.me|whatsapp\.com/i.test(href)) {
         track("whatsapp_click", { location: window.location.pathname });
+      } else if (href.startsWith("viber:") || /viber\.com/i.test(href)) {
+        track("viber_click", { location: window.location.pathname });
+      } else if (/t\.me\/|telegram\.me\/|tg:\/\//i.test(href)) {
+        track("telegram_click", { location: window.location.pathname });
       }
     }
     document.addEventListener("click", onClick);
