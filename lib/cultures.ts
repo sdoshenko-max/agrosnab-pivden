@@ -10,7 +10,6 @@ export const cultures: Culture[] = [
     shortRu: "Защита от клопа черепашки, фузариоза колоса, корневых гнилей в условиях засухи",
     image: "/cultures/ozyma-pshenytsa.jpg",
     stages: [
-      { slug: "protruyuvannya", nameUk: "Протруювання насіння", nameRu: "Протравливание семян", icon: "🌱" },
       { slug: "herbicid-vesna", nameUk: "Гербіцид весна", nameRu: "Гербицид весна", icon: "💧" },
       { slug: "fungicid-t1", nameUk: "Фунгіцид Т1", nameRu: "Фунгицид Т1", icon: "🍄" },
       { slug: "fungicid-t2", nameUk: "Фунгіцид Т2/Т3", nameRu: "Фунгицид Т2/Т3", icon: "🛡️" },
@@ -39,7 +38,6 @@ export const cultures: Culture[] = [
         descRu: "Гибриды, устойчивые к трибенурон-метилу. Более доступная альтернатива Clearfield." }
     ],
     stages: [
-      { slug: "protruyuvannya", nameUk: "Протруювання", nameRu: "Протравливание", icon: "🌱" },
       { slug: "gruntovyi", nameUk: "Ґрунтовий гербіцид", nameRu: "Грунтовый гербицид", icon: "💧" },
       { slug: "strakhovyi", nameUk: "Страховий гербіцид", nameRu: "Страховой гербицид", icon: "🛡️" },
       { slug: "graminitsyd", nameUk: "Грамініцид", nameRu: "Граминицид", icon: "🌾" },
@@ -70,7 +68,6 @@ export const cultures: Culture[] = [
     shortUk: "Контроль гельмінтоспоріозів та сітчастої плямистості",
     shortRu: "Контроль гельминтоспориозов и сетчатой пятнистости",
     stages: [
-      { slug: "protruyuvannya", nameUk: "Протруювання", nameRu: "Протравливание", icon: "🌱" },
       { slug: "herbicid", nameUk: "Гербіцид", nameRu: "Гербицид", icon: "💧" },
       { slug: "fungicid", nameUk: "Фунгіцид", nameRu: "Фунгицид", icon: "🍄" }
     ]
@@ -84,8 +81,7 @@ export const cultures: Culture[] = [
     stages: [
       { slug: "gruntovyi", nameUk: "Ґрунтовий гербіцид", nameRu: "Грунтовый гербицид", icon: "💧" },
       { slug: "strakhovyi", nameUk: "Страховий гербіцид", nameRu: "Страховой гербицид", icon: "🛡️" },
-      { slug: "graminitsyd", nameUk: "Грамініцид", nameRu: "Граминицид", icon: "🌾" },
-      { slug: "akarytsyd", nameUk: "Акарицид", nameRu: "Акарицид", icon: "🕷️" }
+      { slug: "graminitsyd", nameUk: "Грамініцид", nameRu: "Граминицид", icon: "🌾" }
     ]
   },
   {
@@ -96,7 +92,6 @@ export const cultures: Culture[] = [
     shortRu: "Стеблевой скрытнохоботник, бор, ростовая регуляция осень/весна",
     stages: [
       { slug: "gruntovyi", nameUk: "Ґрунтовий гербіцид", nameRu: "Грунтовый гербицид", icon: "💧" },
-      { slug: "ristregulyatsiya", nameUk: "Рістрегуляція", nameRu: "Ростовая регуляция", icon: "📐" },
       { slug: "insecticid", nameUk: "Інсектицид (весна)", nameRu: "Инсектицид (весна)", icon: "🐛" },
       { slug: "desikatsiya", nameUk: "Десикація", nameRu: "Десикация", icon: "🍂" }
     ]
@@ -131,7 +126,6 @@ export const cultures: Culture[] = [
     shortUk: "Посухостійка альтернатива кукурудзі. Захист сходів від попелиці",
     shortRu: "Засухостойкая альтернатива кукурузе. Защита всходов от тли",
     stages: [
-      { slug: "protruyuvannya", nameUk: "Протруювання", nameRu: "Протравливание", icon: "🌱" },
       { slug: "strakhovyi", nameUk: "Страховий гербіцид", nameRu: "Страховой гербицид", icon: "🛡️" },
       { slug: "insecticid", nameUk: "Інсектицид", nameRu: "Инсектицид", icon: "🐛" }
     ]
