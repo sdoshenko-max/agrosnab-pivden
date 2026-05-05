@@ -15,7 +15,7 @@ export function RateBar({ lang = "uk" }: { lang?: "uk" | "ru" }) {
   const { rates } = useCurrency();
   const today = formatToday(lang);
   const right = lang === "uk" ? "Ціни на сайті — в гривнях за курсом дня" : "Цены на сайте — в гривнах по курсу дня";
-  const left = lang === "uk" ? `Курс міжбанк на ${today}` : `Курс межбанк на ${today}`;
+  const left = lang === "uk" ? `Курс НБУ на ${today}` : `Курс НБУ на ${today}`;
   return (
     <div className="bg-bg border-b border-border text-xs text-muted">
       <div className="container-w py-1.5 flex items-center justify-between">

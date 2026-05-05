@@ -4,8 +4,8 @@ import { createContext, useContext, useEffect, useState, ReactNode } from "react
 
 type Rates = { USD: number; EUR: number; date: string };
 
-const DEFAULT_RATES: Rates = { USD: 43.80, EUR: 51.45, date: "2026-05-02" };
-const STORAGE_KEY = "agrosnab_rates";
+const DEFAULT_RATES: Rates = { USD: 44.00, EUR: 51.70, date: "2026-05-05" };
+const STORAGE_KEY = "agrosnab_rates_nbu_v2";
 const TTL_HOURS = 6;
 
 const Ctx = createContext<{ rates: Rates; format: (usd: number, currency?: "USD" | "EUR") => string; loading: boolean }>({
@@ -32,15 +32,15 @@ export function CurrencyProvider({ children }: { children: ReactNode }) {
     } catch {}
 
     setLoading(true);
-    fetch("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5")
+    fetch("https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json")
       .then(r => r.json())
-      .then((data: Array<{ ccy: string; buy: string; sale: string }>) => {
-        const usd = data.find(d => d.ccy === "USD");
-        const eur = data.find(d => d.ccy === "EUR");
+      .then((data: Array<{ cc: string; rate: number; exchangedate: string }>) => {
+        const usd = data.find(d => d.cc === "USD");
+        const eur = data.find(d => d.cc === "EUR");
         if (!usd || !eur) throw new Error();
         const newRates: Rates = {
-          USD: +((parseFloat(usd.buy) + parseFloat(usd.sale)) / 2).toFixed(2),
-          EUR: +((parseFloat(eur.buy) + parseFloat(eur.sale)) / 2).toFixed(2),
+          USD: +usd.rate.toFixed(2),
+          EUR: +eur.rate.toFixed(2),
           date: new Date().toISOString().slice(0, 10)
         };
         setRates(newRates);
