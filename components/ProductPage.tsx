@@ -54,8 +54,8 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
 
       <section className="bg-white border-b border-border">
         <div className="container-w py-8 lg:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="bg-bg rounded-xl border border-border flex items-center justify-center p-8 min-h-[300px]">
-            {product.image ? <img src={product.image} alt={name} className="max-w-full max-h-[400px] object-contain" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} /> : <ProductPlaceholder product={product} size="lg" />}
+          <div className="bg-white rounded-xl border border-border flex items-center justify-center aspect-square overflow-hidden">
+            {product.image ? <img src={product.image} alt={name} className="w-full h-full object-contain p-2" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} /> : <ProductPlaceholder product={product} size="lg" />}
           </div>
           <div>
             <div className="flex items-center gap-2 mb-3 flex-wrap">
