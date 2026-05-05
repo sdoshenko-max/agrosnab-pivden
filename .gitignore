@@ -53,3 +53,6 @@ scripts/_to_delete_photos.txt
 scripts/_pack*_log.json
 scripts/_fetch*.js
 scripts/_tg_msg.json
+scripts/_price.xlsx
+scripts/_price_diff.json
+scripts/_diff.json
