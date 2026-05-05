@@ -5,7 +5,7 @@ import { GlobalCartDrawer } from "@/components/GlobalCartDrawer";
 import { CurrencyProvider } from "@/components/CurrencyContext";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://agrosnab-pivden.pages.dev"),
+  metadataBase: new URL("https://agrosnab-pivden.com"),
   title: { default: "АГРОСНАБ-ПІВДЕНЬ — засоби захисту рослин для Півдня України", template: "%s | АГРОСНАБ-ПІВДЕНЬ" },
   description: "Інтернет-каталог ЗЗР для фермерів Миколаївської, Херсонської, Одеської областей. Чесні дженерики, економія до 60% від оригіналу.",
   icons: { icon: "/favicon.svg" },
@@ -19,8 +19,8 @@ const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "ТОВ АГРОСНАБ-ПІВДЕНЬ",
-  "url": "https://agrosnab-pivden.pages.dev",
-  "logo": "https://agrosnab-pivden.pages.dev/logo.svg",
+  "url": "https://agrosnab-pivden.com",
+  "logo": "https://agrosnab-pivden.com/logo.svg",
   "telephone": "+380660321997",
   "email": "sdoshenko@gmail.com",
   "address": { "@type": "PostalAddress", "addressLocality": "Миколаїв", "addressCountry": "UA" },

@@ -3,7 +3,7 @@ import { products, cultures, tankMixes } from "@/lib/data";
 import { groups } from "@/lib/groups";
 import { activeIngredients } from "@/lib/activeIngredients";
 
-const BASE = "https://agrosnab-pivden.pages.dev";
+const BASE = "https://agrosnab-pivden.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
