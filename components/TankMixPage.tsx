@@ -89,7 +89,14 @@ export function TankMixPage({ mix, lang }: { mix: TankMix; lang: Lang }) {
               <tbody>
                 {rows.map((r, i) => (
                   <tr key={i} className="border-b border-border last:border-0">
-                    <td className="p-2 align-top"><p className="font-bold">{r.name}</p><p className="text-xs text-muted">{r.manufacturer} · {r.packSize} {r.unit}</p></td>
+                    <td className="p-2 align-top">
+                      {r.slug ? (
+                        <Link href={`${base}/produkt/${r.slug}`} className="font-bold text-brand hover:underline">{r.name}</Link>
+                      ) : (
+                        <p className="font-bold">{r.name}</p>
+                      )}
+                      <p className="text-xs text-muted">{r.manufacturer} · {r.packSize} {r.unit}</p>
+                    </td>
                     <td className="p-2 align-top"><span className="badge badge-econom">{r.role}</span></td>
                     <td className="p-2 align-top text-right whitespace-nowrap">{r.ratePerHa} {r.unit}/га</td>
                     {hasArea && <td className="p-2 align-top text-right whitespace-nowrap">{r.need.toFixed(2)} {r.unit}</td>}
