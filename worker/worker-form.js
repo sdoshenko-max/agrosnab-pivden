@@ -54,6 +54,16 @@ export default {
       return json({ error: "Phone required" }, 400, cors);
     }
 
+    // Determine source site from Origin / Referer header
+    const origin = request.headers.get("origin") || request.headers.get("referer") || "";
+    let sourceHost = "";
+    try {
+      sourceHost = origin ? new URL(origin).hostname : "";
+    } catch { sourceHost = ""; }
+    const fullProductUrl = productUrl
+      ? (productUrl.startsWith("http") ? productUrl : (sourceHost ? `https://${sourceHost}${productUrl}` : productUrl))
+      : "";
+
     // Compose Telegram message (HTML format)
     const time = new Date().toLocaleString("uk-UA", {
       timeZone: "Europe/Kyiv",
@@ -70,6 +80,7 @@ export default {
         `👤 <b>Ім'я:</b> ${esc(name) || "<i>(не вказано)</i>"}\n` +
         `📞 <b>Телефон:</b> ${esc(phoneClean)}\n` +
         `━━━━━━━━━━━━━━━━━━━━━━\n` +
+        (sourceHost ? `🌍 <b>Сайт:</b> ${esc(sourceHost)}\n` : "") +
         `🌐 Мова: ${esc(lang.toUpperCase())}\n` +
         `⏰ ${time} (Київ)`;
     } else {
@@ -85,8 +96,9 @@ export default {
         (delivery ? `🚚 <b>Доставка:</b> ${esc(delivery)}\n` : "") +
         (comment ? `💬 <b>Коментар:</b> ${esc(comment)}\n` : "") +
         `━━━━━━━━━━━━━━━━━━━━━━\n` +
+        (sourceHost ? `🌍 <b>Сайт:</b> ${esc(sourceHost)}\n` : "") +
         `🌐 Мова: ${esc(lang.toUpperCase())}\n` +
-        (productUrl ? `🔗 ${esc(productUrl)}\n` : "") +
+        (fullProductUrl ? `🔗 ${esc(fullProductUrl)}\n` : "") +
         `⏰ ${time} (Київ)`;
     }
 
