@@ -6,7 +6,7 @@ import { type Product, getPackSize } from "@/lib/data";
 import { manufacturerSlug } from "@/lib/manufacturers";
 import { dict, type Lang } from "@/lib/i18n";
 import { useCurrency } from "./CurrencyContext";
-import { ProductPlaceholder } from "./ProductPlaceholder";
+import { ProductImage } from "./ProductImage";
 
 const tierLabels: Record<string, { uk: string; ru: string; cls: string }> = {
   econom: { uk: "Економ", ru: "Эконом", cls: "badge-econom" },
@@ -29,7 +29,7 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
     <article className="card flex flex-col gap-3 hover:border-brand hover:shadow-lg transition-all duration-200 group">
       <div className="flex items-start gap-3">
         <Link href={productHref} className="w-20 h-20 sm:w-24 sm:h-24 shrink-0 bg-bg rounded-lg overflow-hidden flex items-center justify-center border border-border group-hover:border-brand transition-transform duration-200 group-hover:-translate-y-0.5">
-          {product.image ? <img src={product.image} alt={name} className="w-full h-full object-contain" loading="lazy" onError={e => { (e.target as HTMLImageElement).style.display = "none"; }} /> : <ProductPlaceholder product={product} size="md" />}
+          <ProductImage product={product} alt={name} size="md" className="w-full h-full object-contain" />
         </Link>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1 flex-wrap">
