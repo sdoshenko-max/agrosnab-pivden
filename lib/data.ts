@@ -37,6 +37,22 @@ export function getTankMixesByCulture(cultureSlug: string): TankMix[] {
   return tankMixes.filter(m => m.cultureSlug === cultureSlug);
 }
 
+import { getPackSize } from "./types";
+
+// Дефолтний SKU для slug — найменша фасовка (для URL без коду /produkt/<slug>/).
 export function getProductBySlug(slug: string): Product | undefined {
-  return products.find(p => p.slug === slug);
+  const variants = products.filter(p => p.slug === slug);
+  if (variants.length === 0) return undefined;
+  if (variants.length === 1) return variants[0];
+  return [...variants].sort((a, b) => getPackSize(a.packaging) - getPackSize(b.packaging))[0];
+}
+
+export function getProductByCode(code: string): Product | undefined {
+  return products.find(p => p.code === code);
+}
+
+export function getProductsBySlugAll(slug: string): Product[] {
+  return products
+    .filter(p => p.slug === slug)
+    .sort((a, b) => getPackSize(a.packaging) - getPackSize(b.packaging));
 }

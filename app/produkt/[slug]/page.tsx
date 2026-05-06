@@ -7,7 +7,8 @@ import { products, getProductBySlug } from "@/lib/data";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return products.map(p => ({ slug: p.slug }));
+  const slugs = new Set(products.map(p => p.slug));
+  return Array.from(slugs).map(slug => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {

@@ -2,6 +2,7 @@ export type Tier = "econom" | "premium" | "original";
 
 export type Product = {
   slug: string;
+  code: string;
   name: string;
   nameRu: string;
   manufacturer: string;
