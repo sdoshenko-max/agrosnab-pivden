@@ -56,3 +56,7 @@ scripts/_tg_msg.json
 scripts/_price.xlsx
 scripts/_price_diff.json
 scripts/_diff.json
+
+# Originals reimport — staging artefacts (regen-able)
+_originals_staging.json
+_originals_diff.json
