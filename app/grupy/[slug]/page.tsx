@@ -24,7 +24,7 @@ export default function GroupRoute({ params }: { params: { slug: string } }) {
     <>
       <Header lang="uk" />
       <main>
-        <CatalogPage title={g.nameUk} titleRu={g.nameRu} productSlugs={products.filter(p => p.groupSlug === g.slug).map(p => p.slug)} lang="uk" />
+        <CatalogPage title={g.nameUk} titleRu={g.nameRu} productSlugs={products.filter(p => p.groupSlug === g.slug).map(p => p.slug)} lang="uk" currentGroupSlug={g.slug} />
       </main>
       <Footer lang="uk" />
       <FloatingCallButton />

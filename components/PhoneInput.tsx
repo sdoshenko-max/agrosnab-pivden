@@ -54,7 +54,7 @@ export function PhoneInput({
   // Базовий стиль інпута — або кастомний від батька, або дефолтний
   const baseInput = className
     ? `${className} !pl-[68px]`
-    : "w-full pl-[68px] pr-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none bg-white";
+    : "w-full pl-[68px] pr-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none bg-white text-ink";
 
   // Колір префікса — світлий якщо темний фон (для QuickCallForm), інакше темний
   const prefixColor = className.includes("bg-white") || !className ? "text-ink" : "text-ink";

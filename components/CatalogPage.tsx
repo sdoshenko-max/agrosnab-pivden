@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Filter, X } from "lucide-react";
 import { products as allProducts, cultures } from "@/lib/data";
+import { groups } from "@/lib/groups";
 import { type Lang } from "@/lib/i18n";
 import { ProductCardFull } from "./ProductCardFull";
 import { RequestModal } from "./RequestModal";
@@ -23,6 +24,8 @@ type CatalogPageProps = {
   productSlugs: string[];
   lang: Lang;
   hideAiFilter?: boolean;
+  /** Якщо це сторінка групи ЗЗР — slug поточної групи (для підсвітки в табах). */
+  currentGroupSlug?: string;
 };
 
 export function CatalogPage(props: CatalogPageProps) {
@@ -33,7 +36,7 @@ export function CatalogPage(props: CatalogPageProps) {
   );
 }
 
-function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter }: CatalogPageProps) {
+function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, currentGroupSlug }: CatalogPageProps) {
   const baseProducts = useMemo(() => allProducts.filter(p => productSlugs.includes(p.slug)), [productSlugs]);
 
   const router = useRouter();
@@ -142,6 +145,29 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter }: 
           <p className="text-white/80 text-sm mt-2">{`${labels.showing} ${pageItems.length} ${labels.of} ${filtered.length}${filtered.length !== baseProducts.length ? ` (${baseProducts.length} ${labels.of === "з" ? "усього" : "всего"})` : ""}`}</p>
         </div>
       </section>
+
+      {currentGroupSlug && (
+        <nav className="bg-white border-b border-border sticky top-[60px] z-40">
+          <div className="container-w py-2 overflow-x-auto">
+            <div className="flex items-center gap-1.5 whitespace-nowrap">
+              {groups.map(g => (
+                <Link
+                  key={g.slug}
+                  href={`${base}/grupy/${g.slug}/`}
+                  className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${
+                    g.slug === currentGroupSlug
+                      ? "bg-brand text-white"
+                      : "bg-bg text-ink hover:bg-border"
+                  }`}
+                >
+                  <span>{g.emoji}</span>
+                  <span>{lang === "uk" ? g.nameUk : g.nameRu}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </nav>
+      )}
 
       <section className="container-w py-6">
         <button onClick={() => setFiltersOpen(!filtersOpen)} className="lg:hidden btn-outline mb-4 w-full">
