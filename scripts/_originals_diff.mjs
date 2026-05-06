@@ -10,6 +10,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { manufacturerKey, normName } from "./_lib_normalize.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -52,33 +53,9 @@ if (mapSection) {
   }
 }
 
-// === Нормалізатори ===
-const norm = (s) => String(s || "")
-  .toLowerCase()
-  .replace(/[ʼ'`]/g, "")
-  .replace(/[ёе]/g, "е")
-  .replace(/[іий]/g, "и")
-  .replace(/i/g, "и")
-  .replace(/ї/g, "и")
-  .replace(/\s+/g, "")
-  .replace(/[.,;()*\-—]/g, "")
-  .trim();
-
-const normMfr = (s) => {
-  const x = norm(s);
-  if (/(синг|synh)/i.test(x)) return "сингента";
-  if (/(корт|kort)/i.test(x)) return "кортева";
-  if (/(басф|basf)/i.test(x)) return "басф";
-  if (/(бай|bay|monsanto)/i.test(x)) return "байер";
-  if (/adama|адама/i.test(x)) return "адама";
-  if (/fmc|фмс/i.test(x)) return "фмс";
-  if (/самми|саммит|саммıт/i.test(x)) return "самміт";
-  if (/дефенд|defenda/i.test(x)) return "дефенда";
-  if (/терравит|терравита/i.test(x)) return "терравіта";
-  if (/нуфарм|nufarm/i.test(x)) return "нуфарм";
-  if (/upl/i.test(x)) return "upl";
-  return x;
-};
+// Локальні аліаси під поточну назву використання у скрипті.
+const norm = normName;
+const normMfr = manufacturerKey;
 
 const cleanName = (s) => {
   // Зрізає типові постфікси «КЕ», «КС», «в.р.», «Турбо», «Pro», цифри з «г/л» і т.ін.

@@ -13,6 +13,7 @@
 import { readFileSync, writeFileSync, appendFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { slugify, manufacturerCanonical as mfrCanonical, manufacturerSlug as mfrToSlug } from "./_lib_normalize.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -20,63 +21,6 @@ const root = path.resolve(__dirname, "..");
 const diff = JSON.parse(readFileSync(path.join(root, "_originals_diff.json"), "utf8"));
 const productsPath = path.join(root, "lib", "products.ts");
 const productsLines = readFileSync(productsPath, "utf8").split(/\r?\n/);
-
-// === Транслітерація укр → латиниця для slug ===
-const translitMap = {
-  а: "a", б: "b", в: "v", г: "h", ґ: "g", д: "d", е: "e", є: "ye",
-  ж: "zh", з: "z", и: "y", і: "i", ї: "yi", й: "i", к: "k", л: "l",
-  м: "m", н: "n", о: "o", п: "p", р: "r", с: "s", т: "t", у: "u",
-  ф: "f", х: "kh", ц: "ts", ч: "ch", ш: "sh", щ: "shch", ь: "", ю: "yu", я: "ya",
-  ё: "e", ы: "y", э: "e", ъ: "",
-};
-const translit = (s) => String(s || "")
-  .toLowerCase()
-  .split("")
-  .map((c) => translitMap[c] ?? c)
-  .join("");
-
-const slugify = (s) => translit(s)
-  .replace(/[^a-z0-9-]+/g, "-")
-  .replace(/-+/g, "-")
-  .replace(/^-|-$/g, "");
-
-// У прайсі укр літери «і» / «й» / «ї» місцями замінені на латинські «i» / «и».
-// Перш ніж матчити — скидаю обидві варіації до одного символу.
-const normUkLat = (s) => String(s || "").toLowerCase()
-  .replace(/i/g, "і")  // лат i → укр і
-  .replace(/y/g, "и"); // про всяк
-
-const mfrToSlug = (m) => {
-  const x = normUkLat(m);
-  if (/синг|synh/.test(x)) return "synhenta";
-  if (/корт|kort/.test(x)) return "korteva";
-  if (/басф|basf/.test(x)) return "basf";
-  if (/бай|bay/.test(x)) return "baier";
-  if (/adama|адам/.test(x)) return "adama";
-  if (/fmc|фмс/.test(x)) return "fms";
-  if (/самм[іi]т|самми/.test(x)) return "sammit-agro";
-  if (/дефенд|defenda/.test(x)) return "defenda";
-  if (/терра.?в[іi]т/.test(x)) return "terra-vita";
-  if (/нуфарм|nufarm/.test(x)) return "nufarm";
-  if (/upl/.test(x)) return "upl";
-  return slugify(m);
-};
-
-const mfrCanonical = (m) => {
-  const x = normUkLat(m);
-  if (/синг/.test(x)) return "Сингента";
-  if (/корт/.test(x)) return "Кортева";
-  if (/басф|basf/.test(x)) return "Басф";
-  if (/бай/.test(x)) return "Байер";
-  if (/адам/.test(x)) return "Адама";
-  if (/фмс|fmc/.test(x)) return "ФМС";
-  if (/самм[іi]т|самми/.test(x)) return "Самміт-Агро";
-  if (/дефенд/.test(x)) return "Дефенда";
-  if (/терра/.test(x)) return "Терра Віта";
-  if (/нуфарм|nufarm/.test(x)) return "Нуфарм";
-  if (/upl/.test(x)) return "UPL";
-  return m.trim();
-};
 
 // Категорія з прайсу → group/groupSlug
 const categoryMap = (c) => {
