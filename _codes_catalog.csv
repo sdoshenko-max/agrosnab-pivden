@@ -1006,3 +1006,451 @@
 6024,"Експерт Гроу","Адама",original,"Регулятор росту",ekspert-hrou-5-adama
 6025,"Келпак РК","Терра Віта",original,"Регулятор росту",kelpak-rk-5-terra-vita
 8010,"Бромакем ПР","Терра Віта",original,"Родентицид",bromakem-pr-5-terra-vita
+1378,"ГЕФЕСТ ПАУЕР","Нопосон",econom,"Гербіцид",hefest-pauer-noposon
+1379,"ГЕФЕСТ ІДЕАЛ","Нопосон",econom,"Гербіцид",hefest-ideal-noposon
+1380,"ГРОЗА","Нопосон",econom,"Гербіцид",hroza-noposon
+1381,"БАЛОР","Нопосон",econom,"Гербіцид",balor-noposon
+1382,"Клетект МЕГА","Нопосон",econom,"Гербіцид",kletekt-meha-noposon
+1383,"КлетАКТИВ","Нопосон",econom,"Гербіцид",kletaktyv-noposon
+1384,"Адвокат, КС","Нертус",econom,"Гербіцид",advokat-ks-nertus
+1385,"Аргумент Форте 500 SL, РК","Нертус",econom,"Гербіцид",arhument-forte-500-sl-rk-nertus
+1386,"Аргумент Форте 500 SL, РК","Нертус",econom,"Гербіцид",arhument-forte-500-sl-rk-nertus-2
+1387,"Бату, РГ","Нертус",econom,"Гербіцид",batu-rh-nertus
+1388,"Воленс МЕ","Нертус",econom,"Гербіцид",volens-me-nertus
+1389,"Володар Форте, РК NEW","Нертус",econom,"Гербіцид",volodar-forte-rk-new-nertus
+1390,"Грізний, ВГ","Нертус",econom,"Гербіцид",hriznyi-vh-nertus
+1391,"Грізний Експерт, ВГ","Нертус",econom,"Гербіцид",hriznyi-ekspert-vh-nertus
+1392,"Декабрист 480, РК","Нертус",econom,"Гербіцид",dekabryst-480-rk-nertus
+1393,"Евро-Ланг, р.к","Нертус",econom,"Гербіцид",evro-lanh-r-k-nertus
+1394,"Евро-Ленд, РК","Нертус",econom,"Гербіцид",evro-lend-rk-nertus
+1395,"Евро-Ленд, РК","Нертус",econom,"Гербіцид",evro-lend-rk-nertus-2
+1396,"Ефірон, КЕ","Нертус",econom,"Гербіцид",efiron-ke-nertus
+1397,"Ефірон, КЕ","Нертус",econom,"Гербіцид",efiron-ke-nertus-2
+1398,"Капрал, КС","Нертус",econom,"Гербіцид",kapral-ks-nertus
+1399,"Конвой, ВГ","Нертус",econom,"Гербіцид",konvoi-vh-nertus
+1400,"Легенда, МД","Нертус",econom,"Гербіцид",lehenda-md-nertus
+1401,"Лемур, КЕ","Нертус",econom,"Гербіцид",lemur-ke-nertus
+1402,"Мікадо, РК","Нертус",econom,"Гербіцид",mikado-rk-nertus
+1403,"Мотор РК","Нертус",econom,"Гербіцид",motor-rk-nertus
+1404,"Пріус, СЕ","Нертус",econom,"Гербіцид",prius-se-nertus
+1405,"Сабер, ВГ","Нертус",econom,"Гербіцид",saber-vh-nertus
+1406,"Сентинел КЕ","Нертус",econom,"Гербіцид",sentynel-ke-nertus
+1407,"Серп, РК","Нертус",econom,"Гербіцид",serp-rk-nertus
+1408,"Сонхус, ВГ","Нертус",econom,"Гербіцид",sonkhus-vh-nertus
+1409,"Сокіл, КЕ","Нертус",econom,"Гербіцид",sokil-ke-nertus
+1410,"Табезон, РК","Нертус",econom,"Гербіцид",tabezon-rk-nertus
+1411,"Фантастик, МД NEW","Нертус",econom,"Гербіцид",fantastyk-md-new-nertus
+1412,"Цетодим, к.е. + ПАР Фофір","Нертус",econom,"Гербіцид",tsetodym-k-e-par-fofir-nertus
+1413,"Біммер, к.е.","Нертус",econom,"Гербіцид",bimmer-k-e-nertus
+1414,"Дозор, ЗП","Нертус",econom,"Гербіцид",dozor-zp-nertus
+1415,"Спікер, КЕ","Нертус",econom,"Гербіцид",spiker-ke-nertus
+1416,"Вікінг, в.с.к. *у разі купівлі препарату більше 300л знижка 2,5%, більше 500л знижка 5%","Нертус",econom,"Гербіцид",vikinh-v-s-k-u-razi-kupivli-preparatu-bilshe-300l-znyzhka-2-5-bilshe-500l-znyzhka-5-nertus
+1417,"Фаер, ТН","Нертус",econom,"Гербіцид",faer-tn-nertus
+1418,"Талант ПАР","Нертус",econom,"Гербіцид",talant-par-nertus
+1419,"Астарг, КЕ","PEST.UA",econom,"Гербіцид",astarh-ke-pest-ua
+1420,"Бернар, ВР","PEST.UA",econom,"Гербіцид",bernar-vr-pest-ua
+1421,"Вентура, КЕ","PEST.UA",econom,"Гербіцид",ventura-ke-pest-ua
+1422,"Гюнтер, ВГ","PEST.UA",econom,"Гербіцид",hyunter-vh-pest-ua
+1423,"Джуліан, РК","PEST.UA",econom,"Гербіцид",dzhulian-rk-pest-ua
+1424,"Пристар, ВГ","PEST.UA",econom,"Гербіцид",prystar-vh-pest-ua
+1425,"Торино, ВГ","PEST.UA",econom,"Гербіцид",toryno-vh-pest-ua
+1426,"Юкатан, КЕ","PEST.UA",econom,"Гербіцид",yukatan-ke-pest-ua
+1427,"Альфа-Бентазон, РК","Alfa Smart Agro",premium,"Гербіцид",alfa-bentazon-rk-alfa-smart-agro
+1428,"Альфа-Бригадир, КЕ","Alfa Smart Agro",premium,"Гербіцид",alfa-bryhadyr-ke-alfa-smart-agro
+1429,"Альфа-Гетьман, КЕ","Alfa Smart Agro",premium,"Гербіцид",alfa-hetman-ke-alfa-smart-agro
+1430,"Альфа-Дикамба, РК","Alfa Smart Agro",premium,"Гербіцид",alfa-dykamba-rk-alfa-smart-agro
+1431,"Альфа-Маїс, ВГ","Alfa Smart Agro",premium,"Гербіцид",alfa-mayis-vh-alfa-smart-agro
+1432,"Альфа-Піралід, РК","Alfa Smart Agro",premium,"Гербіцид",alfa-piralid-rk-alfa-smart-agro
+1433,"Альфа-Прометрин, КС","Alfa Smart Agro",premium,"Гербіцид",alfa-prometryn-ks-alfa-smart-agro
+1434,"Антизлак, КЕ (тільки разом з ПАР Омега Екстра, КЕ, ціна за комплект 1:1)","Alfa Smart Agro",premium,"Гербіцид",antyzlak-ke-tilky-razom-z-par-omeha-ekstra-ke-tsina-za-kompl
+1435,"Верітан, РК","Alfa Smart Agro",premium,"Гербіцид",veritan-rk-alfa-smart-agro
+1436,"Гладіатор, КС","Alfa Smart Agro",premium,"Гербіцид",hladiator-ks-alfa-smart-agro
+1437,"ЕТАФОРОН, ВГ","Himagro",econom,"Гербіцид",etaforon-vh-himagro
+1438,"ЛУАЗИТ, КС","Himagro",econom,"Гербіцид",luazyt-ks-himagro
+1439,"МАГІСТР, ВГ    *","Himagro",econom,"Гербіцид",mahistr-vh-himagro
+1440,"САРАЦИН, ЗП","Himagro",econom,"Гербіцид",saratsyn-zp-himagro
+1441,"ТОТАЛ ПАУЕР, ВГ","Himagro",econom,"Гербіцид",total-pauer-vh-himagro
+1442,"АВАНГАРД, КЕ","Himagro",econom,"Гербіцид",avanhard-ke-himagro
+1443,"АМАДОР, ВГ","Himagro",econom,"Гербіцид",amador-vh-himagro
+1444,"ГЕРСОТИЛ, ВГ","Himagro",econom,"Гербіцид",hersotyl-vh-himagro
+1445,"ГОРИЗОНТ, КЕ","Himagro",econom,"Гербіцид",horyzont-ke-himagro
+1446,"ГОПЛИТ","Himagro",econom,"Гербіцид",hoplyt-himagro
+1447,"Експерт Про (ГАВАНЬ +), МД","Himagro",econom,"Гербіцид",ekspert-pro-havan-md-himagro
+1448,"ЗЛАКОДИН, ВГ","Himagro",econom,"Гербіцид",zlakodyn-vh-himagro
+1449,"+ Поліамін, ВР","Himagro",econom,"Гербіцид",poliamin-vr-himagro
+1450,"КЛІНЕФЕКТ, ВГ","Himagro",econom,"Гербіцид",klinefekt-vh-himagro
+1451,"КЛІНКОРН, МД   *","Himagro",econom,"Гербіцид",klinkorn-md-himagro
+1452,"ОВЕРСАЙЗ","Himagro",econom,"Гербіцид",oversaiz-himagro
+1453,"КРАТОС, КЕ","Himagro",econom,"Гербіцид",kratos-ke-himagro
+1454,"МІКОДИН, РК","Himagro",econom,"Гербіцид",mikodyn-rk-himagro
+1455,"НОРВЕЛ, КЕ","Himagro",econom,"Гербіцид",norvel-ke-himagro
+1456,"НОРВЕЛ ЕКСТРА, КЕ","Himagro",econom,"Гербіцид",norvel-ekstra-ke-himagro
+1457,"ОПТИМУМ, РК","Himagro",econom,"Гербіцид",optymum-rk-himagro
+1458,"ОПОРА, КЕ","Himagro",econom,"Гербіцид",opora-ke-himagro
+1459,"ОРІОН, ВГ","Himagro",econom,"Гербіцид",orion-vh-himagro
+1460,"ПОДМАРИН, КЕ","Himagro",econom,"Гербіцид",podmaryn-ke-himagro
+1461,"ПОЗИТИВ ПЛЮС, КС","Himagro",econom,"Гербіцид",pozytyv-plyus-ks-himagro
+1462,"ПРІОРИТЕТ, КС","Himagro",econom,"Гербіцид",priorytet-ks-himagro
+1463,"ПРОТЕЖЕ, РК","Himagro",econom,"Гербіцид",protezhe-rk-himagro
+1464,"ПУЛЬСАГРО, ВР","Himagro",econom,"Гербіцид",pulsahro-vr-himagro
+1465,"СВЕКЛОФОР, КС","Himagro",econom,"Гербіцид",sveklofor-ks-himagro
+1466,"СТУГНА","Himagro",econom,"Гербіцид",stuhna-himagro
+1467,"ТРИСТАР, ВГ","Himagro",econom,"Гербіцид",trystar-vh-himagro
+1468,"ФЕРМЕР, КЕ","Himagro",econom,"Гербіцид",fermer-ke-himagro
+1469,"ФЛУМЕТ, ВГ    *","Himagro",econom,"Гербіцид",flumet-vh-himagro
+1470,"ЦУКРОН +, РК","Himagro",econom,"Гербіцид",tsukron-rk-himagro
+1471,"ЦУКРОН ПРОФІ, РК","Himagro",econom,"Гербіцид",tsukron-profi-rk-himagro
+1472,"Ацифен","АХТ",econom,"Гербіцид",atsyfen-akht
+1473,"Геліос","АХТ",econom,"Гербіцид",helios-akht
+1474,"Геліос Екстра","АХТ",econom,"Гербіцид",helios-ekstra-akht
+1475,"Геліос Максі","АХТ",econom,"Гербіцид",helios-maksi-akht
+1476,"Гренадер","АХТ",econom,"Гербіцид",hrenader-akht
+1477,"Гренадер Максі","АХТ",econom,"Гербіцид",hrenader-maksi-akht
+1478,"Дисулам","АХТ",econom,"Гербіцид",dysulam-akht
+1479,"Ділар","АХТ",econom,"Гербіцид",dilar-akht
+1480,"Етасил","АХТ",econom,"Гербіцид",etasyl-akht
+1481,"Імпекс Дуо","АХТ",econom,"Гербіцид",impeks-duo-akht
+1482,"Клеріо","АХТ",econom,"Гербіцид",klerio-akht
+1483,"Клодекс Про","АХТ",econom,"Гербіцид",klodeks-pro-akht
+1484,"Метризан","АХТ",econom,"Гербіцид",metryzan-akht
+1485,"Мілафорт","АХТ",econom,"Гербіцид",milafort-akht
+1486,"Мілафорт Екстра","АХТ",econom,"Гербіцид",milafort-ekstra-akht
+1487,"Мілафорт Про","АХТ",econom,"Гербіцид",milafort-pro-akht
+1488,"Ореол Максі","АХТ",econom,"Гербіцид",oreol-maksi-akht
+1489,"Основа","АХТ",econom,"Гербіцид",osnova-akht
+1490,"Промекс","АХТ",econom,"Гербіцид",promeks-akht
+1491,"Пропазокс","АХТ",econom,"Гербіцид",propazoks-akht
+1492,"Сульфоніл","АХТ",econom,"Гербіцид",sulfonil-akht
+1493,"Танаїс","АХТ",econom,"Гербіцид",tanayis-akht
+1494,"Толазин Ультра","АХТ",econom,"Гербіцид",tolazyn-ultra-akht
+1495,"Трайден","АХТ",econom,"Гербіцид",traiden-akht
+1496,"Унісулам","АХТ",econom,"Гербіцид",unisulam-akht
+1497,"Агропав","АХТ",econom,"Гербіцид",ahropav-akht
+1498,"Агропав Екстра","АХТ",econom,"Гербіцид",ahropav-ekstra-akht
+1499,"Акваглайд","АХТ",econom,"Гербіцид",akvahlaid-akht
+1500,"Протипен","АХТ",econom,"Гербіцид",protypen-akht
+1501,"Інгібітор уреази N-STAB","АХТ",econom,"Гербіцид",inhibitor-ureazy-n-stab-akht
+1502,"Трінекс","АХТ",econom,"Гербіцид",trineks-akht
+1503,"Агростар, РК","Укравіт",premium,"Гербіцид",ahrostar-rk-ukravit
+1504,"Антисапа, ВГ","Укравіт",econom,"Гербіцид",antysapa-vh-ukravit
+1505,"Антисапа Ліквід, ВГ","Укравіт",econom,"Гербіцид",antysapa-likvid-vh-ukravit
+1506,"Віталон Експерт, КЕ","Укравіт",premium,"Гербіцид",vitalon-ekspert-ke-ukravit
+1507,"Генезис, РК","Укравіт",premium,"Гербіцид",henezys-rk-ukravit
+1508,"Генезис, РК","Укравіт",premium,"Гербіцид",henezys-rk-ukravit
+1509,"Гліфовіт, РК","Укравіт",premium,"Гербіцид",hlifovit-rk-ukravit
+1510,"Гліфовіт, РК","Укравіт",premium,"Гербіцид",hlifovit-rk-ukravit
+1511,"Гліфовіт Екстра, РК","Укравіт",econom,"Гербіцид",hlifovit-ekstra-rk-ukravit
+1512,"Гліфовіт Екстра, РК","Укравіт",econom,"Гербіцид",hlifovit-ekstra-rk-ukravit-2
+1513,"Голд Стар Екстра, ВГ","Укравіт",econom,"Гербіцид",hold-star-ekstra-vh-ukravit
+1514,"Імі-Віт,РК","Укравіт",premium,"Гербіцид",imi-vit-rk-ukravit
+1515,"Кельт, КЕ","Укравіт",premium,"Гербіцид",kelt-ke-ukravit
+1516,"Квін Стар Макс, КЕ","Укравіт",premium,"Гербіцид",kvin-star-maks-ke-ukravit
+1517,"Міладар, КС","Укравіт",premium,"Гербіцид",miladar-ks-ukravit
+1518,"Міладар Дуо, КС","Укравіт",premium,"Гербіцид",miladar-duo-ks-ukravit
+1519,"Енергодар, КС","Укравіт",econom,"Гербіцид",enerhodar-ks-ukravit
+1520,"Інферно,ВГ","Укравіт",econom,"Гербіцид",inferno-vh-ukravit
+1521,"Феномен Прайм, ВГ","Укравіт",econom,"Гербіцид",fenomen-praim-vh-ukravit
+1522,"АС-Селектив, ТН","Укравіт",econom,"Гербіцид",as-selektyv-tn-ukravit
+1523,"Селфос, ТБ","Укравіт",econom,"Гербіцид",selfos-tb-ukravit
+1524,"Байндстрайк","Грін Експрес",econom,"Гербіцид",baindstraik-hrin-ekspres
+1525,"Бентагран","Грін Експрес",econom,"Гербіцид",bentahran-hrin-ekspres
+1526,"Гамма Тотал","Грін Експрес",econom,"Гербіцид",hamma-total-hrin-ekspres
+1527,"Гармонік","Грін Експрес",econom,"Гербіцид",harmonik-hrin-ekspres
+1528,"Грамідін","Грін Експрес",econom,"Гербіцид",hramidin-hrin-ekspres
+1529,"Гранд","Грін Експрес",econom,"Гербіцид",hrand-hrin-ekspres
+1530,"Гром Некст","Грін Експрес",econom,"Гербіцид",hrom-nekst-hrin-ekspres
+1531,"Гром Тотал","Грін Експрес",econom,"Гербіцид",hrom-total-hrin-ekspres
+1532,"Дібензон","Грін Експрес",econom,"Гербіцид",dibenzon-hrin-ekspres
+1533,"Д-Камба","Грін Експрес",econom,"Гербіцид",d-kamba-hrin-ekspres
+1534,"Драгун","Грін Експрес",econom,"Гербіцид",drahun-hrin-ekspres
+1535,"Дуо Кватро Д","Грін Експрес",econom,"Гербіцид",duo-kvatro-d-hrin-ekspres
+1536,"Екран Екстра","Грін Експрес",econom,"Гербіцид",ekran-ekstra-hrin-ekspres
+1537,"Екран Є-формула","Грін Експрес",econom,"Гербіцид",ekran-ye-formula-hrin-ekspres
+1538,"Екран Тотал","Грін Експрес",econom,"Гербіцид",ekran-total-hrin-ekspres
+1539,"Екстразін","Грін Експрес",econom,"Гербіцид",ekstrazin-hrin-ekspres
+1540,"Ескорт Біо","Грін Експрес",econom,"Гербіцид",eskort-bio-hrin-ekspres
+1541,"Ескорт Комплект","Грін Експрес",econom,"Гербіцид",eskort-komplekt-hrin-ekspres
+1542,"Ескорт Оіл","Грін Експрес",econom,"Гербіцид",eskort-oil-hrin-ekspres
+1543,"Ескорт Турбо","Грін Експрес",econom,"Гербіцид",eskort-turbo-hrin-ekspres
+1544,"Ескорт","Грін Експрес",econom,"Гербіцид",eskort-hrin-ekspres
+1545,"Зугамін","Грін Експрес",econom,"Гербіцид",zuhamin-hrin-ekspres
+1546,"Ірокез","Грін Експрес",econom,"Гербіцид",irokez-hrin-ekspres
+1547,"Калігула","Грін Експрес",econom,"Гербіцид",kalihula-hrin-ekspres
+1548,"Калмер","Грін Експрес",econom,"Гербіцид",kalmer-hrin-ekspres
+1549,"Кропекс","Грін Експрес",econom,"Гербіцид",kropeks-hrin-ekspres
+1550,"Мезогрін","Грін Експрес",econom,"Гербіцид",mezohrin-hrin-ekspres
+1551,"Метагрін","Грін Експрес",econom,"Гербіцид",metahrin-hrin-ekspres
+1552,"Металакс","Грін Експрес",econom,"Гербіцид",metalaks-hrin-ekspres
+1553,"Метрікс","Грін Експрес",econom,"Гербіцид",metriks-hrin-ekspres
+1554,"Ніка Плюс","Грін Експрес",econom,"Гербіцид",nika-plyus-hrin-ekspres
+1555,"Ніка","Грін Експрес",econom,"Гербіцид",nika-hrin-ekspres
+1556,"Оксі","Грін Експрес",econom,"Гербіцид",oksi-hrin-ekspres
+1557,"Онікс","Грін Експрес",econom,"Гербіцид",oniks-hrin-ekspres
+1558,"Орнамент","Грін Експрес",econom,"Гербіцид",ornament-hrin-ekspres
+1559,"Пантеон","Грін Експрес",econom,"Гербіцид",panteon-hrin-ekspres
+1560,"Пікет","Грін Експрес",econom,"Гербіцид",piket-hrin-ekspres
+1561,"Сойгард Голд","Грін Експрес",econom,"Гербіцид",soihard-hold-hrin-ekspres
+1562,"Сойгард","Грін Експрес",econom,"Гербіцид",soihard-hrin-ekspres
+1563,"Стедіс","Грін Експрес",econom,"Гербіцид",stedis-hrin-ekspres
+1564,"Стратег","Грін Експрес",econom,"Гербіцид",strateh-hrin-ekspres
+1565,"Суховій Пауер","Грін Експрес",econom,"Гербіцид",sukhovii-pauer-hrin-ekspres
+1566,"Террамін","Грін Експрес",econom,"Гербіцид",terramin-hrin-ekspres
+1567,"Трініті","Грін Експрес",econom,"Гербіцид",triniti-hrin-ekspres
+1568,"Фертайл","Грін Експрес",econom,"Гербіцид",fertail-hrin-ekspres
+1569,"Флейм Плюс","Грін Експрес",econom,"Гербіцид",fleim-plyus-hrin-ekspres
+1570,"Флейм","Грін Експрес",econom,"Гербіцид",fleim-hrin-ekspres
+1571,"Флузіон","Грін Експрес",econom,"Гербіцид",fluzion-hrin-ekspres
+1572,"Флуорит","Грін Експрес",econom,"Гербіцид",fluoryt-hrin-ekspres
+2312,"МІЛАНІТ","Нопосон",econom,"Фунгіцид",milanit-noposon
+2313,"КЕВЛАР","Нопосон",econom,"Фунгіцид",kevlar-noposon
+2314,"Аккорд, м.с.","Нертус",econom,"Фунгіцид",akkord-m-s-nertus
+2315,"Алмаз 100, КЕ","Нертус",econom,"Фунгіцид",almaz-100-ke-nertus
+2316,"Дезал, КС","Нертус",econom,"Фунгіцид",dezal-ks-nertus
+2317,"Купер, м.с.","Нертус",econom,"Фунгіцид",kuper-m-s-nertus
+2318,"Прента, КЕ","Нертус",econom,"Фунгіцид",prenta-ke-nertus
+2319,"Тіназол, КЕ","Нертус",econom,"Фунгіцид",tinazol-ke-nertus
+2320,"Фіделіс, КС","Нертус",econom,"Фунгіцид",fidelis-ks-nertus
+2321,"Фонтес ЗП","Нертус",econom,"Фунгіцид",fontes-zp-nertus
+2322,"Резидент КС","Нертус",econom,"Фунгіцид",rezydent-ks-nertus
+2323,"Антал, ТН","Нертус",econom,"Фунгіцид",antal-tn-nertus
+2324,"Тринавата, ТН","Нертус",econom,"Фунгіцид",trynavata-tn-5-nertus
+2325,"Костас, КС","PEST.UA",econom,"Фунгіцид",kostas-ks-pest-ua
+2326,"Канкун","PEST.UA",econom,"Фунгіцид",kankun-pest-ua
+2327,"Авідо, ТН","Alfa Smart Agro",premium,"Фунгіцид",avido-tn-alfa-smart-agro
+2328,"Авіценна, СЕ","Alfa Smart Agro",premium,"Фунгіцид",avitsenna-se-alfa-smart-agro
+2329,"Авіценна Плюс, ТН","Alfa Smart Agro",premium,"Фунгіцид",avitsenna-plyus-tn-alfa-smart-agro
+2330,"Кантаріс, ТН","Alfa Smart Agro",premium,"Фунгіцид",kantaris-tn-alfa-smart-agro
+2331,"Венцедор, ТН","Alfa Smart Agro",premium,"Фунгіцид",ventsedor-tn-alfa-smart-agro
+2332,"Стеліум Ультра, ТН","Alfa Smart Agro",premium,"Фунгіцид",stelium-ultra-tn-alfa-smart-agro
+2333,"Амікон, ЕВ","Alfa Smart Agro",premium,"Фунгіцид",amikon-ev-alfa-smart-agro
+2334,"Артіс Плюс, КС","Alfa Smart Agro",premium,"Фунгіцид",artis-plyus-ks-alfa-smart-agro
+2335,"Баррет, КЕ","Alfa Smart Agro",premium,"Фунгіцид",barret-ke-alfa-smart-agro
+2336,"Болівар Форте, КС","Alfa Smart Agro",premium,"Фунгіцид",bolivar-forte-ks-alfa-smart-agro
+2337,"Варос, КС","Alfa Smart Agro",premium,"Фунгіцид",varos-ks-alfa-smart-agro
+2338,"ДОК Про, ЗП","Alfa Smart Agro",premium,"Фунгіцид",dok-pro-zp-alfa-smart-agro
+2339,"Камелот, КЕ","Alfa Smart Agro",premium,"Фунгіцид",kamelot-ke-alfa-smart-agro
+2340,"Кваліфай, КЕ","Alfa Smart Agro",premium,"Фунгіцид",kvalifai-ke-alfa-smart-agro
+2341,"Корвізар М, КЕ","Alfa Smart Agro",premium,"Фунгіцид",korvizar-m-ke-alfa-smart-agro
+2342,"Кросбі, СЕ","Alfa Smart Agro",premium,"Фунгіцид",krosbi-se-alfa-smart-agro
+2343,"Ставарро, СЕ","Alfa Smart Agro",premium,"Фунгіцид",stavarro-se-alfa-smart-agro
+2344,"Танарт, ВГ","Alfa Smart Agro",econom,"Фунгіцид",tanart-vh-alfa-smart-agro
+2345,"Тезис, КС","Alfa Smart Agro",premium,"Фунгіцид",tezys-ks-alfa-smart-agro
+2346,"Теквіл, КЕ","Alfa Smart Agro",premium,"Фунгіцид",tekvil-ke-alfa-smart-agro
+2347,"Теламус, КС","Alfa Smart Agro",premium,"Фунгіцид",telamus-ks-alfa-smart-agro
+2348,"Фенікс, КС","Alfa Smart Agro",premium,"Фунгіцид",feniks-ks-alfa-smart-agro
+2349,"Фенікс Дуо, КС","Alfa Smart Agro",premium,"Фунгіцид",feniks-duo-ks-alfa-smart-agro
+2350,"Хеллер, КС","Alfa Smart Agro",premium,"Фунгіцид",kheller-ks-alfa-smart-agro
+2351,"Азоксин","АХТ",econom,"Фунгіцид",azoksyn-akht
+2352,"Аурис","АХТ",econom,"Фунгіцид",aurys-akht
+2353,"Вартіс","АХТ",econom,"Фунгіцид",vartis-akht
+2354,"Віваро","АХТ",econom,"Фунгіцид",vivaro-akht
+2355,"Елантро","АХТ",econom,"Фунгіцид",elantro-akht
+2356,"Карбезим","АХТ",econom,"Фунгіцид",karbezym-akht
+2357,"Маестро","АХТ",econom,"Фунгіцид",maestro-akht
+2358,"Полігард","АХТ",econom,"Фунгіцид",polihard-akht
+2359,"Полігард Максі","АХТ",econom,"Фунгіцид",polihard-maksi-akht
+2360,"Флутривіт Максі","АХТ",econom,"Фунгіцид",flutryvit-maksi-akht
+2361,"Фунгімакс","АХТ",econom,"Фунгіцид",funhimaks-akht
+2362,"Фунгісил","АХТ",econom,"Фунгіцид",funhisyl-akht
+2363,"Цимоксил","АХТ",econom,"Фунгіцид",tsymoksyl-akht
+2364,"Ларімар","АХТ",econom,"Фунгіцид",larimar-akht
+2365,"Кватрофорс","АХТ",econom,"Фунгіцид",kvatrofors-akht
+2366,"Дезарал Екстра, КС","Укравіт",premium,"Фунгіцид",dezaral-ekstra-ks-ukravit
+2367,"Делавіт","Укравіт",premium,"Фунгіцид",delavit-ukravit
+2368,"Джек Пот, КЕ","Укравіт",premium,"Фунгіцид",dzhek-pot-ke-ukravit
+2369,"Захист, ЗП","Укравіт",premium,"Фунгіцид",zakhyst-zp-ukravit
+2370,"Капітал, КС","Укравіт",premium,"Фунгіцид",kapital-ks-ukravit
+2371,"Сінан, КС","Укравіт",premium,"Фунгіцид",sinan-ks-ukravit
+2372,"Унікаль, КС","Укравіт",premium,"Фунгіцид",unikal-ks-ukravit
+2373,"Унікаль МАКС, КС","Укравіт",premium,"Фунгіцид",unikal-maks-ks-ukravit
+2374,"Цілитель, ЗП","Укравіт",premium,"Фунгіцид",tsilytel-zp-ukravit
+2375,"Аплігатор","Грін Експрес",econom,"Фунгіцид",aplihator-hrin-ekspres
+2376,"Аспект","Грін Експрес",econom,"Фунгіцид",aspekt-hrin-ekspres
+2377,"Балеро","Грін Експрес",econom,"Фунгіцид",balero-hrin-ekspres
+2378,"Композит","Грін Експрес",econom,"Фунгіцид",kompozyt-hrin-ekspres
+2379,"Рапідус","Грін Експрес",econom,"Фунгіцид",rapidus-hrin-ekspres
+2380,"Сигнал","Грін Експрес",econom,"Фунгіцид",syhnal-hrin-ekspres
+2381,"Старлайт","Грін Експрес",econom,"Фунгіцид",starlait-hrin-ekspres
+2382,"Фортеця Тотал","Грін Експрес",econom,"Фунгіцид",fortetsya-total-hrin-ekspres
+2383,"Цензор XL","Грін Експрес",econom,"Фунгіцид",tsenzor-xl-hrin-ekspres
+2384,"Цензор Д","Грін Експрес",econom,"Фунгіцид",tsenzor-d-hrin-ekspres
+3175,"Ветеран РК","Нертус",econom,"Інсектицид",veteran-rk-nertus
+3176,"Готіка, КС","Нертус",econom,"Інсектицид",hotika-ks-nertus
+3177,"Шаман, КЕ","Нертус",econom,"Інсектицид",shaman-ke-nertus
+3178,"Контадор Макси, ТН","Нертус",econom,"Інсектицид",kontador-maksy-tn-nertus
+3179,"Кайзер","Нертус",econom,"Інсектицид",kaizer-nertus
+3180,"Полкар, ВП","PEST.UA",econom,"Інсектицид",polkar-vp-pest-ua
+3181,"Клондайк, ТН","Alfa Smart Agro",premium,"Інсектицид",klondaik-tn-alfa-smart-agro
+3182,"Командор Екстра, ТН","Alfa Smart Agro",premium,"Інсектицид",komandor-ekstra-tn-alfa-smart-agro
+3183,"Командор Гранд, ТН","Alfa Smart Agro",premium,"Інсектицид",komandor-hrand-tn-alfa-smart-agro
+3184,"Актуал, КЕ","Alfa Smart Agro",premium,"Інсектицид",aktual-ke-alfa-smart-agro
+3185,"Амбір, СК","Alfa Smart Agro",premium,"Інсектицид",ambir-sk-alfa-smart-agro
+3186,"Арданіс, СК","Alfa Smart Agro",premium,"Інсектицид",ardanis-sk-alfa-smart-agro
+3187,"Віарес, КС","Alfa Smart Agro",premium,"Інсектицид",viares-ks-alfa-smart-agro
+3188,"Асистент Максі","АХТ",econom,"Інсектицид",asystent-maksi-akht
+3189,"Атрікс Максі","АХТ",econom,"Інсектицид",atriks-maksi-akht
+3190,"Еміприд Про","АХТ",econom,"Інсектицид",emipryd-pro-akht
+3191,"Канонір Дуо","АХТ",econom,"Інсектицид",kanonir-duo-akht
+3192,"Канонір Дуо","АХТ",econom,"Інсектицид",kanonir-duo-akht-2
+3193,"Лаготрин","АХТ",econom,"Інсектицид",lahotryn-akht
+3194,"Піризокс","АХТ",econom,"Інсектицид",piryzoks-akht
+3195,"Тіаклотрин-М","АХТ",econom,"Інсектицид",tiaklotryn-m-akht
+3196,"Фосорган Дуо","АХТ",econom,"Інсектицид",fosorhan-duo-akht
+3197,"Канонір Ультра","АХТ",econom,"Інсектицид",kanonir-ultra-akht
+3198,"Тіатрин","АХТ",econom,"Інсектицид",tiatryn-akht
+3199,"АЦ Люкс Ліквід, ЗП","Укравіт",premium,"Інсектицид",ats-lyuks-likvid-zp-ukravit
+3200,"Туріл, ВГ","Укравіт",premium,"Інсектицид",turil-vh-ukravit
+3201,"Хлорпірівіт-агро, КЕ","Укравіт",premium,"Інсектицид",khlorpirivit-ahro-ke-ukravit
+3202,"Альфазол","Грін Експрес",econom,"Інсектицид",alfazol-hrin-ekspres
+3203,"Ацетам","Грін Експрес",econom,"Інсектицид",atsetam-hrin-ekspres
+3204,"Вайпер","Грін Експрес",econom,"Інсектицид",vaiper-hrin-ekspres
+3205,"Каратель","Грін Експрес",econom,"Інсектицид",karatel-hrin-ekspres
+3206,"Каратель плюс","Грін Експрес",econom,"Інсектицид",karatel-plyus-hrin-ekspres
+3207,"Команч","Грін Експрес",econom,"Інсектицид",komanch-hrin-ekspres
+3208,"Префект","Грін Експрес",econom,"Інсектицид",prefekt-hrin-ekspres
+3209,"Спірос","Грін Експрес",econom,"Інсектицид",spiros-hrin-ekspres
+3210,"Тіапрід","Грін Експрес",econom,"Інсектицид",tiaprid-hrin-ekspres
+4067,"Бактолайв актив соіл","Himagro",econom,"Протруйник",baktolaiv-aktyv-soil-himagro
+5013,"Скорпіон Максі, РК","Нертус",econom,"Десикант",skorpion-maksi-rk-nertus
+5014,"Скорпіон Форте, РК","Нертус",econom,"Десикант",skorpion-forte-rk-nertus
+5015,"Евадро, РК","Alfa Smart Agro",econom,"Десикант",evadro-rk-alfa-smart-agro
+5016,"Регістан ПРО","АХТ",econom,"Десикант",rehistan-pro-akht
+5017,"Капкан (принада)","Укравіт",econom,"Десикант",kapkan-prynada-ukravit
+5018,"Захват Ойл, ЕВ","Укравіт",econom,"Десикант",zakhvat-oil-ev-ukravit
+5019,"Захват Ойл, ЕВ","Укравіт",econom,"Десикант",zakhvat-oil-ev-ukravit-2
+5020,"Суховій Форте","Грін Експрес",econom,"Десикант",sukhovii-forte-hrin-ekspres
+6026,"Елістер, рідина","Alfa Smart Agro",econom,"Регулятор росту",elister-ridyna-alfa-smart-agro
+6027,"СУПЕР ОІЛ, К","Himagro",econom,"Регулятор росту",super-oil-k-5-himagro
+6028,"Акселератор Гідро Бор, ВР","Himagro",econom,"Регулятор росту",akselerator-hidro-bor-vr-himagro
+6029,"Акселератор Молібден, ЗП","Himagro",econom,"Регулятор росту",akselerator-molibden-zp-himagro
+6030,"Акселератор ВП               (3-11-38), КП","Himagro",econom,"Регулятор росту",akselerator-vp-3-11-38-kp-himagro
+6031,"Амісил","Himagro",econom,"Регулятор росту",amisyl-himagro
+6032,"Силіон","АХТ",econom,"Регулятор росту",sylion-akht
+6033,"Триолат","АХТ",econom,"Регулятор росту",tryolat-akht
+6034,"Вітамин Бор","АХТ",econom,"Регулятор росту",vitamyn-bor-akht
+6035,"Тардер","АХТ",econom,"Регулятор росту",tarder-akht
+6036,"Maximize","Укравіт",econom,"Регулятор росту",maximize-ukravit
+6037,"TerraMax DRY","Укравіт",econom,"Регулятор росту",terramax-dry-ukravit
+6038,"Авангард CrystalMax B-21","Укравіт",econom,"Регулятор росту",avanhard-crystalmax-b-21-ukravit
+6039,"Авангард CrystalMax Fe-11","Укравіт",econom,"Регулятор росту",avanhard-crystalmax-fe-11-ukravit
+6040,"Авангард Азот+мікро","Укравіт",econom,"Регулятор росту",avanhard-azot-mikro-ukravit
+6041,"Авангард Бобові","Укравіт",econom,"Регулятор росту",avanhard-bobovi-ukravit
+6042,"Авангард Бор","Укравіт",econom,"Регулятор росту",avanhard-bor-ukravit
+6043,"Авангард Буряк","Укравіт",econom,"Регулятор росту",avanhard-buryak-ukravit
+6044,"Авангард Виноград","Укравіт",econom,"Регулятор росту",avanhard-vynohrad-ukravit
+6045,"Авангард Зернові","Укравіт",econom,"Регулятор росту",avanhard-zernovi-ukravit
+6046,"Авангард Калій","Укравіт",econom,"Регулятор росту",avanhard-kalii-ukravit
+6047,"Авангард Кальцій","Укравіт",econom,"Регулятор росту",avanhard-kaltsii-ukravit
+6048,"Авангард Кальцій+мікро","Укравіт",econom,"Регулятор росту",avanhard-kaltsii-mikro-ukravit
+6049,"Авангард Картопля","Укравіт",econom,"Регулятор росту",avanhard-kartoplya-ukravit
+6050,"Авангард Кремній Біо марки А","Укравіт",econom,"Регулятор росту",avanhard-kremnii-bio-marky-a-ukravit
+6051,"Авангард Кукурудза","Укравіт",econom,"Регулятор росту",avanhard-kukurudza-ukravit
+6052,"Авангард Марганець","Укравіт",econom,"Регулятор росту",avanhard-marhanets-ukravit
+6053,"Авангард Мідь","Укравіт",econom,"Регулятор росту",avanhard-mid-ukravit
+6054,"Авангард Молібден","Укравіт",econom,"Регулятор росту",avanhard-molibden-ukravit
+6055,"Авангард Овочеві","Укравіт",econom,"Регулятор росту",avanhard-ovochevi-ukravit
+6056,"Авангард Плодові","Укравіт",econom,"Регулятор росту",avanhard-plodovi-ukravit
+6057,"Авангард Ріпак","Укравіт",econom,"Регулятор росту",avanhard-ripak-ukravit
+6058,"Авангард Сірка+Азот+мікро","Укравіт",econom,"Регулятор росту",avanhard-sirka-azot-mikro-ukravit
+6059,"Авангард Соняшник","Укравіт",econom,"Регулятор росту",avanhard-sonyashnyk-ukravit
+6060,"Авангард Старт","Укравіт",econom,"Регулятор росту",avanhard-start-ukravit
+6061,"Авангард Фосфіт К","Укравіт",econom,"Регулятор росту",avanhard-fosfit-k-ukravit
+6062,"Авангард Фосфіт К+мікро РК","Укравіт",econom,"Регулятор росту",avanhard-fosfit-k-mikro-rk-ukravit
+6063,"Авангард Фосфіт К+ Цинк","Укравіт",econom,"Регулятор росту",avanhard-fosfit-k-tsynk-ukravit
+6064,"Авангард Р Фосфор","Укравіт",econom,"Регулятор росту",avanhard-r-fosfor-ukravit
+6065,"Авангард Р Фосфор+Калій","Укравіт",econom,"Регулятор росту",avanhard-r-fosfor-kalii-ukravit
+6066,"Авангард Р Цинк","Укравіт",econom,"Регулятор росту",avanhard-r-tsynk-ukravit
+6067,"Гроу Аміно Авангард ДКМ","Укравіт",econom,"Регулятор росту",hrou-amino-avanhard-dkm-ukravit
+6068,"Гроу Аміно Авангард ДКМ","Укравіт",econom,"Регулятор росту",hrou-amino-avanhard-dkm-ukravit-2
+6069,"Гроу Гумат Авангард ДКМ","Укравіт",econom,"Регулятор росту",hrou-humat-avanhard-dkm-ukravit
+6070,"Стимул Авангард","Укравіт",econom,"Регулятор росту",stymul-avanhard-ukravit
+6071,"Стимул Авангард","Укравіт",econom,"Регулятор росту",stymul-avanhard-ukravit-2
+6072,"НАЙС Злаки","Найс",econom,"Регулятор росту",nais-zlaky-nais
+6073,"НАЙС Технічні","Найс",econom,"Регулятор росту",nais-tekhnichni-nais
+6074,"НАЙС Зернові","Найс",econom,"Регулятор росту",nais-zernovi-nais
+6075,"НАЙС Бобові","Найс",econom,"Регулятор росту",nais-bobovi-nais
+6076,"НАЙС Кукурудза","Найс",econom,"Регулятор росту",nais-kukurudza-nais
+6077,"НАЙС Олійні","Найс",econom,"Регулятор росту",nais-oliini-nais
+6078,"НАЙС Бор*","Найс",econom,"Регулятор росту",nais-bor-nais
+6079,"НАЙС Цинк","Найс",econom,"Регулятор росту",nais-tsynk-nais
+6080,"НАЙС Марганець Pro","Найс",econom,"Регулятор росту",nais-marhanets-pro-nais
+6081,"НАЙС Марганець","Найс",econom,"Регулятор росту",nais-marhanets-nais
+6082,"НАЙС Молібден","Найс",econom,"Регулятор росту",nais-molibden-nais
+6083,"VECTA ACTION","Найс",econom,"Регулятор росту",vecta-action-nais
+6084,"VECTA AMINO","Найс",econom,"Регулятор росту",vecta-amino-nais
+6085,"VECTA Seaweed","Найс",econom,"Регулятор росту",vecta-seaweed-nais
+6086,"VECTA Pmax","Найс",econom,"Регулятор росту",vecta-pmax-nais
+6087,"VECTA Kmax","Найс",econom,"Регулятор росту",vecta-kmax-nais
+6088,"VECTA COMBIPlus","Найс",econom,"Регулятор росту",vecta-combiplus-nais
+6089,"Humate LF 20","Лайф",econom,"Регулятор росту",humate-lf-20-laif
+6090,"Humate 500","Лайф",econom,"Регулятор росту",humate-500-laif
+6091,"Гумат Старт","Лайф",econom,"Регулятор росту",humat-start-laif
+6092,"Фульвігум","Лайф",econom,"Регулятор росту",fulvihum-laif
+6093,"Фульвімакс","Лайф",econom,"Регулятор росту",fulvimaks-laif
+6094,"Гумат Аміно","Лайф",econom,"Регулятор росту",humat-amino-laif
+6095,"Гумат кремній (Si)","Лайф",econom,"Регулятор росту",humat-kremnii-si-laif
+6096,"Аmino X","Лайф",econom,"Регулятор росту",amino-x-laif
+6097,"СТОП ЛІД","Лайф",econom,"Регулятор росту",stop-lid-laif
+6098,"Antistress 03","Лайф",econom,"Регулятор росту",antistress-03-laif
+6099,"Ванадін","Лайф",econom,"Регулятор росту",vanadin-laif
+6100,"Бор150 лужний","Лайф",econom,"Регулятор росту",bor150-luzhnyi-laif
+6101,"Бор100 кислий","Лайф",econom,"Регулятор росту",bor100-kyslyi-laif
+6102,"Бор+Молібден","Лайф",econom,"Регулятор росту",bor-molibden-laif
+6103,"Цинк 120","Лайф",econom,"Регулятор росту",tsynk-120-laif
+6104,"Цинк Актив","Лайф",econom,"Регулятор росту",tsynk-aktyv-laif
+6105,"Мідь Турбо","Лайф",econom,"Регулятор росту",mid-turbo-laif
+6106,"Сірка Турбо","Лайф",econom,"Регулятор росту",sirka-turbo-laif
+6107,"Марганець Турбо","Лайф",econom,"Регулятор росту",marhanets-turbo-laif
+6108,"Кальцій 200","Лайф",econom,"Регулятор росту",kaltsii-200-laif
+6109,"Калій Турбо","Лайф",econom,"Регулятор росту",kalii-turbo-laif
+6110,"Розумний Азот","Лайф",econom,"Регулятор росту",rozumnyi-azot-laif
+6111,"Молібден Лайф","Лайф",econom,"Регулятор росту",molibden-laif-laif
+6112,"Кобальт+Молібден","Лайф",econom,"Регулятор росту",kobalt-molibden-laif
+6113,"КАРБАМІД з низьким біуретином 52000грн/т з ПДВ","Лайф",econom,"Регулятор росту",karbamid-z-nyzkym-biuretynom-52000hrn-t-z-pdv-laif
+6114,"БОФОС","Лайф",econom,"Регулятор росту",bofos-laif
+6115,"ЦИФОС мінерал (універсальний ультрахелат)","Лайф",econom,"Регулятор росту",tsyfos-mineral-universalnyi-ultrakhelat-laif
+6116,"ЦИФОС органік (листовий)","Лайф",econom,"Регулятор росту",tsyfos-orhanik-lystovyi-laif
+6117,"ФОСКАЛЬ","Лайф",econom,"Регулятор росту",foskal-laif
+6118,"НЕПТУН
+pH-коректор (кислий)","Лайф",econom,"Регулятор росту",neptun-ph-korektor-kyslyi-laif
+6119,"НЕПТУН
+pH-коректор (стабілізатор)","Лайф",econom,"Регулятор росту",neptun-ph-korektor-stabilizator-laif
+6120,"ТУРБОЛИП прилипач грунтовий","Лайф",econom,"Регулятор росту",turbolyp-prylypach-hruntovyi-laif
+6121,"ОІЛ Турбо","Лайф",econom,"Регулятор росту",oil-turbo-laif
+6122,"Спиртовий ТУРБОЛИП","Лайф",econom,"Регулятор росту",spyrtovyi-turbolyp-laif
+6123,"Насіння Турбо","Лайф",econom,"Регулятор росту",nasinnya-turbo-laif
+6124,"Зерновий Турбо","Лайф",econom,"Регулятор росту",zernovyi-turbo-laif
+6125,"Олійний Турбо","Лайф",econom,"Регулятор росту",oliinyi-turbo-laif
+6126,"Кукурудза Турбо","Лайф",econom,"Регулятор росту",kukurudza-turbo-laif
+6127,"Бобовий Турбо","Лайф",econom,"Регулятор росту",bobovyi-turbo-laif
+6128,"Буряковий Турбо","Лайф",econom,"Регулятор росту",buryakovyi-turbo-laif
+6129,"Овочевий Турбо","Лайф",econom,"Регулятор росту",ovochevyi-turbo-laif
+6130,"Універсальний Турбо","Лайф",econom,"Регулятор росту",universalnyi-turbo-laif
+6131,"АЗОТОЛАЙФ","Лайф",econom,"Регулятор росту",azotolaif-laif
+6132,"ФОСФОЛАЙФ","Лайф",econom,"Регулятор росту",fosfolaif-laif
+6133,"ПМК-У","Лайф",econom,"Регулятор росту",pmk-u-laif
+6134,"ФІТОЛАЙФ","Лайф",econom,"Регулятор росту",fitolaif-laif
+6135,"СІДОН СОЯ","Лайф",econom,"Регулятор росту",sidon-soya-laif
+6136,"ПМК-Д ДЕСТРУКЦІЯ","Лайф",econom,"Регулятор росту",pmk-d-destruktsiya-laif
+6137,"ПМК-БД ДЕСТРУКЦІЯ","Лайф",econom,"Регулятор росту",pmk-bd-destruktsiya-laif
+6138,"ДЕСТЕРН","Лайф",econom,"Регулятор росту",destern-laif
+6139,"ФУНГІКЛІН","Лайф",econom,"Регулятор росту",funhiklin-laif
+6140,"ВОРІОР","Лайф",econom,"Регулятор росту",vorior-laif
+6141,"ПМК-ЗР","Лайф",econom,"Регулятор росту",pmk-zr-laif
+6142,"ФУНГЛАЙФ","Лайф",econom,"Регулятор росту",funhlaif-laif
+6143,"СПОРАЗИН","Лайф",econom,"Регулятор росту",sporazyn-laif
+6144,"СКЛЕРОСТОП","Лайф",econom,"Регулятор росту",sklerostop-laif
+6145,"ГВАРОФІТ","Лайф",econom,"Регулятор росту",hvarofit-laif
+6146,"ВОРІОР ТУРБО","Лайф",econom,"Регулятор росту",vorior-turbo-laif
+6147,"ІНСЕКТУРИН","Лайф",econom,"Регулятор росту",insekturyn-laif
+6148,"УЛЬТРАЧИСТ","Лайф",econom,"Регулятор росту",ultrachyst-laif
+6149,"START LIFE NPK 3:18:18","Лайф",econom,"Регулятор росту",start-life-npk-3-18-18-laif
+6150,"START LIFE NPK 5:20:5","Лайф",econom,"Регулятор росту",start-life-npk-5-20-5-laif
+6151,"START LIFE NPK 8:24:0","Лайф",econom,"Регулятор росту",start-life-npk-8-24-0-laif
+6152,"START LIFE NPK 18:6:9","Лайф",econom,"Регулятор росту",start-life-npk-18-6-9-laif
+6153,"START LIFE РК  25:22","Лайф",econom,"Регулятор росту",start-life-rk-25-22-laif
+6154,"START LIFE РК  5:30","Лайф",econom,"Регулятор росту",start-life-rk-5-30-laif
+6155,"START LIFE NРS  9:20:3","Лайф",econom,"Регулятор росту",start-life-nrs-9-20-3-laif
+7034,"Інгрес, адьювант","Укравіт",premium,"Адʼювант",inhres-adyuvant-ukravit
+7035,"Айворі плюс","Укравіт",premium,"Адʼювант",aivori-plyus-ukravit
+8011,"Мишолов, р","Нертус",econom,"Родентицид",mysholov-r-nertus
