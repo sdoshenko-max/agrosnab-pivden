@@ -65,6 +65,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
             <div className="flex items-center gap-2 mb-3 flex-wrap">
               <span className={`badge ${tier.cls}`}>{tierLabel}</span>
               {product.saveFromOriginal && (<span className="text-accent font-bold text-sm">−{product.saveFromOriginal}% від оригіналу</span>)}
+              <span className="ml-auto text-xs font-mono text-muted bg-bg border border-border px-2 py-0.5 rounded">№ {product.code}</span>
             </div>
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-1">{name}</h1>
             <p className="text-muted mb-4">{labels.manufacturer}: <span className="font-medium text-ink">{product.manufacturer}</span></p>
