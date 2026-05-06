@@ -146,21 +146,22 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
         </div>
       </section>
 
+      {/* Десктоп: таб-смуга в 2 ряди (flex-wrap, без скролу) */}
       {currentGroupSlug && (
-        <nav className="bg-white border-b border-border sticky top-[60px] z-40">
-          <div className="container-w py-2 overflow-x-auto">
-            <div className="flex items-center gap-1.5 whitespace-nowrap">
+        <nav className="hidden lg:block bg-white border-b border-border sticky top-[60px] z-40">
+          <div className="container-w py-3">
+            <div className="flex flex-wrap gap-2">
               {groups.map(g => (
                 <Link
                   key={g.slug}
                   href={`${base}/grupy/${g.slug}/`}
-                  className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${
+                  className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-150 flex items-center gap-2 ${
                     g.slug === currentGroupSlug
-                      ? "bg-brand text-white"
+                      ? "bg-brand text-white shadow-sm"
                       : "bg-bg text-ink hover:bg-border"
                   }`}
                 >
-                  <span>{g.emoji}</span>
+                  <span className="text-lg leading-none">{g.emoji}</span>
                   <span>{lang === "uk" ? g.nameUk : g.nameRu}</span>
                 </Link>
               ))}
@@ -181,6 +182,27 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
                 <h2 className="font-bold flex items-center gap-2"><Filter className="w-4 h-4" />{labels.filters}</h2>
                 {hasActiveFilter && (<button onClick={reset} className="text-xs text-accent flex items-center gap-1"><X className="w-3 h-3" />{labels.reset}</button>)}
               </div>
+              {currentGroupSlug && (
+                <div className="mb-4 lg:hidden">
+                  <p className="text-xs text-muted font-semibold mb-2 uppercase">{lang === "uk" ? "Група ЗЗР" : "Группа СЗР"}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {groups.map(g => (
+                      <Link
+                        key={g.slug}
+                        href={`${base}/grupy/${g.slug}/`}
+                        className={`text-xs px-2.5 py-1.5 rounded-md flex items-center gap-1 transition-colors ${
+                          g.slug === currentGroupSlug
+                            ? "bg-brand text-white"
+                            : "bg-bg text-ink hover:bg-border"
+                        }`}
+                      >
+                        <span>{g.emoji}</span>
+                        <span>{lang === "uk" ? g.nameUk : g.nameRu}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
               <div className="mb-4">
                 <p className="text-xs text-muted font-semibold mb-2 uppercase">{labels.tier}</p>
                 <div className="flex flex-wrap gap-1.5">

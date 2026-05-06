@@ -103,12 +103,12 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
           )
         ) : (
           <form onSubmit={submit} className="p-4 space-y-3 flex-1">
-            <input type="text" placeholder={t.form.name} value={name} onChange={e => setName(e.target.value)} required className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
+            <input type="text" placeholder={t.form.name} value={name} onChange={e => setName(e.target.value)} required className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink placeholder:text-muted focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
             <PhoneInput value={phone} onChange={setPhone} />
-            <select value={region} onChange={e => setRegion(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">{t.form.regions.map(r => <option key={r} value={r}>{r}</option>)}</select>
-            <select value={delivery} onChange={e => setDelivery(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">{t.form.deliveryOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
-            <select value={payment} onChange={e => setPayment(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white">{t.form.paymentOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
-            <textarea placeholder={t.form.comment} value={comment} onChange={e => setComment(e.target.value)} rows={2} className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none resize-none" />
+            <select value={region} onChange={e => setRegion(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink">{t.form.regions.map(r => <option key={r} value={r}>{r}</option>)}</select>
+            <select value={delivery} onChange={e => setDelivery(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink">{t.form.deliveryOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
+            <select value={payment} onChange={e => setPayment(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink">{t.form.paymentOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
+            <textarea placeholder={t.form.comment} value={comment} onChange={e => setComment(e.target.value)} rows={2} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink placeholder:text-muted focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none resize-none" />
             <label className="flex items-start gap-2 text-xs text-muted"><input type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} className="mt-0.5" required /><span>{t.form.consent}</span></label>
             <div className="bg-bg p-3 rounded-lg text-sm"><div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{format(cart.totalCash, cur)}</span></div></div>
             <div className="grid grid-cols-2 gap-2">

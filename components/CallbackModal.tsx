@@ -108,7 +108,7 @@ export function CallbackModal({ open, onClose, lang }: { open: boolean; onClose:
               value={name}
               onChange={e => setName(e.target.value)}
               required
-              className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none"
+              className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink placeholder:text-muted focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none"
               autoFocus
             />
             <PhoneInput value={phone} onChange={setPhone} />
@@ -117,7 +117,7 @@ export function CallbackModal({ open, onClose, lang }: { open: boolean; onClose:
               value={message}
               onChange={e => setMessage(e.target.value)}
               rows={3}
-              className="w-full px-4 py-2.5 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none resize-none"
+              className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink placeholder:text-muted focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none resize-none"
             />
             <button
               type="submit"
