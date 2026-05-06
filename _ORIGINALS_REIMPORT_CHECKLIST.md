@@ -56,13 +56,14 @@
 - Може зняти галочки з окремих SKU, виправити mapping, додати «не хочу цей товар» → у список «Відкинуті SKU» в `_PRICE_IMPORT_RULES.md`.
 - Після Сергиного OK — крок 6.
 
-### ☐ 6. Застосувати план одним комітом
-- Скрипт `scripts/_apply_originals_plan.mjs` читає підтверджений `_ORIGINALS_REIMPORT_PLAN.md` (або похідний JSON) і:
-  - оновлює `lib/products.ts` (UPDATE + ADD + RENAME, видалити GHOST якщо так вирішили);
-  - дописує редіректи в `public/_redirects`;
-  - дописує нові mapping'и в `_PRICE_IMPORT_RULES.md`.
-- `npx tsc --noEmit && next build` — переконатися, що збірка не зламалась.
-- `git commit + push` → Cloudflare Pages auto-deploy.
+### ☑ 6. Застосувати план одним комітом ✅ ГОТОВО (2026-05-06)
+- Скрипт `scripts/_apply_originals_import.mjs` застосував усе одним проходом.
+- **Результат:** UPDATE 32, GHOST 19 (видалено), ADD **578** (3 SKU з нестандартним unit пропущено: Апріорі ВГ+Адгейзі, Астрал Комбі, Бромцид).
+- **Manufacturer/slug перейменовано:** salsa-korteva→ФМС (slug лишено), tarha-super-nissan→tarha-super-sammit-agro (Самміт-Агро + 301-редірект), rehent-20-g-baier→rehent-20-g-basf (Басф + 301-редірект).
+- **Каталог тепер містить 938 SKU.**
+- Формула `priceCash = priceWithoutVat × 1.10` зафіксована в `_PRICE_IMPORT_RULES.md` + memory + код вже мав `calcCash()` у `lib/types.ts`.
+- `npx tsc --noEmit` — чисто. `next build` — успішний (935+ статичних сторінок продуктів).
+- Закоммічено + запушено в main → Cloudflare Pages auto-deploy.
 
 ### ☐ 7. Постдеплой-перевірка
 - WebFetch на 5-7 нових SKU → переконатися, що сторінки відкриваються.
@@ -76,3 +77,5 @@
 - 2026-05-06 09:30 — створено цей чек-лист, починаю крок 1.
 - 2026-05-06 09:40 — крок 1 готовий: `scripts/_parse_originals.mjs` → `_originals_staging.json` (613 SKU, 11 виробників).
 - 2026-05-06 09:50 — крок 2 готовий: `scripts/_originals_diff.mjs` → `_ORIGINALS_DIFF_SUMMARY.md`. UPDATE 16 / ADD 581 / RENAME 16 / GHOST 19.
+- 2026-05-06 10:10 — додано в інструкції правило «priceCash = priceWithoutVat × 1.10» (`_PRICE_IMPORT_RULES.md`). Виявлено, що `lib/types.ts` має `calcCash()` з тією самою формулою — давно зашита, але не використовувалась при імпорті.
+- 2026-05-06 10:15 — крок 6 готовий: 938 SKU у каталозі (UPDATE 32 + ADD 578 + GHOST −19 + 3 special-rename'и). next build OK. Кроки 3-5 (ресерч д.р./культур/норм для нових 578) — в наступну сесію.

@@ -53,12 +53,16 @@ for (let i = 0; i < data.length; i++) {
       packagings: [],
     });
   }
+  // priceCash на сайті = (Ціна без ПДВ з прайсу) × 1.10
+  // (правило з _PRICE_IMPORT_RULES.md, розділ «Формула цін для каталогу»).
+  const priceCashWithMarkup = priceCash !== null ? Math.round(priceCash * 1.10 * 100) / 100 : null;
   groups.get(key).packagings.push({
     sourceRow: i + 1,
     packaging: String(row[COL.pkg] ?? "").trim(),
     currency: detectCurrency(row[COL.cur]),
     priceVat,
-    priceCash,
+    priceWithoutVat: priceCash, // raw з прайсу, для контролю
+    priceCash: priceCashWithMarkup, // вже з націнкою +10%, готове для lib/products.ts
   });
   kept++;
 }
