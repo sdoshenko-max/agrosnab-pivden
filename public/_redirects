@@ -11,3 +11,6 @@
 /produkt/rehent-20-g-baier     /produkt/rehent-20-g-basf/    301
 /ru/produkt/rehent-20-g-baier/ /ru/produkt/rehent-20-g-basf/ 301
 /ru/produkt/rehent-20-g-baier  /ru/produkt/rehent-20-g-basf/ 301
+
+/produkt/raundap-maks-monsanto/*    /produkt/raundap-maks-baier/:splat    301
+/ru/produkt/raundap-maks-monsanto/* /ru/produkt/raundap-maks-baier/:splat 301
