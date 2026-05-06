@@ -1,0 +1,111 @@
+{
+  "producer": "Кортева",
+  "researchedAt": "2026-05-06T00:00:00.000Z",
+  "items": [
+    {
+      "slug": "aikaz-korteva",
+      "name": "Айказ",
+      "activeIngredient": "Етерифікована рослинна олія, 50%; неіоногенні ПАР, 45%",
+      "activeIngredientRu": "Этерифицированное растительное масло, 50%; неионогенные ПАВ, 45%",
+      "rate": "0,2 - 0,4 л/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/ikaz.html"
+    },
+    {
+      "slug": "belkar-korteva",
+      "name": "Белкар",
+      "activeIngredient": "Галауксифен-метил, 9,6 г/л; піклорам, 48 г/л",
+      "activeIngredientRu": "Галауксифен-метил, 9,6 г/л; пиклорам, 48 г/л",
+      "rate": "0,25 л/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/belkar.html"
+    },
+    {
+      "slug": "belkar-fleks-ke-korteva",
+      "name": "Белкар Флекс, КЕ",
+      "activeIngredient": "Галауксифен-метил, 10 г/л; піклорам, 48 г/л; амінопіралід, 32 г/л",
+      "activeIngredientRu": "Галауксифен-метил, 10 г/л; пиклорам, 48 г/л; аминопиралид, 32 г/л",
+      "rate": "0,25 л/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/belkar-flex.html"
+    },
+    {
+      "slug": "bioforzh-korteva",
+      "name": "Біофорж",
+      "activeIngredient": null,
+      "activeIngredientRu": null,
+      "rate": null,
+      "source": null,
+      "skipReason": "Bio-Forge — біологічний стимулятор зі складом сечовина + KOH; чіткої реєстрації як препарат у ДПСС України не знайдено; норму витрати на офсайті Corteva UA не вказано"
+    },
+    {
+      "slug": "blu-n-korteva",
+      "name": "Блу-Н",
+      "activeIngredient": "Methylobacterium symbioticum, 3×10⁷ КУО/г",
+      "activeIngredientRu": "Methylobacterium symbioticum, 3×10⁷ КОЕ/г",
+      "rate": "333 г/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/blue-n.html"
+    },
+    {
+      "slug": "helianteks-korteva",
+      "name": "Геліантекс",
+      "activeIngredient": "Галауксифен-метил, 68,5 г/л",
+      "activeIngredientRu": "Галауксифен-метил, 68,5 г/л",
+      "rate": "0,045 л/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/heliantex.html"
+    },
+    {
+      "slug": "helianteks-pro-korteva",
+      "name": "Геліантекс Про",
+      "activeIngredient": "Галауксифен-метил, 62,5 г/кг; трибенурон-метил, 500 г/кг",
+      "activeIngredientRu": "Галауксифен-метил, 62,5 г/кг; трибенурон-метил, 500 г/кг",
+      "rate": "0,05 кг/га",
+      "source": "https://agrotorg.in.ua/gelianteks_pro"
+    },
+    {
+      "slug": "kordus-fleks-korteva",
+      "name": "Кордус Флекс",
+      "activeIngredient": "Дикамба, 561,5 г/кг; римсульфурон, 31,3 г/кг; нікосульфурон, 62,5 г/кг; ізоксадифен-етил, 31,3 г/кг (антидот)",
+      "activeIngredientRu": "Дикамба, 561,5 г/кг; римсульфурон, 31,3 г/кг; никосульфурон, 62,5 г/кг; изоксадифен-этил, 31,3 г/кг (антидот)",
+      "rate": "0,48 кг/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/cordus-flex.html"
+    },
+    {
+      "slug": "lontrel-300-v-r-korteva",
+      "name": "Лонтрел 300 в.р.",
+      "activeIngredient": "Клопіралід, 300 г/л",
+      "activeIngredientRu": "Клопиралид, 300 г/л",
+      "rate": "0,16 - 0,66 л/га",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/lontrel.html"
+    },
+    {
+      "slug": "lumiviya-korteva",
+      "name": "Лумівія",
+      "activeIngredient": "Хлорантраніліпрол, 625 г/л",
+      "activeIngredientRu": "Хлорантранилипрол, 625 г/л",
+      "rate": "0,24 - 29 л/т",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/lumivia.html"
+    },
+    {
+      "slug": "lumisena-korteva",
+      "name": "Лумісена",
+      "activeIngredient": "Оксатіапіпролін, 200 г/л",
+      "activeIngredientRu": "Оксатиапипролин, 200 г/л",
+      "rate": "1,25 - 1,75 л/т",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/lumisena.html"
+    },
+    {
+      "slug": "lumitreo-korteva",
+      "name": "Лумітрео",
+      "activeIngredient": "Іпконазол, 76 г/л; оксатіапіпролін, 230 г/л; піноксистробін, 76 г/л",
+      "activeIngredientRu": "Ипконазол, 76 г/л; оксатиапипролин, 230 г/л; пиноксистробин, 76 г/л",
+      "rate": "0,2 - 0,35 л/т",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/lumitreo.html"
+    },
+    {
+      "slug": "lumifleks-korteva",
+      "name": "Луміфлекс",
+      "activeIngredient": "Іпконазол, 450 г/л",
+      "activeIngredientRu": "Ипконазол, 450 г/л",
+      "rate": "0,053 - 0,18 л/т",
+      "source": "https://www.corteva.com/ua/products-and-solutions/crop-protection/lumiflex.html"
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "producer": "Самміт-Агро",
+  "researchedAt": "2026-05-06T00:00:00",
+  "items": [
+    {
+      "slug": "aher-forte-ks-sammit-agro",
+      "name": "Агер Форте, КС",
+      "activeIngredient": "2-метил-4-хлорфеноксиоцтова кислота, 750 г/л (диметиламінна сіль)",
+      "activeIngredientRu": "2-метил-4-хлорфеноксиуксусная кислота, 750 г/л (диметиламинная соль)",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/ager-forte-sc"
+    },
+    {
+      "slug": "akaramik-ke-sammit-agro",
+      "name": "Акарамік, КЕ",
+      "activeIngredient": "Абамектин, 18 г/л",
+      "activeIngredientRu": "Абамектин, 18 г/л",
+      "rate": "0,7 - 1,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/akaramik-ke"
+    },
+    {
+      "slug": "amalheron-essens-rk-sammit-agro",
+      "name": "Амалгерон Ессенс, РК",
+      "activeIngredient": "Екстракт морських водоростей (Ascophyllum nodosum) - 17 %, силаж та екстракт силажу - 83 %",
+      "activeIngredientRu": "Экстракт морских водорослей (Ascophyllum nodosum) - 17 %, силаж и экстракт силажа - 83 %",
+      "rate": "2,0 - 2,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/amalgerol-essens-rk"
+    },
+    {
+      "slug": "amaron-rk-sammit-agro",
+      "name": "Амарон, РК",
+      "activeIngredient": "Гліфосату калійна сіль, 663 г/л (у кислотному еквіваленті 540 г/л)",
+      "activeIngredientRu": "Глифосата калийная соль, 663 г/л (в кислотном эквиваленте 540 г/л)",
+      "rate": "1,0 - 4,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/amaron-sl"
+    },
+    {
+      "slug": "aplaud-ks-sammit-agro",
+      "name": "Аплауд, КС",
+      "activeIngredient": "Бупрофезин, 250 г/л",
+      "activeIngredientRu": "Бупрофезин, 250 г/л",
+      "rate": "0,5 - 2,4 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/aplaud"
+    },
+    {
+      "slug": "artemiks-ks-sammit-agro",
+      "name": "Артемікс, КС",
+      "activeIngredient": "Міді оксихлорид, 239,36 г/л; міді гідроксид, 236,64 г/л",
+      "activeIngredientRu": "Меди оксихлорид, 239,36 г/л; меди гидроксид, 236,64 г/л",
+      "rate": "2,0 - 6,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/artemix-sc"
+    },
+    {
+      "slug": "asami-ks-sammit-agro",
+      "name": "Асамі, КС",
+      "activeIngredient": "Метазахлор, 500 г/л",
+      "activeIngredientRu": "Метазахлор, 500 г/л",
+      "rate": "1,6 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/asami"
+    },
+    {
+      "slug": "astrel-maks-se-sammit-agro",
+      "name": "Астрел Макс, СЕ",
+      "activeIngredient": "Ацетохлор, 450 г/л; тербутилазин, 214 г/л; антидот АД-67, 45 г/л",
+      "activeIngredientRu": "Ацетохлор, 450 г/л; тербутилазин, 214 г/л; антидот АД-67, 45 г/л",
+      "rate": "2,8 - 3,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/astrel-maks-se"
+    },
+    {
+      "slug": "balazo-k-e-bifentrin-sammit-agro",
+      "name": "Балазо к.е.(бiфентрiн)",
+      "activeIngredient": "Біфентрин, 100 г/л",
+      "activeIngredientRu": "Бифентрин, 100 г/л",
+      "rate": "0,1 - 0,3 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/balazo-ke"
+    },
+    {
+      "slug": "bambu-480-ke-sammit-agro",
+      "name": "Бамбу 480, ке",
+      "activeIngredient": "Кломазон, 480 г/л",
+      "activeIngredientRu": "Кломазон, 480 г/л",
+      "rate": "0,15 - 0,2 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/bambu-480-ke"
+    },
+    {
+      "slug": "bestruk-rk-sammit-agro",
+      "name": "Беструк, РК",
+      "activeIngredient": "Екстракти Citrus aurantium L. і Citrus reticulata, 30-50 %; L-вільні рослинні амінокислоти, 6 %",
+      "activeIngredientRu": "Экстракты Citrus aurantium L. и Citrus reticulata, 30-50 %; L-свободные растительные аминокислоты, 6 %",
+      "rate": "1,0 - 1,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/bestkur-rk",
+      "note": "Назва в прайсі 'Беструк' прирівняна до зареєстрованого Самміт-Агро 'Бесткур, РК' (схожа транслітерація)"
+    },
+    {
+      "slug": "biflai-ks-sammit-agro",
+      "name": "Біфлай, КС",
+      "activeIngredient": "Суміш органічних ароматичних сполук (натуральні терпеноїдні компоненти, полісахариди)",
+      "activeIngredientRu": "Смесь органических ароматических соединений (натуральные терпеноидные компоненты, полисахариды)",
+      "rate": "0,75 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/biflaj-sk"
+    },
+    {
+      "slug": "vais-pro-ke-sammit-agro",
+      "name": "Вайс ПРО, КЕ",
+      "activeIngredient": "Бутадієн стирольний сополімер, 90 %",
+      "activeIngredientRu": "Бутадиен стирольный сополимер, 90 %",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/vajs-pro-ke"
+    },
+    {
+      "slug": "vintsyt-050sc-ks-sammit-agro",
+      "name": "Вінцит 050SC, КС",
+      "activeIngredient": "Флутриафол, 25 г/л; тіабендазол, 25 г/л",
+      "activeIngredientRu": "Флутриафол, 25 г/л; тиабендазол, 25 г/л",
+      "rate": "1,5 - 2,0 л/т",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/vincit-050-sc-ks"
+    },
+    {
+      "slug": "hlori-vh-sammit-agro",
+      "name": "Глорі, ВГ",
+      "activeIngredient": "Азоксистробін, 50 г/кг; манкоцеб, 700 г/кг",
+      "activeIngredientRu": "Азоксистробин, 50 г/кг; манкоцеб, 700 г/кг",
+      "rate": "1,5 - 2,0 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/glori-vg"
+    },
+    {
+      "slug": "dikaflor-440-ke-sammit-agro",
+      "name": "Дікафлор 440, КЕ",
+      "activeIngredient": "Дикамба, 422 г/л; флорасулам, 18 г/л",
+      "activeIngredientRu": "Дикамба, 422 г/л; флорасулам, 18 г/л",
+      "rate": "0,22 - 0,3 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/dikaflor-440-ke"
+    },
+    {
+      "slug": "entsera-vh-sammit-agro",
+      "name": "Енцера, ВГ",
+      "activeIngredient": null,
+      "activeIngredientRu": null,
+      "rate": null,
+      "source": null,
+      "skipReason": "Сторінка офсайту 404, на дилерських майданчиках і в ДПСС препарат Самміт-Агро з такою назвою не знайдено"
+    },
+    {
+      "slug": "erini-ke-sammit-agro",
+      "name": "Еріні, КЕ",
+      "activeIngredient": "Тринексапак-етил, 250 г/л",
+      "activeIngredientRu": "Тринексапак-этил, 250 г/л",
+      "rate": "0,4 - 0,6 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/erini-ke"
+    },
+    {
+      "slug": "zepan-ks-sammit-agro",
+      "name": "Зепан, КС",
+      "activeIngredient": "Крезоксим-метил, 125 г/л; епоксиконазол, 125 г/л; дифеноконазол, 80 г/л",
+      "activeIngredientRu": "Крезоксим-метил, 125 г/л; эпоксиконазол, 125 г/л; дифеноконазол, 80 г/л",
+      "rate": "0,5 - 0,8 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/zepan-ks"
+    },
+    {
+      "slug": "ikarus-turbo-430-ev-sammit-agro",
+      "name": "Ікарус Турбо 430 ЕВ",
+      "activeIngredient": "Тебуконазол, 430 г/л",
+      "activeIngredientRu": "Тебуконазол, 430 г/л",
+      "rate": "0,3 - 0,6 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/baunti-430-sc-ks-nova-nazva-z-2019-roku-ikarus-turbo"
+    },
+    {
+      "slug": "imameks-40-sl-bp-sammit-agro",
+      "name": "Імамекс 40 SL BP",
+      "activeIngredient": "Імазамокс, 40 г/л",
+      "activeIngredientRu": "Имазамокс, 40 г/л",
+      "rate": "0,75 - 1,2 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/imameks-40-sl-vr"
+    },
+    {
+      "slug": "inazuma-vh-sammit-agro",
+      "name": "Іназума, ВГ",
+      "activeIngredient": "Ацетаміприд, 100 г/кг; лямбда-цигалотрин, 30 г/кг",
+      "activeIngredientRu": "Ацетамиприд, 100 г/кг; лямбда-цигалотрин, 30 г/кг",
+      "rate": "0,2 - 0,4 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/inazuma-vg"
+    },
+    {
+      "slug": "inochi-rk-sammit-agro",
+      "name": "Іночі, РК",
+      "activeIngredient": "Розчинні білки, продуковані Acremonium strictum SS71, 0,025 %",
+      "activeIngredientRu": "Растворимые белки, продуцируемые Acremonium strictum SS71, 0,025 %",
+      "rate": "0,2 л/га",
+      "source": "https://summit-agro.com.ua/product/organik-standart/inochi-sk"
+    },
+    {
+      "slug": "infanta-ks-sammit-agro",
+      "name": "Інфанта, КС",
+      "activeIngredient": "Флорасулам, 75 г/л; флуметсулам, 100 г/л",
+      "activeIngredientRu": "Флорасулам, 75 г/л; флуметсулам, 100 г/л",
+      "rate": "0,05 - 0,07 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/infanta-sc"
+    },
+    {
+      "slug": "kazumin-2l-sammit-agro",
+      "name": "Казумiн 2Л",
+      "activeIngredient": "Касугаміцин (продукт ферментації Streptomyces kasugaensis), 20 г/л",
+      "activeIngredientRu": "Касугамицин (продукт ферментации Streptomyces kasugaensis), 20 г/л",
+      "rate": "1,0 - 4,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/kazumin-2l"
+    },
+    {
+      "slug": "kazumin-8l-sammit-agro",
+      "name": "Казумiн 8Л",
+      "activeIngredient": "Касугаміцин (продукт ферментації Streptomyces kasugaensis), 80 г/л",
+      "activeIngredientRu": "Касугамицин (продукт ферментации Streptomyces kasugaensis), 80 г/л",
+      "rate": "0,3 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/kazumin-2l"
+    },
+    {
+      "slug": "kaishi-maks-mh-sammit-agro",
+      "name": "Кайші Макс, МГ",
+      "activeIngredient": "L-вільні амінокислоти, 80 % w/w; N загальний, 13 % w/w",
+      "activeIngredientRu": "L-свободные аминокислоты, 80 % w/w; N общий, 13 % w/w",
+      "rate": "0,2 - 0,6 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/kajshi-maks-mg"
+    },
+    {
+      "slug": "kallatis-280sc-ks-sammit-agro",
+      "name": "Каллатіс 280SC, КС",
+      "activeIngredient": "Азоксистробін, 200 г/л; ципроконазол, 80 г/л",
+      "activeIngredientRu": "Азоксистробин, 200 г/л; ципроконазол, 80 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/kallatis-ks"
+    },
+    {
+      "slug": "karmelis-ks-sammit-agro",
+      "name": "Кармеліс, КС",
+      "activeIngredient": "Азоксистробін, 200 г/л; ципроконазол, 80 г/л",
+      "activeIngredientRu": "Азоксистробин, 200 г/л; ципроконазол, 80 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/karmelis-sc"
+    },
+    {
+      "slug": "kinaktyv-inishial-rk-sammit-agro",
+      "name": "Кінактив Інішіал, РК",
+      "activeIngredient": "L-вільні амінокислоти, 6 %; екстракт морських водоростей, 9 %; N, 3,5 %; P2O5, 5 %; K2O, 5 %; Mo, 4 %",
+      "activeIngredientRu": "L-свободные аминокислоты, 6 %; экстракт морских водорослей, 9 %; N, 3,5 %; P2O5, 5 %; K2O, 5 %; Mo, 4 %",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/organik-standart/kinaktiv-inishial-rk"
+    },
+    {
+      "slug": "kleverdym-hrand-ke-sammit-agro",
+      "name": "Клевердим Гранд, КЕ",
+      "activeIngredient": "Клетодим, 360 г/л",
+      "activeIngredientRu": "Клетодим, 360 г/л",
+      "rate": "0,4 - 1,8 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/kleverdim-grand-ke"
+    },
+    {
+      "slug": "leksykon-ks-sammit-agro",
+      "name": "Лексикон, КС",
+      "activeIngredient": "Ацетаміприд, 200 г/л; хлорантраніліпрол, 100 г/л",
+      "activeIngredientRu": "Ацетамиприд, 200 г/л; хлорантранилипрол, 100 г/л",
+      "rate": "0,3 - 0,4 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/lexicon-sc"
+    },
+    {
+      "slug": "manzat-vh-mankotseb-sammit-agro",
+      "name": "Манзат ВГ (манкоцеб)",
+      "activeIngredient": "Манкоцеб, 750 г/кг",
+      "activeIngredientRu": "Манкоцеб, 750 г/кг",
+      "rate": "1,2 - 3,0 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/manzat-vg"
+    },
+    {
+      "slug": "matrika-ks-sammit-agro",
+      "name": "Матріка, КС",
+      "activeIngredient": "Прометрин, 500 г/л",
+      "activeIngredientRu": "Прометрин, 500 г/л",
+      "rate": "2,0 - 4,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/matrika-ks-matrica-sc"
+    },
+    {
+      "slug": "medyan-ekstra-350-sc-sammit-agro",
+      "name": "Медян Eкстра 350 SC",
+      "activeIngredient": "Хлорокис міді, 350 г/л",
+      "activeIngredientRu": "Хлорокись меди, 350 г/л",
+      "rate": "1,0 - 3,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/medyan-ekstra-350-sc-ks"
+    },
+    {
+      "slug": "mihiva-ks-sammit-agro",
+      "name": "Мігіва, КС",
+      "activeIngredient": "Іпфлуфеноквін, 200 г/л",
+      "activeIngredientRu": "Ипфлуфенохин, 200 г/л",
+      "rate": "0,15 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/migiva-ks"
+    },
+    {
+      "slug": "mospilan-vp-2-200h-sammit-agro",
+      "name": "Моспiлан, ВП (2*200г)",
+      "activeIngredient": "Ацетаміприд, 200 г/кг",
+      "activeIngredientRu": "Ацетамиприд, 200 г/кг",
+      "rate": "0,05 - 0,25 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/mospilan-vp"
+    },
+    {
+      "slug": "mildikat-25-ks-sammit-agro",
+      "name": "Мiлдiкат 25, КС",
+      "activeIngredient": "Ціазофамід, 25 г/л",
+      "activeIngredientRu": "Циазофамид, 25 г/л",
+      "rate": "2,0 - 4,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/mildikat-25-ks"
+    },
+    {
+      "slug": "naruto-ks-sammit-agro",
+      "name": "Наруто, КС",
+      "activeIngredient": "Аклоніфен, 600 г/л",
+      "activeIngredientRu": "Аклонифен, 600 г/л",
+      "rate": "0,5 - 6,0 л/га",
+      "source": "https://semena-online.com.ua/gerbitsid-naruto-sammit-agro-yukrejn"
+    },
+    {
+      "slug": "nautil-vh-sammit-agro",
+      "name": "Наутіл, ВГ",
+      "activeIngredient": "Цимоксаніл, 50 г/кг; манкоцеб, 680 г/кг",
+      "activeIngredientRu": "Цимоксанил, 50 г/кг; манкоцеб, 680 г/кг",
+      "rate": "1,8 - 2,0 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/nautil-vg"
+    },
+    {
+      "slug": "nursprei-nurspray-r-sammit-agro",
+      "name": "Нурспрей (Nurspray), Р",
+      "activeIngredient": "Натуральні модифіковані полісахариди, 150 мг/л (запатентована сигнальна молекула)",
+      "activeIngredientRu": "Натуральные модифицированные полисахариды, 150 мг/л (запатентованная сигнальная молекула)",
+      "rate": "1,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/nursprej-r"
+    },
+    {
+      "slug": "nissoran-zp-sammit-agro",
+      "name": "Нiссоран, ЗП",
+      "activeIngredient": "Гекситіазокс, 100 г/кг",
+      "activeIngredientRu": "Гекситиазокс, 100 г/кг",
+      "rate": "0,3 - 1,0 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/nissoran-zp"
+    },
+    {
+      "slug": "olemiks-84-ke-sammit-agro",
+      "name": "Олемiкс 84, КЕ",
+      "activeIngredient": "Мінеральне масло (нафтовий дистилят, парафінові вуглеводи), 840 г/л + ПАР, 160 г/л",
+      "activeIngredientRu": "Минеральное масло (нефтяной дистиллят, парафиновые углеводороды), 840 г/л + ПАВ, 160 г/л",
+      "rate": "0,5 - 1,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/olemiks-84"
+    },
+    {
+      "slug": "otter-forte-ks-sammit-agro",
+      "name": "Оттер Форте, КС",
+      "activeIngredient": "S-метолахлор, 312,5 г/л; тербутилазин, 187,5 г/л",
+      "activeIngredientRu": "S-метолахлор, 312,5 г/л; тербутилазин, 187,5 г/л",
+      "rate": "3,0 - 4,5 л/га",
+      "source": "https://shardacropchem.com.ua/herbitsydy/otter-forte-ks/"
+    },
+    {
+      "slug": "parad-ks-sammit-agro",
+      "name": "Парад, КС",
+      "activeIngredient": "Піразифлумід, 220 г/л",
+      "activeIngredientRu": "Пиразифлумид, 220 г/л",
+      "rate": "0,3 - 0,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/parad-ks"
+    },
+    {
+      "slug": "pledzh-50-zp-sammit-agro",
+      "name": "Пледж 50, ЗП",
+      "activeIngredient": "Флуміоксазин, 511 г/кг",
+      "activeIngredientRu": "Флумиоксазин, 511 г/кг",
+      "rate": "0,06 - 0,12 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/pledzh-50-zp"
+    },
+    {
+      "slug": "ranman-top-ks-sammit-agro",
+      "name": "Ранман ТОП, КС",
+      "activeIngredient": "Ціазофамід, 160 г/л",
+      "activeIngredientRu": "Циазофамид, 160 г/л",
+      "rate": "0,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/ranman-top-ks"
+    },
+    {
+      "slug": "roseit-rk-sammit-agro",
+      "name": "Росейт, РК",
+      "activeIngredient": "Ізопропіламінна сіль гліфосату, 480 г/л (у кислотному еквіваленті 360 г/л)",
+      "activeIngredientRu": "Изопропиламинная соль глифосата, 480 г/л (в кислотном эквиваленте 360 г/л)",
+      "rate": "2,0 - 6,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/rosejt-36-rk"
+    },
+    {
+      "slug": "roubek-ke-sammit-agro",
+      "name": "РоуБэк, КЕ",
+      "activeIngredient": "Парафінові вуглеводні, неіонні сурфактанти, спеціальні масла та полімерні прилипачі",
+      "activeIngredientRu": "Парафиновые углеводороды, неионные сурфактанты, специальные масла и полимерные прилипатели",
+      "rate": "0,2 - 0,4 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/rowback"
+    },
+    {
+      "slug": "sakano-rk-sammit-agro",
+      "name": "Сакано, РК",
+      "activeIngredient": "Бентазон, 480 г/л",
+      "activeIngredientRu": "Бентазон, 480 г/л",
+      "rate": "1,5 - 3,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/sakano-sl"
+    },
+    {
+      "slug": "samson-super-6-od-md-sammit-agro",
+      "name": "Самсон Супер 6 OD, МД",
+      "activeIngredient": "Нікосульфурон, 60 г/л",
+      "activeIngredientRu": "Никосульфурон, 60 г/л",
+      "rate": "0,75 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/samson-super-6-od-md"
+    },
+    {
+      "slug": "sanmait-zp-sammit-agro",
+      "name": "Санмайт, ЗП",
+      "activeIngredient": "Піридабен, 200 г/кг",
+      "activeIngredientRu": "Пиридабен, 200 г/кг",
+      "rate": "0,9 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/sanmajt-zp"
+    },
+    {
+      "slug": "sendai-rk-sammit-agro",
+      "name": "Сендай, РК",
+      "activeIngredient": "МЕА-додецилбензенсульфонат (аніонний ПАР); натрієва сіль дифосфонової кислоти; етаноламін",
+      "activeIngredientRu": "МЭА-додецилбензенсульфонат (анионный ПАВ); натриевая соль дифосфоновой кислоты; этаноламин",
+      "rate": "0,5 л на 100 л води",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/sendaj-rk"
+    },
+    {
+      "slug": "silker-ke-sammit-agro",
+      "name": "Сілкер, КЕ",
+      "activeIngredient": "Модифікований поліалкіленоксидгептаметилтрисилоксан, 75 % + патентована суміш полімерів",
+      "activeIngredientRu": "Модифицированный полиалкиленоксидгептаметилтрисилоксан, 75 % + патентованная смесь полимеров",
+      "rate": "0,1 - 0,2 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/silker-ke"
+    },
+    {
+      "slug": "sintmezo-se-sammit-agro",
+      "name": "Сінтмезо, СЕ",
+      "activeIngredient": "S-метолахлор, 375 г/л; тербутилазин, 125 г/л; мезотріон, 37,5 г/л",
+      "activeIngredientRu": "S-метолахлор, 375 г/л; тербутилазин, 125 г/л; мезотрион, 37,5 г/л",
+      "rate": "3,0 - 4,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/sintmezo-se"
+    },
+    {
+      "slug": "skaba-ke-sammit-agro",
+      "name": "Скаба, КЕ",
+      "activeIngredient": "Поліалкіленоксидмодифікований гептаметилтрисилоксан, 21 %",
+      "activeIngredientRu": "Полиалкиленоксидмодифицированный гептаметилтрисилоксан, 21 %",
+      "rate": "0,05 - 0,1 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/skaba-ke"
+    },
+    {
+      "slug": "takashi-rk-sammit-agro",
+      "name": "Такаші, РК",
+      "activeIngredient": null,
+      "activeIngredientRu": null,
+      "rate": null,
+      "source": null,
+      "skipReason": "Препарат з такою назвою у Самміт-Агро не знайдено в офсайті, ДПСС, дилерських каталогах. Можливо, зі складу виведено або позиція з прайсу під назвою іншого виробника"
+    },
+    {
+      "slug": "teppeki-vh-sammit-agro",
+      "name": "Теппекі, ВГ",
+      "activeIngredient": "Флонікамід, 500 г/кг",
+      "activeIngredientRu": "Флоникамид, 500 г/кг",
+      "rate": "0,12 - 0,14 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/teppeki-vg"
+    },
+    {
+      "slug": "topsyn-m-500-ks-sammit-agro",
+      "name": "Топсин М 500, КС",
+      "activeIngredient": "Тіофанат-метил, 500 г/л",
+      "activeIngredientRu": "Тиофанат-метил, 500 г/л",
+      "rate": "0,8 - 1,4 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/topsin-m-500-ks"
+    },
+    {
+      "slug": "topsin-m-500-ks-sammit-agro",
+      "name": "Топсiн-М 500, КС",
+      "activeIngredient": "Тіофанат-метил, 500 г/л",
+      "activeIngredientRu": "Тиофанат-метил, 500 г/л",
+      "rate": "0,8 - 1,4 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/topsin-m-500-ks"
+    },
+    {
+      "slug": "tropika-ke-sammit-agro",
+      "name": "Тропіка, КЕ",
+      "activeIngredient": "Ацетохлор, 900 г/л",
+      "activeIngredientRu": "Ацетохлор, 900 г/л",
+      "rate": "1,5 - 3,0 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/tropika-ks"
+    },
+    {
+      "slug": "ultima-250-sammit-agro",
+      "name": "Ультіма 250",
+      "activeIngredient": "Протиоконазол, 250 г/л",
+      "activeIngredientRu": "Протиоконазол, 250 г/л",
+      "rate": "0,4 - 0,8 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/ultima-ke"
+    },
+    {
+      "slug": "khansi-ks-sammit-agro",
+      "name": "Хансі, КС",
+      "activeIngredient": "Азоксистробін, 200 г/л; тебуконазол, 200 г/л",
+      "activeIngredientRu": "Азоксистробин, 200 г/л; тебуконазол, 200 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://agro-trade.com.ua/ua/hansi-ls-sammit-agro.html"
+    },
+    {
+      "slug": "khikaru-vh-sammit-agro",
+      "name": "Хікару, ВГ",
+      "activeIngredient": "Трибенурон-метил, 750 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 750 г/кг",
+      "rate": "0,015 - 0,05 кг/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/hikaru-vg"
+    },
+    {
+      "slug": "yutaka-se-sammit-agro",
+      "name": "Ютака СЕ",
+      "activeIngredient": "Тіофанат-метил, 350 г/л; тебуконазол, 100 г/л; цифлуфенамід, 6,3 г/л",
+      "activeIngredientRu": "Тиофанат-метил, 350 г/л; тебуконазол, 100 г/л; цифлуфенамид, 6,3 г/л",
+      "rate": "0,8 - 1,2 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/yutaka-se"
+    },
+    {
+      "slug": "yamato-se-sammit-agro",
+      "name": "Ямато СЕ",
+      "activeIngredient": "Тіофанат-метил, 233 г/л; тетраконазол, 70 г/л",
+      "activeIngredientRu": "Тиофанат-метил, 233 г/л; тетраконазол, 70 г/л",
+      "rate": "1,2 - 1,5 л/га",
+      "source": "https://summit-agro.com.ua/product/zagalnij-katalog-produktiv/yamato-se"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+1. slug=aher-forte-ks-sammit-agro | name=Агер Форте, КС | cat=Гербіцид | pkg=20 л
+2. slug=akaramik-ke-sammit-agro | name=Акарамік, КЕ | cat=Інсектицид | pkg=1 л
+3. slug=amalheron-essens-rk-sammit-agro | name=Амалгерон Ессенс, РК | cat=Гербіцид | pkg=1флакон
+4. slug=amaron-rk-sammit-agro | name=Амарон, РК | cat=Гербіцид | pkg=20 л
+5. slug=aplaud-ks-sammit-agro | name=Аплауд, КС | cat=Інсектицид | pkg=1 л
+6. slug=artemiks-ks-sammit-agro | name=Артемікс, КС | cat=Фунгіцид | pkg=10 л
+7. slug=asami-ks-sammit-agro | name=Асамі, КС | cat=Гербіцид | pkg=5 л
+8. slug=astrel-maks-se-sammit-agro | name=Астрел Макс, СЕ | cat=Гербіцид | pkg=20 л
+9. slug=balazo-k-e-bifentrin-sammit-agro | name=Балазо к.е.(бiфентрiн) | cat=Інсектицид | pkg=1 л
+10. slug=bambu-480-ke-sammit-agro | name=Бамбу 480, ке | cat=Гербіцид | pkg=5 л
+11. slug=bestruk-rk-sammit-agro | name=Беструк, РК | cat=Гербіцид | pkg=1 л
+12. slug=biflai-ks-sammit-agro | name=Біфлай, КС | cat=Гербіцид | pkg=5 л
+13. slug=vais-pro-ke-sammit-agro | name=Вайс ПРО, КЕ | cat=Гербіцид | pkg=5 л
+14. slug=vintsyt-050sc-ks-sammit-agro | name=Вінцит 050SC, КС | cat=Протруйник | pkg=10 л
+15. slug=hlori-vh-sammit-agro | name=Глорі, ВГ | cat=Фунгіцид | pkg=15 кг
+16. slug=dikaflor-440-ke-sammit-agro | name=Дікафлор 440, КЕ | cat=Гербіцид | pkg=5 л
+17. slug=entsera-vh-sammit-agro | name=Енцера, ВГ | cat=Гербіцид | pkg=200гр
+18. slug=erini-ke-sammit-agro | name=Еріні, КЕ | cat=Регулятор росту | pkg=5 л
+19. slug=zepan-ks-sammit-agro | name=Зепан, КС | cat=Фунгіцид | pkg=5 л
+20. slug=ikarus-turbo-430-ev-sammit-agro | name=Ікарус Турбо 430 ЕВ | cat=Фунгіцид | pkg=5 л
+21. slug=imameks-40-sl-bp-sammit-agro | name=Імамекс 40 SL BP | cat=Гербіцид | pkg=5 л
+22. slug=inazuma-vh-sammit-agro | name=Іназума, ВГ | cat=Інсектицид | pkg=5 кг
+23. slug=inochi-rk-sammit-agro | name=Іночі, РК | cat=Гербіцид | pkg=5 л
+24. slug=infanta-ks-sammit-agro | name=Інфанта, КС | cat=Гербіцид | pkg=1 л
+25. slug=kazumin-2l-sammit-agro | name=Казумiн 2Л | cat=Гербіцид | pkg=1 л
+26. slug=kazumin-8l-sammit-agro | name=Казумiн 8Л | cat=Гербіцид | pkg=5 л
+27. slug=kaishi-maks-mh-sammit-agro | name=Кайші Макс, МГ | cat=Гербіцид | pkg=5 л
+28. slug=kallatis-280sc-ks-sammit-agro | name=Каллатіс 280SC, КС | cat=Фунгіцид | pkg=5 л
+29. slug=karmelis-ks-sammit-agro | name=Кармеліс, КС | cat=Фунгіцид | pkg=10 л
+30. slug=kinaktyv-inishial-rk-sammit-agro | name=Кінактив Інішіал, РК | cat=Гербіцид | pkg=5 л
+31. slug=kleverdym-hrand-ke-sammit-agro | name=Клевердим Гранд, КЕ | cat=Гербіцид | pkg=10 л
+32. slug=leksykon-ks-sammit-agro | name=Лексикон, КС | cat=Інсектицид | pkg=5кгпак
+33. slug=manzat-vh-mankotseb-sammit-agro | name=Манзат ВГ (манкоцеб) | cat=Фунгіцид | pkg=0,5кгпляш
+34. slug=matrika-ks-sammit-agro | name=Матріка, КС | cat=Гербіцид | pkg=20 л
+35. slug=medyan-ekstra-350-sc-sammit-agro | name=Медян Eкстра 350 SC | cat=Фунгіцид | pkg=5 л
+36. slug=mihiva-ks-sammit-agro | name=Мігіва, КС | cat=Фунгіцид | pkg=0,5пляш
+37. slug=mospilan-vp-2-200h-sammit-agro | name=Моспiлан, ВП (2*200г) | cat=Інсектицид | pkg=400грящик
+38. slug=mildikat-25-ks-sammit-agro | name=Мiлдiкат 25, КС | cat=Фунгіцид | pkg=10 л
+39. slug=naruto-ks-sammit-agro | name=Наруто, КС | cat=Гербіцид | pkg=10 л
+40. slug=nautil-vh-sammit-agro | name=Наутіл, ВГ | cat=Фунгіцид | pkg=5кгпак
+41. slug=nursprei-nurspray-r-sammit-agro | name=Нурспрей (Nurspray), Р | cat=Гербіцид | pkg=5 л
+42. slug=nissoran-zp-sammit-agro | name=Нiссоран, ЗП | cat=Інсектицид | pkg=500грпак
+43. slug=olemiks-84-ke-sammit-agro | name=Олемiкс 84, КЕ | cat=Гербіцид | pkg=10 л
+44. slug=otter-forte-ks-sammit-agro | name=Оттер Форте, КС | cat=Гербіцид | pkg=20 л
+45. slug=parad-ks-sammit-agro | name=Парад, КС | cat=Фунгіцид | pkg=1 л
+46. slug=pledzh-50-zp-sammit-agro | name=Пледж 50, ЗП | cat=Гербіцид | pkg=10кг(5*200гр)
+47. slug=ranman-top-ks-sammit-agro | name=Ранман ТОП, КС | cat=Фунгіцид | pkg=1 л
+48. slug=roseit-rk-sammit-agro | name=Росейт, РК | cat=Гербіцид | pkg=20 л
+49. slug=roubek-ke-sammit-agro | name=РоуБэк, КЕ | cat=Гербіцид | pkg=3 л
+50. slug=sakano-rk-sammit-agro | name=Сакано, РК | cat=Гербіцид | pkg=20 л
+51. slug=samson-super-6-od-md-sammit-agro | name=Самсон Супер 6 OD, МД | cat=Гербіцид | pkg=5 л
+52. slug=sanmait-zp-sammit-agro | name=Санмайт, ЗП | cat=Інсектицид | pkg=500гр
+53. slug=sendai-rk-sammit-agro | name=Сендай, РК | cat=Гербіцид | pkg=5 л
+54. slug=silker-ke-sammit-agro | name=Сілкер, КЕ | cat=Інсектицид | pkg=5 л
+55. slug=sintmezo-se-sammit-agro | name=Сінтмезо, СЕ | cat=Гербіцид | pkg=10 л
+56. slug=skaba-ke-sammit-agro | name=Скаба, КЕ | cat=Гербіцид | pkg=5 л
+57. slug=takashi-rk-sammit-agro | name=Такаші, РК | cat=Фунгіцид | pkg=10 л
+58. slug=teppeki-vh-sammit-agro | name=Теппекі, ВГ | cat=Інсектицид | pkg=0,14кг(ящ3,36кг)
+59. slug=topsyn-m-500-ks-sammit-agro | name=Топсин М 500, КС | cat=Фунгіцид | pkg=1 л
+60. slug=topsin-m-500-ks-sammit-agro | name=Топсiн-М 500, КС | cat=Фунгіцид | pkg=5 л
+61. slug=tropika-ke-sammit-agro | name=Тропіка, КЕ | cat=Гербіцид | pkg=20 л
+62. slug=ultima-250-sammit-agro | name=Ультіма 250 | cat=Фунгіцид | pkg=5 л
+63. slug=khansi-ks-sammit-agro | name=Хансі, КС | cat=Фунгіцид | pkg=5 л
+64. slug=khikaru-vh-sammit-agro | name=Хікару, ВГ | cat=Гербіцид | pkg=0.5 кг
+65. slug=yutaka-se-sammit-agro | name=Ютака СЕ | cat=Фунгіцид | pkg=10 л
+66. slug=yamato-se-sammit-agro | name=Ямато СЕ | cat=Фунгіцид | pkg=5 л

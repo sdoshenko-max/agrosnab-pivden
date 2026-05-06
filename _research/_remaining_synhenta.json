@@ -1,0 +1,524 @@
+[
+  {
+    "slug": "apron-xl-350-fs-synhenta",
+    "name": "Апрон XL 350 FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "atuva-4-4-synhenta",
+    "name": "Атува 4*4",
+    "category": "Протруйник",
+    "packaging": "4 л"
+  },
+  {
+    "slug": "baundary-777-5-synhenta",
+    "name": "Баундари 777,5",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "boroplyus-synhenta",
+    "name": "Бороплюс",
+    "category": "Гербіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "breksil-miks-zn-synhenta",
+    "name": "Брексіл МІКС ZN",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "breksil-zn-synhenta",
+    "name": "Брексіл ZN",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "vaibrans-yntehral-235fs-synhenta",
+    "name": "Вайбранс Интеграл 235FS",
+    "category": "Протруйник",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "vaibrans-premium-90fs-synhenta",
+    "name": "Вайбранс PREMIUM 90FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "vaibrans-rfs-112-5fs-synhenta",
+    "name": "Вайбранс RFS 112,5FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "vaibrans-trio-60fs-synhenta",
+    "name": "Вайбранс TRIO 60FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "verdavis-250-zs-synhenta",
+    "name": "Вердавіс 250 ZС",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "vertimek-018-es-synhenta",
+    "name": "Вертiмек 018 ЕС",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "vertimek-neo-018-es-synhenta",
+    "name": "Вертiмек НЕО 018 ЕС",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "vikseran25-250-synhenta",
+    "name": "Віксеран25*250",
+    "category": "Протруйник",
+    "packaging": "250гр"
+  },
+  {
+    "slug": "voliam-fleksi300-sc-synhenta",
+    "name": "Волiам флексi300 SC",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "hezahard-500fw-synhenta",
+    "name": "Гезагард 500FW",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "heoks-50wg-synhenta",
+    "name": "Геокс 50WG",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "derbi-175-sc-synhenta",
+    "name": "Дербi 175 SC",
+    "category": "Гербіцид",
+    "packaging": "500 мл"
+  },
+  {
+    "slug": "divident-star-036-synhenta",
+    "name": "Дівідент Стар 036",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "dinaly-90-dc-synhenta",
+    "name": "Дінали 90 DC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "dialen-super-464sl-synhenta",
+    "name": "Дiален супер 464SL",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "ekvento-100fs-synhenta",
+    "name": "Еквенто 100FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "elatus-ria-synhenta",
+    "name": "Елатус РІА",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "ellyumis-105-od-synhenta",
+    "name": "Еллюмiс 105 OD",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "izabion-synhenta",
+    "name": "Ізабiон",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kaptora-20l-synhenta",
+    "name": "Каптора 20л",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "kaptora-plus-synhenta",
+    "name": "Каптора PLUS",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "karate-050es-synhenta",
+    "name": "Карате 050ЕС",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kvadrys-250-sc-ks-synhenta",
+    "name": "Квадрис 250 SC кс",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kvadrys-top-325-sc-synhenta",
+    "name": "Квадрис Топ 325 SC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kvantis-sl-synhenta",
+    "name": "Квантіс SL",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "kruizer-osr-322-fs-synhenta",
+    "name": "Круiзер OSR 322 FS",
+    "category": "Протруйник",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "lirum-78-sc-synhenta",
+    "name": "Лірум 78 SC",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "lohran-75wg-synhenta",
+    "name": "Логран 75WG",
+    "category": "Гербіцид",
+    "packaging": "0.12 кг"
+  },
+  {
+    "slug": "lontrel-hrand-synhenta",
+    "name": "Лонтрел Гранд",
+    "category": "Гербіцид",
+    "packaging": "2 кг"
+  },
+  {
+    "slug": "lyumaks-537-5se-synhenta",
+    "name": "Люмакс 537,5SE",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "lyufoks-105-es-ke-synhenta",
+    "name": "Люфокс 105 ЕС ке",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "mahnello-350-synhenta",
+    "name": "Магнелло 350",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "maksym-025-fs-synhenta",
+    "name": "Максим 025 FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "maksym-forte-050-fs-synhenta",
+    "name": "Максим форте 050 FS",
+    "category": "Протруйник",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "match-050-es-synhenta",
+    "name": "Матч 050 ЕС",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "milahro-040sc-synhenta",
+    "name": "Мілагро 040SC",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "miravis-200-ss-synhenta",
+    "name": "Міравіс 200 SС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "miravis-ase-se-synhenta",
+    "name": "Міравіс АСЕ SE",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "miravis-makhkh-325-sc-synhenta",
+    "name": "Міравіс МАХХ 325 SC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "miravis-neo-300-se-synhenta",
+    "name": "Міравіс Нео 300 SЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "miravis-duo-sc-synhenta",
+    "name": "Міравіс DUO SC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "miravis-prime-400-sc-synhenta",
+    "name": "Міравіс PRIME 400 SC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "moddus-250es-synhenta",
+    "name": "Моддус 250ЕС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "moddus-star-500-ds-synhenta",
+    "name": "Моддус STAR 500 DС",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "orondis-evo-262-sc-synhenta",
+    "name": "Орондіс EVO 262 SC",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "orondis-ultra-280-sc-synhenta",
+    "name": "Орондіс ULTRA 280 SC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "perhado-r-27wg-synhenta",
+    "name": "Пергадо R 27WG",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "plenum-wg-synhenta",
+    "name": "Пленум WG",
+    "category": "Інсектицид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "premaks-synhenta",
+    "name": "Премакс",
+    "category": "Протруйник",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "prokleim-5sg-synhenta",
+    "name": "Проклейм 5SG",
+    "category": "Інсектицид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "primekstra-hold-720-synhenta",
+    "name": "Прiмекстра Голд 720",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "primekstra-tz-hold-500sc-synhenta",
+    "name": "Прiмекстра TZ Голд 500SC",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "pik-75wg-synhenta",
+    "name": "ПIК 75WG",
+    "category": "Гербіцид",
+    "packaging": "100гр"
+  },
+  {
+    "slug": "revus-top-250-sc-k-s-synhenta",
+    "name": "Ревус ТОП 250 SC к.с.",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "rehlon-air-200-synhenta",
+    "name": "Реглон АІР 200",
+    "category": "Десикант",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "rehlon-forte-200-synhenta",
+    "name": "Реглон Форте 200",
+    "category": "Десикант",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "reiker-ekstra-60-od-synhenta",
+    "name": "Рейкер Екстра 60 OD",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "rekvans-fleks-430wg-synhenta",
+    "name": "Рекванс Флекс 430WG",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "rydomyl-hold-r-wg-synhenta",
+    "name": "Ридомил голд  R WG",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "rydomyl-hold-mz-68wg-synhenta",
+    "name": "Ридомил голд MZ 68WG",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "saipres-400es-synhenta",
+    "name": "Сайпрес 400ЕС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "svitch-62-5-wg-synhenta",
+    "name": "Свiтч 62,5 WG",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "selest-makhkh-165-fs-synhenta",
+    "name": "Селест МАХХ 165 FS",
+    "category": "Протруйник",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "skor-250-es-synhenta",
+    "name": "Скор  250 ЕС",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "spirale-475-ec-synhenta",
+    "name": "Спірале 475 EC",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "setar-375-sc-synhenta",
+    "name": "Сeтар 375 SC",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "taehro-wp-synhenta",
+    "name": "Таегро WP",
+    "category": "Фунгіцид",
+    "packaging": "370гр"
+  },
+  {
+    "slug": "takomir-040-sl-synhenta",
+    "name": "Такомір 040 SL",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "talon-rb-pellets-synhenta",
+    "name": "Талон RB (PELLETS)",
+    "category": "Родентицид",
+    "packaging": "2.5 кг"
+  },
+  {
+    "slug": "talon-rb-wax-block-synhenta",
+    "name": "Талон RB (WAX BLOCK)",
+    "category": "Родентицид",
+    "packaging": "10 кг"
+  },
+  {
+    "slug": "tvist-50wg-synhenta",
+    "name": "Твіст 50WG",
+    "category": "Гербіцид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "topaz-100-es-synhenta",
+    "name": "Топаз 100 ЕС",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "trend-90-synhenta",
+    "name": "Тренд 90",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "tiovit-dzhet-80wg-synhenta",
+    "name": "Тiовiт Джет 80WG",
+    "category": "Фунгіцид",
+    "packaging": "20 кг"
+  },
+  {
+    "slug": "flyuens-synhenta",
+    "name": "Флюенс",
+    "category": "Гербіцид",
+    "packaging": "500 мл"
+  },
+  {
+    "slug": "fors-1-5g-synhenta",
+    "name": "Форс 1,5G",
+    "category": "Інсектицид",
+    "packaging": "20 кг"
+  },
+  {
+    "slug": "fyuzilad-forte150es-synhenta",
+    "name": "Фюзiлад Форте150ЕС",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "khorus-75-wg-synhenta",
+    "name": "Хорус 75 WG",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "tsydeli-top-140-dc-synhenta",
+    "name": "Циделі ТОП 140 DC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "shyrlan-500sc-synhenta",
+    "name": "Ширлан 500SC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "yuniform-446se-synhenta",
+    "name": "Юнiформ 446SE",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  }
+]

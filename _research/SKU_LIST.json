@@ -1,0 +1,3492 @@
+{
+  "Сингента": [
+    {
+      "slug": "akvati-800-ec-synhenta",
+      "name": "Акваті 800 EC",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "aksial-050ec-synhenta",
+      "name": "Аксiал 050EC",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "aksial-cross-050ec-synhenta",
+      "name": "Аксiал CROSS 050EC",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "aktelik-500ec-synhenta",
+      "name": "Актелік 500EC",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "ampliho-150zc-synhenta",
+      "name": "Амплiго 150ZC",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "amistar-hold-250-synhenta",
+      "name": "Амiстар Голд 250",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "apron-xl-350-fs-synhenta",
+      "name": "Апрон XL 350 FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "atuva-4-4-synhenta",
+      "name": "Атува 4*4",
+      "category": "Протруйник",
+      "packaging": "4 л"
+    },
+    {
+      "slug": "baundary-777-5-synhenta",
+      "name": "Баундари 777,5",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "boroplyus-synhenta",
+      "name": "Бороплюс",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "breksil-miks-zn-synhenta",
+      "name": "Брексіл МІКС ZN",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "breksil-zn-synhenta",
+      "name": "Брексіл ZN",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vaibrans-yntehral-235fs-synhenta",
+      "name": "Вайбранс Интеграл 235FS",
+      "category": "Протруйник",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "vaibrans-premium-90fs-synhenta",
+      "name": "Вайбранс PREMIUM 90FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vaibrans-rfs-112-5fs-synhenta",
+      "name": "Вайбранс RFS 112,5FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vaibrans-trio-60fs-synhenta",
+      "name": "Вайбранс TRIO 60FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "verdavis-250-zs-synhenta",
+      "name": "Вердавіс 250 ZС",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vertimek-018-es-synhenta",
+      "name": "Вертiмек 018 ЕС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "vertimek-neo-018-es-synhenta",
+      "name": "Вертiмек НЕО 018 ЕС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "vikseran25-250-synhenta",
+      "name": "Віксеран25*250",
+      "category": "Протруйник",
+      "packaging": "250гр"
+    },
+    {
+      "slug": "voliam-fleksi300-sc-synhenta",
+      "name": "Волiам флексi300 SC",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "hezahard-500fw-synhenta",
+      "name": "Гезагард 500FW",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "heoks-50wg-synhenta",
+      "name": "Геокс 50WG",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "derbi-175-sc-synhenta",
+      "name": "Дербi 175 SC",
+      "category": "Гербіцид",
+      "packaging": "500 мл"
+    },
+    {
+      "slug": "divident-star-036-synhenta",
+      "name": "Дівідент Стар 036",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "dinaly-90-dc-synhenta",
+      "name": "Дінали 90 DC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "dialen-super-464sl-synhenta",
+      "name": "Дiален супер 464SL",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "ekvento-100fs-synhenta",
+      "name": "Еквенто 100FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "elatus-ria-synhenta",
+      "name": "Елатус РІА",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "ellyumis-105-od-synhenta",
+      "name": "Еллюмiс 105 OD",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "izabion-synhenta",
+      "name": "Ізабiон",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kaptora-20l-synhenta",
+      "name": "Каптора 20л",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "kaptora-plus-synhenta",
+      "name": "Каптора PLUS",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "karate-050es-synhenta",
+      "name": "Карате 050ЕС",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kvadrys-250-sc-ks-synhenta",
+      "name": "Квадрис 250 SC кс",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kvadrys-top-325-sc-synhenta",
+      "name": "Квадрис Топ 325 SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kvantis-sl-synhenta",
+      "name": "Квантіс SL",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "kruizer-osr-322-fs-synhenta",
+      "name": "Круiзер OSR 322 FS",
+      "category": "Протруйник",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "lirum-78-sc-synhenta",
+      "name": "Лірум 78 SC",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "lohran-75wg-synhenta",
+      "name": "Логран 75WG",
+      "category": "Гербіцид",
+      "packaging": "0.12 кг"
+    },
+    {
+      "slug": "lontrel-hrand-synhenta",
+      "name": "Лонтрел Гранд",
+      "category": "Гербіцид",
+      "packaging": "2 кг"
+    },
+    {
+      "slug": "lyumaks-537-5se-synhenta",
+      "name": "Люмакс 537,5SE",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "lyufoks-105-es-ke-synhenta",
+      "name": "Люфокс 105 ЕС ке",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "mahnello-350-synhenta",
+      "name": "Магнелло 350",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "maksym-025-fs-synhenta",
+      "name": "Максим 025 FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "maksym-forte-050-fs-synhenta",
+      "name": "Максим форте 050 FS",
+      "category": "Протруйник",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "match-050-es-synhenta",
+      "name": "Матч 050 ЕС",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "milahro-040sc-synhenta",
+      "name": "Мілагро 040SC",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "miravis-200-ss-synhenta",
+      "name": "Міравіс 200 SС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "miravis-ase-se-synhenta",
+      "name": "Міравіс АСЕ SE",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "miravis-makhkh-325-sc-synhenta",
+      "name": "Міравіс МАХХ 325 SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "miravis-neo-300-se-synhenta",
+      "name": "Міравіс Нео 300 SЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "miravis-duo-sc-synhenta",
+      "name": "Міравіс DUO SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "miravis-prime-400-sc-synhenta",
+      "name": "Міравіс PRIME 400 SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "moddus-250es-synhenta",
+      "name": "Моддус 250ЕС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "moddus-star-500-ds-synhenta",
+      "name": "Моддус STAR 500 DС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "orondis-evo-262-sc-synhenta",
+      "name": "Орондіс EVO 262 SC",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "orondis-ultra-280-sc-synhenta",
+      "name": "Орондіс ULTRA 280 SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "perhado-r-27wg-synhenta",
+      "name": "Пергадо R 27WG",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "plenum-wg-synhenta",
+      "name": "Пленум WG",
+      "category": "Інсектицид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "premaks-synhenta",
+      "name": "Премакс",
+      "category": "Протруйник",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "prokleim-5sg-synhenta",
+      "name": "Проклейм 5SG",
+      "category": "Інсектицид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "primekstra-hold-720-synhenta",
+      "name": "Прiмекстра Голд 720",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "primekstra-tz-hold-500sc-synhenta",
+      "name": "Прiмекстра TZ Голд 500SC",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "pik-75wg-synhenta",
+      "name": "ПIК 75WG",
+      "category": "Гербіцид",
+      "packaging": "100гр"
+    },
+    {
+      "slug": "revus-top-250-sc-k-s-synhenta",
+      "name": "Ревус ТОП 250 SC к.с.",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "rehlon-air-200-synhenta",
+      "name": "Реглон АІР 200",
+      "category": "Десикант",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "rehlon-forte-200-synhenta",
+      "name": "Реглон Форте 200",
+      "category": "Десикант",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "reiker-ekstra-60-od-synhenta",
+      "name": "Рейкер Екстра 60 OD",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "rekvans-fleks-430wg-synhenta",
+      "name": "Рекванс Флекс 430WG",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "rydomyl-hold-r-wg-synhenta",
+      "name": "Ридомил голд  R WG",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "rydomyl-hold-mz-68wg-synhenta",
+      "name": "Ридомил голд MZ 68WG",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "saipres-400es-synhenta",
+      "name": "Сайпрес 400ЕС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "svitch-62-5-wg-synhenta",
+      "name": "Свiтч 62,5 WG",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "selest-makhkh-165-fs-synhenta",
+      "name": "Селест МАХХ 165 FS",
+      "category": "Протруйник",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "skor-250-es-synhenta",
+      "name": "Скор  250 ЕС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "spirale-475-ec-synhenta",
+      "name": "Спірале 475 EC",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "setar-375-sc-synhenta",
+      "name": "Сeтар 375 SC",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "taehro-wp-synhenta",
+      "name": "Таегро WP",
+      "category": "Фунгіцид",
+      "packaging": "370гр"
+    },
+    {
+      "slug": "takomir-040-sl-synhenta",
+      "name": "Такомір 040 SL",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "talon-rb-pellets-synhenta",
+      "name": "Талон RB (PELLETS)",
+      "category": "Родентицид",
+      "packaging": "2.5 кг"
+    },
+    {
+      "slug": "talon-rb-wax-block-synhenta",
+      "name": "Талон RB (WAX BLOCK)",
+      "category": "Родентицид",
+      "packaging": "10 кг"
+    },
+    {
+      "slug": "tvist-50wg-synhenta",
+      "name": "Твіст 50WG",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "topaz-100-es-synhenta",
+      "name": "Топаз 100 ЕС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "trend-90-synhenta",
+      "name": "Тренд 90",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tiovit-dzhet-80wg-synhenta",
+      "name": "Тiовiт Джет 80WG",
+      "category": "Фунгіцид",
+      "packaging": "20 кг"
+    },
+    {
+      "slug": "flyuens-synhenta",
+      "name": "Флюенс",
+      "category": "Гербіцид",
+      "packaging": "500 мл"
+    },
+    {
+      "slug": "fors-1-5g-synhenta",
+      "name": "Форс 1,5G",
+      "category": "Інсектицид",
+      "packaging": "20 кг"
+    },
+    {
+      "slug": "fyuzilad-forte150es-synhenta",
+      "name": "Фюзiлад Форте150ЕС",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "khorus-75-wg-synhenta",
+      "name": "Хорус 75 WG",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "tsydeli-top-140-dc-synhenta",
+      "name": "Циделі ТОП 140 DC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "shyrlan-500sc-synhenta",
+      "name": "Ширлан 500SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "yuniform-446se-synhenta",
+      "name": "Юнiформ 446SE",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    }
+  ],
+  "Дефенда": [
+    {
+      "slug": "absolyut-defenda",
+      "name": "Абсолют",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "aidakho-defenda",
+      "name": "Айдахо",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "ailar-defenda",
+      "name": "Айлар",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "aksakal-defenda",
+      "name": "Аксакал",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "altron-defenda",
+      "name": "Альтрон",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "alfa-super-defenda",
+      "name": "Альфа Супер",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "ares-defenda",
+      "name": "Арес",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "atik-defenda",
+      "name": "Атік",
+      "category": "Інсектицид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "banten-defenda",
+      "name": "Бантен",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "bastion-defenda",
+      "name": "Бастіон",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "betahard-defenda",
+      "name": "Бетагард",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "bleid-defenda",
+      "name": "Блейд",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "bombardyr-defenda",
+      "name": "Бомбардир",
+      "category": "Інсектицид",
+      "packaging": "0.25 кг"
+    },
+    {
+      "slug": "bombardyr-akva-defenda",
+      "name": "Бомбардир Аква",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "bombardyr-duo-defenda",
+      "name": "Бомбардир Дуо",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "broks-defenda",
+      "name": "Брокс",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "dabl-trai-defenda",
+      "name": "Дабл трай",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "dykamba-forte-defenda",
+      "name": "Дикамба Форте",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "dykvalan-defenda",
+      "name": "Диквалан",
+      "category": "Десикант",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "dykvalan-maks-defenda",
+      "name": "Диквалан Макс",
+      "category": "Десикант",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "dot-defenda",
+      "name": "Дот",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "efimer-defenda",
+      "name": "Ефімер",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "impreza-defenda",
+      "name": "Імпреза",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "kairos-defenda",
+      "name": "Кайрос",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kamzol-defenda",
+      "name": "Камзол",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kamzol-turbo-defenda",
+      "name": "Камзол Турбо",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kentavr-defenda",
+      "name": "Кентавр",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "kitch-defenda",
+      "name": "Кітч",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "klatter-defenda",
+      "name": "Клаттер",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kushon-defenda",
+      "name": "Кушон",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "latina-defenda",
+      "name": "Латіна",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "literon-defenda",
+      "name": "Літерон",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "matar-defenda",
+      "name": "Матар",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "metaksa-defenda",
+      "name": "Метакса",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "metsenat-defenda",
+      "name": "Меценат",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "myrald-defenda",
+      "name": "Миральд",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "musson-defenda",
+      "name": "Муссон",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "napalm-defenda",
+      "name": "Напалм",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "napalm-super-defenda",
+      "name": "Напалм Супер",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "napalm-forte-defenda",
+      "name": "Напалм Форте",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "oktant-defenda",
+      "name": "Октант",
+      "category": "Інсектицид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "oktant-turbo-defenda",
+      "name": "Октант Турбо",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "paratsels-defenda",
+      "name": "Парацельс",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pehas-defenda",
+      "name": "Пегас",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "perun-defenda",
+      "name": "Перун",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "piramida-defenda",
+      "name": "Піраміда",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "presto-defenda",
+      "name": "Престо",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "prymus-defenda",
+      "name": "Примус",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "prosens-defenda",
+      "name": "Просенс",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "rym-defenda",
+      "name": "Рим",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "salto-defenda",
+      "name": "Сальто",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sakhara-defenda",
+      "name": "Сахара",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "syneryd-defenda",
+      "name": "Синерид",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sora-net-defenda",
+      "name": "Сора-Нет",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "split-defenda",
+      "name": "Спліт",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "split-duo-defenda",
+      "name": "Спліт Дуо",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "stark-defenda",
+      "name": "Старк",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "starlent-defenda",
+      "name": "Старлент",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "sumaro-defenda",
+      "name": "Сумаро",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "super-macho-defenda",
+      "name": "Супер-Мачо",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tava-defenda",
+      "name": "Тава",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "taler-defenda",
+      "name": "Талер",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tviks-defenda",
+      "name": "Твікс",
+      "category": "Інсектицид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "ultralin-defenda",
+      "name": "Ультралін",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "foryt-defenda",
+      "name": "Форит",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "fuksiya-defenda",
+      "name": "Фуксія",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kharuma-defenda",
+      "name": "Харума",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "khlorys-defenda",
+      "name": "Хлорис",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tsyrkul-defenda",
+      "name": "Циркуль",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sheryf-defenda",
+      "name": "Шериф",
+      "category": "Гербіцид",
+      "packaging": "0.2 кг"
+    },
+    {
+      "slug": "sheryf-maksi-defenda",
+      "name": "Шериф Максі",
+      "category": "Гербіцид",
+      "packaging": "0.2 кг"
+    }
+  ],
+  "Самміт-Агро": [
+    {
+      "slug": "aher-forte-ks-sammit-agro",
+      "name": "Агер Форте, КС",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "akaramik-ke-sammit-agro",
+      "name": "Акарамік, КЕ",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "amalheron-essens-rk-sammit-agro",
+      "name": "Амалгерон Ессенс, РК",
+      "category": "Гербіцид",
+      "packaging": "1флакон"
+    },
+    {
+      "slug": "amaron-rk-sammit-agro",
+      "name": "Амарон, РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "aplaud-ks-sammit-agro",
+      "name": "Аплауд, КС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "artemiks-ks-sammit-agro",
+      "name": "Артемікс, КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "asami-ks-sammit-agro",
+      "name": "Асамі, КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "astrel-maks-se-sammit-agro",
+      "name": "Астрел Макс, СЕ",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "balazo-k-e-bifentrin-sammit-agro",
+      "name": "Балазо к.е.(бiфентрiн)",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "bambu-480-ke-sammit-agro",
+      "name": "Бамбу 480, ке",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "bestruk-rk-sammit-agro",
+      "name": "Беструк, РК",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "biflai-ks-sammit-agro",
+      "name": "Біфлай, КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vais-pro-ke-sammit-agro",
+      "name": "Вайс ПРО, КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vintsyt-050sc-ks-sammit-agro",
+      "name": "Вінцит 050SC, КС",
+      "category": "Протруйник",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "hlori-vh-sammit-agro",
+      "name": "Глорі, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "15 кг"
+    },
+    {
+      "slug": "dikaflor-440-ke-sammit-agro",
+      "name": "Дікафлор 440, КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "entsera-vh-sammit-agro",
+      "name": "Енцера, ВГ",
+      "category": "Гербіцид",
+      "packaging": "200гр"
+    },
+    {
+      "slug": "erini-ke-sammit-agro",
+      "name": "Еріні, КЕ",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "zepan-ks-sammit-agro",
+      "name": "Зепан, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "ikarus-turbo-430-ev-sammit-agro",
+      "name": "Ікарус Турбо 430 ЕВ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "imameks-40-sl-bp-sammit-agro",
+      "name": "Імамекс 40 SL BP",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "inazuma-vh-sammit-agro",
+      "name": "Іназума, ВГ",
+      "category": "Інсектицид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "inochi-rk-sammit-agro",
+      "name": "Іночі, РК",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "infanta-ks-sammit-agro",
+      "name": "Інфанта, КС",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kazumin-2l-sammit-agro",
+      "name": "Казумiн 2Л",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kazumin-8l-sammit-agro",
+      "name": "Казумiн 8Л",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kaishi-maks-mh-sammit-agro",
+      "name": "Кайші Макс, МГ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kallatis-280sc-ks-sammit-agro",
+      "name": "Каллатіс 280SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "karmelis-ks-sammit-agro",
+      "name": "Кармеліс, КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "kinaktyv-inishial-rk-sammit-agro",
+      "name": "Кінактив Інішіал, РК",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kleverdym-hrand-ke-sammit-agro",
+      "name": "Клевердим Гранд, КЕ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "leksykon-ks-sammit-agro",
+      "name": "Лексикон, КС",
+      "category": "Інсектицид",
+      "packaging": "5кгпак"
+    },
+    {
+      "slug": "manzat-vh-mankotseb-sammit-agro",
+      "name": "Манзат ВГ (манкоцеб)",
+      "category": "Фунгіцид",
+      "packaging": "0,5кгпляш"
+    },
+    {
+      "slug": "matrika-ks-sammit-agro",
+      "name": "Матріка, КС",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "medyan-ekstra-350-sc-sammit-agro",
+      "name": "Медян Eкстра 350 SC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "mihiva-ks-sammit-agro",
+      "name": "Мігіва, КС",
+      "category": "Фунгіцид",
+      "packaging": "0,5пляш"
+    },
+    {
+      "slug": "mospilan-vp-2-200h-sammit-agro",
+      "name": "Моспiлан, ВП (2*200г)",
+      "category": "Інсектицид",
+      "packaging": "400грящик"
+    },
+    {
+      "slug": "mildikat-25-ks-sammit-agro",
+      "name": "Мiлдiкат 25, КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "naruto-ks-sammit-agro",
+      "name": "Наруто, КС",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "nautil-vh-sammit-agro",
+      "name": "Наутіл, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "5кгпак"
+    },
+    {
+      "slug": "nursprei-nurspray-r-sammit-agro",
+      "name": "Нурспрей (Nurspray), Р",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "nissoran-zp-sammit-agro",
+      "name": "Нiссоран, ЗП",
+      "category": "Інсектицид",
+      "packaging": "500грпак"
+    },
+    {
+      "slug": "olemiks-84-ke-sammit-agro",
+      "name": "Олемiкс 84, КЕ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "otter-forte-ks-sammit-agro",
+      "name": "Оттер Форте, КС",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "parad-ks-sammit-agro",
+      "name": "Парад, КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "pledzh-50-zp-sammit-agro",
+      "name": "Пледж 50, ЗП",
+      "category": "Гербіцид",
+      "packaging": "10кг(5*200гр)"
+    },
+    {
+      "slug": "ranman-top-ks-sammit-agro",
+      "name": "Ранман ТОП, КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "roseit-rk-sammit-agro",
+      "name": "Росейт, РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "roubek-ke-sammit-agro",
+      "name": "РоуБэк, КЕ",
+      "category": "Гербіцид",
+      "packaging": "3 л"
+    },
+    {
+      "slug": "sakano-rk-sammit-agro",
+      "name": "Сакано, РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "samson-super-6-od-md-sammit-agro",
+      "name": "Самсон Супер 6 OD, МД",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sanmait-zp-sammit-agro",
+      "name": "Санмайт, ЗП",
+      "category": "Інсектицид",
+      "packaging": "500гр"
+    },
+    {
+      "slug": "sendai-rk-sammit-agro",
+      "name": "Сендай, РК",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "silker-ke-sammit-agro",
+      "name": "Сілкер, КЕ",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sintmezo-se-sammit-agro",
+      "name": "Сінтмезо, СЕ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "skaba-ke-sammit-agro",
+      "name": "Скаба, КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "takashi-rk-sammit-agro",
+      "name": "Такаші, РК",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "teppeki-vh-sammit-agro",
+      "name": "Теппекі, ВГ",
+      "category": "Інсектицид",
+      "packaging": "0,14кг(ящ3,36кг)"
+    },
+    {
+      "slug": "topsyn-m-500-ks-sammit-agro",
+      "name": "Топсин М 500, КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "topsin-m-500-ks-sammit-agro",
+      "name": "Топсiн-М 500, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tropika-ke-sammit-agro",
+      "name": "Тропіка, КЕ",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "ultima-250-sammit-agro",
+      "name": "Ультіма 250",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "khansi-ks-sammit-agro",
+      "name": "Хансі, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "khikaru-vh-sammit-agro",
+      "name": "Хікару, ВГ",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "yutaka-se-sammit-agro",
+      "name": "Ютака СЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "yamato-se-sammit-agro",
+      "name": "Ямато СЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    }
+  ],
+  "Адама": [
+    {
+      "slug": "ahil-100-ke-adama",
+      "name": "Агiл 100 KE",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "amino-kserion-adama",
+      "name": "Аміно Ксеріон",
+      "category": "Регулятор росту",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "apollo-kc-adama",
+      "name": "Аполло KC",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "arkero-ks-adama",
+      "name": "Аркеро КС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "bamper-super-ke-adama",
+      "name": "Бампер супер KE",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "bamper-ke-adama",
+      "name": "Бампер KE",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "bandzho-ks-adama",
+      "name": "Банджо КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "bandzho-forte-ks-adama",
+      "name": "Банджо Форте КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "belveder-forte-ks-adama",
+      "name": "Бельведер Форте КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "benelus-ke-adama",
+      "name": "Бенелус КЕ",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "vidblok-plyus-me-adama",
+      "name": "Відблок Плюс МЕ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "halil-ks-adama",
+      "name": "Галіл КС",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "halihan-ke-adama",
+      "name": "Галiган КЕ",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "hlifohan-rk-adama",
+      "name": "Глiфоган РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "holtiks-hold-ms-adama",
+      "name": "Голтiкс Голд МС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "holtiks-titan-ks-adama",
+      "name": "Голтiкс Тітан КС",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "eventus-me-adama",
+      "name": "Евентус МЕ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "eko-oil-sprei-adama",
+      "name": "Еко Ойл Спрей",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "ekseleris-ks-adama",
+      "name": "Екселеріс КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "ekspert-hrou-adama",
+      "name": "Експерт Гроу",
+      "category": "Регулятор росту",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "errou-ke-adama",
+      "name": "Ерроу КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "invert-ke-adama",
+      "name": "Інверт КЕ",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kalma-ke-adama",
+      "name": "Кальма КЕ",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kalif-ks-adama",
+      "name": "Калiф КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kalif-meha-fk-adama",
+      "name": "Калiф Мега ФК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "kormoran-ke-adama",
+      "name": "Корморан КЕ",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kustodiya-ks-adama",
+      "name": "Кустодія КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "lamdeks-ck-adama",
+      "name": "Ламдекс CK",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "lehato-trio-ks-adama",
+      "name": "Легато Тріо КС",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "linder-kc-adama",
+      "name": "Лiндер KC",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "mavrik-eb-adama",
+      "name": "Маврiк EB",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "maksentis-ks-adama",
+      "name": "Максентіс КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "mehanik-ke-adama",
+      "name": "Меганік КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "merpan-platynum-vh-adama",
+      "name": "Мерпан Платинум ВГ",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "mistral-vh-adama",
+      "name": "Мiстраль ВГ",
+      "category": "Гербіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "nikohan-md-adama",
+      "name": "Нiкоган МД",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "orius-eb-adama",
+      "name": "Орiус EB",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pauertvin-ks-adama",
+      "name": "Пауертвiн КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pendihan-kc-adama",
+      "name": "Пендiган KC",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "prometreks-50-sc-adama",
+      "name": "Прометрекс  50 SC",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pirineks-cuper-ke-adama",
+      "name": "Пiрiнекс Cупер KE",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "reiser-ke-adama",
+      "name": "Рейсер КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "rimon-fast-ks-adama",
+      "name": "Рiмон Фаст КС",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "skudero-6-25-25-rk-adama",
+      "name": "Скудеро 6-25-25 РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "skudero-boron-rk-adama",
+      "name": "Скудеро Борон РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "skudero-multi-rk-adama",
+      "name": "Скудеро Мульті РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "skudero-sav-rk-adama",
+      "name": "Скудеро САВ РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "skudero-zn-pk-adama",
+      "name": "Скудеро ZN+PK",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "sultan-ks-adama",
+      "name": "Султан КС",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "sultan-tvin-ks-adama",
+      "name": "Султан Твiн КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "suprim-eb-adama",
+      "name": "Супрiм EB",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sferiko-tn-adama",
+      "name": "Сферіко ТН",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sfinks-ekstra-vh-adama",
+      "name": "Сфiнкс Eкстра  ВГ",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "tomihan-ke-adama",
+      "name": "Томiган KE",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tryhher-vh-adama",
+      "name": "Триггер ВГ",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "tryflureks-ke-adama",
+      "name": "Трифлурекс КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "folpan-hold-wg-adama",
+      "name": "Фольпан Голд WG",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "folpan-wg-adama",
+      "name": "Фольпан WG",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "tsezar-ke-adama",
+      "name": "Цезар KE",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "tsykohan-rk-adama",
+      "name": "Цикоган РК",
+      "category": "Регулятор росту",
+      "packaging": "10 л"
+    }
+  ],
+  "Басф": [
+    {
+      "slug": "abakus-basf",
+      "name": "Абакус",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "akris-se-basf",
+      "name": "Акріс, СЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "akrobat-mts-basf",
+      "name": "Акробат МЦ",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "alterno-basf",
+      "name": "Альтерно",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "arkhitekt-se-basf",
+      "name": "Архітект, СЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "bazahran-pro-basf",
+      "name": "Базагран ПРО",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "basta-150-sl-basf",
+      "name": "Баста 150 SL",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "bellis-vh-basf",
+      "name": "Белліс, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "butizan-400-d-v-basf",
+      "name": "Бутiзан 400 д.в",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "butizan-avant-se-basf",
+      "name": "Бутiзан АВАНТ, СЕ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "daksur-ks-basf",
+      "name": "Даксур, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "delan-basf",
+      "name": "Делан",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "deter-basf",
+      "name": "Детер",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "ervin-pro-basf",
+      "name": "Ервін ПРО",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "yevro-laitninh-plyus-rk-basf",
+      "name": "Євро-лайтнiнг ПЛЮС, РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "yevro-laitninh-rk-basf",
+      "name": "Євро-лайтнiнг, РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "inshur-perform-t-k-s-basf",
+      "name": "Іншур Перформ т.к.с",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kabrio-duo-basf",
+      "name": "Кабрiо Дуо",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kambio-star-basf",
+      "name": "Камбіо Стар",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "kollis-basf",
+      "name": "Колліс",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "korum-basf",
+      "name": "Корум",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kumulyus-df-basf",
+      "name": "Кумулюс ДФ",
+      "category": "Фунгіцид",
+      "packaging": "20 кг"
+    },
+    {
+      "slug": "kinto-duo-ks-basf",
+      "name": "Кiнто Дуо, КС",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kinto-plyus-basf",
+      "name": "Кiнто Плюс",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "malakhit-basf",
+      "name": "Малахiт",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "medaks-top-ks-basf",
+      "name": "Медакс ТОП, КС",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "merivon-pro-basf",
+      "name": "Мерівон Про",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "metolat-basf",
+      "name": "Метолат",
+      "category": "Адʼювант",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "nomolt-k-s-basf",
+      "name": "Номолт к.с.",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "nopasaran-basf",
+      "name": "Нопасаран",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "nopasaran-fleks-basf",
+      "name": "Нопасаран Флекс",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "orveho-ks-basf",
+      "name": "Орвего,кс",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "osiris-pro-ke-basf",
+      "name": "Осiрiс Про, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "poliram-df-basf",
+      "name": "Полiрам ДФ",
+      "category": "Фунгіцид",
+      "packaging": "10 кг"
+    },
+    {
+      "slug": "priaksor-basf",
+      "name": "Пріаксор",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "piktor-top-ks-basf",
+      "name": "Пiктор ТОП, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "piktor-ks-basf",
+      "name": "Пiктор, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "reviker-ke-basf",
+      "name": "Ревікер, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "reviona-basf",
+      "name": "Ревіона",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "rehalis-plyus-basf",
+      "name": "Регалiс Плюс",
+      "category": "Регулятор росту",
+      "packaging": "1.5 кг"
+    },
+    {
+      "slug": "reks-duo-ks-basf",
+      "name": "Рекс Дуо, КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "reks-plyus-se-basf",
+      "name": "Рекс Плюс, СЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "reks-pro-se-basf",
+      "name": "Рекс Про, СЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "serkadis-basf",
+      "name": "Серкадіс",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "serkadis-plyus-basf",
+      "name": "Серкадіс Плюс",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "systiva-t-n-basf",
+      "name": "Систiва т.н",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "standak-top-basf",
+      "name": "Стандак ТОП",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "stellar-plyus-rk-basf",
+      "name": "Стеллар Плюс, РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "stomp-330-k-e-basf",
+      "name": "Стомп 330, к.е",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "strobi-basf",
+      "name": "Стробi",
+      "category": "Фунгіцид",
+      "packaging": "200гр"
+    },
+    {
+      "slug": "sulfat-amoniyu-basf",
+      "name": "Сулфат Амонію",
+      "category": "Адʼювант",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "sihnum-basf",
+      "name": "Сiгнум",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "terpal-rk-basf",
+      "name": "Терпал РК",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "turbo-basf",
+      "name": "Турбо",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "fleksiti-basf",
+      "name": "Флексiтi",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "fronter-optyma-basf",
+      "name": "Фронтьер оптима",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "khaikot-super-extender-basf",
+      "name": "Хайкот Супер Extender",
+      "category": "Гербіцид",
+      "packaging": "6.4 л"
+    },
+    {
+      "slug": "khaikot-super-r-basf",
+      "name": "Хайкот Супер, р",
+      "category": "Гербіцид",
+      "packaging": "6.4 л"
+    },
+    {
+      "slug": "khistik-v-p-basf",
+      "name": "ХіСтік, в.п.",
+      "category": "Гербіцид",
+      "packaging": "6.4 л"
+    }
+  ],
+  "Байер": [
+    {
+      "slug": "aviator-khpro-225-es-ke-baier",
+      "name": "Авiатор ХPRO 225 ЕС, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "adenho-465-ks-baier",
+      "name": "Аденго 465 КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "alyett-80-wp-zp-baier",
+      "name": "Альєтт 80 WP, ЗП",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "antrakol-70-wg-vh-baier",
+      "name": "Антракол 70 WG, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "10 кг"
+    },
+    {
+      "slug": "atlantis-star-baier",
+      "name": "Атлантіс стар",
+      "category": "Гербіцид",
+      "packaging": "3 кг"
+    },
+    {
+      "slug": "bekano-500sc-kc-baier",
+      "name": "Бекано 500SC KC",
+      "category": "Гербіцид",
+      "packaging": "0.5 л"
+    },
+    {
+      "slug": "belt-480-sc-ks-baier",
+      "name": "Белт 480 SC, КС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "betanal-ekspert-274-es-ke-baier",
+      "name": "Бетанал Експерт 274 ЕС, КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "betanal-maks-pro-209-od-md-baier",
+      "name": "Бетанал Макс Про 209 OD, МД",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "biopauer-baier",
+      "name": "Бiопауер",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vaiyeho-200sc-ks-baier",
+      "name": "Вайєго 200SC, КС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "hrodil-maksi-375-od-md-baier",
+      "name": "Гродiл Максi 375 OD, МД",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "delaro-forte-280-es-baier",
+      "name": "Деларо Форте 280 ЕС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "detsys-100-es-ke-baier",
+      "name": "Децис 100 ЕС, КЕ",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "emesto-silver-baier",
+      "name": "Еместо Сільвер",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "emesto-kvantum-273-5-fs-tn-baier",
+      "name": "Еместo Квантум 273,5 FS, ТН",
+      "category": "Протруйник",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "zenkor-likvid-600-sc-ks-baier",
+      "name": "Зенкор Лiквiд 600 SC, КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "input-klasik-baier",
+      "name": "Інпут Класік",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "infinito-61sc-687-5-ks-baier",
+      "name": "Інфiнiто 61SC, 687,5, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kambalio-praim-20-baier",
+      "name": "Камбаліо Прайм 20",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kambalio-smart-230-baier",
+      "name": "Камбаліо Смарт 230",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kayunis32-5es-baier",
+      "name": "Каюніс32 5ЕС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "konnekt-112-5-sc-ks-baier",
+      "name": "Коннект 112,5 SC, КС",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "konfidor-200sl-rk-baier",
+      "name": "Конфiдор 200SL, РК",
+      "category": "Інсектицид",
+      "packaging": "0.5 л"
+    },
+    {
+      "slug": "laudis-30-wg-vh-baier",
+      "name": "Лаудіс 30 WG, ВГ",
+      "category": "Гербіцид",
+      "packaging": "3 кг"
+    },
+    {
+      "slug": "luna-senseishn-500-sc-ks-baier",
+      "name": "Луна  Сенсейшн 500 SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "luna-ker-71-6-wg-vh-baier",
+      "name": "Луна Кер 71,6 WG, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "luna-ekspiriens-400-sc-ks-baier",
+      "name": "Луна Экспiрiенс 400 SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "maister-pauer-od-md-baier",
+      "name": "МайсТер Пауер OD, МД",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "medison-263sc-ks-baier",
+      "name": "Медiсон 263SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "merlin-750wg-vh-baier",
+      "name": "Мерлiн 750WG, ВГ",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "merlin-fleks-duo-baier",
+      "name": "Мерлiн Флекс Дуо",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "mero-ke-baier",
+      "name": "Меро КЕ",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "movento-100sc-ks-baier",
+      "name": "Мовенто 100SC, КС",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "mushket-universal-460od-baier",
+      "name": "Мушкет Універсал 460OD",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "nativo-75-wg-vh-baier",
+      "name": "Натiво 75 WG, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "2 кг"
+    },
+    {
+      "slug": "oberon-rapid-baier",
+      "name": "Оберон Рапід",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "previkur-enerdzhi-840sl-rk-baier",
+      "name": "Превiкур Енерджі 840SL, РК",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "propuls-250se-se-baier",
+      "name": "Пропульс 250SE, СЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "proteus-110od-md-baier",
+      "name": "Протеус 110OD, МД",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "puma-super-ew-ev-baier",
+      "name": "Пума Супер EW, ЕВ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "rediho-m-120fs-baier",
+      "name": "Редіго М 120FS",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "serenada-aco-sc-ks-baier",
+      "name": "Серенада ACO SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "sivanto-enerdzhi-85es-rk-baier",
+      "name": "Сіванто Енерджі 85ЕС, РК",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "sivanto-praim-200sl-rk-baier",
+      "name": "Сіванто Прайм 200SL, РК",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "skala-400sc-ks-baier",
+      "name": "Скала 400SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "3 л"
+    },
+    {
+      "slug": "solihor-425-ec-ke-baier",
+      "name": "Солiгор 425 EC, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "teldor-50wg-vh-baier",
+      "name": "Тельдор 50WG, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "tilmor-240-es-ke-baier",
+      "name": "Тiлмор 240 ЕС, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "fandanho-200es-ke-baier",
+      "name": "Фанданго 200ЕС, ке",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "fever-baier",
+      "name": "Февер",
+      "category": "Протруйник",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "flint-50-ks-baier",
+      "name": "Флiнт 50, КС",
+      "category": "Фунгіцид",
+      "packaging": "0.5 л"
+    },
+    {
+      "slug": "foks-325sc-ks-baier",
+      "name": "Фокс 325SC, КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "folikur-250ew-ev-baier",
+      "name": "Фолiкур 250EW, ЕВ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tseron-480-sl-rk-baier",
+      "name": "Церон 480 SL, РК",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "chelendzh-600-sc-ks-baier",
+      "name": "Челендж 600 SC, КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    }
+  ],
+  "Терра Віта": [
+    {
+      "slug": "allatan-105-md-terra-vita",
+      "name": "Аллатан 105 МД",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "ariya-40-md-terra-vita",
+      "name": "Арія 40 МД",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "bakkard-125-k-e-terra-vita",
+      "name": "Баккард 125 к.е.",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "bestseller-turbo-200-k-s-terra-vita",
+      "name": "Бестселлер Турбо 200 к.с.",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "briteks-40rk-terra-vita",
+      "name": "Брітекс 40РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "bromakem-pr-terra-vita",
+      "name": "Бромакем ПР",
+      "category": "Родентицид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "vamp-200-vp-terra-vita",
+      "name": "Вамп 200 ВП",
+      "category": "Інсектицид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "vamp-200-duo-ks-terra-vita",
+      "name": "Вамп 200 Дуо КС",
+      "category": "Інсектицид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "holdazim-500-k-s-terra-vita",
+      "name": "Голдазiм 500 к.с.",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "hrantoks-500-v-r-terra-vita",
+      "name": "Грантокс 500 в.р.",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "dalila-600-tn-terra-vita",
+      "name": "Даліла 600 ТН",
+      "category": "Протруйник",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "eklat750-v-h-terra-vita",
+      "name": "Еклат750 в.г",
+      "category": "Гербіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "ekstraklin-607-rk-terra-vita",
+      "name": "Екстраклін 607 РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "ekstraklin-k-rk-terra-vita",
+      "name": "Екстраклін К РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "istilaik-334-v-r-terra-vita",
+      "name": "Істiлайк 334 в.р.",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kassent-400ks-terra-vita",
+      "name": "Кассент 400КС",
+      "category": "Інсектицид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "kelpak-rk-terra-vita",
+      "name": "Келпак РК",
+      "category": "Регулятор росту",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "madera-48-rk-terra-vita",
+      "name": "Мадера 48 РК",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "mekvalan-750-rk-terra-vita",
+      "name": "Меквалан 750 РК",
+      "category": "Регулятор росту",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "pav-vopro-vet-terra-vita",
+      "name": "ПАВ Вопро Вет",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pav-vopro-hold-terra-vita",
+      "name": "ПАВ Вопро Голд",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pav-maksymum-terra-vita",
+      "name": "ПАВ Максимум",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pav-saf-terra-vita",
+      "name": "ПАВ Саф",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pandora-terra-vita",
+      "name": "Пандора",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "passazh-190tn-terra-vita",
+      "name": "Пассаж 190ТН",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "proksanil-720-terra-vita",
+      "name": "Проксаніл 720",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "pioner-900-k-e-terra-vita",
+      "name": "Пiонер 900 к.е.",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "radiks-700-ks-terra-vita",
+      "name": "Радікс 700 КС",
+      "category": "Гербіцид",
+      "packaging": "0.1 кг"
+    },
+    {
+      "slug": "rider-960-terra-vita",
+      "name": "Рідер 960",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "rimaks-750-vh-terra-vita",
+      "name": "Рімакс 750 ВГ",
+      "category": "Гербіцид",
+      "packaging": "0.1 кг"
+    },
+    {
+      "slug": "rimaks-plyus-terra-vita",
+      "name": "Рімакс Плюс",
+      "category": "Гербіцид",
+      "packaging": "0.1 кг"
+    },
+    {
+      "slug": "rondos-750-vh-terra-vita",
+      "name": "Рондос 750 ВГ",
+      "category": "Гербіцид",
+      "packaging": "0.15 кг"
+    },
+    {
+      "slug": "salyut-40md-terra-vita",
+      "name": "Салют 40МД",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "samum-forte-v-r-terra-vita",
+      "name": "Самум Форте в.р.",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "sprinter-500-ke-terra-vita",
+      "name": "Спрінтер 500 КЕ",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "starhezan-500-k-s-terra-vita",
+      "name": "Старгезан 500 к.с.",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "superkil-terra-vita",
+      "name": "Суперкіл",
+      "category": "Інсектицид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "sinekura-680ke-terra-vita",
+      "name": "Сiнекура 680ке",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "taffin-320-ks-terra-vita",
+      "name": "Таффiн 320 КС",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "tebu-top-250ke-terra-vita",
+      "name": "Тебу Топ 250ке",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tebukur-250-ke-terra-vita",
+      "name": "Тебукур 250 ке",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "teson-417-se-terra-vita",
+      "name": "Тесон 417 СЭ",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "toplants-240-k-e-terra-vita",
+      "name": "Топланц 240 к.е",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "triafer-t-300-ks-terra-vita",
+      "name": "Тріафер Т 300 КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "fulhor-250-ks-terra-vita",
+      "name": "Фулгор 250 кс",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "fulhor-hold-500-terra-vita",
+      "name": "Фулгор Голд 500",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "kharbor-320-ks-terra-vita",
+      "name": "Харбор 320 КС",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    }
+  ],
+  "Нуфарм": [
+    {
+      "slug": "ahritoks-50-nufarm",
+      "name": "Агрiтокс 50%",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "ahritoks-turbo-nufarm",
+      "name": "Агрiтокс Турбо",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "airis-ke-nufarm",
+      "name": "Айріс, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "astral-nufarm",
+      "name": "Астрал",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "dekster-nufarm",
+      "name": "Декстер",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "dzhoust-pro-nufarm",
+      "name": "Джоуст Про",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "dikopur-top-464-nufarm",
+      "name": "Дiкопур ТОП 464",
+      "category": "Гербіцид",
+      "packaging": "15 л"
+    },
+    {
+      "slug": "ekvinoks-ks-nufarm",
+      "name": "Еквінокс, КС",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "estet-905-nufarm",
+      "name": "Естет 905",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "zeahran-350-nufarm",
+      "name": "Зеагран 350",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "intertsept-nufarm",
+      "name": "Інтерцепт",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "kaizo-nufarm",
+      "name": "Кайзо",
+      "category": "Інсектицид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "kaizo-pro-nufarm",
+      "name": "Кайзо ПРО",
+      "category": "Інсектицид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "kamposan-ekstra-sl-nufarm",
+      "name": "Кампосан eкстра SL",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "karnadin-nufarm",
+      "name": "Карнадін",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kvad-150rk-nufarm",
+      "name": "Квад 150РК",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "kloze-480-ke-nufarm",
+      "name": "Клозе 480 КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "klinik-v-r-nufarm",
+      "name": "Клiнiк в.р.",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "klinik-ikstrym-nufarm",
+      "name": "Клiнiк Ікстрим",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "klinik-maks-nufarm",
+      "name": "Клiнiк Макс",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "kuproksat-nufarm",
+      "name": "Купроксат",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "lars-250-vh-nufarm",
+      "name": "Ларс 250, ВГ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "lars-delta-nufarm",
+      "name": "Ларс дельта",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "lars-kombi-nufarm",
+      "name": "Ларс Комбі",
+      "category": "Гербіцид",
+      "packaging": "комбіпак"
+    },
+    {
+      "slug": "marsel-nufarm",
+      "name": "Марсель",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "moksa-250-nufarm",
+      "name": "Мокса 250",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "monitor-plyus-nufarm",
+      "name": "Монітор Плюс",
+      "category": "Гербіцид",
+      "packaging": "0,266+0,8"
+    },
+    {
+      "slug": "nuprid-600-nufarm",
+      "name": "Нупрiд 600",
+      "category": "Протруйник",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "orbit-nufarm",
+      "name": "Орбiт",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "orbit-kombi-nufarm",
+      "name": "Орбiт Комбі",
+      "category": "Фунгіцид",
+      "packaging": "комбіпак"
+    },
+    {
+      "slug": "proteb-ke-nufarm",
+      "name": "Протеб, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "selfi-nufarm",
+      "name": "Селфі",
+      "category": "Гербіцид",
+      "packaging": "0.8 л"
+    },
+    {
+      "slug": "selfi-oil-nufarm",
+      "name": "Селфі ОЙЛ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "siyesta-ekstra-nufarm",
+      "name": "Сієста Екстра",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "stabilan-750-sl-nufarm",
+      "name": "Стабiлан 750 SL",
+      "category": "Регулятор росту",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "teizer-nufarm",
+      "name": "Тейзер",
+      "category": "Фунгіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "teilor-nufarm",
+      "name": "Тейлор",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "troller-nufarm",
+      "name": "Троллер",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "tru-nufarm",
+      "name": "Тру",
+      "category": "Гербіцид",
+      "packaging": "комбіпак"
+    },
+    {
+      "slug": "filder-ke-nufarm",
+      "name": "Філдер, КЕ",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "floid-ke-nufarm",
+      "name": "Флойд, КЕ",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "chemp-ultra-dp-nufarm",
+      "name": "Чемп Ультра DP",
+      "category": "Фунгіцид",
+      "packaging": "10 кг"
+    },
+    {
+      "slug": "chempion-vh-nufarm",
+      "name": "Чемпiон, ВГ",
+      "category": "Фунгіцид",
+      "packaging": "10 кг"
+    },
+    {
+      "slug": "chempion-zp-nufarm",
+      "name": "Чемпiон, ЗП",
+      "category": "Фунгіцид",
+      "packaging": "10 кг"
+    }
+  ],
+  "Кортева": [
+    {
+      "slug": "aikaz-korteva",
+      "name": "Айказ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "belkar-korteva",
+      "name": "Белкар",
+      "category": "Гербіцид",
+      "packaging": "3 л"
+    },
+    {
+      "slug": "belkar-fleks-ke-korteva",
+      "name": "Белкар Флекс, КЕ",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "bioforzh-korteva",
+      "name": "Біофорж",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "blu-n-korteva",
+      "name": "Блу-Н",
+      "category": "Гербіцид",
+      "packaging": "3 кг"
+    },
+    {
+      "slug": "verben-ke-korteva",
+      "name": "Вербен, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "vivolt-korteva",
+      "name": "Віволт",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "viovan-ke-korteva",
+      "name": "Віован, КЕ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "helianteks-korteva",
+      "name": "Геліантекс",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "helianteks-akanto-plyus-korteva",
+      "name": "Геліантекс + Аканто Плюс",
+      "category": "Гербіцид",
+      "packaging": "1:05"
+    },
+    {
+      "slug": "helianteks-pro-korteva",
+      "name": "Геліантекс Про",
+      "category": "Гербіцид",
+      "packaging": "1.2 кг"
+    },
+    {
+      "slug": "dzheronimo-korteva",
+      "name": "Джеронімо",
+      "category": "Інсектицид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "ditan-m-45-korteva",
+      "name": "Дітан М-45",
+      "category": "Фунгіцид",
+      "packaging": "25 кг"
+    },
+    {
+      "slug": "zorveks-vinabriya-korteva",
+      "name": "Зорвекс Вінабрія",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "zorveks-inkantiya-korteva",
+      "name": "Зорвекс Інкантія",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kveleks-200vh-korteva",
+      "name": "Квелекс 200вг",
+      "category": "Гербіцид",
+      "packaging": "0.6 кг"
+    },
+    {
+      "slug": "kordus-fleks-korteva",
+      "name": "Кордус Флекс",
+      "category": "Гербіцид",
+      "packaging": "2.4 кг"
+    },
+    {
+      "slug": "kosaid-2000-v-h-korteva",
+      "name": "Косайд 2000 в.г.",
+      "category": "Фунгіцид",
+      "packaging": "5 кг"
+    },
+    {
+      "slug": "kurzat-r-44-korteva",
+      "name": "Курзат Р 44",
+      "category": "Фунгіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "lontrel-300-v-r-korteva",
+      "name": "Лонтрел 300 в.р.",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "lortama-korteva",
+      "name": "Лортама",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "lumiviya-korteva",
+      "name": "Лумівія",
+      "category": "Протруйник",
+      "packaging": "9.6 л"
+    },
+    {
+      "slug": "lumisena-korteva",
+      "name": "Лумісена",
+      "category": "Протруйник",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "lumitreo-korteva",
+      "name": "Лумітрео",
+      "category": "Протруйник",
+      "packaging": "4.7 л"
+    },
+    {
+      "slug": "lumifleks-korteva",
+      "name": "Луміфлекс",
+      "category": "Протруйник",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "n-lok-maks-korteva",
+      "name": "Н-Лок Макс",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "pallas-ekstra-317-vh-korteva",
+      "name": "Паллас  Екстра 317 ВГ",
+      "category": "Гербіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "pallas-45od-korteva",
+      "name": "Паллас 45OD",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "prima-intens-korteva",
+      "name": "Пріма Інтенс",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "radiant-korteva",
+      "name": "Радіант",
+      "category": "Інсектицид",
+      "packaging": "0.5 л"
+    },
+    {
+      "slug": "ridzhbek-korteva",
+      "name": "Ріджбек",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "slash-korteva",
+      "name": "Слаш",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "starane-premium-korteva",
+      "name": "Старане Премiум",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "stimuleit-korteva",
+      "name": "Стімулейт",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "talendo-korteva",
+      "name": "Талендо",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "talius-korteva",
+      "name": "Талiус",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "tanos-50vh-korteva",
+      "name": "Танос 50вг",
+      "category": "Фунгіцид",
+      "packaging": "2 кг"
+    },
+    {
+      "slug": "tibari-korteva",
+      "name": "Тібарі",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "transform-vh-korteva",
+      "name": "Трансформ, ВГ",
+      "category": "Інсектицид",
+      "packaging": "0.25 кг"
+    },
+    {
+      "slug": "titus-korteva",
+      "name": "Тiтус",
+      "category": "Гербіцид",
+      "packaging": "500гр"
+    },
+    {
+      "slug": "titus-ekstra-korteva",
+      "name": "Тiтус Екстра",
+      "category": "Гербіцид",
+      "packaging": "250гр"
+    }
+  ],
+  "ФМС": [
+    {
+      "slug": "vantakor-fms",
+      "name": "Вантакор",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "vanteks-fms",
+      "name": "Вантекс",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "venzar-80-z-p-fms",
+      "name": "Вензар 80 з.п.",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "verimark-fms",
+      "name": "Верімарк",
+      "category": "Інсектицид",
+      "packaging": "0.1 л"
+    },
+    {
+      "slug": "vintsyt-forte-fms",
+      "name": "Вінцит Форте",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "danadym-miks-k-e-fms",
+      "name": "Данадим Мікс,  к.е",
+      "category": "Інсектицид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "dzhalentra-fms",
+      "name": "Джалентра",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "eksirel-10-s-e-fms",
+      "name": "Ексірель 10% с.е",
+      "category": "Інсектицид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "ekspres-75-v-h-fms",
+      "name": "Експрес 75 в.г",
+      "category": "Гербіцид",
+      "packaging": "500гр"
+    },
+    {
+      "slug": "ekspres-hold-fms",
+      "name": "Експрес Голд",
+      "category": "Гербіцид",
+      "packaging": "350гр"
+    },
+    {
+      "slug": "ellai-super-fms",
+      "name": "Еллай супер",
+      "category": "Гербіцид",
+      "packaging": "150гр"
+    },
+    {
+      "slug": "impakt-500-fms",
+      "name": "Імпакт 500",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "impakt-t-fms",
+      "name": "Імпакт Т",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "karibu-50-z-p-fms",
+      "name": "Карiбу 50% з.п",
+      "category": "Гербіцид",
+      "packaging": "600гр"
+    },
+    {
+      "slug": "kodasaid-fms",
+      "name": "Кодасайд",
+      "category": "Фунгіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "kommand-fms",
+      "name": "Комманд",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "korahen-fms",
+      "name": "Кораген",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "nikit-fms",
+      "name": "Нікіт",
+      "category": "Гербіцид",
+      "packaging": "1 л"
+    },
+    {
+      "slug": "ol-klyar-ekstra-fms",
+      "name": "Ол Клиар Екстра",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "pikus-600-fms",
+      "name": "Пікус 600",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "prostor-fms",
+      "name": "Простор",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "saksessor-fms",
+      "name": "Саксессор",
+      "category": "Гербіцид",
+      "packaging": "10 л"
+    },
+    {
+      "slug": "tremiziya-fms",
+      "name": "Тремізія",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "trend-90-fms",
+      "name": "Тренд 90",
+      "category": "Адʼювант",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "famestra-fms",
+      "name": "Фаместра",
+      "category": "Гербіцид",
+      "packaging": "0.25 кг"
+    },
+    {
+      "slug": "fufanon-fms",
+      "name": "Фуфанон",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "kharmoni-fms",
+      "name": "Хармонi",
+      "category": "Гербіцид",
+      "packaging": "100гр"
+    }
+  ],
+  "UPL": [
+    {
+      "slug": "blu-bordo-dyspers-v-h-upl",
+      "name": "Блу Бордо Дисперс, в.г.",
+      "category": "Фунгіцид",
+      "packaging": "20 кг"
+    },
+    {
+      "slug": "vepo-upl",
+      "name": "Вепо",
+      "category": "Інсектицид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "versar-ke-superkil-upl",
+      "name": "Версар, КЕ (Суперкіл)",
+      "category": "Інсектицид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "vitavaks-upl",
+      "name": "Вітавакс",
+      "category": "Протруйник",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "everest-komplekt-upl",
+      "name": "Еверест (комплект)",
+      "category": "Гербіцид",
+      "packaging": "0.5 кг"
+    },
+    {
+      "slug": "evolyushn-komplekt-upl",
+      "name": "Еволюшн (комплект)",
+      "category": "Гербіцид",
+      "packaging": "1л+2л"
+    },
+    {
+      "slug": "kvikfos-tb-upl",
+      "name": "Квікфос, ТБ",
+      "category": "Гербіцид",
+      "packaging": "1 кг"
+    },
+    {
+      "slug": "koroza-ev-upl",
+      "name": "Короза, ЕВ",
+      "category": "Фунгіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "malvin-upl",
+      "name": "Малвін",
+      "category": "Фунгіцид",
+      "packaging": "10 кг"
+    },
+    {
+      "slug": "mikrotiol-spetsial-v-h-upl",
+      "name": "Мікротіол Спеціал, в.г.",
+      "category": "Фунгіцид",
+      "packaging": "25 кг"
+    },
+    {
+      "slug": "pantera-upl",
+      "name": "Пантера",
+      "category": "Гербіцид",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "proponit-upl",
+      "name": "Пропоніт",
+      "category": "Гербіцид",
+      "packaging": "20 л"
+    },
+    {
+      "slug": "ruter-rk-upl",
+      "name": "Рутер, РК",
+      "category": "Регулятор росту",
+      "packaging": "5 л"
+    },
+    {
+      "slug": "silvet-hold-upl",
+      "name": "Сільвет Голд",
+      "category": "Адʼювант",
+      "packaging": "1 л"
+    }
+  ]
+}
