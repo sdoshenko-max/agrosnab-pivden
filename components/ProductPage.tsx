@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronLeft, Phone, FileText, Package, Beaker, FlaskConical } from "lucide-react";
 import { type Product, getPackSize } from "@/lib/types";
 import { products as allProducts, cultures as allCultures } from "@/lib/data";
+import { manufacturerSlug } from "@/lib/manufacturers";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
 import { AgronomistCalculator } from "./AgronomistCalculator";
 import { RequestModal } from "./RequestModal";
@@ -68,7 +69,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
               <span className="ml-auto text-xs font-mono text-muted bg-bg border border-border px-2 py-0.5 rounded">№ {product.code}</span>
             </div>
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-1">{name}</h1>
-            <p className="text-muted mb-4">{labels.manufacturer}: <span className="font-medium text-ink">{product.manufacturer}</span></p>
+            <p className="text-muted mb-4">{labels.manufacturer}: <Link href={`${base}/vyrobnyk/${manufacturerSlug(product.manufacturer)}/`} className="font-medium text-ink underline decoration-dotted underline-offset-4 hover:text-brand hover:decoration-brand">{product.manufacturer}</Link></p>
 
             <div className="bg-brand/5 rounded-lg p-4 mb-4">
               <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-1">{t.productCard.activeIngredient}</p>

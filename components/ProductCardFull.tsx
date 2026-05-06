@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FileText, ArrowRight } from "lucide-react";
 import { type Product, getPackSize } from "@/lib/data";
+import { manufacturerSlug } from "@/lib/manufacturers";
 import { dict, type Lang } from "@/lib/i18n";
 import { useCurrency } from "./CurrencyContext";
 import { ProductPlaceholder } from "./ProductPlaceholder";
@@ -36,7 +37,7 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
             {product.saveFromOriginal && (<span className="text-accent font-bold text-sm">−{product.saveFromOriginal}%</span>)}
           </div>
           <Link href={productHref} className="font-bold text-lg leading-tight hover:text-brand group-hover:text-brand transition-colors block">{name}</Link>
-          <p className="text-xs text-muted">{product.manufacturer}</p>
+          <Link href={`${base}/vyrobnyk/${manufacturerSlug(product.manufacturer)}/`} className="text-xs text-muted hover:text-brand hover:underline" onClick={e => e.stopPropagation()}>{product.manufacturer}</Link>
         </div>
       </div>
 
