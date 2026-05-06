@@ -5,6 +5,7 @@ import { X, Send, Check } from "lucide-react";
 import { dict, type Lang } from "@/lib/i18n";
 import { PhoneInput, isValidPhone } from "./PhoneInput";
 import { trackLeadConversion } from "@/lib/analytics";
+import { useLockBodyScroll } from "@/lib/useLockBodyScroll";
 
 const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivden-form.sdoshenko.workers.dev";
 
@@ -37,11 +38,7 @@ export function RequestModal({
     if (productName) setProduct(productName);
   }, [productName]);
 
-  useEffect(() => {
-    if (open) document.body.style.overflow = "hidden";
-    else document.body.style.overflow = "";
-    return () => { document.body.style.overflow = ""; };
-  }, [open]);
+  useLockBodyScroll(open);
 
   if (!open) return null;
 
@@ -70,7 +67,7 @@ export function RequestModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4 overflow-y-auto"
+      className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4 overflow-y-auto overscroll-contain"
       onClick={onClose}
     >
       <div className="bg-white rounded-xl shadow-xl max-w-md w-full my-auto" onClick={e => e.stopPropagation()}>

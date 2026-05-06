@@ -6,6 +6,7 @@ import { useCart } from "./CartContext";
 import { useCurrency } from "./CurrencyContext";
 import { dict, type Lang } from "@/lib/i18n";
 import { PhoneInput, isValidPhone } from "./PhoneInput";
+import { useLockBodyScroll } from "@/lib/useLockBodyScroll";
 
 const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivden-form.sdoshenko.workers.dev";
 
@@ -48,12 +49,13 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
     } catch { setStatus("error"); }
   }
 
+  useLockBodyScroll(open);
   if (!open) return null;
   const cur = cart.items[0]?.currency || "USD";
 
   return (
-    <div className="fixed inset-0 z-[60] bg-black/60 flex justify-end overflow-y-auto" onClick={onClose}>
-      <div className="bg-white w-full max-w-md min-h-full flex flex-col" onClick={e => e.stopPropagation()}>
+    <div className="fixed inset-0 z-[60] bg-black/60 flex justify-end overflow-y-auto overscroll-contain" onClick={onClose}>
+      <div className="bg-white w-full max-w-md min-h-full flex flex-col overscroll-contain" onClick={e => e.stopPropagation()}>
         <div className="sticky top-0 bg-white border-b border-border p-4 flex items-center justify-between z-10">
           <h2 className="text-xl font-bold flex items-center gap-2"><ShoppingCart className="w-5 h-5" />{stage === "cart" ? labels.title : t.form.title}</h2>
           <button onClick={onClose} className="p-1 hover:bg-bg rounded-lg" aria-label="close"><X className="w-5 h-5" /></button>

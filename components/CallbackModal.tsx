@@ -5,6 +5,7 @@ import { X, Send, Check, Phone } from "lucide-react";
 import { PhoneInput, isValidPhone } from "./PhoneInput";
 import { type Lang, COMPANY } from "@/lib/i18n";
 import { trackLeadConversion } from "@/lib/analytics";
+import { useLockBodyScroll } from "@/lib/useLockBodyScroll";
 
 const WORKER_URL = process.env.NEXT_PUBLIC_WORKER_URL || "https://agrosnab-pivden-form.sdoshenko.workers.dev";
 
@@ -14,11 +15,7 @@ export function CallbackModal({ open, onClose, lang }: { open: boolean; onClose:
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle");
 
-  useEffect(() => {
-    if (open) document.body.style.overflow = "hidden";
-    else document.body.style.overflow = "";
-    return () => { document.body.style.overflow = ""; };
-  }, [open]);
+  useLockBodyScroll(open);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) { if (e.key === "Escape" && open) onClose(); }
@@ -77,13 +74,13 @@ export function CallbackModal({ open, onClose, lang }: { open: boolean; onClose:
 
   return (
     <div
-      className="fixed inset-0 z-[80] bg-black/60 flex items-end sm:items-center justify-center p-0 sm:p-4 overflow-y-auto"
+      className="fixed inset-0 z-[80] bg-black/60 flex items-end sm:items-center justify-center p-0 sm:p-4 overflow-y-auto overscroll-contain"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
     >
       <div
-        className="bg-white w-full sm:max-w-md rounded-t-2xl sm:rounded-2xl shadow-2xl"
+        className="bg-white w-full sm:max-w-md rounded-t-2xl sm:rounded-2xl shadow-2xl overscroll-contain"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-start justify-between p-4 border-b border-border">

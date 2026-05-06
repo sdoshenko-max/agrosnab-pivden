@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Phone, Menu, X, MessageCircle, ChevronDown } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Logo } from "./Logo";
 import { CartButton } from "./CartButton";
 import { SearchBox } from "./SearchBox";
@@ -11,6 +11,8 @@ import { dict, type Lang, COMPANY } from "@/lib/i18n";
 import { groups } from "@/lib/groups";
 import { cultures, products } from "@/lib/data";
 import { CallbackModal } from "./CallbackModal";
+import { useLockBodyScroll } from "@/lib/useLockBodyScroll";
+import { useScrollDirection } from "@/lib/useScrollDirection";
 
 export function Header({ lang }: { lang: Lang }) {
   const t = dict[lang];
@@ -21,18 +23,18 @@ export function Header({ lang }: { lang: Lang }) {
   const groupsWithCount = groups.map(g => ({ ...g, count: products.filter(p => p.groupSlug === g.slug).length })).filter(g => g.count > 0);
   const culturesWithCount = cultures.map(c => ({ ...c, count: products.filter(p => p.cultures.includes(c.slug)).length }));
 
-  useEffect(() => {
-    if (open) document.body.style.overflow = "hidden";
-    else document.body.style.overflow = "";
-    return () => { document.body.style.overflow = ""; };
-  }, [open]);
+  useLockBodyScroll(open);
+  const { dir, atTop } = useScrollDirection(80);
+  // Auto-hide хедера тільки на мобільному, тільки коли проскролили далі за висоту хедера.
+  // Зверху сторінки — завжди видно, коли скрол вгору — повертаємо.
+  const hideOnMobile = !atTop && dir === "down" && !open;
 
   function close() { setOpen(false); }
 
   return (
     <>
     <RateBar lang={lang} />
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-border">
+    <header className={`sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-border transition-transform duration-200 will-change-transform ${hideOnMobile ? "lg:translate-y-0 -translate-y-full" : "translate-y-0"}`}>
       <div className="container-w flex items-center justify-between h-16 gap-3">
         <Link href={`${base}/`} className="shrink-0">
           <Logo className="h-9 w-auto" />
