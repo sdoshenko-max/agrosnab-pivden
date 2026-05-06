@@ -6,7 +6,6 @@ import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Beaker } from "lucide-react";
 import type { Culture, Product, TankMix } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
-import { groups } from "@/lib/groups";
 import { ProductCardFull } from "./ProductCardFull";
 import { RequestModal } from "./RequestModal";
 
@@ -43,7 +42,6 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
   const defaultStage = culture.stages[0]?.slug || "all";
   const tech = searchParams.get("tech") || defaultTech;
   const stage = searchParams.get("stage") || defaultStage;
-  const groupSlug = searchParams.get("group") || "all";
   const tier = searchParams.get("tier") || "all";
   const manufacturer = searchParams.get("manufacturer") || "all";
   const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
@@ -59,7 +57,6 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
   }
   const setTech = (v: string) => updateParams({ tech: v === defaultTech ? null : v, page: null });
   const setStage = (v: string) => updateParams({ stage: v === defaultStage ? null : v, page: null });
-  const setGroup = (v: string) => updateParams({ group: v, page: null });
   const setTier = (v: string) => updateParams({ tier: v, page: null });
   const setManufacturer = (v: string) => updateParams({ manufacturer: v, page: null });
   const setPage = (v: number) => updateParams({ page: v <= 1 ? null : v });
@@ -80,11 +77,6 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
     });
   }, [products, stage, tech, culture.technologies]);
 
-  const groupOptions = useMemo(() => {
-    const slugs = new Set(productsForOptions.map(p => p.groupSlug));
-    return groups.filter(g => slugs.has(g.slug));
-  }, [productsForOptions]);
-
   const manufacturerOptions = useMemo(() => {
     return Array.from(new Set(productsForOptions.map(p => p.manufacturer))).sort();
   }, [productsForOptions]);
@@ -95,12 +87,11 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
 
   const filtered = useMemo(() => {
     return productsForOptions.filter(p => {
-      if (groupSlug !== "all" && p.groupSlug !== groupSlug) return false;
       if (tier !== "all" && p.tier !== tier) return false;
       if (manufacturer !== "all" && p.manufacturer !== manufacturer) return false;
       return true;
     });
-  }, [productsForOptions, groupSlug, tier, manufacturer]);
+  }, [productsForOptions, tier, manufacturer]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
@@ -128,8 +119,8 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
   }
 
   const labels = lang === "uk"
-    ? { back: "Назад", tech: "Технологія", stage: "Етап обробки", group: "Група ЗЗР", tier: "Рівень", manufacturer: "Виробник", all: "Усі", noProducts: "Немає препаратів у цій категорії", mixForCulture: "Готова бакова суміш для цієї культури", openMix: "Подивитись склад" }
-    : { back: "Назад", tech: "Технология", stage: "Этап обработки", group: "Группа СЗР", tier: "Уровень", manufacturer: "Производитель", all: "Все", noProducts: "Нет препаратов в этой категории", mixForCulture: "Готовая баковая смесь для этой культуры", openMix: "Посмотреть состав" };
+    ? { back: "Назад", tech: "Технологія", stage: "Етап обробки", tier: "Рівень", manufacturer: "Виробник", all: "Усі", noProducts: "Немає препаратів у цій категорії", mixForCulture: "Готова бакова суміш для цієї культури", openMix: "Подивитись склад" }
+    : { back: "Назад", tech: "Технология", stage: "Этап обработки", tier: "Уровень", manufacturer: "Производитель", all: "Все", noProducts: "Нет препаратов в этой категории", mixForCulture: "Готовая баковая смесь для этой культуры", openMix: "Посмотреть состав" };
 
   return (
     <>
@@ -203,23 +194,9 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
           ))}
         </div>
 
-        {/* Додаткові фільтри: група ЗЗР, рівень, виробник */}
-        {(groupOptions.length > 1 || manufacturerOptions.length > 1 || tierOptions.length > 1) && (
-          <div className="card !p-4 mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-            {groupOptions.length > 1 && (
-              <div>
-                <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-2">{labels.group}</p>
-                <div className="flex flex-wrap gap-1.5">
-                  <button onClick={() => setGroup("all")} className={`text-xs px-2.5 py-1 rounded-md ${groupSlug === "all" ? "bg-brand text-white" : "bg-bg hover:bg-border"}`}>{labels.all}</button>
-                  {groupOptions.map(g => (
-                    <button key={g.slug} onClick={() => setGroup(g.slug)} className={`text-xs px-2.5 py-1 rounded-md flex items-center gap-1 ${groupSlug === g.slug ? "bg-brand text-white" : "bg-bg hover:bg-border"}`}>
-                      <span>{g.emoji}</span>
-                      <span>{lang === "uk" ? g.nameUk : g.nameRu}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
+        {/* Додаткові фільтри: рівень, виробник */}
+        {(manufacturerOptions.length > 1 || tierOptions.length > 1) && (
+          <div className="card !p-4 mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             {tierOptions.length > 1 && (
               <div>
                 <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-2">{labels.tier}</p>
