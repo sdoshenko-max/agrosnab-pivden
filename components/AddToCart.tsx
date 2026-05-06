@@ -2,16 +2,10 @@
 
 import { useState } from "react";
 import { ShoppingCart, Plus, Minus, Check } from "lucide-react";
-import type { Product } from "@/lib/types";
+import { type Product, getPackSize } from "@/lib/types";
 import { useCart } from "./CartContext";
 import { useCurrency } from "./CurrencyContext";
 import { dict, type Lang } from "@/lib/i18n";
-
-function getPackSize(packaging: string): number {
-  const m = packaging.match(/[\d.,]+/);
-  if (!m) return 1;
-  return parseFloat(m[0].replace(",", "."));
-}
 
 export function AddToCart({ product, lang, defaultQty = 1, compact = false }: { product: Product; lang: Lang; defaultQty?: number; compact?: boolean }) {
   const cart = useCart();

@@ -124,8 +124,11 @@ export function normalizePkg(raw: string | null | undefined): string {
 }
 
 // Базова одиниця для фасовки: "500 г" → "кг", "5 л" → "л", "50 мл" → "л".
+// (JS regex \b не працює з кирилицею, тому через нормалізацію.)
 export function unitFromPkg(packaging: string): "л" | "кг" {
-  const s = String(packaging || "").toLowerCase();
-  if (/(кг|\bг\b|гр\b)/.test(s)) return "кг";
+  const s = String(packaging || "").toLowerCase().replace(/\s+/g, "");
+  if (/^\d+(?:[.,]\d+)?кг$/.test(s)) return "кг";
+  if (/^\d+(?:[.,]\d+)?гр?$/.test(s)) return "кг"; // 500г, 500гр
+  if (/кг/.test(s)) return "кг"; // на всяк випадок: "0.25кг", "10*500гр"
   return "л";
 }

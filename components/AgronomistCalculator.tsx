@@ -2,16 +2,10 @@
 
 import { useState, useMemo } from "react";
 import { Calculator, ShoppingCart, Check, Info, AlertCircle } from "lucide-react";
-import type { Product } from "@/lib/data";
+import { type Product, getPackSize } from "@/lib/data";
 import { type Lang } from "@/lib/i18n";
 import { useCart } from "./CartContext";
 import { useCurrency } from "./CurrencyContext";
-
-function getPackSize(packaging: string): number {
-  const m = packaging.match(/[\d.,]+/);
-  if (!m) return 1;
-  return parseFloat(m[0].replace(",", "."));
-}
 
 export function AgronomistCalculator({ product, lang }: { product: Product; lang: Lang }) {
   const cart = useCart();

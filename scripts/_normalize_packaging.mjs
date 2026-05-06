@@ -36,8 +36,10 @@ function normalizePkg(raw) {
 }
 
 function unitFromPkg(pkg) {
-  const s = String(pkg || "").toLowerCase();
-  if (/(кг|\bг\b|гр\b)/.test(s)) return "кг";
+  const s = String(pkg || "").toLowerCase().replace(/\s+/g, "");
+  if (/^\d+(?:[.,]\d+)?кг$/.test(s)) return "кг";
+  if (/^\d+(?:[.,]\d+)?гр?$/.test(s)) return "кг";
+  if (/кг/.test(s)) return "кг";
   return "л";
 }
 
