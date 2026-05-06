@@ -15,6 +15,7 @@ export type Product = {
   rate: string;
   priceVat: number;
   priceCash: number;
+  priceOnRequest?: boolean;
   unit: "л" | "кг";
   currency: "USD" | "EUR";
   analog?: string;

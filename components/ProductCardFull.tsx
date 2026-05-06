@@ -54,21 +54,30 @@ export function ProductCardFull({ product, lang, onRequest }: { product: Product
       {desc && <p className="text-sm text-muted leading-snug">{desc}</p>}
 
       <div className="border-t border-border pt-3 mt-auto">
-        <div className="flex justify-between items-baseline mb-1">
-          <span className="text-xs text-muted">{t.productCard.priceCash}</span>
-          <div className="text-right">
-            <div className="text-lg font-bold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-xs font-normal text-muted"> / {product.packaging}</span></div>
-            <div className="text-[11px] text-muted">{format(product.priceCash, product.currency)}/{product.unit}</div>
+        {product.priceOnRequest ? (
+          <div className="bg-amber-50 border border-amber-200 rounded-lg px-3 py-2.5 text-center">
+            <div className="text-base font-bold text-amber-900">{t.productCard.onRequest}</div>
+            <div className="text-[11px] text-amber-700 leading-tight mt-0.5">{t.productCard.onRequestHint}</div>
           </div>
-        </div>
-        <div className="flex justify-between items-baseline">
-          <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-          <span className="text-sm text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
-        </div>
+        ) : (
+          <>
+            <div className="flex justify-between items-baseline mb-1">
+              <span className="text-xs text-muted">{t.productCard.priceCash}</span>
+              <div className="text-right">
+                <div className="text-lg font-bold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-xs font-normal text-muted"> / {product.packaging}</span></div>
+                <div className="text-[11px] text-muted">{format(product.priceCash, product.currency)}/{product.unit}</div>
+              </div>
+            </div>
+            <div className="flex justify-between items-baseline">
+              <span className="text-xs text-muted">{t.productCard.priceVat}</span>
+              <span className="text-sm text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
+            </div>
+          </>
+        )}
       </div>
 
       <div className="grid grid-cols-2 gap-2">
-        <button onClick={() => onRequest(name)} className="btn-primary !py-2 !px-3 text-sm"><FileText className="w-4 h-4" />{t.cta.submit}</button>
+        <button onClick={() => onRequest(name)} className="btn-primary !py-2 !px-3 text-sm"><FileText className="w-4 h-4" />{product.priceOnRequest ? t.productCard.requestBtn : t.cta.submit}</button>
         <Link href={productHref} className="btn-outline !py-2 !px-3 text-sm">{detailsLabel}<ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></Link>
       </div>
     </article>

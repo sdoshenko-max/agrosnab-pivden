@@ -63,7 +63,7 @@ export function SearchBox({ lang }: { lang: Lang }) {
                   {results.products.map(p => (
                     <Link key={p.slug} href={`${base}/produkt/${p.slug}`} onClick={() => setOpen(false)} className="block px-2 py-1.5 hover:bg-bg rounded">
                       <p className="text-sm font-semibold">{lang === "uk" ? p.name : p.nameRu}</p>
-                      <p className="text-xs text-muted truncate">{lang === "uk" ? p.activeIngredient : p.activeIngredientRu} · {p.manufacturer} · ${p.priceCash}/{p.unit}</p>
+                      <p className="text-xs text-muted truncate">{lang === "uk" ? p.activeIngredient : p.activeIngredientRu} · {p.manufacturer} · {p.priceOnRequest ? (lang === "uk" ? "ціна за запитом" : "цена по запросу") : `$${p.priceCash}/${p.unit}`}</p>
                     </Link>
                   ))}
                 </div>

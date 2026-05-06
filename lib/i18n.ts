@@ -98,7 +98,10 @@ export const dict = {
       perL: "/л",
       perKg: "/кг",
       saveOf: "економія від",
-      manufacturer: "Виробник"
+      manufacturer: "Виробник",
+      onRequest: "Ціна за запитом",
+      onRequestHint: "Уточніть наявність та ціну — товар під замовлення",
+      requestBtn: "Запитати ціну"
     }
   },
   ru: {
@@ -198,7 +201,10 @@ export const dict = {
       perL: "/л",
       perKg: "/кг",
       saveOf: "экономия от",
-      manufacturer: "Производитель"
+      manufacturer: "Производитель",
+      onRequest: "Цена по запросу",
+      onRequestHint: "Уточните наличие и цену — товар под заказ",
+      requestBtn: "Запросить цену"
     }
   }
 } as const;

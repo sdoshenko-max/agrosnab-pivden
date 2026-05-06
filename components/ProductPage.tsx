@@ -77,22 +77,33 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
               {product.rate ? <div className="card !p-3"><FlaskConical className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{labels.rate}</p><p className="font-bold">{product.rate}</p></div> : null}
             </div>
 
-            <div className="card !p-4 mb-5 bg-bg">
-              <div className="flex justify-between items-baseline mb-1">
-                <span className="text-sm text-muted">{t.productCard.priceCash}</span>
-                <span className="text-3xl font-extrabold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-sm font-normal text-muted"> / {product.packaging}</span></span>
+            {product.priceOnRequest ? (
+              <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 mb-5">
+                <div className="text-2xl font-extrabold text-amber-900 mb-1">{t.productCard.onRequest}</div>
+                <p className="text-sm text-amber-800 leading-snug">{t.productCard.onRequestHint}</p>
               </div>
-              <div className="flex justify-between items-baseline mb-2">
-                <span className="text-xs text-muted invisible">.</span>
-                <span className="text-xs text-muted">{format(product.priceCash, product.currency)}/{product.unit}</span>
+            ) : (
+              <div className="card !p-4 mb-5 bg-bg">
+                <div className="flex justify-between items-baseline mb-1">
+                  <span className="text-sm text-muted">{t.productCard.priceCash}</span>
+                  <span className="text-3xl font-extrabold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-sm font-normal text-muted"> / {product.packaging}</span></span>
+                </div>
+                <div className="flex justify-between items-baseline mb-2">
+                  <span className="text-xs text-muted invisible">.</span>
+                  <span className="text-xs text-muted">{format(product.priceCash, product.currency)}/{product.unit}</span>
+                </div>
+                <div className="flex justify-between items-baseline border-t border-border pt-2">
+                  <span className="text-xs text-muted">{t.productCard.priceVat}</span>
+                  <span className="text-base text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
+                </div>
               </div>
-              <div className="flex justify-between items-baseline border-t border-border pt-2">
-                <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-                <span className="text-base text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
-              </div>
-            </div>
+            )}
 
-            <AddToCart product={product} lang={lang} />
+            {product.priceOnRequest ? (
+              <button onClick={() => setRequestOpen(true)} className="btn-primary w-full !py-3"><FileText className="w-4 h-4" />{t.productCard.requestBtn}</button>
+            ) : (
+              <AddToCart product={product} lang={lang} />
+            )}
             <div className="grid grid-cols-2 gap-3 mt-3">
               <button onClick={() => setRequestOpen(true)} className="btn-outline !py-2 text-sm"><FileText className="w-4 h-4" />{t.cta.submit}</button>
               <a href={`tel:${COMPANY.phone}`} className="btn-outline !py-2 text-sm"><Phone className="w-4 h-4" />{t.cta.callNow}</a>
@@ -113,7 +124,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
         </div>
       </section>
 
-      <section className="container-w py-6"><AgronomistCalculator product={product} lang={lang} /></section>
+      {!product.priceOnRequest && <section className="container-w py-6"><AgronomistCalculator product={product} lang={lang} /></section>}
 
       {related.length > 0 && (
         <section className="bg-white border-t border-border py-8">
@@ -125,7 +136,11 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
                   <span className={`badge ${tierLabels[p.tier].cls} mb-2 inline-block`}>{lang === "uk" ? tierLabels[p.tier].uk : tierLabels[p.tier].ru}</span>
                   <h3 className="font-bold text-sm mb-1 group-hover:text-brand">{lang === "uk" ? p.name : p.nameRu}</h3>
                   <p className="text-xs text-muted mb-2">{p.manufacturer}</p>
-                  <p className="text-base font-bold text-brand whitespace-nowrap">{format(p.priceCash * getPackSize(p.packaging), p.currency)}<span className="text-xs font-normal text-muted"> / {p.packaging}</span></p>
+                  {p.priceOnRequest ? (
+                    <p className="text-sm font-bold text-amber-700">{t.productCard.onRequest}</p>
+                  ) : (
+                    <p className="text-base font-bold text-brand whitespace-nowrap">{format(p.priceCash * getPackSize(p.packaging), p.currency)}<span className="text-xs font-normal text-muted"> / {p.packaging}</span></p>
+                  )}
                 </Link>
               ))}
             </div>
