@@ -31,12 +31,13 @@
 - Розподіл: Сингента 105, Дефенда 71, Басф 68, Самміт-Агро 67, Адама 61, Байер 60, Терра Віта 47, Нуфарм 46, Кортева 43, ФМС 30, UPL 15.
 - Артефакт: `Сайт/_originals_staging.json` (untracked, regen-able).
 
-### ☐ 2. Diff проти поточного каталогу → `_originals_diff.json`
+### ☑ 2. Diff проти поточного каталогу ✅ ГОТОВО (2026-05-06)
 - Скрипт: `scripts/_originals_diff.mjs`.
-- Для кожного запису з `_originals_staging.json`:
-  - Знайти збіг у `lib/products.ts` за: (а) name+manufacturer normalized, (б) таблиця мапінгу з `_PRICE_IMPORT_RULES.md`, (в) евристика «з тарою / без тари» (наприклад, «Базагран в.р.» = «Базагран»).
-- Видати 4 кошики: **UPDATE** (є на сайті, ціна/фасовка розійшлися) / **ADD** (нові) / **RENAME** (на сайті під іншим іменем) / **GHOST** (на сайті є, у прайсі зникли).
-- Артефакт: `Сайт/_originals_diff.json` + первинне зведення `Сайт/_ORIGINALS_DIFF_SUMMARY.md` (цифри по виробниках).
+- Артефакти: `_originals_diff.json` (untracked) + `_ORIGINALS_DIFF_SUMMARY.md` (закоммічено).
+- **Цифри**: каталог 51, прайс 613 → 🔄 UPDATE 16, ➕ ADD 581, ✎ RENAME 16, 👻 GHOST 19.
+- **GHOST** (19): усі вони `priceOnRequest:true` — товари під замовлення, у прайсі їх немає. Залишаємо як є.
+- **RENAME** (16): матч через мапінг-таблицю. На сайті назви залишаються, але слід перевірити підозрілі: `salsa-korteva` (у прайсі ФМС), `tarha-super-nissan` (у прайсі Самміт-Агро), `rehent-20-g-baier` (нормалізація виробника спіткнулася).
+- **ADD** (581): основна робота. По виробниках: Сингента 93, Дефенда 71, Самміт-Агро 66, Адама 61, Басф 59, Байер 56, Терра Віта 47, Нуфарм 46, Кортева 41, ФМС 27, UPL 14.
 
 ### ☐ 3. Збагачення новых SKU (тут можна SubAgent'ів — по одному на виробника)
 - Для кожного **ADD**: знайти на офсайті виробника (або в дилерських каталогах) — `activeIngredient`, `concentration`, `cultures` (slug'и з `lib/cultures.ts`), `rate`, `stage` (`gruntovyi`/`strakhovyi`/`desikatsiya`), `technology` (clearfield/express).
@@ -74,3 +75,4 @@
 
 - 2026-05-06 09:30 — створено цей чек-лист, починаю крок 1.
 - 2026-05-06 09:40 — крок 1 готовий: `scripts/_parse_originals.mjs` → `_originals_staging.json` (613 SKU, 11 виробників).
+- 2026-05-06 09:50 — крок 2 готовий: `scripts/_originals_diff.mjs` → `_ORIGINALS_DIFF_SUMMARY.md`. UPDATE 16 / ADD 581 / RENAME 16 / GHOST 19.
