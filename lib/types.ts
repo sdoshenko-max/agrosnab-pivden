@@ -68,9 +68,64 @@ export function calcCash(priceVat: number): number {
   return Math.round((priceVat / 1.2) * 1.1 * 100) / 100;
 }
 
-// Витягуємо розмір фасовки з рядка: "5 л" → 5, "0.5 кг" → 0.5, "20 л" → 20
+// Витягуємо розмір фасовки в базовій одиниці (л або кг).
+// "5 л" → 5; "0.5 кг" → 0.5; "500 г" → 0.5; "50 мл" → 0.05; "1 т" → 1000.
+// Для комбо-фасовок типу "1кг+5л" — повертає число першої частини.
 export function getPackSize(packaging: string): number {
-  const m = (packaging || "").match(/[\d.,]+/);
-  if (!m) return 1;
-  return parseFloat(m[0].replace(",", ".")) || 1;
+  const s = String(packaging || "").toLowerCase();
+  // Парсимо число + одиницю (підтримка крапки/коми як десяткового)
+  const m = s.match(/(\d+(?:[.,]\d+)?)\s*(кг|г|мл|л|т)\b/);
+  if (!m) {
+    const n = s.match(/[\d.,]+/);
+    return n ? (parseFloat(n[0].replace(",", ".")) || 1) : 1;
+  }
+  const num = parseFloat(m[1].replace(",", ".")) || 1;
+  const unit = m[2];
+  if (unit === "г") return num / 1000;   // 500 г → 0.5 (кг)
+  if (unit === "мл") return num / 1000;  // 50 мл → 0.05 (л)
+  if (unit === "т") return num * 1000;   // 1 т → 1000 (кг)
+  return num; // кг, л — базова одиниця
+}
+
+// Нормалізує запис фасовки до канонічної форми:
+//   "4*5л.", "5л.", "5 л", "5л" → "5 л"
+//   "0,25 кг", "0.25кг" → "0.25 кг"
+//   "500гр", "500 г" → "500 г"
+//   "10*500гр" → "500 г"
+//   "0,5л пляш" → "0.5 л"
+//   "40гр+100г/л" → "40гр+100г/л" (комбо лишається без змін)
+export function normalizePkg(raw: string | null | undefined): string {
+  if (!raw) return "";
+  let s = String(raw).trim();
+  // Комбо-форми ("1кг+5л", "40гр+100г/л") — лишаємо як є
+  if (/[+]/.test(s) && !/(кг|л)\s*$/.test(s)) {
+    return s.replace(/\s+/g, "");
+  }
+  // Видаляємо мультиплікатор: "4*5л" → "5л", "20*250гр" → "250гр", "4×5 л" → "5 л"
+  const mult = s.match(/^\s*\d+\s*[*×xх]\s*(.+)$/i);
+  if (mult) s = mult[1].trim();
+  // Прибираємо описові слова: "пляш", "флакон", "ящик", "пак", "банка"
+  s = s.replace(/\b(пляш(к[аи])?|флакон|ящик|ящ|пак(ет)?|банк[аи]?|туба|каніст(р[аи])?)\b/gi, "").trim();
+  // Витягуємо число + одиницю
+  const m = s.match(/(\d+(?:[.,]\d+)?)\s*([а-яёa-z]+\.?)?/i);
+  if (!m) return s;
+  const num = parseFloat(m[1].replace(",", ".")) || 0;
+  let unit = (m[2] || "л").toLowerCase().replace(/\.+$/, "");
+  // Канонічні одиниці
+  if (/^кг$/.test(unit)) unit = "кг";
+  else if (/^л$/.test(unit)) unit = "л";
+  else if (/^(г|гр)$/.test(unit)) unit = "г";
+  else if (/^мл$/.test(unit)) unit = "мл";
+  else if (/^т$/.test(unit)) unit = "т";
+  else unit = "л"; // fallback
+  // Число без зайвих нулів
+  const numStr = String(num).replace(/^0\.0+$/, "0");
+  return `${numStr} ${unit}`;
+}
+
+// Базова одиниця для фасовки: "500 г" → "кг", "5 л" → "л", "50 мл" → "л".
+export function unitFromPkg(packaging: string): "л" | "кг" {
+  const s = String(packaging || "").toLowerCase();
+  if (/(кг|\bг\b|гр\b)/.test(s)) return "кг";
+  return "л";
 }

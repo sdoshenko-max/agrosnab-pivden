@@ -937,22 +937,13 @@
 1355,"Мiстраль ВГ","Адама",original,"Гербіцид",mistral-vh-5-adama
 1356,"Пендiган KC","Адама",original,"Гербіцид",pendihan-kc-10-adama
 1357,"Султан КС","Адама",original,"Гербіцид",sultan-ks-5-adama
-1358,"Тiтус","Кортева",original,"Гербіцид",titus-10x500-korteva
-1359,"Тiтус Екстра","Кортева",original,"Гербіцид",titus-ekstra-10x250-korteva
 1360,"Селект","UPL",original,"Гербіцид",selekt-5-upl
-1361,"Експрес 75 в.г","ФМС",original,"Гербіцид",ekspres-75-v-h-10x500-fms
-1362,"Експрес Голд","ФМС",original,"Гербіцид",ekspres-hold-10x350-fms
-1363,"Еллай супер","ФМС",original,"Гербіцид",ellai-super-10x150-fms
-1364,"Карiбу 50% з.п","ФМС",original,"Гербіцид",karibu-50-z-p-10x600-fms
-1366,"Хармонi","ФМС",original,"Гербіцид",kharmoni-10x100-fms
 1367,"Дуал голд 960","Сингента",original,"Гербіцид",dual-hold-960-ec-5-synhenta
-1368,"ПIК 75WG","Сингента",original,"Гербіцид",pik-75wg-20x100-synhenta
 1369,"Прiма Форте","Сингента",original,"Гербіцид",prima-forte-5-synhenta
 1370,"Бороплюс","Сингента",original,"Гербіцид",boroplyus-10-synhenta
 1371,"Астрал Комбі","Нуфарм",original,"Гербіцид",astral-40100-nufarm
 1372,"Бромцид","Нуфарм",original,"Гербіцид",bromtsyd-5-nufarm
 1373,"Еквінокс, КС","Нуфарм",original,"Гербіцид",ekvinoks-ks-1-nufarm
-1374,"Амалгерон Ессенс, РК","Самміт-Агро",original,"Гербіцид",amalheron-essens-rk-10x1-sammit-agro
 1375,"Амалгерон Ессенс, РК","Самміт-Агро",original,"Гербіцид",amalheron-essens-rk-15-sammit-agro
 1376,"Енцера, ВГ","Самміт-Агро",original,"Гербіцид",entsera-vh-16x200-sammit-agro
 1377,"Енцера, ВГ","Самміт-Агро",original,"Гербіцид",entsera-vh-10x50-sammit-agro
@@ -962,12 +953,10 @@
 2296,"Сфiнкс Eкстра  ВГ","Адама",original,"Фунгіцид",sfinks-ekstra-vh-5-adama
 2297,"Фольпан Голд WG","Адама",original,"Фунгіцид",folpan-hold-wg-5-adama
 2298,"Адексар СЕ Плюс, КЕ","Басф",original,"Фунгіцид",adeksar-plyus-10-basf
-2299,"Стробi","Басф",original,"Фунгіцид",strobi-10x200-basf
 2300,"Ревіона","Басф",original,"Фунгіцид",reviona-5-basf
 2301,"Карамба Турбо","Басф",original,"Фунгіцид",karamba-5-basf
 2302,"Альто супер 330","Сингента",original,"Фунгіцид",alto-super-330-ec-20-synhenta
 2303,"Топаз 100 ЕС","Сингента",original,"Фунгіцид",topaz-100-es-5-synhenta
-2304,"Таегро WP","Сингента",original,"Фунгіцид",taehro-wp-10x370-synhenta
 2305,"Такаші, РК","Самміт-Агро",original,"Фунгіцид",takashi-rk-10-sammit-agro
 2306,"Артемікс, КС","Самміт-Агро",original,"Фунгіцид",artemiks-ks-05-sammit-agro
 2307,"Мiлдiкат 25, КС","Самміт-Агро",original,"Фунгіцид",mildikat-25-ks-05-sammit-agro
@@ -995,13 +984,11 @@
 3169,"Балазо к.е.(бiфентрiн)","Самміт-Агро",original,"Інсектицид",balazo-k-e-bifentrin-5-sammit-agro
 3170,"Моспiлан, ВП (2*200г)","Самміт-Агро",original,"Інсектицид",mospilan-vp-2-200h-20x400-sammit-agro
 3171,"Нiссоран, ЗП","Самміт-Агро",original,"Інсектицид",nissoran-zp-20x500-sammit-agro
-3172,"Санмайт, ЗП","Самміт-Агро",original,"Інсектицид",sanmait-zp-20x500-sammit-agro
 3173,"Сілкер, КЕ","Самміт-Агро",original,"Інсектицид",silker-ke-1-sammit-agro
 3174,"Теппекі, ВГ","Самміт-Агро",original,"Інсектицид",teppeki-vh-055-sammit-agro
 4063,"Круiзер 350 FS","Сингента",original,"Протруйник",kruizer-350-fs-20-synhenta
 4064,"Еквенто 100FS","Сингента",original,"Протруйник",ekvento-100fs-5-synhenta
 4065,"Максим форте 050 FS","Сингента",original,"Протруйник",maksym-forte-050-fs-5-synhenta
-4066,"Віксеран25*250","Сингента",original,"Протруйник",vikseran25-250-25x250-synhenta
 6023,"Аміно Ксеріон","Адама",original,"Регулятор росту",amino-kserion-5-adama
 6024,"Експерт Гроу","Адама",original,"Регулятор росту",ekspert-hrou-5-adama
 6025,"Келпак РК","Терра Віта",original,"Регулятор росту",kelpak-rk-5-terra-vita
@@ -1055,16 +1042,6 @@
 1424,"Пристар, ВГ","PEST.UA",econom,"Гербіцид",prystar-vh-pest-ua
 1425,"Торино, ВГ","PEST.UA",econom,"Гербіцид",toryno-vh-pest-ua
 1426,"Юкатан, КЕ","PEST.UA",econom,"Гербіцид",yukatan-ke-pest-ua
-1427,"Альфа-Бентазон, РК","Alfa Smart Agro",premium,"Гербіцид",alfa-bentazon-rk-alfa-smart-agro
-1428,"Альфа-Бригадир, КЕ","Alfa Smart Agro",premium,"Гербіцид",alfa-bryhadyr-ke-alfa-smart-agro
-1429,"Альфа-Гетьман, КЕ","Alfa Smart Agro",premium,"Гербіцид",alfa-hetman-ke-alfa-smart-agro
-1430,"Альфа-Дикамба, РК","Alfa Smart Agro",premium,"Гербіцид",alfa-dykamba-rk-alfa-smart-agro
-1431,"Альфа-Маїс, ВГ","Alfa Smart Agro",premium,"Гербіцид",alfa-mayis-vh-alfa-smart-agro
-1432,"Альфа-Піралід, РК","Alfa Smart Agro",premium,"Гербіцид",alfa-piralid-rk-alfa-smart-agro
-1433,"Альфа-Прометрин, КС","Alfa Smart Agro",premium,"Гербіцид",alfa-prometryn-ks-alfa-smart-agro
-1434,"Антизлак, КЕ (тільки разом з ПАР Омега Екстра, КЕ, ціна за комплект 1:1)","Alfa Smart Agro",premium,"Гербіцид",antyzlak-ke-tilky-razom-z-par-omeha-ekstra-ke-tsina-za-kompl
-1435,"Верітан, РК","Alfa Smart Agro",premium,"Гербіцид",veritan-rk-alfa-smart-agro
-1436,"Гладіатор, КС","Alfa Smart Agro",premium,"Гербіцид",hladiator-ks-alfa-smart-agro
 1437,"ЕТАФОРОН, ВГ","Himagro",econom,"Гербіцид",etaforon-vh-himagro
 1438,"ЛУАЗИТ, КС","Himagro",econom,"Гербіцид",luazyt-ks-himagro
 1439,"МАГІСТР, ВГ    *","Himagro",econom,"Гербіцид",mahistr-vh-himagro
@@ -1216,30 +1193,7 @@
 2324,"Тринавата, ТН","Нертус",econom,"Фунгіцид",trynavata-tn-5-nertus
 2325,"Костас, КС","PEST.UA",econom,"Фунгіцид",kostas-ks-pest-ua
 2326,"Канкун","PEST.UA",econom,"Фунгіцид",kankun-pest-ua
-2327,"Авідо, ТН","Alfa Smart Agro",premium,"Фунгіцид",avido-tn-alfa-smart-agro
-2328,"Авіценна, СЕ","Alfa Smart Agro",premium,"Фунгіцид",avitsenna-se-alfa-smart-agro
-2329,"Авіценна Плюс, ТН","Alfa Smart Agro",premium,"Фунгіцид",avitsenna-plyus-tn-alfa-smart-agro
-2330,"Кантаріс, ТН","Alfa Smart Agro",premium,"Фунгіцид",kantaris-tn-alfa-smart-agro
-2331,"Венцедор, ТН","Alfa Smart Agro",premium,"Фунгіцид",ventsedor-tn-alfa-smart-agro
-2332,"Стеліум Ультра, ТН","Alfa Smart Agro",premium,"Фунгіцид",stelium-ultra-tn-alfa-smart-agro
-2333,"Амікон, ЕВ","Alfa Smart Agro",premium,"Фунгіцид",amikon-ev-alfa-smart-agro
-2334,"Артіс Плюс, КС","Alfa Smart Agro",premium,"Фунгіцид",artis-plyus-ks-alfa-smart-agro
-2335,"Баррет, КЕ","Alfa Smart Agro",premium,"Фунгіцид",barret-ke-alfa-smart-agro
-2336,"Болівар Форте, КС","Alfa Smart Agro",premium,"Фунгіцид",bolivar-forte-ks-alfa-smart-agro
-2337,"Варос, КС","Alfa Smart Agro",premium,"Фунгіцид",varos-ks-alfa-smart-agro
-2338,"ДОК Про, ЗП","Alfa Smart Agro",premium,"Фунгіцид",dok-pro-zp-alfa-smart-agro
-2339,"Камелот, КЕ","Alfa Smart Agro",premium,"Фунгіцид",kamelot-ke-alfa-smart-agro
-2340,"Кваліфай, КЕ","Alfa Smart Agro",premium,"Фунгіцид",kvalifai-ke-alfa-smart-agro
-2341,"Корвізар М, КЕ","Alfa Smart Agro",premium,"Фунгіцид",korvizar-m-ke-alfa-smart-agro
-2342,"Кросбі, СЕ","Alfa Smart Agro",premium,"Фунгіцид",krosbi-se-alfa-smart-agro
-2343,"Ставарро, СЕ","Alfa Smart Agro",premium,"Фунгіцид",stavarro-se-alfa-smart-agro
 2344,"Танарт, ВГ","Alfa Smart Agro",econom,"Фунгіцид",tanart-vh-alfa-smart-agro
-2345,"Тезис, КС","Alfa Smart Agro",premium,"Фунгіцид",tezys-ks-alfa-smart-agro
-2346,"Теквіл, КЕ","Alfa Smart Agro",premium,"Фунгіцид",tekvil-ke-alfa-smart-agro
-2347,"Теламус, КС","Alfa Smart Agro",premium,"Фунгіцид",telamus-ks-alfa-smart-agro
-2348,"Фенікс, КС","Alfa Smart Agro",premium,"Фунгіцид",feniks-ks-alfa-smart-agro
-2349,"Фенікс Дуо, КС","Alfa Smart Agro",premium,"Фунгіцид",feniks-duo-ks-alfa-smart-agro
-2350,"Хеллер, КС","Alfa Smart Agro",premium,"Фунгіцид",kheller-ks-alfa-smart-agro
 2351,"Азоксин","АХТ",econom,"Фунгіцид",azoksyn-akht
 2352,"Аурис","АХТ",econom,"Фунгіцид",aurys-akht
 2353,"Вартіс","АХТ",econom,"Фунгіцид",vartis-akht
@@ -1280,13 +1234,6 @@
 3178,"Контадор Макси, ТН","Нертус",econom,"Інсектицид",kontador-maksy-tn-nertus
 3179,"Кайзер","Нертус",econom,"Інсектицид",kaizer-nertus
 3180,"Полкар, ВП","PEST.UA",econom,"Інсектицид",polkar-vp-pest-ua
-3181,"Клондайк, ТН","Alfa Smart Agro",premium,"Інсектицид",klondaik-tn-alfa-smart-agro
-3182,"Командор Екстра, ТН","Alfa Smart Agro",premium,"Інсектицид",komandor-ekstra-tn-alfa-smart-agro
-3183,"Командор Гранд, ТН","Alfa Smart Agro",premium,"Інсектицид",komandor-hrand-tn-alfa-smart-agro
-3184,"Актуал, КЕ","Alfa Smart Agro",premium,"Інсектицид",aktual-ke-alfa-smart-agro
-3185,"Амбір, СК","Alfa Smart Agro",premium,"Інсектицид",ambir-sk-alfa-smart-agro
-3186,"Арданіс, СК","Alfa Smart Agro",premium,"Інсектицид",ardanis-sk-alfa-smart-agro
-3187,"Віарес, КС","Alfa Smart Agro",premium,"Інсектицид",viares-ks-alfa-smart-agro
 3188,"Асистент Максі","АХТ",econom,"Інсектицид",asystent-maksi-akht
 3189,"Атрікс Максі","АХТ",econom,"Інсектицид",atriks-maksi-akht
 3190,"Еміприд Про","АХТ",econom,"Інсектицид",emipryd-pro-akht
