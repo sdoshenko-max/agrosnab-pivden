@@ -40,6 +40,10 @@
 
 | Slug | Назва | Причина | Дата |
 |---|---|---|---|
+| `konfidor-maksi-baier` | Конфідор Максі (Байер) | оригінал, Сергій не торгує (review 2026-05-06) | 2026-05-06 |
+| `lontrel-hrand-korteva` | Лонтрел Гранд (Кортева) | оригінал, Сергій не торгує (review 2026-05-06) | 2026-05-06 |
+| `mospilan-20-sp-nippon-soda` | Моспілан 20 SP (Nippon Soda) | оригінал, Сергій не торгує (review 2026-05-06) | 2026-05-06 |
+| `pik-75-wg-synhenta` | Пік 75 WG (Сингента) | оригінал, Сергій не торгує (review 2026-05-06) | 2026-05-06 |
 | `kolosal-pro-avhusta` | Колосаль Про (Августа) | оригінал, відсутній у листі «Оригінал» прайсу — не торгуємо | 2026-05-05 |
 | `kharnes-monsanto` | Харнес (Monsanto) | оригінал, відсутній у листі «Оригінал» прайсу — не торгуємо | 2026-05-05 |
 | `antysapa-likvid-vh-ukravit` | — | Аптека садівника / роздрібна форма | 2026-05-06 |
@@ -88,9 +92,7 @@
 | `karamba-basf` | Карамба | Карамба Турбо *(чистої Карамби немає, беремо Турбо)* |
 | `karate-zeon-050-cs-synhenta` | Карате Зеон 050 CS | Карате 050 Зеон CS мкс |
 | `kruizer-350-fs-synhenta` | Круізер 350 FS | Круiзер 350 FS |
-| `lontrel-hrand-korteva` | Лонтрел Гранд | Лонтрел Гранд |
 | `maksim-xl-035-fs-synhenta` | Максім XL 035 FS | Максим XL 035 FS |
-| `pik-75-wg-synhenta` | Пік 75 WG | ПIК 75WG |
 | `pryma-forte-korteva` | Прима Форте | Прiма Форте |
 | `pryma-korteva` | Прима | Пріма |
 | `pulsar-40-basf` | Пульсар 40 | Пульсар Флекс *(чистого «Пульсар 40» немає, беремо Флекс)* |
@@ -122,12 +124,10 @@
 | `kalibr-korteva` | Калібр | Кортева |
 | `kallysto-480-sc-synhenta` | Каллисто 480 SC | Сингента |
 | `klio-basf` | Кліо | Басф |
-| `konfidor-maksi-baier` | Конфідор Максі | Байер |
 | `lamador-baier` | Ламадор | Байер |
 | `lastik-top-baier` | Ластік Топ | Байер |
 | `marshal-25-ec-adama` | Маршал 25 EC | Adama |
 | `merlin-fleks-480-sc-baier` | Мерлін Флекс 480 SC | Байер |
-| `mospilan-20-sp-nippon-soda` | Моспілан 20 SP | Nippon Soda |
 | `nurel-d-korteva` | Нурел Д | Кортева |
 | `raksil-ultra-120-fs-baier` | Раксіл Ультра 120 FS | Байер |
 | `rehlon-super-synhenta` | Реглон Супер | Сингента *(є «Реглон АІР» і «Реглон Форте» — інші)* |
