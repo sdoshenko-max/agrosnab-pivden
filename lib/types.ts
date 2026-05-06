@@ -71,19 +71,21 @@ export function calcCash(priceVat: number): number {
 // Витягуємо розмір фасовки в базовій одиниці (л або кг).
 // "5 л" → 5; "0.5 кг" → 0.5; "500 г" → 0.5; "50 мл" → 0.05; "1 т" → 1000.
 // Для комбо-фасовок типу "1кг+5л" — повертає число першої частини.
+// (JS regex \b не працює з кирилицею — використовуємо явну перевірку без \b.)
 export function getPackSize(packaging: string): number {
   const s = String(packaging || "").toLowerCase();
-  // Парсимо число + одиницю (підтримка крапки/коми як десяткового)
-  const m = s.match(/(\d+(?:[.,]\d+)?)\s*(кг|г|мл|л|т)\b/);
+  // Парсимо число + одиницю. Порядок альтернатив у regex важливий:
+  // довші варіанти першими (кг перед г, мл перед л) інакше "кг" зматчить як "г".
+  const m = s.match(/(\d+(?:[.,]\d+)?)\s*(кг|мл|гр|г|л|т)/);
   if (!m) {
     const n = s.match(/[\d.,]+/);
     return n ? (parseFloat(n[0].replace(",", ".")) || 1) : 1;
   }
   const num = parseFloat(m[1].replace(",", ".")) || 1;
   const unit = m[2];
-  if (unit === "г") return num / 1000;   // 500 г → 0.5 (кг)
-  if (unit === "мл") return num / 1000;  // 50 мл → 0.05 (л)
-  if (unit === "т") return num * 1000;   // 1 т → 1000 (кг)
+  if (unit === "г" || unit === "гр") return num / 1000;  // 500 г → 0.5 (кг)
+  if (unit === "мл") return num / 1000;                  // 50 мл → 0.05 (л)
+  if (unit === "т") return num * 1000;                   // 1 т → 1000 (кг)
   return num; // кг, л — базова одиниця
 }
 
