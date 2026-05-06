@@ -146,9 +146,54 @@ const toSheet = (headers, rows, numericCols) => {
 
 const numericCatCols = [0]; // code
 
+// === Лист 3: «Звіряння» — звіт по кодам каталог↔прайс ===
+const catByCode = {};
+for (const r of catalog.rows) catByCode[r[0]] = { name: r[1], mfr: r[2] };
+const priceByCode = {};
+for (const r of orig.rows) priceByCode[get(r, orig.headers, "Код")] = {
+  name: get(r, orig.headers, "Назва (прайс)"),
+  mfr: get(r, orig.headers, "Виробник (прайс)"),
+  sheet: "Оригінал",
+};
+for (const r of gen.rows) priceByCode[get(r, gen.headers, "Код")] = {
+  name: get(r, gen.headers, "Назва (прайс)"),
+  mfr: get(r, gen.headers, "Виробник"),
+  sheet: get(r, gen.headers, "Лист"),
+};
+
+const allCodes = new Set([...Object.keys(catByCode), ...Object.keys(priceByCode)]);
+const RECONCILE_HEADERS = [
+  "Код", "Статус",
+  "Назва каталог", "Назва прайс",
+  "Виробник каталог", "Виробник прайс",
+  "Лист прайсу"
+];
+const reconcileRows = [];
+for (const code of allCodes) {
+  const c = catByCode[code]; const p = priceByCode[code];
+  let status;
+  if (c && p) status = (c.name === p.name) ? "✓ match" : "⚠ mismatch";
+  else if (c) status = "📌 тільки в каталозі";
+  else status = "🆕 тільки в прайсі";
+  reconcileRows.push([
+    code, status,
+    c?.name || "", p?.name || "",
+    c?.mfr || "", p?.mfr || "",
+    p?.sheet || "",
+  ]);
+}
+// Сортуємо: спочатку проблемні (mismatch + only-cat + only-price), потім match. Всередині — за кодом
+const STATUS_ORDER = { "⚠ mismatch": 1, "📌 тільки в каталозі": 2, "🆕 тільки в прайсі": 3, "✓ match": 4 };
+reconcileRows.sort((a, b) => {
+  const s = STATUS_ORDER[a[1]] - STATUS_ORDER[b[1]];
+  if (s !== 0) return s;
+  return Number(a[0]) - Number(b[0]);
+});
+
 const wb = xlsx.utils.book_new();
 xlsx.utils.book_append_sheet(wb, toSheet(catalog.headers, catalog.rows, numericCatCols), "Наш каталог");
 xlsx.utils.book_append_sheet(wb, toSheet(PRICE_HEADERS, priceRows, numericPriceCols), "Прайс");
+xlsx.utils.book_append_sheet(wb, toSheet(RECONCILE_HEADERS, reconcileRows, [0]), "Звіряння");
 
 const outPath = path.join(root, "_codes_review.xlsx");
 try {
@@ -164,6 +209,20 @@ try {
   throw e;
 }
 
+// Підрахунок статусів
+const stats = { match: 0, mismatch: 0, onlyCat: 0, onlyPrice: 0 };
+for (const r of reconcileRows) {
+  if (r[1].includes("match") && !r[1].includes("mismatch")) stats.match++;
+  else if (r[1].includes("mismatch")) stats.mismatch++;
+  else if (r[1].includes("каталозі")) stats.onlyCat++;
+  else stats.onlyPrice++;
+}
+
 console.log(`✓ Створено: ${outPath}`);
 console.log(`  Лист 1 «Наш каталог»: ${catalog.rows.length} рядків`);
 console.log(`  Лист 2 «Прайс»: ${priceRows.length} рядків (${orig.rows.length} оригінал + ${gen.rows.length} дженерики)`);
+console.log(`  Лист 3 «Звіряння»: ${reconcileRows.length} рядків`);
+console.log(`     ✓ match:                ${stats.match}`);
+console.log(`     ⚠ mismatch:             ${stats.mismatch}`);
+console.log(`     📌 тільки в каталозі:    ${stats.onlyCat}`);
+console.log(`     🆕 тільки в прайсі:      ${stats.onlyPrice}`);
