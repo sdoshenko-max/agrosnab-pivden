@@ -24,6 +24,11 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
   const base = lang === "uk" ? "" : "/ru";
   const [requestOpen, setRequestOpen] = useState(false);
 
+  const variants = allProducts
+    .filter(p => p.name === product.name && p.manufacturer === product.manufacturer)
+    .sort((a, b) => getPackSize(a.packaging) - getPackSize(b.packaging));
+  const [active, setActive] = useState<Product>(product);
+
   const name = lang === "uk" ? product.name : product.nameRu;
   const ai = lang === "uk" ? product.activeIngredient : product.activeIngredientRu;
   const desc = lang === "uk" ? product.description : product.descriptionRu;
@@ -72,12 +77,33 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
               {product.analog && (<p className="text-sm text-muted mt-2">{t.productCard.analog}: <span className="font-semibold text-ink">{product.analog}</span></p>)}
             </div>
 
+            {variants.length > 1 && (
+              <div className="mb-4">
+                <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-2">{lang === "uk" ? "Фасовка" : "Фасовка"}</p>
+                <div className="flex flex-wrap gap-2">
+                  {variants.map(v => (
+                    <button
+                      key={v.slug}
+                      onClick={() => setActive(v)}
+                      className={`px-3 py-1.5 rounded-lg border text-sm font-semibold transition-colors ${
+                        active.slug === v.slug
+                          ? "border-brand bg-brand text-white"
+                          : "border-border bg-white text-ink hover:border-brand"
+                      }`}
+                    >
+                      {v.packaging}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <div className="grid grid-cols-2 gap-3 mb-5">
-              <div className="card !p-3"><Package className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{t.productCard.packaging}</p><p className="font-bold">{product.packaging}</p></div>
+              <div className="card !p-3"><Package className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{t.productCard.packaging}</p><p className="font-bold">{active.packaging}</p></div>
               {product.rate ? <div className="card !p-3"><FlaskConical className="w-5 h-5 text-brand mb-1" /><p className="text-xs text-muted">{labels.rate}</p><p className="font-bold">{product.rate}</p></div> : null}
             </div>
 
-            {product.priceOnRequest ? (
+            {active.priceOnRequest ? (
               <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 mb-5">
                 <div className="text-2xl font-extrabold text-amber-900 mb-1">{t.productCard.onRequest}</div>
                 <p className="text-sm text-amber-800 leading-snug">{t.productCard.onRequestHint}</p>
@@ -86,23 +112,23 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
               <div className="card !p-4 mb-5 bg-bg">
                 <div className="flex justify-between items-baseline mb-1">
                   <span className="text-sm text-muted">{t.productCard.priceCash}</span>
-                  <span className="text-3xl font-extrabold text-brand whitespace-nowrap">{format(product.priceCash * getPackSize(product.packaging), product.currency)}<span className="text-sm font-normal text-muted"> / {product.packaging}</span></span>
+                  <span className="text-3xl font-extrabold text-brand whitespace-nowrap">{format(active.priceCash * getPackSize(active.packaging), active.currency)}<span className="text-sm font-normal text-muted"> / {active.packaging}</span></span>
                 </div>
                 <div className="flex justify-between items-baseline mb-2">
                   <span className="text-xs text-muted invisible">.</span>
-                  <span className="text-xs text-muted">{format(product.priceCash, product.currency)}/{product.unit}</span>
+                  <span className="text-xs text-muted">{format(active.priceCash, active.currency)}/{active.unit}</span>
                 </div>
                 <div className="flex justify-between items-baseline border-t border-border pt-2">
                   <span className="text-xs text-muted">{t.productCard.priceVat}</span>
-                  <span className="text-base text-muted whitespace-nowrap">{format(product.priceVat * getPackSize(product.packaging), product.currency)} / {product.packaging}</span>
+                  <span className="text-base text-muted whitespace-nowrap">{format(active.priceVat * getPackSize(active.packaging), active.currency)} / {active.packaging}</span>
                 </div>
               </div>
             )}
 
-            {product.priceOnRequest ? (
+            {active.priceOnRequest ? (
               <button onClick={() => setRequestOpen(true)} className="btn-primary w-full !py-3"><FileText className="w-4 h-4" />{t.productCard.requestBtn}</button>
             ) : (
-              <AddToCart product={product} lang={lang} />
+              <AddToCart product={active} lang={lang} />
             )}
             <div className="grid grid-cols-2 gap-3 mt-3">
               <button onClick={() => setRequestOpen(true)} className="btn-outline !py-2 text-sm"><FileText className="w-4 h-4" />{t.cta.submit}</button>
@@ -124,7 +150,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
         </div>
       </section>
 
-      {!product.priceOnRequest && <section className="container-w py-6"><AgronomistCalculator product={product} lang={lang} /></section>}
+      {!active.priceOnRequest && <section className="container-w py-6"><AgronomistCalculator product={active} lang={lang} /></section>}
 
       {related.length > 0 && (
         <section className="bg-white border-t border-border py-8">
