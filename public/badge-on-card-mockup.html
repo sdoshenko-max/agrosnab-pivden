@@ -102,28 +102,19 @@
   .price-row .v { font-size: 24px; font-weight: 700; color: #059669; }
   .price-row .v-small { font-size: 13px; color: #64748b; }
 
-  /* === ПЛАШКА GLASSMORPHISM === */
-  /* Огорнули в "тінь" фону для glass-ефекту */
-  .badge-wrap {
-    background: linear-gradient(135deg, #d1fae5 0%, #bae6fd 100%);
-    border-radius: 12px;
-    padding: 6px;
-    display: inline-block;
-  }
-  .badge-3 {
-    display: inline-flex; align-items: center; gap: 8px;
-    background: rgba(255,255,255,.55);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,.65);
-    color: #059669;
-    font: 600 13px/1 'Manrope', sans-serif;
+  /* === ПЛАШКА — класичний green pill === */
+  .badge-pill {
+    display: inline-flex; align-items: center; gap: 7px;
+    background: #10b981;
+    color: #fff;
+    font: 600 13px/1 'Inter', sans-serif;
     padding: 8px 14px;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(15,23,42,.08);
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(16,185,129,.32);
+    white-space: nowrap;
   }
-  .badge-3 .dot { width: 8px; height: 8px; border-radius: 50%; background: #10b981; }
-  .badge-3 b { color: #0f172a; font-weight: 700; margin-left: 2px; }
+  .badge-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
+  .badge-pill b { font-weight: 700; margin-left: 2px; }
 
   .label-row {
     font-size: 11px;
@@ -139,7 +130,7 @@
   <div class="wrap">
 
     <h1>Плашка наявності на картці товару</h1>
-    <p class="sub">Glassmorphism, праворуч від «№ 2286». Дві варіації позиціонування — обери ту, що краще лягає.</p>
+    <p class="sub">Класичний green pill (Inter 600). Три варіації позиціонування — обери ту, що краще лягає.</p>
 
     <!-- ПОЗИЦІЯ A: під номером, справа -->
     <div class="label-row">Позиція <b>A</b> — стовпчиком справа: № → плашка</div>
@@ -154,7 +145,7 @@
           </div>
           <div class="head-right">
             <span class="code">№ 2286</span>
-            <span class="badge-wrap"><span class="badge-3"><span class="dot"></span>В наявності <b>18 шт</b></span></span>
+            <span class="badge-pill"><span class="dot"></span>В наявності <b>18 шт</b></span>
           </div>
         </div>
         <div class="ai-block">
@@ -193,7 +184,7 @@
             <h2 class="name">Геймер, КС</h2>
             <div class="vendor">Виробник: <a href="#">PEST.UA</a></div>
             <div style="margin-top:6px;">
-              <span class="badge-wrap"><span class="badge-3"><span class="dot"></span>В наявності <b>18 шт</b></span></span>
+              <span class="badge-pill"><span class="dot"></span>В наявності <b>18 шт</b></span>
             </div>
           </div>
           <div class="head-right">
@@ -238,7 +229,7 @@
           </div>
           <div class="head-right">
             <div style="display:flex; align-items:center; gap:8px;">
-              <span class="badge-wrap"><span class="badge-3"><span class="dot"></span>В наявності <b>18</b></span></span>
+              <span class="badge-pill"><span class="dot"></span>В наявності <b>18</b></span>
               <span class="code">№ 2286</span>
             </div>
           </div>
