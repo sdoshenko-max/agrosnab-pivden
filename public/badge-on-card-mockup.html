@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<title>Плашка наявності — на картці товару</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #f8fafc;
+    color: #0f172a;
+    font-family: 'Inter', -apple-system, sans-serif;
+    padding: 40px 24px 80px;
+  }
+  h1 { font-size: 24px; margin: 0 0 8px; font-weight: 700; }
+  .sub { color: #64748b; margin: 0 0 32px; font-size: 14px; }
+
+  .wrap { max-width: 1200px; margin: 0 auto; }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 32px;
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 32px;
+  }
+  .photo {
+    background: #f1f5f9;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    display: flex; align-items: center; justify-content: center;
+    color: #94a3b8; font-size: 13px;
+  }
+  .info { display: flex; flex-direction: column; gap: 12px; }
+
+  .head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  .head-left { display: flex; flex-direction: column; gap: 6px; }
+  .head-right { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; }
+
+  .tier {
+    display: inline-block;
+    background: #d1fae5;
+    color: #065f46;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    width: max-content;
+  }
+  .name { font-size: 28px; font-weight: 700; margin: 0; }
+  .vendor { font-size: 14px; color: #64748b; }
+  .vendor a { color: #475569; text-decoration: underline; }
+  .code {
+    background: #f1f5f9;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 500;
+  }
+
+  .ai-block {
+    background: #ecfdf5;
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .ai-block .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #059669;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .ai-block .value { font-weight: 700; font-size: 15px; }
+  .ai-block .value-sub { font-size: 13px; color: #64748b; }
+
+  .specs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .spec {
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
+  .spec .l { font-size: 11px; color: #64748b; font-weight: 500; }
+  .spec .v { font-weight: 700; }
+
+  .price-block {
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 14px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .price-row { display: flex; justify-content: space-between; align-items: center; }
+  .price-row .l { color: #64748b; font-size: 13px; }
+  .price-row .v { font-size: 24px; font-weight: 700; color: #059669; }
+  .price-row .v-small { font-size: 13px; color: #64748b; }
+
+  /* === ПЛАШКА GLASSMORPHISM === */
+  /* Огорнули в "тінь" фону для glass-ефекту */
+  .badge-wrap {
+    background: linear-gradient(135deg, #d1fae5 0%, #bae6fd 100%);
+    border-radius: 12px;
+    padding: 6px;
+    display: inline-block;
+  }
+  .badge-3 {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,.65);
+    color: #059669;
+    font: 600 13px/1 'Manrope', sans-serif;
+    padding: 8px 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(15,23,42,.08);
+  }
+  .badge-3 .dot { width: 8px; height: 8px; border-radius: 50%; background: #10b981; }
+  .badge-3 b { color: #0f172a; font-weight: 700; margin-left: 2px; }
+
+  .label-row {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: #64748b;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <h1>Плашка наявності на картці товару</h1>
+    <p class="sub">Glassmorphism, праворуч від «№ 2286». Дві варіації позиціонування — обери ту, що краще лягає.</p>
+
+    <!-- ПОЗИЦІЯ A: під номером, справа -->
+    <div class="label-row">Позиція <b>A</b> — стовпчиком справа: № → плашка</div>
+    <div class="row">
+      <div class="photo">фото товару</div>
+      <div class="info">
+        <div class="head">
+          <div class="head-left">
+            <span class="tier">Економ</span>
+            <h2 class="name">Геймер, КС</h2>
+            <div class="vendor">Виробник: <a href="#">PEST.UA</a></div>
+          </div>
+          <div class="head-right">
+            <span class="code">№ 2286</span>
+            <span class="badge-wrap"><span class="badge-3"><span class="dot"></span>В наявності <b>18 шт</b></span></span>
+          </div>
+        </div>
+        <div class="ai-block">
+          <div class="label">Дiюча речовина</div>
+          <div class="value">Флутриафол, 250 г/л</div>
+          <div class="value-sub">250 г/л</div>
+        </div>
+        <div class="specs">
+          <div class="spec"><div class="l">📦 Фасовка</div><div class="v">5 л</div></div>
+          <div class="spec"><div class="l">🧪 Норма</div><div class="v">0,3 - 0,5</div></div>
+        </div>
+        <div class="price-block">
+          <div class="price-row">
+            <span class="l">Готівка</span>
+            <span><span class="v">1980 ₴</span> <span class="v-small">/ 5 л</span></span>
+          </div>
+          <div class="price-row" style="font-size:12px;">
+            <span></span><span class="v-small">396 ₴/л</span>
+          </div>
+          <div class="price-row" style="border-top:1px solid #e2e8f0;padding-top:8px;">
+            <span class="l">Ціна з ПДВ</span>
+            <span class="v-small">2 162 ₴ / 5 л</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ПОЗИЦІЯ B: окремий рядок під ім'ям -->
+    <div class="label-row">Позиція <b>B</b> — окремий рядок під виробником (повна ширина праворуч)</div>
+    <div class="row">
+      <div class="photo">фото товару</div>
+      <div class="info">
+        <div class="head">
+          <div class="head-left">
+            <span class="tier">Економ</span>
+            <h2 class="name">Геймер, КС</h2>
+            <div class="vendor">Виробник: <a href="#">PEST.UA</a></div>
+            <div style="margin-top:6px;">
+              <span class="badge-wrap"><span class="badge-3"><span class="dot"></span>В наявності <b>18 шт</b></span></span>
+            </div>
+          </div>
+          <div class="head-right">
+            <span class="code">№ 2286</span>
+          </div>
+        </div>
+        <div class="ai-block">
+          <div class="label">Дiюча речовина</div>
+          <div class="value">Флутриафол, 250 г/л</div>
+          <div class="value-sub">250 г/л</div>
+        </div>
+        <div class="specs">
+          <div class="spec"><div class="l">📦 Фасовка</div><div class="v">5 л</div></div>
+          <div class="spec"><div class="l">🧪 Норма</div><div class="v">0,3 - 0,5</div></div>
+        </div>
+        <div class="price-block">
+          <div class="price-row">
+            <span class="l">Готівка</span>
+            <span><span class="v">1980 ₴</span> <span class="v-small">/ 5 л</span></span>
+          </div>
+          <div class="price-row" style="font-size:12px;">
+            <span></span><span class="v-small">396 ₴/л</span>
+          </div>
+          <div class="price-row" style="border-top:1px solid #e2e8f0;padding-top:8px;">
+            <span class="l">Ціна з ПДВ</span>
+            <span class="v-small">2 162 ₴ / 5 л</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ПОЗИЦІЯ C: інлайн з номером -->
+    <div class="label-row">Позиція <b>C</b> — у тому ж рядку що й «№ 2286» (компактно)</div>
+    <div class="row">
+      <div class="photo">фото товару</div>
+      <div class="info">
+        <div class="head">
+          <div class="head-left">
+            <span class="tier">Економ</span>
+            <h2 class="name">Геймер, КС</h2>
+            <div class="vendor">Виробник: <a href="#">PEST.UA</a></div>
+          </div>
+          <div class="head-right">
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span class="badge-wrap"><span class="badge-3"><span class="dot"></span>В наявності <b>18</b></span></span>
+              <span class="code">№ 2286</span>
+            </div>
+          </div>
+        </div>
+        <div class="ai-block">
+          <div class="label">Дiюча речовина</div>
+          <div class="value">Флутриафол, 250 г/л</div>
+          <div class="value-sub">250 г/л</div>
+        </div>
+        <div class="specs">
+          <div class="spec"><div class="l">📦 Фасовка</div><div class="v">5 л</div></div>
+          <div class="spec"><div class="l">🧪 Норма</div><div class="v">0,3 - 0,5</div></div>
+        </div>
+        <div class="price-block">
+          <div class="price-row">
+            <span class="l">Готівка</span>
+            <span><span class="v">1980 ₴</span> <span class="v-small">/ 5 л</span></span>
+          </div>
+          <div class="price-row" style="font-size:12px;">
+            <span></span><span class="v-small">396 ₴/л</span>
+          </div>
+          <div class="price-row" style="border-top:1px solid #e2e8f0;padding-top:8px;">
+            <span class="l">Ціна з ПДВ</span>
+            <span class="v-small">2 162 ₴ / 5 л</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
