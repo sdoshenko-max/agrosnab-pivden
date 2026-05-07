@@ -28,6 +28,7 @@ export type Product = {
   description?: string;
   descriptionRu?: string;
   image?: string;
+  stockOverride?: number;
 };
 
 export type Culture = {

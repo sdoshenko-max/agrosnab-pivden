@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ChevronLeft, Phone, FileText, Package, Beaker, FlaskConical } from "lucide-react";
 import { type Product, getPackSize } from "@/lib/types";
+import { getStock } from "@/lib/stock";
 import { products as allProducts, cultures as allCultures } from "@/lib/data";
 import { manufacturerSlug } from "@/lib/manufacturers";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
@@ -65,8 +66,18 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
           <div>
             <div className="flex items-center gap-2 mb-3 flex-wrap">
               <span className={`badge ${tier.cls}`}>{tierLabel}</span>
+              <span className="lg:hidden inline-flex items-center gap-1.5 bg-emerald-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-[0_2px_8px_rgba(16,185,129,0.32)] whitespace-nowrap">
+                <span className="w-1.5 h-1.5 rounded-full bg-white" />
+                {lang === "uk" ? "В наявн." : "В наличии"} <b className="font-bold">{getStock(product)} {lang === "uk" ? "шт" : "шт"}</b>
+              </span>
               {product.saveFromOriginal && (<span className="text-accent font-bold text-sm">−{product.saveFromOriginal}% від оригіналу</span>)}
               <span className="ml-auto text-xs font-mono text-muted bg-bg border border-border px-2 py-0.5 rounded">№ {product.code}</span>
+            </div>
+            <div className="hidden lg:flex justify-end mb-3">
+              <span className="inline-flex items-center gap-1.5 bg-emerald-500 text-white text-sm font-semibold px-3.5 py-2 rounded-full shadow-[0_2px_8px_rgba(16,185,129,0.32)] whitespace-nowrap">
+                <span className="w-1.5 h-1.5 rounded-full bg-white" />
+                {lang === "uk" ? "В наявності" : "В наличии"} <b className="font-bold">{getStock(product)} {lang === "uk" ? "шт" : "шт"}</b>
+              </span>
             </div>
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-1">{name}</h1>
             <p className="text-muted mb-4">{labels.manufacturer}: <Link href={`${base}/vyrobnyk/${manufacturerSlug(product.manufacturer)}/`} className="font-medium text-ink underline decoration-dotted underline-offset-4 hover:text-brand hover:decoration-brand">{product.manufacturer}</Link></p>
