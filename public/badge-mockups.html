@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<title>Плашки наявності — варіанти</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-500: #10b981;
+    --green-600: #059669;
+    --green-50:  #ecfdf5;
+    --gray-900:  #0f172a;
+    --gray-700:  #334155;
+    --gray-500:  #64748b;
+    --gray-200:  #e2e8f0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #f8fafc;
+    color: var(--gray-900);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 40px 24px 80px;
+  }
+  h1 { font-size: 28px; margin: 0 0 8px; font-weight: 700; }
+  .sub { color: var(--gray-500); margin: 0 0 32px; font-size: 14px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--gray-200);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 1px 2px rgba(15,23,42,.04);
+  }
+
+  .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--gray-500);
+    font-weight: 600;
+  }
+  .label b { color: var(--green-600); }
+
+  .product {
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .product .name { font-size: 14px; font-weight: 600; color: var(--gray-900); }
+  .product .price { font-size: 13px; color: var(--gray-500); }
+
+  .stage { padding: 6px 0; min-height: 56px; display: flex; align-items: center; }
+
+  .desc { font-size: 12px; line-height: 1.45; color: var(--gray-500); }
+  .desc code { background: #f1f5f9; padding: 1px 6px; border-radius: 4px; font-size: 11px; }
+
+  /* === ВАРІАНТ 1: Класичний green pill === */
+  .badge-1 {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--green-500);
+    color: #fff;
+    font: 600 13px/1 'Inter', sans-serif;
+    padding: 7px 12px;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(16,185,129,.32);
+  }
+  .badge-1 .dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
+
+  /* === ВАРІАНТ 2: Неон / monospace === */
+  .badge-2 {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: #0a0e1a;
+    color: #4ade80;
+    font: 600 12px/1 'JetBrains Mono', monospace;
+    padding: 8px 12px;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    text-shadow: 0 0 8px rgba(74,222,128,.6);
+    box-shadow: 0 0 0 1px rgba(74,222,128,.3), 0 0 20px rgba(74,222,128,.18);
+    letter-spacing: .04em;
+  }
+  .badge-2 .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: #4ade80;
+    box-shadow: 0 0 8px #4ade80;
+  }
+
+  /* === ВАРІАНТ 3: Glassmorphism === */
+  .stage-3 {
+    background: linear-gradient(135deg, #d1fae5 0%, #bae6fd 100%);
+    border-radius: 8px;
+    padding: 14px;
+    min-height: 56px;
+    display: flex; align-items: center;
+  }
+  .badge-3 {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,.65);
+    color: var(--green-600);
+    font: 600 13px/1 'Manrope', sans-serif;
+    padding: 8px 14px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(15,23,42,.08);
+  }
+  .badge-3 .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green-500); }
+  .badge-3 b { color: var(--gray-900); font-weight: 700; margin-left: 2px; }
+
+  /* === ВАРІАНТ 4: Мінімалізм Apple-style === */
+  .badge-4 {
+    display: inline-flex; align-items: center; gap: 7px;
+    color: var(--gray-700);
+    font: 500 13px/1 'Inter', sans-serif;
+    padding: 0;
+    background: none;
+  }
+  .badge-4 .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--green-500);
+    box-shadow: 0 0 0 3px rgba(16,185,129,.18);
+  }
+  .badge-4 b { color: var(--gray-900); font-weight: 600; }
+
+  /* === ВАРІАНТ 5: Pulse / breathing === */
+  .badge-5 {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: linear-gradient(90deg, #10b981 0%, #34d399 100%);
+    color: #fff;
+    font: 700 13px/1 'Inter', sans-serif;
+    padding: 8px 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(16,185,129,.28);
+    position: relative;
+  }
+  .badge-5 .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #fff;
+    position: relative;
+  }
+  .badge-5 .dot::after {
+    content: '';
+    position: absolute; inset: -3px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    opacity: .6;
+    animation: pulse 1.8s ease-out infinite;
+  }
+  @keyframes pulse {
+    0%   { transform: scale(.8); opacity: .8; }
+    70%  { transform: scale(1.6); opacity: 0; }
+    100% { transform: scale(.8); opacity: 0; }
+  }
+  .badge-5 b { background: rgba(255,255,255,.22); padding: 2px 7px; border-radius: 4px; font-weight: 700; }
+</style>
+</head>
+<body>
+  <h1>Плашка «В наявності + кількість»</h1>
+  <p class="sub">5 варіантів. Можна обирати з мобільного або десктопу. Анімація працює у варіанті 5.</p>
+
+  <div class="grid">
+
+    <!-- Варіант 1 -->
+    <div class="card">
+      <div class="label">Варіант <b>1</b> — Класичний green pill</div>
+      <div class="product">
+        <div class="name">Адексар Плюс · Басф</div>
+        <div class="price">45.29 € · 5 л</div>
+      </div>
+      <div class="stage">
+        <span class="badge-1"><span class="dot"></span>В наявності · 18 шт</span>
+      </div>
+      <div class="desc">Овальна зелена плашка, біла крапка, м'яка тінь. Шрифт Inter 600. Найбільш універсальний варіант, добре читається на будь-якому фоні.</div>
+    </div>
+
+    <!-- Варіант 2 -->
+    <div class="card">
+      <div class="label">Варіант <b>2</b> — Неон / Tech</div>
+      <div class="product">
+        <div class="name">Адексар Плюс · Басф</div>
+        <div class="price">45.29 € · 5 л</div>
+      </div>
+      <div class="stage">
+        <span class="badge-2"><span class="dot"></span>IN STOCK · 18</span>
+      </div>
+      <div class="desc">Темне тло, неоновий зелений з glow. Шрифт JetBrains Mono. Сучасний tech-look, привертає око. Підходить, якщо хочеться підкреслити «технологічність».</div>
+    </div>
+
+    <!-- Варіант 3 -->
+    <div class="card">
+      <div class="label">Варіант <b>3</b> — Glassmorphism</div>
+      <div class="product">
+        <div class="name">Адексар Плюс · Басф</div>
+        <div class="price">45.29 € · 5 л</div>
+      </div>
+      <div class="stage stage-3">
+        <span class="badge-3"><span class="dot"></span>В наявності <b>18 шт</b></span>
+      </div>
+      <div class="desc">Скляний ефект з blur-ом тла. Шрифт Manrope. Виглядає дорого/преміально. Потребує градієнтного фону позаду — на чистому білому втрачає ефект.</div>
+    </div>
+
+    <!-- Варіант 4 -->
+    <div class="card">
+      <div class="label">Варіант <b>4</b> — Мінімалізм Apple-style</div>
+      <div class="product">
+        <div class="name">Адексар Плюс · Басф</div>
+        <div class="price">45.29 € · 5 л</div>
+      </div>
+      <div class="stage">
+        <span class="badge-4"><span class="dot"></span>В наявності · <b>18 шт</b></span>
+      </div>
+      <div class="desc">Без плашки — лише зелена крапка з glow-ореолом + темний текст. Шрифт Inter 500. Найчистіший вигляд, не «кричить», вписується в будь-який дизайн.</div>
+    </div>
+
+    <!-- Варіант 5 -->
+    <div class="card">
+      <div class="label">Варіант <b>5</b> — Pulse / привертає увагу</div>
+      <div class="product">
+        <div class="name">Адексар Плюс · Басф</div>
+        <div class="price">45.29 € · 5 л</div>
+      </div>
+      <div class="stage">
+        <span class="badge-5"><span class="dot"></span>Доступно <b>18 шт</b></span>
+      </div>
+      <div class="desc">Градієнт зеленого, біла крапка з пульсуючим кільцем (CSS-анімація 1.8 с). Шрифт Inter 700. Найяскравіший — корисно, якщо хочемо підкреслити дефіцит / спецпропозицію.</div>
+    </div>
+
+  </div>
+
+  <p style="text-align:center; color: var(--gray-500); margin-top: 48px; font-size: 13px;">
+    Скажи номер варіанту — і я застосую його у компоненті <code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;">ProductPage.tsx</code>.
+  </p>
+</body>
+</html>
