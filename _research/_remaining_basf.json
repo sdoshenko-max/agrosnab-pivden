@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "ervin-pro-basf",
+    "name": "Ервін ПРО",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "inshur-perform-t-k-s-basf",
+    "name": "Іншур Перформ т.к.с",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kabrio-duo-basf",
+    "name": "Кабрiо Дуо",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kambio-star-basf",
+    "name": "Камбіо Стар",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "kollis-basf",
+    "name": "Колліс",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "korum-basf",
+    "name": "Корум",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kumulyus-df-basf",
+    "name": "Кумулюс ДФ",
+    "category": "Фунгіцид",
+    "packaging": "20 кг"
+  },
+  {
+    "slug": "kinto-duo-ks-basf",
+    "name": "Кiнто Дуо, КС",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kinto-plyus-basf",
+    "name": "Кiнто Плюс",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "malakhit-basf",
+    "name": "Малахiт",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "medaks-top-ks-basf",
+    "name": "Медакс ТОП, КС",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "merivon-pro-basf",
+    "name": "Мерівон Про",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "metolat-basf",
+    "name": "Метолат",
+    "category": "Адʼювант",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "nomolt-k-s-basf",
+    "name": "Номолт к.с.",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "nopasaran-basf",
+    "name": "Нопасаран",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "nopasaran-fleks-basf",
+    "name": "Нопасаран Флекс",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "orveho-ks-basf",
+    "name": "Орвего,кс",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "osiris-pro-ke-basf",
+    "name": "Осiрiс Про, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "poliram-df-basf",
+    "name": "Полiрам ДФ",
+    "category": "Фунгіцид",
+    "packaging": "10 кг"
+  },
+  {
+    "slug": "priaksor-basf",
+    "name": "Пріаксор",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "piktor-top-ks-basf",
+    "name": "Пiктор ТОП, КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "piktor-ks-basf",
+    "name": "Пiктор, КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "reviker-ke-basf",
+    "name": "Ревікер, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "reviona-basf",
+    "name": "Ревіона",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "rehalis-plyus-basf",
+    "name": "Регалiс Плюс",
+    "category": "Регулятор росту",
+    "packaging": "1.5 кг"
+  },
+  {
+    "slug": "reks-duo-ks-basf",
+    "name": "Рекс Дуо, КС",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "reks-plyus-se-basf",
+    "name": "Рекс Плюс, СЕ",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "reks-pro-se-basf",
+    "name": "Рекс Про, СЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "serkadis-basf",
+    "name": "Серкадіс",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "serkadis-plyus-basf",
+    "name": "Серкадіс Плюс",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "systiva-t-n-basf",
+    "name": "Систiва т.н",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "standak-top-basf",
+    "name": "Стандак ТОП",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "stellar-plyus-rk-basf",
+    "name": "Стеллар Плюс, РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "stomp-330-k-e-basf",
+    "name": "Стомп 330, к.е",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "strobi-basf",
+    "name": "Стробi",
+    "category": "Фунгіцид",
+    "packaging": "200гр"
+  },
+  {
+    "slug": "sulfat-amoniyu-basf",
+    "name": "Сулфат Амонію",
+    "category": "Адʼювант",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "sihnum-basf",
+    "name": "Сiгнум",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "terpal-rk-basf",
+    "name": "Терпал РК",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "turbo-basf",
+    "name": "Турбо",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "fleksiti-basf",
+    "name": "Флексiтi",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "fronter-optyma-basf",
+    "name": "Фронтьер оптима",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "khaikot-super-extender-basf",
+    "name": "Хайкот Супер Extender",
+    "category": "Гербіцид",
+    "packaging": "6.4 л"
+  },
+  {
+    "slug": "khaikot-super-r-basf",
+    "name": "Хайкот Супер, р",
+    "category": "Гербіцид",
+    "packaging": "6.4 л"
+  },
+  {
+    "slug": "khistik-v-p-basf",
+    "name": "ХіСтік, в.п.",
+    "category": "Гербіцид",
+    "packaging": "6.4 л"
+  }
+]

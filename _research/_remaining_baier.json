@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "emesto-silver-baier",
+    "name": "Еместо Сільвер",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kayunis32-5es-baier",
+    "name": "Каюніс32 5ЕС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "konnekt-112-5-sc-ks-baier",
+    "name": "Коннект 112,5 SC, КС",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "konfidor-200sl-rk-baier",
+    "name": "Конфiдор 200SL, РК",
+    "category": "Інсектицид",
+    "packaging": "0.5 л"
+  },
+  {
+    "slug": "laudis-30-wg-vh-baier",
+    "name": "Лаудіс 30 WG, ВГ",
+    "category": "Гербіцид",
+    "packaging": "3 кг"
+  },
+  {
+    "slug": "luna-senseishn-500-sc-ks-baier",
+    "name": "Луна  Сенсейшн 500 SC, КС",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "luna-ker-71-6-wg-vh-baier",
+    "name": "Луна Кер 71,6 WG, ВГ",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "luna-ekspiriens-400-sc-ks-baier",
+    "name": "Луна Экспiрiенс 400 SC, КС",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "maister-pauer-od-md-baier",
+    "name": "МайсТер Пауер OD, МД",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "medison-263sc-ks-baier",
+    "name": "Медiсон 263SC, КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "merlin-750wg-vh-baier",
+    "name": "Мерлiн 750WG, ВГ",
+    "category": "Гербіцид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "merlin-fleks-duo-baier",
+    "name": "Мерлiн Флекс Дуо",
+    "category": "Гербіцид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "mero-ke-baier",
+    "name": "Меро КЕ",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "movento-100sc-ks-baier",
+    "name": "Мовенто 100SC, КС",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "mushket-universal-460od-baier",
+    "name": "Мушкет Універсал 460OD",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "nativo-75-wg-vh-baier",
+    "name": "Натiво 75 WG, ВГ",
+    "category": "Фунгіцид",
+    "packaging": "2 кг"
+  },
+  {
+    "slug": "oberon-rapid-baier",
+    "name": "Оберон Рапід",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "previkur-enerdzhi-840sl-rk-baier",
+    "name": "Превiкур Енерджі 840SL, РК",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "propuls-250se-se-baier",
+    "name": "Пропульс 250SE, СЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "proteus-110od-md-baier",
+    "name": "Протеус 110OD, МД",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "puma-super-ew-ev-baier",
+    "name": "Пума Супер EW, ЕВ",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "rediho-m-120fs-baier",
+    "name": "Редіго М 120FS",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "serenada-aco-sc-ks-baier",
+    "name": "Серенада ACO SC, КС",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "sivanto-enerdzhi-85es-rk-baier",
+    "name": "Сіванто Енерджі 85ЕС, РК",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "sivanto-praim-200sl-rk-baier",
+    "name": "Сіванто Прайм 200SL, РК",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "skala-400sc-ks-baier",
+    "name": "Скала 400SC, КС",
+    "category": "Фунгіцид",
+    "packaging": "3 л"
+  },
+  {
+    "slug": "solihor-425-ec-ke-baier",
+    "name": "Солiгор 425 EC, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "teldor-50wg-vh-baier",
+    "name": "Тельдор 50WG, ВГ",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "tilmor-240-es-ke-baier",
+    "name": "Тiлмор 240 ЕС, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "fandanho-200es-ke-baier",
+    "name": "Фанданго 200ЕС, ке",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "fever-baier",
+    "name": "Февер",
+    "category": "Протруйник",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "flint-50-ks-baier",
+    "name": "Флiнт 50, КС",
+    "category": "Фунгіцид",
+    "packaging": "0.5 л"
+  },
+  {
+    "slug": "foks-325sc-ks-baier",
+    "name": "Фокс 325SC, КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "folikur-250ew-ev-baier",
+    "name": "Фолiкур 250EW, ЕВ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "tseron-480-sl-rk-baier",
+    "name": "Церон 480 SL, РК",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "chelendzh-600-sc-ks-baier",
+    "name": "Челендж 600 SC, КС",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  }
+]

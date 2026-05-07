@@ -1,0 +1,382 @@
+{
+  "producer": "Терра Віта",
+  "researchedAt": "2026-05-07T12:00:00Z",
+  "items": [
+    {
+      "slug": "allatan-105-md-terra-vita",
+      "name": "Аллатан 105 МД",
+      "activeIngredient": "Нікосульфурон, 30 г/л; мезотріон, 75 г/л",
+      "activeIngredientRu": "Никосульфурон, 30 г/л; мезотрион, 75 г/л",
+      "rate": "1,25 - 2,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/allatan-105-od-avalon-105-od/"
+    },
+    {
+      "slug": "ariya-40-md-terra-vita",
+      "name": "Арія 40 МД",
+      "activeIngredient": "Нікосульфурон, 40 г/л",
+      "activeIngredientRu": "Никосульфурон, 40 г/л",
+      "rate": "1,0 - 1,25 л/га",
+      "source": "https://terravita.kiev.ua/product/saliut-40-md-ariia-40-md/"
+    },
+    {
+      "slug": "bakkard-125-k-e-terra-vita",
+      "name": "Баккард 125 к.е.",
+      "activeIngredient": "Хізалофоп-П-етил, 125 г/л",
+      "activeIngredientRu": "Хизалофоп-П-этил, 125 г/л",
+      "rate": "0,4 - 1,2 л/га",
+      "source": "https://terravita.kiev.ua/en/product/baccard-125-ec/"
+    },
+    {
+      "slug": "bestseller-turbo-200-k-s-terra-vita",
+      "name": "Бестселлер Турбо 200 к.с.",
+      "activeIngredient": "Альфа-циперметрин, 200 г/л",
+      "activeIngredientRu": "Альфа-циперметрин, 200 г/л",
+      "rate": "0,1 - 0,15 л/га",
+      "source": "http://terravita.kiev.ua/en/product/bestseller-turbo-200-sc/"
+    },
+    {
+      "slug": "briteks-40rk-terra-vita",
+      "name": "Брітекс 40РК",
+      "activeIngredient": "Імазамокс, 40 г/л",
+      "activeIngredientRu": "Имазамокс, 40 г/л",
+      "rate": "1,0 - 1,2 л/га",
+      "source": "https://fazenda.net.ua/ua/katalog-tovarov/sredstva-zashhityi/gerbiczidyi/briteks-40-gerbicid/"
+    },
+    {
+      "slug": "bromakem-pr-terra-vita",
+      "name": "Бромакем ПР",
+      "activeIngredient": "Бромадіолон, 0,005%",
+      "activeIngredientRu": "Бромадиолон, 0,005%",
+      "rate": "20 - 100 г на нору",
+      "source": "https://terravita.kiev.ua/en/product/bromachem-rb/"
+    },
+    {
+      "slug": "vamp-200-vp-terra-vita",
+      "name": "Вамп 200 ВП",
+      "activeIngredient": "Ацетаміприд, 200 г/кг",
+      "activeIngredientRu": "Ацетамиприд, 200 г/кг",
+      "rate": "0,1 - 0,5 кг/га",
+      "source": "https://terravita.kiev.ua/en/product/vamp-200-wp/"
+    },
+    {
+      "slug": "vamp-200-duo-ks-terra-vita",
+      "name": "Вамп 200 Дуо КС",
+      "activeIngredient": "Ацетаміприд, 115 г/л; лямбда-цигалотрин, 106 г/л",
+      "activeIngredientRu": "Ацетамиприд, 115 г/л; лямбда-цигалотрин, 106 г/л",
+      "rate": "0,1 - 0,2 л/га",
+      "source": "https://growex.market/product/vamp-duo-220-ks"
+    },
+    {
+      "slug": "holdazym-500-k-s-terra-vita",
+      "name": "Голдазiм 500 к.с.",
+      "activeIngredient": "Карбендазим, 500 г/л",
+      "activeIngredientRu": "Карбендазим, 500 г/л",
+      "rate": "0,3 - 0,5 л/га",
+      "source": "https://terravita.kiev.ua/en/product/goldazim-500-sc-golder-super-500-sc/"
+    },
+    {
+      "slug": "hrantoks-500-v-r-terra-vita",
+      "name": "Грантокс 500 в.р.",
+      "activeIngredient": "МЦПА (2-метил-4-хлорфеноксиоцтова кислота, у формі диметиламінної солі калію та натрію), 500 г/л",
+      "activeIngredientRu": "МЦПА (2-метил-4-хлорфеноксиуксусная кислота, в форме диметиламинной соли калия и натрия), 500 г/л",
+      "rate": "1,0 - 1,5 л/га",
+      "source": "https://tdbarosh.com/uk/product/grantoks-500"
+    },
+    {
+      "slug": "dalila-600-tn-terra-vita",
+      "name": "Даліла 600 ТН",
+      "activeIngredient": "Імідаклоприд, 600 г/л",
+      "activeIngredientRu": "Имидаклоприд, 600 г/л",
+      "rate": "0,4 - 9,0 л/т",
+      "source": "https://agroantal.com.ua/product/dalila-600-ts-initer-600-ts-28594"
+    },
+    {
+      "slug": "eklat750-v-h-terra-vita",
+      "name": "Еклат750 в.г",
+      "activeIngredient": "Тифенсульфурон-метил, 250 г/кг; римсульфурон, 500 г/кг",
+      "activeIngredientRu": "Тифенсульфурон-метил, 250 г/кг; римсульфурон, 500 г/кг",
+      "rate": "20 - 25 г/га",
+      "source": "https://growex.market/product/eklat-750-v-g"
+    },
+    {
+      "slug": "ekstraklin-607-rk-terra-vita",
+      "name": "Екстраклін 607 РК",
+      "activeIngredient": "Гліфосат (у формі ізопропіламінної солі), 607,5 г/л (450 г/л у кислотному еквіваленті)",
+      "activeIngredientRu": "Глифосат (в форме изопропиламинной соли), 607,5 г/л (450 г/л в кислотном эквиваленте)",
+      "rate": "2,0 - 8,0 л/га",
+      "source": "https://terravita.kiev.ua/product/ekstraklin-607-rk/"
+    },
+    {
+      "slug": "ekstraklin-k-rk-terra-vita",
+      "name": "Екстраклін К РК",
+      "activeIngredient": "Гліфосат (у формі калійної солі), 663 г/л (540 г/л у кислотному еквіваленті)",
+      "activeIngredientRu": "Глифосат (в форме калийной соли), 663 г/л (540 г/л в кислотном эквиваленте)",
+      "rate": "1,5 - 4,0 л/га",
+      "source": "https://terravita.kiev.ua/product/ekstraklin-k-rk/"
+    },
+    {
+      "slug": "istilaik-334-v-r-terra-vita",
+      "name": "Істiлайк 334 в.р.",
+      "activeIngredient": "Клопіралід, 267 г/л; піклорам, 67 г/л",
+      "activeIngredientRu": "Клопиралид, 267 г/л; пиклорам, 67 г/л",
+      "rate": "0,3 - 0,4 л/га",
+      "source": "https://terravita.kiev.ua/en/product/istilike-334-sl/"
+    },
+    {
+      "slug": "kassent-400ks-terra-vita",
+      "name": "Кассент 400КС",
+      "activeIngredient": "Імідаклоприд, 300 г/л; лямбда-цигалотрин, 100 г/л",
+      "activeIngredientRu": "Имидаклоприд, 300 г/л; лямбда-цигалотрин, 100 г/л",
+      "rate": "0,05 - 0,1 л/га",
+      "source": "https://terravita.kiev.ua/en/product/kassent-400-sc/"
+    },
+    {
+      "slug": "kelpak-rk-terra-vita",
+      "name": "Келпак РК",
+      "activeIngredient": "Ауксини, 11 мг/л; цитокініни, 0,03 мг/л",
+      "activeIngredientRu": "Ауксины, 11 мг/л; цитокинины, 0,03 мг/л",
+      "rate": "2,0 - 4,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/kelpak-sl/"
+    },
+    {
+      "slug": "madera-48-rk-terra-vita",
+      "name": "Мадера 48 РК",
+      "activeIngredient": "Імазамокс, 33 г/л; імазапір, 15 г/л",
+      "activeIngredientRu": "Имазамокс, 33 г/л; имазапир, 15 г/л",
+      "rate": "1,0 - 1,2 л/га",
+      "source": "https://terravita.kiev.ua/en/product/madera-48-sl/"
+    },
+    {
+      "slug": "mekvalan-750-rk-terra-vita",
+      "name": "Меквалан 750 РК",
+      "activeIngredient": "Хлормекват-хлорид, 750 г/л",
+      "activeIngredientRu": "Хлормекват-хлорид, 750 г/л",
+      "rate": "0,75 - 2,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/mekvalan-750"
+    },
+    {
+      "slug": "pav-vopro-vet-terra-vita",
+      "name": "ПАВ Вопро Вет",
+      "activeIngredient": "Етоксильований гептаметилтрисилоксан, 840 г/л",
+      "activeIngredientRu": "Этоксилированный гептаметилтрисилоксан, 840 г/л",
+      "rate": "0,05 - 0,2 л/га",
+      "source": "http://terravita.kiev.ua/product/pav-vopro-vet-rk/"
+    },
+    {
+      "slug": "pav-vopro-hold-terra-vita",
+      "name": "ПАВ Вопро Голд",
+      "activeIngredient": "Алкоксилат трисилоксану (силіконовий ПАР, 100% органосилікон)",
+      "activeIngredientRu": "Алкоксилат трисилоксана (силиконовое ПАВ, 100% органосиликон)",
+      "rate": "0,05 - 0,2 л/га",
+      "source": "http://terravita.kiev.ua/product/pav-vopro-gold/"
+    },
+    {
+      "slug": "pav-maksymum-terra-vita",
+      "name": "ПАВ Максимум",
+      "activeIngredient": "Етоксилат ізодецилового спирту, 900 г/л",
+      "activeIngredientRu": "Этоксилат изодецилового спирта, 900 г/л",
+      "rate": "0,2 - 0,4 л/га",
+      "source": "https://agroantal.com.ua/ru/product/pav-maksium-30182"
+    },
+    {
+      "slug": "pav-saf-terra-vita",
+      "name": "ПАВ Саф",
+      "activeIngredient": "Метилолеат, 880 г/л",
+      "activeIngredientRu": "Метилолеат, 880 г/л",
+      "rate": "0,8 - 1,0 л/га",
+      "source": "https://agroantal.com.ua/product/pav-saf-29527"
+    },
+    {
+      "slug": "pandora-terra-vita",
+      "name": "Пандора",
+      "activeIngredient": "S-метолахлор, 312,5 г/л; тербутилазин, 187,5 г/л",
+      "activeIngredientRu": "S-метолахлор, 312,5 г/л; тербутилазин, 187,5 г/л",
+      "rate": "3,0 - 4,5 л/га",
+      "source": "https://terravita.kiev.ua/en/product/pandora-500-ss-double-fight-500-sc-polter-gold-500-sc/"
+    },
+    {
+      "slug": "passazh-190tn-terra-vita",
+      "name": "Пассаж 190ТН",
+      "activeIngredient": "Тебуконазол, 60 г/л; тіабендазол, 80 г/л; флутріафол, 50 г/л",
+      "activeIngredientRu": "Тебуконазол, 60 г/л; тиабендазол, 80 г/л; флутриафол, 50 г/л",
+      "rate": "0,3 - 0,5 л/т",
+      "source": "https://terravita.kiev.ua/en/product/passad-190-fs/"
+    },
+    {
+      "slug": "proksanil-720-terra-vita",
+      "name": "Проксаніл 720",
+      "activeIngredient": "Пропізохлор, 720 г/л",
+      "activeIngredientRu": "Пропизохлор, 720 г/л",
+      "rate": "2,0 - 3,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/proxanil-720-ec-proxan-active-720-ec/"
+    },
+    {
+      "slug": "pioner-900-k-e-terra-vita",
+      "name": "Пiонер 900 к.е.",
+      "activeIngredient": "Ацетохлор, 900 г/л",
+      "activeIngredientRu": "Ацетохлор, 900 г/л",
+      "rate": "1,5 - 3,0 л/га",
+      "source": "https://terravita.kiev.ua/product/pioner-900-ke/"
+    },
+    {
+      "slug": "radiks-700-ks-terra-vita",
+      "name": "Радікс 700 КС",
+      "activeIngredient": "Метамітрон, 700 г/л",
+      "activeIngredientRu": "Метамитрон, 700 г/л",
+      "rate": "2,0 - 6,0 л/га",
+      "source": "https://agroantal.com.ua/product/radiks-700-ks-28602"
+    },
+    {
+      "slug": "rider-960-terra-vita",
+      "name": "Рідер 960",
+      "activeIngredient": "S-метолахлор, 960 г/л",
+      "activeIngredientRu": "S-метолахлор, 960 г/л",
+      "rate": "1,0 - 1,6 л/га",
+      "source": "https://terravita.kiev.ua/product/rider-960-ke/"
+    },
+    {
+      "slug": "rimaks-750-vh-terra-vita",
+      "name": "Рімакс 750 ВГ",
+      "activeIngredient": "Амідосульфурон, 250 г/кг; трибенурон-метил, 500 г/кг",
+      "activeIngredientRu": "Амидосульфурон, 250 г/кг; трибенурон-метил, 500 г/кг",
+      "rate": "25 - 30 г/га",
+      "source": "https://terravita.kiev.ua/en/product/rimax-750-wg/"
+    },
+    {
+      "slug": "rimaks-plyus-terra-vita",
+      "name": "Рімакс Плюс",
+      "activeIngredient": "Амідосульфурон, 250 г/кг; трибенурон-метил, 500 г/кг",
+      "activeIngredientRu": "Амидосульфурон, 250 г/кг; трибенурон-метил, 500 г/кг",
+      "rate": "25 - 30 г/га",
+      "source": "https://terravita.kiev.ua/en/product/rimax-plus-750-wg/"
+    },
+    {
+      "slug": "rondos-750-vh-terra-vita",
+      "name": "Рондос 750 ВГ",
+      "activeIngredient": "Етаметсульфурон-метил, 750 г/кг",
+      "activeIngredientRu": "Этаметсульфурон-метил, 750 г/кг",
+      "rate": "25 - 30 г/га",
+      "source": "https://terravita.kiev.ua/product/rondos-750-vh/"
+    },
+    {
+      "slug": "salyut-40md-terra-vita",
+      "name": "Салют 40МД",
+      "activeIngredient": "Нікосульфурон, 40 г/л",
+      "activeIngredientRu": "Никосульфурон, 40 г/л",
+      "rate": "1,0 - 1,25 л/га",
+      "source": "https://terravita.kiev.ua/product/saliut-40-md-ariia-40-md/"
+    },
+    {
+      "slug": "samum-forte-v-r-terra-vita",
+      "name": "Самум Форте в.р.",
+      "activeIngredient": "Дикват дибромід, 374 г/л",
+      "activeIngredientRu": "Дикват дибромид, 374 г/л",
+      "rate": "0,8 - 1,2 л/га",
+      "source": "https://www.eridon.ua/samum-forte-374-rk"
+    },
+    {
+      "slug": "sprinter-500-ke-terra-vita",
+      "name": "Спрінтер 500 КЕ",
+      "activeIngredient": "Пропіконазол, 300 г/л; тебуконазол, 200 г/л",
+      "activeIngredientRu": "Пропиконазол, 300 г/л; тебуконазол, 200 г/л",
+      "rate": "0,3 - 0,6 л/га",
+      "source": "https://terravita.kiev.ua/en/product/sprinter-500-ec-stayer-500-ec/"
+    },
+    {
+      "slug": "starhezan-500-k-s-terra-vita",
+      "name": "Старгезан 500 к.с.",
+      "activeIngredient": "Прометрин, 500 г/л",
+      "activeIngredientRu": "Прометрин, 500 г/л",
+      "rate": "2,0 - 5,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/stargezan-500-sc-fighton-500-sc/"
+    },
+    {
+      "slug": "superkil-terra-vita",
+      "name": "Суперкіл",
+      "activeIngredient": "Циперметрин, 40 г/л; хлорпірифос, 400 г/л",
+      "activeIngredientRu": "Циперметрин, 40 г/л; хлорпирифос, 400 г/л",
+      "rate": "0,6 - 1,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/superkill-440-ec/"
+    },
+    {
+      "slug": "sinekura-680ke-terra-vita",
+      "name": "Сiнекура 680ке",
+      "activeIngredient": "Металаксил-М, 40 г/кг; манкоцеб, 640 г/кг",
+      "activeIngredientRu": "Металаксил-М, 40 г/кг; манкоцеб, 640 г/кг",
+      "rate": "2,5 кг/га",
+      "source": "https://terravita.kiev.ua/en/product/sinecura-680-wp/"
+    },
+    {
+      "slug": "taffin-320-ks-terra-vita",
+      "name": "Таффiн 320 КС",
+      "activeIngredient": "Азоксистробін, 200 г/л; ципроконазол, 120 г/л",
+      "activeIngredientRu": "Азоксистробин, 200 г/л; ципроконазол, 120 г/л",
+      "rate": "0,6 - 0,7 л/га",
+      "source": "https://terravita.kiev.ua/en/product/taffin-320-sc-br-a-zoks-320-sc-compler-320-sc/"
+    },
+    {
+      "slug": "tebu-top-250ke-terra-vita",
+      "name": "Тебу Топ 250ке",
+      "activeIngredient": "Тебуконазол, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/tebu-top-250-ec/"
+    },
+    {
+      "slug": "tebukur-250-ke-terra-vita",
+      "name": "Тебукур 250 ке",
+      "activeIngredient": "Тебуконазол, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л",
+      "rate": "0,4 - 1,0 л/га",
+      "source": "https://terravita.kiev.ua/en/product/tebucur-250-ew/"
+    },
+    {
+      "slug": "teson-417-se-terra-vita",
+      "name": "Тесон 417 СЭ",
+      "activeIngredient": "2,4-Д кислота у формі 2-етилгексилового ефіру, 615 г/л (410 г/л 2,4-Д кислоти); флорасулам, 7,4 г/л",
+      "activeIngredientRu": "2,4-Д кислота в форме 2-этилгексилового эфира, 615 г/л (410 г/л 2,4-Д кислоты); флорасулам, 7,4 г/л",
+      "rate": "0,3 - 0,5 л/га",
+      "source": "https://agroantal.com.ua/product/gerbicid-teson-29526"
+    },
+    {
+      "slug": "toplants-240-k-e-terra-vita",
+      "name": "Топланц 240 к.е",
+      "activeIngredient": "Клетодим, 240 г/л",
+      "activeIngredientRu": "Клетодим, 240 г/л",
+      "rate": "0,2 - 0,8 л/га",
+      "source": "https://terravita.kiev.ua/en/product/toplanz-240-ec/"
+    },
+    {
+      "slug": "triafer-t-300-ks-terra-vita",
+      "name": "Тріафер Т 300 КС",
+      "activeIngredient": "Тебуконазол, 225 г/л; флутріафол, 75 г/л",
+      "activeIngredientRu": "Тебуконазол, 225 г/л; флутриафол, 75 г/л",
+      "rate": "0,6 - 1,0 л/га",
+      "source": "https://growex.market/product/triafer-t-300-ks"
+    },
+    {
+      "slug": "fulhor-250-ks-terra-vita",
+      "name": "Фулгор 250 кс",
+      "activeIngredient": "Флутріафол, 250 г/л",
+      "activeIngredientRu": "Флутриафол, 250 г/л",
+      "rate": "0,25 - 0,5 л/га",
+      "source": "https://st-agro.com.ua/product/fungicid_fulgor_250_kstriafer_250_ks"
+    },
+    {
+      "slug": "fulhor-hold-500-terra-vita",
+      "name": "Фулгор Голд 500",
+      "activeIngredient": "Карбендазим, 300 г/л; флутріафол, 200 г/л",
+      "activeIngredientRu": "Карбендазим, 300 г/л; флутриафол, 200 г/л",
+      "rate": "0,4 - 0,6 л/га",
+      "source": "https://terravita.kiev.ua/en/product/fulgor-gold-500-sc-triafer-gold-500-sc-banch-500-sc/"
+    },
+    {
+      "slug": "kharbor-320-ks-terra-vita",
+      "name": "Харбор 320 КС",
+      "activeIngredient": "Тіаметоксам, 150 г/л; біфентрин, 170 г/л",
+      "activeIngredientRu": "Тиаметоксам, 150 г/л; бифентрин, 170 г/л",
+      "rate": "0,2 - 0,3 л/га",
+      "source": "https://terravita.kiev.ua/en/product/harbor-320-sc-2/"
+    }
+  ]
+}

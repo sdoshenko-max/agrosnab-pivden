@@ -1,0 +1,481 @@
+{
+  "producer": "Басф",
+  "researchedAt": "2026-05-07T00:00:00Z",
+  "items": [
+    {
+      "slug": "abakus-basf",
+      "name": "Абакус",
+      "activeIngredient": "Епоксиконазол, 62,5 г/л; піраклостробін, 62,5 г/л",
+      "activeIngredientRu": "Эпоксиконазол, 62,5 г/л; пираклостробин, 62,5 г/л",
+      "rate": "0,75 - 1,75 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Абакус.html"
+    },
+    {
+      "slug": "akris-se-basf",
+      "name": "Акріс, СЕ",
+      "activeIngredient": "Диметенамід-П, 280 г/л; тербутилазин, 250 г/л",
+      "activeIngredientRu": "Диметенамид-П, 280 г/л; тербутилазин, 250 г/л",
+      "rate": "1,5 - 3,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Акріс.html"
+    },
+    {
+      "slug": "akrobat-mts-basf",
+      "name": "Акробат МЦ",
+      "activeIngredient": "Диметоморф, 90 г/кг; манкоцеб, 600 г/кг",
+      "activeIngredientRu": "Диметоморф, 90 г/кг; манкоцеб, 600 г/кг",
+      "rate": "2,0 - 3,0 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Акробат-МЦ.html"
+    },
+    {
+      "slug": "alterno-basf",
+      "name": "Альтерно",
+      "activeIngredient": "Піраклостробін, 130 г/л; метконазол, 80 г/л",
+      "activeIngredientRu": "Пираклостробин, 130 г/л; метконазол, 80 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Альтерно.html"
+    },
+    {
+      "slug": "arkhitekt-se-basf",
+      "name": "Архітект, СЕ",
+      "activeIngredient": "Прогексадіон кальцію, 25 г/л; мепікват-хлорид, 150 г/л; піраклостробін, 100 г/л",
+      "activeIngredientRu": "Прогексадион кальция, 25 г/л; мепикват-хлорид, 150 г/л; пираклостробин, 100 г/л",
+      "rate": "1,0 - 2,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Регулятори-росту/Архітект.html"
+    },
+    {
+      "slug": "bazahran-pro-basf",
+      "name": "Базагран ПРО",
+      "activeIngredient": "Бентазон, 480 г/л",
+      "activeIngredientRu": "Бентазон, 480 г/л",
+      "rate": "1,5 - 3,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Базагран-Про.html"
+    },
+    {
+      "slug": "basta-150-sl-basf",
+      "name": "Баста 150 SL",
+      "activeIngredient": "Глюфосинат амонію, 150 г/л",
+      "activeIngredientRu": "Глюфосинат аммония, 150 г/л",
+      "rate": "1,0 - 7,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Баста-150-SL.html"
+    },
+    {
+      "slug": "bellis-vh-basf",
+      "name": "Белліс, ВГ",
+      "activeIngredient": "Піраклостробін, 128 г/кг; боскалід, 252 г/кг",
+      "activeIngredientRu": "Пираклостробин, 128 г/кг; боскалид, 252 г/кг",
+      "rate": "0,8 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Белліс.html"
+    },
+    {
+      "slug": "butizan-400-d-v-basf",
+      "name": "Бутiзан 400 д.в",
+      "activeIngredient": "Метазахлор, 400 г/л",
+      "activeIngredientRu": "Метазахлор, 400 г/л",
+      "rate": "1,75 - 2,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Бутізан-400.html"
+    },
+    {
+      "slug": "butizan-avant-se-basf",
+      "name": "Бутiзан АВАНТ, СЕ",
+      "activeIngredient": "Метазахлор, 300 г/л; диметенамід-П, 100 г/л; квінмерак, 100 г/л",
+      "activeIngredientRu": "Метазахлор, 300 г/л; диметенамид-П, 100 г/л; квинмерак, 100 г/л",
+      "rate": "1,5 - 2,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Бутізан-Авант.html"
+    },
+    {
+      "slug": "daksur-ks-basf",
+      "name": "Даксур, КС",
+      "activeIngredient": "Мефентрифлуконазол, 100 г/л; крезоксим-метил, 150 г/л",
+      "activeIngredientRu": "Мефентрифлуконазол, 100 г/л; крезоксим-метил, 150 г/л",
+      "rate": "0,5 - 0,7 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Даксур.html"
+    },
+    {
+      "slug": "delan-basf",
+      "name": "Делан",
+      "activeIngredient": "Дитіанон, 700 г/кг",
+      "activeIngredientRu": "Дитианон, 700 г/кг",
+      "rate": "0,5 - 1,0 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Делан.html"
+    },
+    {
+      "slug": "deter-basf",
+      "name": "Детер",
+      "activeIngredient": "Клотіанідин, 250 г/л",
+      "activeIngredientRu": "Клотианидин, 250 г/л",
+      "rate": "0,8 - 1,2 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Детер.html"
+    },
+    {
+      "slug": "ervin-pro-basf",
+      "name": "Ервін ПРО",
+      "activeIngredient": null,
+      "activeIngredientRu": null,
+      "rate": null,
+      "source": null,
+      "skipReason": "Не знайдено на офсайті BASF Ukraine, у ДПСС, ні в дилерських каталогах. Можливо, продукт під іншою назвою або новий/регіональний."
+    },
+    {
+      "slug": "yevro-laitninh-plyus-rk-basf",
+      "name": "Євро-лайтнiнг ПЛЮС, РК",
+      "activeIngredient": "Імазапір, 7,5 г/л; імазамокс, 16,5 г/л",
+      "activeIngredientRu": "Имазапир, 7,5 г/л; имазамокс, 16,5 г/л",
+      "rate": "1,6 - 2,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Євро-Лайтнінг-Плюс.html"
+    },
+    {
+      "slug": "yevro-laitninh-rk-basf",
+      "name": "Євро-лайтнiнг, РК",
+      "activeIngredient": "Імазапір, 15 г/л; імазамокс, 33 г/л",
+      "activeIngredientRu": "Имазапир, 15 г/л; имазамокс, 33 г/л",
+      "rate": "1,0 - 1,2 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Євро-Лайтнінг.html"
+    },
+    {
+      "slug": "inshur-perform-t-k-s-basf",
+      "name": "Іншур Перформ т.к.с",
+      "activeIngredient": "Піраклостробін, 40 г/л; тритіконазол, 80 г/л",
+      "activeIngredientRu": "Пираклостробин, 40 г/л; тритиконазол, 80 г/л",
+      "rate": "0,5 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Іншур-Перформ.html"
+    },
+    {
+      "slug": "kabrio-duo-basf",
+      "name": "Кабрiо Дуо",
+      "activeIngredient": "Диметоморф, 72 г/л; піраклостробін, 40 г/л",
+      "activeIngredientRu": "Диметоморф, 72 г/л; пираклостробин, 40 г/л",
+      "rate": "2,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Кабріо-Дуо.html"
+    },
+    {
+      "slug": "kambio-star-basf",
+      "name": "Камбіо Стар",
+      "activeIngredient": "Бентазон, 480 г/л",
+      "activeIngredientRu": "Бентазон, 480 г/л",
+      "rate": "1,5 - 6,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Камбіо-Стар.html"
+    },
+    {
+      "slug": "kollis-basf",
+      "name": "Колліс",
+      "activeIngredient": "Крезоксим-метил, 100 г/л; боскалід, 200 г/л",
+      "activeIngredientRu": "Крезоксим-метил, 100 г/л; боскалид, 200 г/л",
+      "rate": "0,4 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Колліс.html"
+    },
+    {
+      "slug": "korum-basf",
+      "name": "Корум",
+      "activeIngredient": "Бентазон, 480 г/л; імазамокс, 22,4 г/л",
+      "activeIngredientRu": "Бентазон, 480 г/л; имазамокс, 22,4 г/л",
+      "rate": "1,25 - 2,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Корум.html"
+    },
+    {
+      "slug": "kumulyus-df-basf",
+      "name": "Кумулюс ДФ",
+      "activeIngredient": "Сірка, 800 г/кг",
+      "activeIngredientRu": "Сера, 800 г/кг",
+      "rate": "4,0 - 6,0 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Кумулюс-ДФ.html"
+    },
+    {
+      "slug": "kinto-duo-ks-basf",
+      "name": "Кiнто Дуо, КС",
+      "activeIngredient": "Прохлораз, 60 г/л; тритіконазол, 20 г/л",
+      "activeIngredientRu": "Прохлораз, 60 г/л; тритиконазол, 20 г/л",
+      "rate": "2,0 - 2,5 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Кінто-Дуо.html"
+    },
+    {
+      "slug": "kinto-plyus-basf",
+      "name": "Кiнто Плюс",
+      "activeIngredient": "Тритіконазол, 33,3 г/л; флудіоксоніл, 33,3 г/л; флуксапіроксад, 33,3 г/л",
+      "activeIngredientRu": "Тритиконазол, 33,3 г/л; флудиоксонил, 33,3 г/л; флуксапироксад, 33,3 г/л",
+      "rate": "1,0 - 1,5 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Кінто-Плюс.html"
+    },
+    {
+      "slug": "malakhit-basf",
+      "name": "Малахiт",
+      "activeIngredient": "Дитіанон, 250 г/л; піриметаніл, 250 г/л",
+      "activeIngredientRu": "Дитианон, 250 г/л; пириметанил, 250 г/л",
+      "rate": "1,25 - 1,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Малахіт.html"
+    },
+    {
+      "slug": "medaks-top-ks-basf",
+      "name": "Медакс ТОП, КС",
+      "activeIngredient": "Мепікват-хлорид, 300 г/л; прогексадіон кальцію, 50 г/л",
+      "activeIngredientRu": "Мепикват-хлорид, 300 г/л; прогексадион кальция, 50 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Регулятори-росту/Медакс-Топ.html"
+    },
+    {
+      "slug": "merivon-pro-basf",
+      "name": "Мерівон Про",
+      "activeIngredient": "Флуксапіроксад, 250 г/л; піраклостробін, 250 г/л",
+      "activeIngredientRu": "Флуксапироксад, 250 г/л; пираклостробин, 250 г/л",
+      "rate": "0,3 - 0,4 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Мерівон-Про.html"
+    },
+    {
+      "slug": "metolat-basf",
+      "name": "Метолат",
+      "activeIngredient": "Жирні спирти; мінеральна олива",
+      "activeIngredientRu": "Жирные спирты; минеральное масло",
+      "rate": "0,625 - 1,25 л/га",
+      "source": "https://www.eridon.ua/metolat-par"
+    },
+    {
+      "slug": "nomolt-k-s-basf",
+      "name": "Номолт к.с.",
+      "activeIngredient": "Тефлубензурон, 150 г/л",
+      "activeIngredientRu": "Тефлубензурон, 150 г/л",
+      "rate": "0,15 - 0,7 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Інсектициди/Номолт.html"
+    },
+    {
+      "slug": "nopasaran-basf",
+      "name": "Нопасаран",
+      "activeIngredient": "Метазахлор, 375 г/л; імазамокс, 25 г/л",
+      "activeIngredientRu": "Метазахлор, 375 г/л; имазамокс, 25 г/л",
+      "rate": "1,0 - 1,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Нопасаран.html"
+    },
+    {
+      "slug": "nopasaran-fleks-basf",
+      "name": "Нопасаран Флекс",
+      "activeIngredient": "Квінмерак, 75 г/л; імазамокс, 17,5 г/л; амінопіралід, 4 г/л",
+      "activeIngredientRu": "Квинмерак, 75 г/л; имазамокс, 17,5 г/л; аминопиралид, 4 г/л",
+      "rate": "1,2 - 1,6 л/га",
+      "source": "https://agroantal.com.ua/product/gerbicid-nopasaran-flex-30932"
+    },
+    {
+      "slug": "orveho-ks-basf",
+      "name": "Орвего,кс",
+      "activeIngredient": "Аметоктрадин, 300 г/л; диметоморф, 225 г/л",
+      "activeIngredientRu": "Аметоктрадин, 300 г/л; диметоморф, 225 г/л",
+      "rate": "0,8 - 1,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Орвего.html"
+    },
+    {
+      "slug": "osiris-pro-ke-basf",
+      "name": "Осiрiс Про, КЕ",
+      "activeIngredient": "Мефентрифлуконазол, 50 г/л; протіоконазол, 100 г/л",
+      "activeIngredientRu": "Мефентрифлуконазол, 50 г/л; протиоконазол, 100 г/л",
+      "rate": "0,6 - 1,2 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Осіріс-Про.html"
+    },
+    {
+      "slug": "poliram-df-basf",
+      "name": "Полiрам ДФ",
+      "activeIngredient": "Метирам, 700 г/кг",
+      "activeIngredientRu": "Метирам, 700 г/кг",
+      "rate": "2,0 - 2,5 кг/га",
+      "source": "https://agrarii-razom.com.ua/preparations/poliram-df"
+    },
+    {
+      "slug": "priaksor-basf",
+      "name": "Пріаксор",
+      "activeIngredient": "Флуксапіроксад, 75 г/л; піраклостробін, 150 г/л",
+      "activeIngredientRu": "Флуксапироксад, 75 г/л; пираклостробин, 150 г/л",
+      "rate": "0,3 - 0,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Пріаксор.html"
+    },
+    {
+      "slug": "piktor-top-ks-basf",
+      "name": "Пiктор ТОП, КС",
+      "activeIngredient": null,
+      "activeIngredientRu": null,
+      "rate": null,
+      "source": null,
+      "skipReason": "Окрема сторінка Піктор ТОП на офсайті BASF недоступна; в дилерських каталогах знаходиться лише звичайний Піктор (боскалід+димоксистробін), що не дозволяє підтвердити склад ТОП-версії"
+    },
+    {
+      "slug": "piktor-ks-basf",
+      "name": "Пiктор, КС",
+      "activeIngredient": "Димоксистробін, 200 г/л; боскалід, 200 г/л",
+      "activeIngredientRu": "Димоксистробин, 200 г/л; боскалид, 200 г/л",
+      "rate": "0,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Піктор.html"
+    },
+    {
+      "slug": "reviker-ke-basf",
+      "name": "Ревікер, КЕ",
+      "activeIngredient": "Мефентрифлуконазол, 100 г/л; піраклостробін, 100 г/л",
+      "activeIngredientRu": "Мефентрифлуконазол, 100 г/л; пираклостробин, 100 г/л",
+      "rate": "0,6 - 0,8 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Ревікер.html"
+    },
+    {
+      "slug": "reviona-basf",
+      "name": "Ревіона",
+      "activeIngredient": "Мефентрифлуконазол, 75 г/л",
+      "activeIngredientRu": "Мефентрифлуконазол, 75 г/л",
+      "rate": "0,8 - 2,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Ревіона.html"
+    },
+    {
+      "slug": "rehalis-plyus-basf",
+      "name": "Регалiс Плюс",
+      "activeIngredient": "Прогексадіон кальцію, 100 г/кг",
+      "activeIngredientRu": "Прогексадион кальция, 100 г/кг",
+      "rate": "1,25 - 2,5 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Регулятори-росту/Регаліс-Плюс.html"
+    },
+    {
+      "slug": "reks-duo-ks-basf",
+      "name": "Рекс Дуо, КС",
+      "activeIngredient": "Епоксиконазол, 187 г/л; тіофанат-метил, 310 г/л",
+      "activeIngredientRu": "Эпоксиконазол, 187 г/л; тиофанат-метил, 310 г/л",
+      "rate": "0,4 - 0,6 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Рекс-Дуо.html"
+    },
+    {
+      "slug": "reks-plyus-se-basf",
+      "name": "Рекс Плюс, СЕ",
+      "activeIngredient": "Епоксиконазол, 84 г/л; фенпропіморф, 250 г/л",
+      "activeIngredientRu": "Эпоксиконазол, 84 г/л; фенпропиморф, 250 г/л",
+      "rate": "0,8 - 1,2 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Рекс-Плюс.html"
+    },
+    {
+      "slug": "reks-pro-se-basf",
+      "name": "Рекс Про, СЕ",
+      "activeIngredient": "Мефентрифлуконазол, 150 г/л; фенпропіморф, 400 г/л",
+      "activeIngredientRu": "Мефентрифлуконазол, 150 г/л; фенпропиморф, 400 г/л",
+      "rate": "0,4 - 0,7 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Рекс-Про.html"
+    },
+    {
+      "slug": "serkadis-basf",
+      "name": "Серкадіс",
+      "activeIngredient": "Флуксапіроксад, 300 г/л",
+      "activeIngredientRu": "Флуксапироксад, 300 г/л",
+      "rate": "0,15 - 0,75 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/serkadis"
+    },
+    {
+      "slug": "serkadis-plyus-basf",
+      "name": "Серкадіс Плюс",
+      "activeIngredient": "Флуксапіроксад, 75 г/л; дифеноконазол, 50 г/л",
+      "activeIngredientRu": "Флуксапироксад, 75 г/л; дифеноконазол, 50 г/л",
+      "rate": "0,6 - 1,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Серкадіс-Плюс.html"
+    },
+    {
+      "slug": "systiva-t-n-basf",
+      "name": "Систiва т.н",
+      "activeIngredient": "Флуксапіроксад, 333 г/л",
+      "activeIngredientRu": "Флуксапироксад, 333 г/л",
+      "rate": "0,5 - 1,5 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Систіва.html"
+    },
+    {
+      "slug": "standak-top-basf",
+      "name": "Стандак ТОП",
+      "activeIngredient": "Фіпроніл, 250 г/л; піраклостробін, 25 г/л; тіофанат-метил, 225 г/л",
+      "activeIngredientRu": "Фипронил, 250 г/л; пираклостробин, 25 г/л; тиофанат-метил, 225 г/л",
+      "rate": "1,0 - 2,0 л/т",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Протруйники/Стандак-Топ.html"
+    },
+    {
+      "slug": "stellar-plyus-rk-basf",
+      "name": "Стеллар Плюс, РК",
+      "activeIngredient": "Топрамезон, 50 г/л; дикамба, 160 г/л",
+      "activeIngredientRu": "Топрамезон, 50 г/л; дикамба, 160 г/л",
+      "rate": "0,8 - 1,25 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Стеллар-Плюс.html"
+    },
+    {
+      "slug": "stomp-330-k-e-basf",
+      "name": "Стомп 330, к.е",
+      "activeIngredient": "Пендиметалін, 330 г/л",
+      "activeIngredientRu": "Пендиметалин, 330 г/л",
+      "rate": "2,0 - 6,0 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Стомп-330.html"
+    },
+    {
+      "slug": "strobi-basf",
+      "name": "Стробi",
+      "activeIngredient": "Крезоксим-метил, 500 г/кг",
+      "activeIngredientRu": "Крезоксим-метил, 500 г/кг",
+      "rate": "0,2 - 0,3 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Стробі.html"
+    },
+    {
+      "slug": "sulfat-amoniyu-basf",
+      "name": "Сулфат Амонію",
+      "activeIngredient": "Сульфат амонію (NH4)2SO4",
+      "activeIngredientRu": "Сульфат аммония (NH4)2SO4",
+      "rate": "2,0 - 4,0 кг/га",
+      "source": "https://www.agronom.com.ua/azotni-dobryva-yak-ad-yuvanty/"
+    },
+    {
+      "slug": "sihnum-basf",
+      "name": "Сiгнум",
+      "activeIngredient": "Боскалід, 267 г/кг; піраклостробін, 67 г/кг",
+      "activeIngredientRu": "Боскалид, 267 г/кг; пираклостробин, 67 г/кг",
+      "rate": "0,25 - 1,5 кг/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Сігнум.html"
+    },
+    {
+      "slug": "terpal-rk-basf",
+      "name": "Терпал РК",
+      "activeIngredient": "Етефон, 155 г/л; мепікват-хлорид, 305 г/л",
+      "activeIngredientRu": "Этефон, 155 г/л; мепикват-хлорид, 305 г/л",
+      "rate": "1,0 - 2,5 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Регулятори-росту/Терпал.html"
+    },
+    {
+      "slug": "turbo-basf",
+      "name": "Турбо",
+      "activeIngredient": null,
+      "activeIngredientRu": null,
+      "rate": "0,5 - 1,0 кг/га",
+      "source": "https://agroantal.com.ua/product/prilipatel-turbo-29507",
+      "skipReason": "Норма витрати знайдена (0,5-1,0 кг/га), але детальний хімічний склад прилипача Турбо BASF в публічних джерелах не розкривається"
+    },
+    {
+      "slug": "fleksiti-basf",
+      "name": "Флексiтi",
+      "activeIngredient": "Метрафенон, 300 г/л",
+      "activeIngredientRu": "Метрафенон, 300 г/л",
+      "rate": "0,15 - 0,25 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Фунгіциди/Флексіті.html"
+    },
+    {
+      "slug": "fronter-optyma-basf",
+      "name": "Фронтьер оптима",
+      "activeIngredient": "Диметенамід-П, 720 г/л",
+      "activeIngredientRu": "Диметенамид-П, 720 г/л",
+      "rate": "0,8 - 1,4 л/га",
+      "source": "https://www.agro.basf.ua/uk/Products/overview/Гербіциди/Фронтьєр-Оптіма.html"
+    },
+    {
+      "slug": "khaikot-super-extender-basf",
+      "name": "Хайкот Супер Extender",
+      "activeIngredient": "Захисна полімерна оболонка для бактерій Bradyrhizobium japonicum",
+      "activeIngredientRu": "Защитная полимерная оболочка для бактерий Bradyrhizobium japonicum",
+      "rate": "1,42 л/т",
+      "source": "https://superagronom.com/pesticidi-regulyatori-rostu/2620-haykot-super-soya-id8627"
+    },
+    {
+      "slug": "khaikot-super-r-basf",
+      "name": "Хайкот Супер, р",
+      "activeIngredient": "Bradyrhizobium japonicum, штам 532C, 2×10¹⁰ КУО/г",
+      "activeIngredientRu": "Bradyrhizobium japonicum, штамм 532C, 2×10¹⁰ КОЕ/г",
+      "rate": "1,42 л/т",
+      "source": "https://superagronom.com/pesticidi-regulyatori-rostu/2620-haykot-super-soya-id8627"
+    },
+    {
+      "slug": "khistik-v-p-basf",
+      "name": "ХіСтік, в.п.",
+      "activeIngredient": "Bradyrhizobium japonicum, штам 532C, 2×10⁹ КУО/г",
+      "activeIngredientRu": "Bradyrhizobium japonicum, штамм 532C, 2×10⁹ КОЕ/г",
+      "rate": "400 г/100-120 кг насіння",
+      "source": "https://www.eridon.ua/histik-soya-vp"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "slug": "vantakor-fms",
+    "name": "Вантакор",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "vanteks-fms",
+    "name": "Вантекс",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "venzar-80-z-p-fms",
+    "name": "Вензар 80 з.п.",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "verimark-fms",
+    "name": "Верімарк",
+    "category": "Інсектицид",
+    "packaging": "0.1 л"
+  },
+  {
+    "slug": "vintsyt-forte-fms",
+    "name": "Вінцит Форте",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "danadym-miks-k-e-fms",
+    "name": "Данадим Мікс,  к.е",
+    "category": "Інсектицид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "dzhalentra-fms",
+    "name": "Джалентра",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "eksirel-10-s-e-fms",
+    "name": "Ексірель 10% с.е",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "ekspres-75-v-h-fms",
+    "name": "Експрес 75 в.г",
+    "category": "Гербіцид",
+    "packaging": "500гр"
+  },
+  {
+    "slug": "ekspres-hold-fms",
+    "name": "Експрес Голд",
+    "category": "Гербіцид",
+    "packaging": "350гр"
+  },
+  {
+    "slug": "ellai-super-fms",
+    "name": "Еллай супер",
+    "category": "Гербіцид",
+    "packaging": "150гр"
+  },
+  {
+    "slug": "impakt-500-fms",
+    "name": "Імпакт 500",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "impakt-t-fms",
+    "name": "Імпакт Т",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "karibu-50-z-p-fms",
+    "name": "Карiбу 50% з.п",
+    "category": "Гербіцид",
+    "packaging": "600гр"
+  },
+  {
+    "slug": "kodasaid-fms",
+    "name": "Кодасайд",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kommand-fms",
+    "name": "Комманд",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "korahen-fms",
+    "name": "Кораген",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "nikit-fms",
+    "name": "Нікіт",
+    "category": "Гербіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "ol-klyar-ekstra-fms",
+    "name": "Ол Клиар Екстра",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pikus-600-fms",
+    "name": "Пікус 600",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "prostor-fms",
+    "name": "Простор",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "saksessor-fms",
+    "name": "Саксессор",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "tremiziya-fms",
+    "name": "Тремізія",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "trend-90-fms",
+    "name": "Тренд 90",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "famestra-fms",
+    "name": "Фаместра",
+    "category": "Гербіцид",
+    "packaging": "0.25 кг"
+  },
+  {
+    "slug": "fufanon-fms",
+    "name": "Фуфанон",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kharmoni-fms",
+    "name": "Хармонi",
+    "category": "Гербіцид",
+    "packaging": "100гр"
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "producer": "ФМС",
+  "researchedAt": "2026-05-07T00:00:00Z",
+  "items": [
+    {
+      "slug": "vantakor-fms",
+      "name": "Вантакор",
+      "activeIngredient": "Хлорантраніліпрол, 600 г/л",
+      "activeIngredientRu": "Хлорантранилипрол, 600 г/л",
+      "rate": "35 - 50 мл/га",
+      "source": "https://ag.fmc.com/ua/uk/інсектициди/вантакор"
+    },
+    {
+      "slug": "vanteks-fms",
+      "name": "Вантекс",
+      "activeIngredient": "Гамма-цигалотрин, 60 г/л",
+      "activeIngredientRu": "Гамма-цигалотрин, 60 г/л",
+      "rate": "0,04 - 0,06 л/га",
+      "source": "https://www.eridon.ua/vanteks-6-mks"
+    },
+    {
+      "slug": "venzar-80-z-p-fms",
+      "name": "Вензар 80 з.п.",
+      "activeIngredient": "Ленацил, 800 г/кг",
+      "activeIngredientRu": "Ленацил, 800 г/кг",
+      "rate": "0,8 - 2,0 кг/га",
+      "source": "https://agrarii-razom.com.ua/active-ingredients/lenacil"
+    },
+    {
+      "slug": "verimark-fms",
+      "name": "Верімарк",
+      "activeIngredient": "Циантраніліпрол, 200 г/л",
+      "activeIngredientRu": "Циантранилипрол, 200 г/л",
+      "rate": "0,375 - 0,5 л/га",
+      "source": "https://aoplatforma.com/shop/cpp/insecticides/verimark"
+    },
+    {
+      "slug": "vintsyt-forte-fms",
+      "name": "Вінцит Форте",
+      "activeIngredient": "Флутриафол, 37,5 г/л; тіабендазол, 25 г/л; імазаліл, 15 г/л",
+      "activeIngredientRu": "Флутриафол, 37,5 г/л; тиабендазол, 25 г/л; имазалил, 15 г/л",
+      "rate": "1,0 - 1,25 л/т",
+      "source": "https://www.eridon.ua/vincit-forte-ks"
+    },
+    {
+      "slug": "danadym-miks-k-e-fms",
+      "name": "Данадим Мікс, к.е",
+      "activeIngredient": "Диметоат, 400 г/л; гамма-цигалотрин, 4 г/л",
+      "activeIngredientRu": "Диметоат, 400 г/л; гамма-цигалотрин, 4 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.eridon.ua/danadim-miks"
+    },
+    {
+      "slug": "dzhalentra-fms",
+      "name": "Джалентра",
+      "activeIngredient": "Хлорантраніліпрол, 106 г/л; біфентрин, 159 г/л",
+      "activeIngredientRu": "Хлорантранилипрол, 106 г/л; бифентрин, 159 г/л",
+      "rate": "0,2 - 0,4 л/га",
+      "source": "https://ag.fmc.com/ua/uk/інсектициди/джалентра"
+    },
+    {
+      "slug": "eksirel-10-s-e-fms",
+      "name": "Ексірель 10% с.е",
+      "activeIngredient": "Циантраніліпрол, 100 г/л",
+      "activeIngredientRu": "Циантранилипрол, 100 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://superagronom.com/pesticidi-insekticidi-i-akaricidi/eksirel-fmc-id6530"
+    },
+    {
+      "slug": "ekspres-75-v-h-fms",
+      "name": "Експрес 75 в.г",
+      "activeIngredient": "Трибенурон-метил, 750 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 750 г/кг",
+      "rate": "30 - 50 г/га",
+      "source": "https://fmc.com.ua/products/gerbicidi/express/"
+    },
+    {
+      "slug": "ekspres-hold-fms",
+      "name": "Експрес Голд",
+      "activeIngredient": "Трибенурон-метил, 562,5 г/кг; тифенсульфурон-метил, 187,5 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 562,5 г/кг; тифенсульфурон-метил, 187,5 г/кг",
+      "rate": "35 - 40 г/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/ekspres-gold-75-dyupon-id6536"
+    },
+    {
+      "slug": "ellai-super-fms",
+      "name": "Еллай супер",
+      "activeIngredient": "Трибенурон-метил, 500 г/кг; метсульфурон-метил, 200 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 500 г/кг; метсульфурон-метил, 200 г/кг",
+      "rate": "10 - 15 г/га",
+      "source": "https://aoplatforma.com/shop/cpp/herbicides/ellai-super"
+    },
+    {
+      "slug": "impakt-500-fms",
+      "name": "Імпакт 500",
+      "activeIngredient": "Флутриафол, 500 г/л",
+      "activeIngredientRu": "Флутриафол, 500 г/л",
+      "rate": "0,25 - 0,5 л/га",
+      "source": "https://www.eridon.ua/impakt"
+    },
+    {
+      "slug": "impakt-t-fms",
+      "name": "Імпакт Т",
+      "activeIngredient": "Тебуконазол, 225 г/л; флутриафол, 75 г/л",
+      "activeIngredientRu": "Тебуконазол, 225 г/л; флутриафол, 75 г/л",
+      "rate": "0,6 - 1,0 л/га",
+      "source": "https://www.eridon.ua/impakt-t-30-ks"
+    },
+    {
+      "slug": "karibu-50-z-p-fms",
+      "name": "Карiбу 50% з.п",
+      "activeIngredient": "Трифлусульфурон-метил, 500 г/кг",
+      "activeIngredientRu": "Трифлусульфурон-метил, 500 г/кг",
+      "rate": "30 г/га",
+      "source": "https://aoplatforma.com/shop/cpp/herbicides/karibu-50"
+    },
+    {
+      "slug": "kodasaid-fms",
+      "name": "Кодасайд",
+      "activeIngredient": "Рослинна олія, 95%",
+      "activeIngredientRu": "Растительное масло, 95%",
+      "rate": "1,0 - 5,0 л/га",
+      "source": "https://ag.fmc.com/kz/ru/продукты/адъюванты/кодасайд"
+    },
+    {
+      "slug": "kommand-fms",
+      "name": "Комманд",
+      "activeIngredient": "Кломазон, 480 г/л",
+      "activeIngredientRu": "Кломазон, 480 г/л",
+      "rate": "0,15 - 0,2 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/kommand-48-fms-kemikl-interneshnl-ag-id3097"
+    },
+    {
+      "slug": "korahen-fms",
+      "name": "Кораген",
+      "activeIngredient": "Хлорантраніліпрол, 200 г/л",
+      "activeIngredientRu": "Хлорантранилипрол, 200 г/л",
+      "rate": "0,1 - 0,2 л/га",
+      "source": "https://fmc.com.ua/products/insekticidi/koragen/"
+    },
+    {
+      "slug": "nikit-fms",
+      "name": "Нікіт",
+      "activeIngredient": "Нікосульфурон, 240 г/л",
+      "activeIngredientRu": "Никосульфурон, 240 г/л",
+      "rate": "0,16 - 0,2 л/га",
+      "source": "https://aoplatforma.com/shop/cpp/herbicides/nikit-240"
+    },
+    {
+      "slug": "ol-klyar-ekstra-fms",
+      "name": "Ол Клиар Екстра",
+      "activeIngredient": "Суміш сурфактантів та допоміжних речовин",
+      "activeIngredientRu": "Смесь сурфактантов и вспомогательных веществ",
+      "rate": "0,5 л/100 л води",
+      "source": "https://fmc.com.ua/products/dopomizhni-rechovini/all_clear_extra/"
+    },
+    {
+      "slug": "pikus-600-fms",
+      "name": "Пікус 600",
+      "activeIngredient": "Імідаклоприд, 600 г/л",
+      "activeIngredientRu": "Имидаклоприд, 600 г/л",
+      "rate": "0,5 - 7,0 л/т",
+      "source": "https://fmc.com.ua/products/protrujniki/pikus/"
+    },
+    {
+      "slug": "prostor-fms",
+      "name": "Простор",
+      "activeIngredient": "Малатіон, 418,9 г/л; біфентрин, 21,3 г/л",
+      "activeIngredientRu": "Малатион, 418,9 г/л; бифентрин, 21,3 г/л",
+      "rate": "12 - 35 мл/100 м²",
+      "source": "https://fmc.com.ua/products/insekticidi/prostor/"
+    },
+    {
+      "slug": "saksessor-fms",
+      "name": "Саксессор",
+      "activeIngredient": "Петоксамід, 600 г/л",
+      "activeIngredientRu": "Петоксамид, 600 г/л",
+      "rate": "1,5 - 2,0 л/га",
+      "source": "https://ag.fmc.com/ua/uk/гербіциди/саксессор"
+    },
+    {
+      "slug": "tremiziya-fms",
+      "name": "Тремізія",
+      "activeIngredient": "Флутриафол, 250 г/л; флуіндапір, 240 г/л",
+      "activeIngredientRu": "Флутриафол, 250 г/л; флуиндапир, 240 г/л",
+      "rate": "0,4 - 0,5 л/га",
+      "source": "https://aoplatforma.com/blog/tremiziya-potuznii-zaxist"
+    },
+    {
+      "slug": "trend-90-fms",
+      "name": "Тренд 90",
+      "activeIngredient": "Етоксилат ізодецилового спирту, 90%",
+      "activeIngredientRu": "Этоксилат изодецилового спирта, 90%",
+      "rate": "0,2 - 0,4 л/га",
+      "source": "https://agroantal.com.ua/product/pav-trend-90-28634"
+    },
+    {
+      "slug": "famestra-fms",
+      "name": "Фаместра",
+      "activeIngredient": "Трибенурон-метил, 600 г/кг; флорасулам, 200 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 600 г/кг; флорасулам, 200 г/кг",
+      "rate": "20 - 30 г/га",
+      "source": "https://fmc.com.ua/products/gerbicidi/famestra/"
+    },
+    {
+      "slug": "fufanon-fms",
+      "name": "Фуфанон",
+      "activeIngredient": "Малатіон, 570 г/л",
+      "activeIngredientRu": "Малатион, 570 г/л",
+      "rate": "0,4 - 6,0 л/га",
+      "source": "https://aoplatforma.com/shop/cpp/insecticides/fufanon-570"
+    },
+    {
+      "slug": "kharmoni-fms",
+      "name": "Хармонi",
+      "activeIngredient": "Тифенсульфурон-метил, 750 г/кг",
+      "activeIngredientRu": "Тифенсульфурон-метил, 750 г/кг",
+      "rate": "6 - 25 г/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/harmoni75-dyupon-id6200"
+    }
+  ]
+}

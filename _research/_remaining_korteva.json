@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "bioforzh-korteva",
+    "name": "Біофорж",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "verben-ke-korteva",
+    "name": "Вербен, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "vivolt-korteva",
+    "name": "Віволт",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "viovan-ke-korteva",
+    "name": "Віован, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "helianteks-akanto-plyus-korteva",
+    "name": "Геліантекс + Аканто Плюс",
+    "category": "Гербіцид",
+    "packaging": "1:05"
+  },
+  {
+    "slug": "dzheronimo-korteva",
+    "name": "Джеронімо",
+    "category": "Інсектицид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "ditan-m-45-korteva",
+    "name": "Дітан М-45",
+    "category": "Фунгіцид",
+    "packaging": "25 кг"
+  },
+  {
+    "slug": "zorveks-vinabriya-korteva",
+    "name": "Зорвекс Вінабрія",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "zorveks-inkantiya-korteva",
+    "name": "Зорвекс Інкантія",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kveleks-200vh-korteva",
+    "name": "Квелекс 200вг",
+    "category": "Гербіцид",
+    "packaging": "0.6 кг"
+  },
+  {
+    "slug": "kosaid-2000-v-h-korteva",
+    "name": "Косайд 2000 в.г.",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "kurzat-r-44-korteva",
+    "name": "Курзат Р 44",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "lortama-korteva",
+    "name": "Лортама",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "n-lok-maks-korteva",
+    "name": "Н-Лок Макс",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "pallas-ekstra-317-vh-korteva",
+    "name": "Паллас  Екстра 317 ВГ",
+    "category": "Гербіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "pallas-45od-korteva",
+    "name": "Паллас 45OD",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "prima-intens-korteva",
+    "name": "Пріма Інтенс",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "radiant-korteva",
+    "name": "Радіант",
+    "category": "Інсектицид",
+    "packaging": "0.5 л"
+  },
+  {
+    "slug": "ridzhbek-korteva",
+    "name": "Ріджбек",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "slash-korteva",
+    "name": "Слаш",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "starane-premium-korteva",
+    "name": "Старане Премiум",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "stimuleit-korteva",
+    "name": "Стімулейт",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "talendo-korteva",
+    "name": "Талендо",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "talius-korteva",
+    "name": "Талiус",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "tanos-50vh-korteva",
+    "name": "Танос 50вг",
+    "category": "Фунгіцид",
+    "packaging": "2 кг"
+  },
+  {
+    "slug": "tibari-korteva",
+    "name": "Тібарі",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "transform-vh-korteva",
+    "name": "Трансформ, ВГ",
+    "category": "Інсектицид",
+    "packaging": "0.25 кг"
+  },
+  {
+    "slug": "titus-korteva",
+    "name": "Тiтус",
+    "category": "Гербіцид",
+    "packaging": "500гр"
+  },
+  {
+    "slug": "titus-ekstra-korteva",
+    "name": "Тiтус Екстра",
+    "category": "Гербіцид",
+    "packaging": "250гр"
+  }
+]

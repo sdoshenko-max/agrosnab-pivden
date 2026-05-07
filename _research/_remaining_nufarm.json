@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "ahritoks-50-nufarm",
+    "name": "Агрiтокс 50%",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "ahritoks-turbo-nufarm",
+    "name": "Агрiтокс Турбо",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "airis-ke-nufarm",
+    "name": "Айріс, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "astral-nufarm",
+    "name": "Астрал",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "dekster-nufarm",
+    "name": "Декстер",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "dzhoust-pro-nufarm",
+    "name": "Джоуст Про",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "dikopur-top-464-nufarm",
+    "name": "Дiкопур ТОП 464",
+    "category": "Гербіцид",
+    "packaging": "15 л"
+  },
+  {
+    "slug": "ekvinoks-ks-nufarm",
+    "name": "Еквінокс, КС",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "estet-905-nufarm",
+    "name": "Естет 905",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "zeahran-350-nufarm",
+    "name": "Зеагран 350",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "intertsept-nufarm",
+    "name": "Інтерцепт",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "kaizo-nufarm",
+    "name": "Кайзо",
+    "category": "Інсектицид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "kaizo-pro-nufarm",
+    "name": "Кайзо ПРО",
+    "category": "Інсектицид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "kamposan-ekstra-sl-nufarm",
+    "name": "Кампосан eкстра SL",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "karnadin-nufarm",
+    "name": "Карнадін",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kvad-150rk-nufarm",
+    "name": "Квад 150РК",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "kloze-480-ke-nufarm",
+    "name": "Клозе 480 КЕ",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "klinik-v-r-nufarm",
+    "name": "Клiнiк в.р.",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "klinik-ikstrym-nufarm",
+    "name": "Клiнiк Ікстрим",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "klinik-maks-nufarm",
+    "name": "Клiнiк Макс",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "kuproksat-nufarm",
+    "name": "Купроксат",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "lars-250-vh-nufarm",
+    "name": "Ларс 250, ВГ",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "lars-delta-nufarm",
+    "name": "Ларс дельта",
+    "category": "Гербіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "lars-kombi-nufarm",
+    "name": "Ларс Комбі",
+    "category": "Гербіцид",
+    "packaging": "комбіпак"
+  },
+  {
+    "slug": "marsel-nufarm",
+    "name": "Марсель",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "moksa-250-nufarm",
+    "name": "Мокса 250",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "monitor-plyus-nufarm",
+    "name": "Монітор Плюс",
+    "category": "Гербіцид",
+    "packaging": "0,266+0,8"
+  },
+  {
+    "slug": "nuprid-600-nufarm",
+    "name": "Нупрiд 600",
+    "category": "Протруйник",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "orbit-nufarm",
+    "name": "Орбiт",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "orbit-kombi-nufarm",
+    "name": "Орбiт Комбі",
+    "category": "Фунгіцид",
+    "packaging": "комбіпак"
+  },
+  {
+    "slug": "proteb-ke-nufarm",
+    "name": "Протеб, КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "selfi-nufarm",
+    "name": "Селфі",
+    "category": "Гербіцид",
+    "packaging": "0.8 л"
+  },
+  {
+    "slug": "selfi-oil-nufarm",
+    "name": "Селфі ОЙЛ",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "siyesta-ekstra-nufarm",
+    "name": "Сієста Екстра",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "stabilan-750-sl-nufarm",
+    "name": "Стабiлан 750 SL",
+    "category": "Регулятор росту",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "teizer-nufarm",
+    "name": "Тейзер",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "teilor-nufarm",
+    "name": "Тейлор",
+    "category": "Гербіцид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "troller-nufarm",
+    "name": "Троллер",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "tru-nufarm",
+    "name": "Тру",
+    "category": "Гербіцид",
+    "packaging": "комбіпак"
+  },
+  {
+    "slug": "filder-ke-nufarm",
+    "name": "Філдер, КЕ",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "floid-ke-nufarm",
+    "name": "Флойд, КЕ",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "chemp-ultra-dp-nufarm",
+    "name": "Чемп Ультра DP",
+    "category": "Фунгіцид",
+    "packaging": "10 кг"
+  },
+  {
+    "slug": "chempion-vh-nufarm",
+    "name": "Чемпiон, ВГ",
+    "category": "Фунгіцид",
+    "packaging": "10 кг"
+  },
+  {
+    "slug": "chempion-zp-nufarm",
+    "name": "Чемпiон, ЗП",
+    "category": "Фунгіцид",
+    "packaging": "10 кг"
+  }
+]

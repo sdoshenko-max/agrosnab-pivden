@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "eventus-me-adama",
+    "name": "Евентус МЕ",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "eko-oil-sprei-adama",
+    "name": "Еко Ойл Спрей",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "ekseleris-ks-adama",
+    "name": "Екселеріс КС",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "ekspert-hrou-adama",
+    "name": "Експерт Гроу",
+    "category": "Регулятор росту",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "errou-ke-adama",
+    "name": "Ерроу КЕ",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "invert-ke-adama",
+    "name": "Інверт КЕ",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kalma-ke-adama",
+    "name": "Кальма КЕ",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kalif-ks-adama",
+    "name": "Калiф КС",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kalif-meha-fk-adama",
+    "name": "Калiф Мега ФК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "kormoran-ke-adama",
+    "name": "Корморан КЕ",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "kustodiya-ks-adama",
+    "name": "Кустодія КС",
+    "category": "Фунгіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "lamdeks-ck-adama",
+    "name": "Ламдекс CK",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "lehato-trio-ks-adama",
+    "name": "Легато Тріо КС",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "linder-kc-adama",
+    "name": "Лiндер KC",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "mavrik-eb-adama",
+    "name": "Маврiк EB",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "maksentis-ks-adama",
+    "name": "Максентіс КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "mehanik-ke-adama",
+    "name": "Меганік КЕ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "merpan-platynum-vh-adama",
+    "name": "Мерпан Платинум ВГ",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "mistral-vh-adama",
+    "name": "Мiстраль ВГ",
+    "category": "Гербіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "nikohan-md-adama",
+    "name": "Нiкоган МД",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "orius-eb-adama",
+    "name": "Орiус EB",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pauertvin-ks-adama",
+    "name": "Пауертвiн КС",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pendihan-kc-adama",
+    "name": "Пендiган KC",
+    "category": "Гербіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "prometreks-50-sc-adama",
+    "name": "Прометрекс  50 SC",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pirineks-cuper-ke-adama",
+    "name": "Пiрiнекс Cупер KE",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "reiser-ke-adama",
+    "name": "Рейсер КЕ",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "rimon-fast-ks-adama",
+    "name": "Рiмон Фаст КС",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "skudero-6-25-25-rk-adama",
+    "name": "Скудеро 6-25-25 РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "skudero-boron-rk-adama",
+    "name": "Скудеро Борон РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "skudero-multi-rk-adama",
+    "name": "Скудеро Мульті РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "skudero-sav-rk-adama",
+    "name": "Скудеро САВ РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "skudero-zn-pk-adama",
+    "name": "Скудеро ZN+PK",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "sultan-ks-adama",
+    "name": "Султан КС",
+    "category": "Гербіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "sultan-tvin-ks-adama",
+    "name": "Султан Твiн КС",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "suprim-eb-adama",
+    "name": "Супрiм EB",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "sferiko-tn-adama",
+    "name": "Сферіко ТН",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "sfinks-ekstra-vh-adama",
+    "name": "Сфiнкс Eкстра  ВГ",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "tomihan-ke-adama",
+    "name": "Томiган KE",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "tryhher-vh-adama",
+    "name": "Триггер ВГ",
+    "category": "Гербіцид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "tryflureks-ke-adama",
+    "name": "Трифлурекс КЕ",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "folpan-hold-wg-adama",
+    "name": "Фольпан Голд WG",
+    "category": "Фунгіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "folpan-wg-adama",
+    "name": "Фольпан WG",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "tsezar-ke-adama",
+    "name": "Цезар KE",
+    "category": "Інсектицид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "tsykohan-rk-adama",
+    "name": "Цикоган РК",
+    "category": "Регулятор росту",
+    "packaging": "10 л"
+  }
+]

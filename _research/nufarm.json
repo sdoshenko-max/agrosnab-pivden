@@ -1,0 +1,358 @@
+{
+  "producer": "Нуфарм",
+  "researchedAt": "2026-05-07T00:00:00Z",
+  "items": [
+    {
+      "slug": "ahritoks-50-nufarm",
+      "name": "Агрiтокс 50%",
+      "activeIngredient": "МЦПА (диметиламінна сіль), 500 г/л",
+      "activeIngredientRu": "МЦПА (диметиламинная соль), 500 г/л",
+      "rate": "0,5 - 2,8 л/га",
+      "source": "https://nufarm.com/ua/product/agritoks/"
+    },
+    {
+      "slug": "ahritoks-turbo-nufarm",
+      "name": "Агрiтокс Турбо",
+      "activeIngredient": "МЦПА, 660 г/л; дикамба, 90 г/л",
+      "activeIngredientRu": "МЦПА, 660 г/л; дикамба, 90 г/л",
+      "rate": "0,6 - 1,25 л/га",
+      "source": "https://nufarm.com/ua/product/agritox-turbo/"
+    },
+    {
+      "slug": "airis-ke-nufarm",
+      "name": "Айріс, КЕ",
+      "activeIngredient": "Тебуконазол, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/iris/"
+    },
+    {
+      "slug": "astral-nufarm",
+      "name": "Астрал",
+      "activeIngredient": "Нікосульфурон, 40 г/л",
+      "activeIngredientRu": "Никосульфурон, 40 г/л",
+      "rate": "1,0 - 1,5 л/га",
+      "source": "https://nufarm.com/ua/product/астрал-2/"
+    },
+    {
+      "slug": "dekster-nufarm",
+      "name": "Декстер",
+      "activeIngredient": "Хізалофоп-П-етил, 200 г/л",
+      "activeIngredientRu": "Хизалофоп-П-этил, 200 г/л",
+      "rate": "0,4 - 0,75 л/га",
+      "source": "https://nufarm.com/ua/product/декстер/"
+    },
+    {
+      "slug": "dzhoust-pro-nufarm",
+      "name": "Джоуст Про",
+      "activeIngredient": "Протіоконазол, 150 г/л; азоксистробін, 150 г/л",
+      "activeIngredientRu": "Протиоконазол, 150 г/л; азоксистробин, 150 г/л",
+      "rate": "0,8 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/joustpro/"
+    },
+    {
+      "slug": "dikopur-top-464-nufarm",
+      "name": "Дiкопур ТОП 464",
+      "activeIngredient": "2,4-Д (диметиламінна сіль), 344 г/л; дикамба (диметиламінна сіль), 120 г/л",
+      "activeIngredientRu": "2,4-Д (диметиламинная соль), 344 г/л; дикамба (диметиламинная соль), 120 г/л",
+      "rate": "1,0 - 1,25 л/га",
+      "source": "https://nufarm.com/ua/product/dikopur-top-464/"
+    },
+    {
+      "slug": "ekvinoks-ks-nufarm",
+      "name": "Еквінокс, КС",
+      "activeIngredient": "Флуміоксазин, 480 г/л",
+      "activeIngredientRu": "Флумиоксазин, 480 г/л",
+      "rate": "0,06 - 0,12 л/га",
+      "source": "https://nufarm.com/ua/product/еквінокс/"
+    },
+    {
+      "slug": "estet-905-nufarm",
+      "name": "Естет 905",
+      "activeIngredient": "2,4-Д (2-етилгексиловий ефір), 905 г/л",
+      "activeIngredientRu": "2,4-Д (2-этилгексиловый эфир), 905 г/л",
+      "rate": "0,5 - 0,7 л/га",
+      "source": "https://nufarm.com/ua/product/estet-905/"
+    },
+    {
+      "slug": "zeahran-350-nufarm",
+      "name": "Зеагран 350",
+      "activeIngredient": "Бромоксиніл, 100 г/л; тербутилазин, 250 г/л",
+      "activeIngredientRu": "Бромоксинил, 100 г/л; тербутилазин, 250 г/л",
+      "rate": "1,0 - 2,0 л/га",
+      "source": "https://nufarm.com/ua/product/zeagran-350/"
+    },
+    {
+      "slug": "intertsept-nufarm",
+      "name": "Інтерцепт",
+      "activeIngredient": "Імазамокс, 33 г/л; імазапір, 15 г/л",
+      "activeIngredientRu": "Имазамокс, 33 г/л; имазапир, 15 г/л",
+      "rate": "1,0 - 1,2 л/га",
+      "source": "https://agroantal.com.ua/product/gerbicid-intercept-30814"
+    },
+    {
+      "slug": "kaizo-nufarm",
+      "name": "Кайзо",
+      "activeIngredient": "Лямбда-цигалотрин, 50 г/кг",
+      "activeIngredientRu": "Лямбда-цигалотрин, 50 г/кг",
+      "rate": "0,15 - 0,3 кг/га",
+      "source": "https://nufarm.com/ua/product/кайзо/"
+    },
+    {
+      "slug": "kaizo-pro-nufarm",
+      "name": "Кайзо ПРО",
+      "activeIngredient": "Тіаметоксам, 141 г/л; лямбда-цигалотрин, 106 г/л",
+      "activeIngredientRu": "Тиаметоксам, 141 г/л; лямбда-цигалотрин, 106 г/л",
+      "rate": "0,1 - 0,15 л/га",
+      "source": "https://superagronom.com/pesticidi-insekticidi-i-akaricidi/kayzo-pro-id29571"
+    },
+    {
+      "slug": "kamposan-ekstra-sl-nufarm",
+      "name": "Кампосан eкстра SL",
+      "activeIngredient": "Етефон, 660 г/л",
+      "activeIngredientRu": "Этефон, 660 г/л",
+      "rate": "0,2 - 0,5 л/га",
+      "source": "https://nufarm.com/ua/product/camposan-extra/"
+    },
+    {
+      "slug": "karnadin-nufarm",
+      "name": "Карнадін",
+      "activeIngredient": "Ацетаміприд, 200 г/л",
+      "activeIngredientRu": "Ацетамиприд, 200 г/л",
+      "rate": "0,12 - 0,2 л/га",
+      "source": "https://agroantal.com.ua/product/insekticid-karnadin-30698"
+    },
+    {
+      "slug": "kvad-150rk-nufarm",
+      "name": "Квад 150РК",
+      "activeIngredient": "Дикват дибромід, 280 г/л (дикват-іон, 150 г/л)",
+      "activeIngredientRu": "Дикват дибромид, 280 г/л (дикват-ион, 150 г/л)",
+      "rate": "1,5 - 3,0 л/га",
+      "source": "https://nufarm.com/ua/product/квад-150/"
+    },
+    {
+      "slug": "kloze-480-ke-nufarm",
+      "name": "Клозе 480 КЕ",
+      "activeIngredient": "Кломазон, 480 г/л",
+      "activeIngredientRu": "Кломазон, 480 г/л",
+      "rate": "0,2 - 0,5 л/га",
+      "source": "https://nufarm.com/ua/product/клозе-480/"
+    },
+    {
+      "slug": "klinik-v-r-nufarm",
+      "name": "Клiнiк в.р.",
+      "activeIngredient": "Гліфосат (ізопропіламінна сіль), 480 г/л",
+      "activeIngredientRu": "Глифосат (изопропиламинная соль), 480 г/л",
+      "rate": "2,0 - 5,0 л/га",
+      "source": "https://aoplatforma.com/shop/cpp/herbicides/klinik"
+    },
+    {
+      "slug": "klinik-ikstrym-nufarm",
+      "name": "Клiнiк Ікстрим",
+      "activeIngredient": "Гліфосат (калійна сіль), 300 г/л; гліфосат (ізопропіламінна сіль), 400 г/л",
+      "activeIngredientRu": "Глифосат (калиевая соль), 300 г/л; глифосат (изопропиламинная соль), 400 г/л",
+      "rate": "1,5 - 4,0 л/га",
+      "source": "https://nufarm.com/ua/product/clinic-xtrem/"
+    },
+    {
+      "slug": "klinik-maks-nufarm",
+      "name": "Клiнiк Макс",
+      "activeIngredient": "Гліфосат (ізопропіламінна сіль), 240 г/л; 2,4-Д (диметиламінна сіль), 160 г/л",
+      "activeIngredientRu": "Глифосат (изопропиламинная соль), 240 г/л; 2,4-Д (диметиламинная соль), 160 г/л",
+      "rate": "2,0 - 4,0 л/га",
+      "source": "https://nufarm.com/ua/product/клінік-макс/"
+    },
+    {
+      "slug": "kuproksat-nufarm",
+      "name": "Купроксат",
+      "activeIngredient": "Сульфат міді триосновний, 345 г/л (мідь металічна, 190 г/л)",
+      "activeIngredientRu": "Сульфат меди трёхосновный, 345 г/л (медь металлическая, 190 г/л)",
+      "rate": "1,0 - 5,0 л/га",
+      "source": "https://nufarm.com/ua/product/купроксат/"
+    },
+    {
+      "slug": "lars-250-vh-nufarm",
+      "name": "Ларс 250, ВГ",
+      "activeIngredient": "Флорасулам, 250 г/кг",
+      "activeIngredientRu": "Флорасулам, 250 г/кг",
+      "rate": "15 - 25 г/га",
+      "source": "https://nufarm.com/ua/product/lars/"
+    },
+    {
+      "slug": "lars-delta-nufarm",
+      "name": "Ларс дельта",
+      "activeIngredient": "Дифлуфенікан, 500 г/л; флорасулам, 50 г/л",
+      "activeIngredientRu": "Дифлуфеникан, 500 г/л; флорасулам, 50 г/л",
+      "rate": "0,075 - 0,12 л/га",
+      "source": "https://nufarm.com/ua/product/lars-delta/"
+    },
+    {
+      "slug": "lars-kombi-nufarm",
+      "name": "Ларс Комбі",
+      "activeIngredient": "Флорасулам, 250 г/кг; трибенурон-метил, 750 г/кг",
+      "activeIngredientRu": "Флорасулам, 250 г/кг; трибенурон-метил, 750 г/кг",
+      "rate": "20 г/га (Ларс) + 20 г/га (Тейлор)",
+      "source": "https://nufarm.com/ua/product/lars-combi/"
+    },
+    {
+      "slug": "marsel-nufarm",
+      "name": "Марсель",
+      "activeIngredient": "Ізоксафлютол, 240 г/л",
+      "activeIngredientRu": "Изоксафлютол, 240 г/л",
+      "rate": "0,15 - 0,23 л/га",
+      "source": "https://nufarm.com/ua/product/marsel/"
+    },
+    {
+      "slug": "moksa-250-nufarm",
+      "name": "Мокса 250",
+      "activeIngredient": "Тринексапак-етил, 252 г/л",
+      "activeIngredientRu": "Тринексапак-этил, 252 г/л",
+      "rate": "0,4 - 0,6 л/га",
+      "source": "https://nufarm.com/ua/product/мокса-250/"
+    },
+    {
+      "slug": "monitor-plyus-nufarm",
+      "name": "Монітор Плюс",
+      "activeIngredient": "Сульфосульфурон, 750 г/кг",
+      "activeIngredientRu": "Сульфосульфурон, 750 г/кг",
+      "rate": "16 - 26 г/га",
+      "source": "https://nufarm.com/ua/product/monitor_plus/"
+    },
+    {
+      "slug": "nuprid-600-nufarm",
+      "name": "Нупрiд 600",
+      "activeIngredient": "Імідаклоприд, 600 г/л",
+      "activeIngredientRu": "Имидаклоприд, 600 г/л",
+      "rate": "0,4 - 0,7 л/т",
+      "source": "https://nufarm.com/ua/product/нупрід-600/"
+    },
+    {
+      "slug": "orbit-nufarm",
+      "name": "Орбiт",
+      "activeIngredient": "Тебуконазол, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/орбіт/"
+    },
+    {
+      "slug": "orbit-kombi-nufarm",
+      "name": "Орбiт Комбі",
+      "activeIngredient": "Тебуконазол, 250 г/л; азоксистробін, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л; азоксистробин, 250 г/л",
+      "rate": "0,5 + 0,5 л/га",
+      "source": "https://aoplatforma.com/shop/cpp/fungicides/orbit-kombi"
+    },
+    {
+      "slug": "proteb-ke-nufarm",
+      "name": "Протеб, КЕ",
+      "activeIngredient": "Протіоконазол, 80 г/л; тебуконазол, 160 г/л",
+      "activeIngredientRu": "Протиоконазол, 80 г/л; тебуконазол, 160 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/proteb/"
+    },
+    {
+      "slug": "selfi-nufarm",
+      "name": "Селфі",
+      "activeIngredient": "Етоксилат жирного спирту, 480 г/л",
+      "activeIngredientRu": "Этоксилат жирного спирта, 480 г/л",
+      "rate": "30 - 40 мл / 100 л робочого розчину",
+      "source": "https://nufarm.com/ua/product/селфі/"
+    },
+    {
+      "slug": "selfi-oil-nufarm",
+      "name": "Селфі ОЙЛ",
+      "activeIngredient": "Метиловий ефір соєвої олії, 820 г/л",
+      "activeIngredientRu": "Метиловый эфир соевого масла, 820 г/л",
+      "rate": "0,3 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/selfiojl/"
+    },
+    {
+      "slug": "siyesta-ekstra-nufarm",
+      "name": "Сієста Екстра",
+      "activeIngredient": "Азоксистробін, 200 г/л; ципроконазол, 80 г/л",
+      "activeIngredientRu": "Азоксистробин, 200 г/л; ципроконазол, 80 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/сієста-екстра/"
+    },
+    {
+      "slug": "stabilan-750-sl-nufarm",
+      "name": "Стабiлан 750 SL",
+      "activeIngredient": "Хлормекват-хлорид, 750 г/л",
+      "activeIngredientRu": "Хлормекват-хлорид, 750 г/л",
+      "rate": "1,0 - 2,0 л/га",
+      "source": "https://nufarm.com/ua/product/stabilan-750/"
+    },
+    {
+      "slug": "teizer-nufarm",
+      "name": "Тейзер",
+      "activeIngredient": "Азоксистробін, 250 г/л",
+      "activeIngredientRu": "Азоксистробин, 250 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/тейзер/"
+    },
+    {
+      "slug": "teilor-nufarm",
+      "name": "Тейлор",
+      "activeIngredient": "Трибенурон-метил, 750 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 750 г/кг",
+      "rate": "15 - 25 г/га",
+      "source": "https://nufarm.com/ua/product/taylor/"
+    },
+    {
+      "slug": "troller-nufarm",
+      "name": "Троллер",
+      "activeIngredient": "2,4-Д (2-етилгексиловий ефір), 360 г/л; флорасулам, 7,5 г/л",
+      "activeIngredientRu": "2,4-Д (2-этилгексиловый эфир), 360 г/л; флорасулам, 7,5 г/л",
+      "rate": "0,35 - 0,5 л/га",
+      "source": "https://nufarm.com/ua/product/troller/"
+    },
+    {
+      "slug": "tru-nufarm",
+      "name": "Тру",
+      "activeIngredient": "Трибенурон-метил, 750 г/кг",
+      "activeIngredientRu": "Трибенурон-метил, 750 г/кг",
+      "rate": "15 - 25 г/га",
+      "source": "https://nufarm.com/ua/product/true/"
+    },
+    {
+      "slug": "filder-ke-nufarm",
+      "name": "Філдер, КЕ",
+      "activeIngredient": "Пропізохлор, 720 г/л",
+      "activeIngredientRu": "Пропизохлор, 720 г/л",
+      "rate": "2,0 - 3,0 л/га",
+      "source": "https://nufarm.com/ua/product/fielder/"
+    },
+    {
+      "slug": "floid-ke-nufarm",
+      "name": "Флойд, КЕ",
+      "activeIngredient": "Флуазифоп-П-бутил, 150 г/л",
+      "activeIngredientRu": "Флуазифоп-П-бутил, 150 г/л",
+      "rate": "0,6 - 1,0 л/га",
+      "source": "https://nufarm.com/ua/product/флойд/"
+    },
+    {
+      "slug": "chemp-ultra-dp-nufarm",
+      "name": "Чемп Ультра DP",
+      "activeIngredient": "Гідроксид міді, 576 г/кг (мідь металічна, 375 г/кг)",
+      "activeIngredientRu": "Гидроксид меди, 576 г/кг (медь металлическая, 375 г/кг)",
+      "rate": "0,1 - 2,5 кг/га",
+      "source": "https://nufarm.com/ua/product/chemp-ultra-dp/"
+    },
+    {
+      "slug": "chempion-vh-nufarm",
+      "name": "Чемпiон, ВГ",
+      "activeIngredient": "Гідроксид міді, 770 г/кг (мідь металічна, 500 г/кг)",
+      "activeIngredientRu": "Гидроксид меди, 770 г/кг (медь металлическая, 500 г/кг)",
+      "rate": "1,5 - 3,0 кг/га",
+      "source": "https://nufarm.com/ua/product/чемпіон_вг/"
+    },
+    {
+      "slug": "chempion-zp-nufarm",
+      "name": "Чемпiон, ЗП",
+      "activeIngredient": "Гідроксид міді, 770 г/кг (мідь металічна, 500 г/кг)",
+      "activeIngredientRu": "Гидроксид меди, 770 г/кг (медь металлическая, 500 г/кг)",
+      "rate": "1,5 - 3,0 кг/га",
+      "source": "https://nufarm.com/ua/product/чемпіон_зп/"
+    }
+  ]
+}

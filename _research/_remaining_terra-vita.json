@@ -1,0 +1,284 @@
+[
+  {
+    "slug": "allatan-105-md-terra-vita",
+    "name": "Аллатан 105 МД",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "ariya-40-md-terra-vita",
+    "name": "Арія 40 МД",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "bakkard-125-k-e-terra-vita",
+    "name": "Баккард 125 к.е.",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "bestseller-turbo-200-k-s-terra-vita",
+    "name": "Бестселлер Турбо 200 к.с.",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "briteks-40rk-terra-vita",
+    "name": "Брітекс 40РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "bromakem-pr-terra-vita",
+    "name": "Бромакем ПР",
+    "category": "Родентицид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "vamp-200-vp-terra-vita",
+    "name": "Вамп 200 ВП",
+    "category": "Інсектицид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "vamp-200-duo-ks-terra-vita",
+    "name": "Вамп 200 Дуо КС",
+    "category": "Інсектицид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "holdazim-500-k-s-terra-vita",
+    "name": "Голдазiм 500 к.с.",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "hrantoks-500-v-r-terra-vita",
+    "name": "Грантокс 500 в.р.",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "dalila-600-tn-terra-vita",
+    "name": "Даліла 600 ТН",
+    "category": "Протруйник",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "eklat750-v-h-terra-vita",
+    "name": "Еклат750 в.г",
+    "category": "Гербіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "ekstraklin-607-rk-terra-vita",
+    "name": "Екстраклін 607 РК",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "ekstraklin-k-rk-terra-vita",
+    "name": "Екстраклін К РК",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "istilaik-334-v-r-terra-vita",
+    "name": "Істiлайк 334 в.р.",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "kassent-400ks-terra-vita",
+    "name": "Кассент 400КС",
+    "category": "Інсектицид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "kelpak-rk-terra-vita",
+    "name": "Келпак РК",
+    "category": "Регулятор росту",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "madera-48-rk-terra-vita",
+    "name": "Мадера 48 РК",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "mekvalan-750-rk-terra-vita",
+    "name": "Меквалан 750 РК",
+    "category": "Регулятор росту",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "pav-vopro-vet-terra-vita",
+    "name": "ПАВ Вопро Вет",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pav-vopro-hold-terra-vita",
+    "name": "ПАВ Вопро Голд",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pav-maksymum-terra-vita",
+    "name": "ПАВ Максимум",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pav-saf-terra-vita",
+    "name": "ПАВ Саф",
+    "category": "Адʼювант",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "pandora-terra-vita",
+    "name": "Пандора",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "passazh-190tn-terra-vita",
+    "name": "Пассаж 190ТН",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "proksanil-720-terra-vita",
+    "name": "Проксаніл 720",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "pioner-900-k-e-terra-vita",
+    "name": "Пiонер 900 к.е.",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "radiks-700-ks-terra-vita",
+    "name": "Радікс 700 КС",
+    "category": "Гербіцид",
+    "packaging": "0.1 кг"
+  },
+  {
+    "slug": "rider-960-terra-vita",
+    "name": "Рідер 960",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "rimaks-750-vh-terra-vita",
+    "name": "Рімакс 750 ВГ",
+    "category": "Гербіцид",
+    "packaging": "0.1 кг"
+  },
+  {
+    "slug": "rimaks-plyus-terra-vita",
+    "name": "Рімакс Плюс",
+    "category": "Гербіцид",
+    "packaging": "0.1 кг"
+  },
+  {
+    "slug": "rondos-750-vh-terra-vita",
+    "name": "Рондос 750 ВГ",
+    "category": "Гербіцид",
+    "packaging": "0.15 кг"
+  },
+  {
+    "slug": "salyut-40md-terra-vita",
+    "name": "Салют 40МД",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "samum-forte-v-r-terra-vita",
+    "name": "Самум Форте в.р.",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "sprinter-500-ke-terra-vita",
+    "name": "Спрінтер 500 КЕ",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "starhezan-500-k-s-terra-vita",
+    "name": "Старгезан 500 к.с.",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "superkil-terra-vita",
+    "name": "Суперкіл",
+    "category": "Інсектицид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "sinekura-680ke-terra-vita",
+    "name": "Сiнекура 680ке",
+    "category": "Фунгіцид",
+    "packaging": "5 кг"
+  },
+  {
+    "slug": "taffin-320-ks-terra-vita",
+    "name": "Таффiн 320 КС",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "tebu-top-250ke-terra-vita",
+    "name": "Тебу Топ 250ке",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "tebukur-250-ke-terra-vita",
+    "name": "Тебукур 250 ке",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "teson-417-se-terra-vita",
+    "name": "Тесон 417 СЭ",
+    "category": "Гербіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "toplants-240-k-e-terra-vita",
+    "name": "Топланц 240 к.е",
+    "category": "Гербіцид",
+    "packaging": "1 л"
+  },
+  {
+    "slug": "triafer-t-300-ks-terra-vita",
+    "name": "Тріафер Т 300 КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "fulhor-250-ks-terra-vita",
+    "name": "Фулгор 250 кс",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "fulhor-hold-500-terra-vita",
+    "name": "Фулгор Голд 500",
+    "category": "Фунгіцид",
+    "packaging": "10 л"
+  },
+  {
+    "slug": "kharbor-320-ks-terra-vita",
+    "name": "Харбор 320 КС",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  }
+]

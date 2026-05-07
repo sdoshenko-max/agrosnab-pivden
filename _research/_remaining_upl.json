@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "blu-bordo-dyspers-v-h-upl",
+    "name": "Блу Бордо Дисперс, в.г.",
+    "category": "Фунгіцид",
+    "packaging": "20 кг"
+  },
+  {
+    "slug": "vepo-upl",
+    "name": "Вепо",
+    "category": "Інсектицид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "versar-ke-superkil-upl",
+    "name": "Версар, КЕ (Суперкіл)",
+    "category": "Інсектицид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "vitavaks-upl",
+    "name": "Вітавакс",
+    "category": "Протруйник",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "everest-komplekt-upl",
+    "name": "Еверест (комплект)",
+    "category": "Гербіцид",
+    "packaging": "0.5 кг"
+  },
+  {
+    "slug": "evolyushn-komplekt-upl",
+    "name": "Еволюшн (комплект)",
+    "category": "Гербіцид",
+    "packaging": "1л+2л"
+  },
+  {
+    "slug": "kvikfos-tb-upl",
+    "name": "Квікфос, ТБ",
+    "category": "Гербіцид",
+    "packaging": "1 кг"
+  },
+  {
+    "slug": "koroza-ev-upl",
+    "name": "Короза, ЕВ",
+    "category": "Фунгіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "malvin-upl",
+    "name": "Малвін",
+    "category": "Фунгіцид",
+    "packaging": "10 кг"
+  },
+  {
+    "slug": "mikrotiol-spetsial-v-h-upl",
+    "name": "Мікротіол Спеціал, в.г.",
+    "category": "Фунгіцид",
+    "packaging": "25 кг"
+  },
+  {
+    "slug": "pantera-upl",
+    "name": "Пантера",
+    "category": "Гербіцид",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "proponit-upl",
+    "name": "Пропоніт",
+    "category": "Гербіцид",
+    "packaging": "20 л"
+  },
+  {
+    "slug": "ruter-rk-upl",
+    "name": "Рутер, РК",
+    "category": "Регулятор росту",
+    "packaging": "5 л"
+  },
+  {
+    "slug": "silvet-hold-upl",
+    "name": "Сільвет Голд",
+    "category": "Адʼювант",
+    "packaging": "1 л"
+  }
+]

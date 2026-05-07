@@ -1,0 +1,118 @@
+{
+  "producer": "UPL",
+  "researchedAt": "2026-05-07T00:00:00Z",
+  "items": [
+    {
+      "slug": "blu-bordo-dyspers-v-h-upl",
+      "name": "Блу Бордо Дисперс, в.г.",
+      "activeIngredient": "Сульфат міді, 770 г/кг",
+      "activeIngredientRu": "Сульфат меди, 770 г/кг",
+      "rate": "1,0 - 6,25 кг/га",
+      "source": "https://agroantal.com.ua/product/blu-bordo-28323"
+    },
+    {
+      "slug": "vepo-upl",
+      "name": "Вепо",
+      "activeIngredient": "Бета-циперметрин, 100 г/л",
+      "activeIngredientRu": "Бета-циперметрин, 100 г/л",
+      "rate": "0,075 - 0,15 л/га",
+      "source": "https://agroantal.com.ua/product/insekticid-vepo-29890"
+    },
+    {
+      "slug": "versar-ke-superkil-upl",
+      "name": "Версар, КЕ (Суперкіл)",
+      "activeIngredient": "Хлорпірифос, 400 г/л; циперметрин, 40 г/л",
+      "activeIngredientRu": "Хлорпирифос, 400 г/л; циперметрин, 40 г/л",
+      "rate": "0,45 - 1,0 л/га",
+      "source": "https://www.eridon.ua/versar-ke"
+    },
+    {
+      "slug": "vitavaks-upl",
+      "name": "Вітавакс",
+      "activeIngredient": "Карбоксин, 200 г/л; тирам, 200 г/л",
+      "activeIngredientRu": "Карбоксин, 200 г/л; тирам, 200 г/л",
+      "rate": "2,5 - 3,0 л/т",
+      "source": "https://www.eridon.ua/vitavaks-200-ff-vsk"
+    },
+    {
+      "slug": "everest-komplekt-upl",
+      "name": "Еверест (комплект)",
+      "activeIngredient": "Флукарбазон натрію, 700 г/кг",
+      "activeIngredientRu": "Флукарбазон натрия, 700 г/кг",
+      "rate": "0,035 - 0,12 кг/га",
+      "source": "https://agrarii-razom.com.ua/preparations/everest"
+    },
+    {
+      "slug": "evolyushn-komplekt-upl",
+      "name": "Еволюшн (комплект)",
+      "activeIngredient": "Клетодим, 140 г/л; галоксифоп-Р-етил, 70 г/л",
+      "activeIngredientRu": "Клетодим, 140 г/л; галоксифоп-Р-этил, 70 г/л",
+      "rate": "0,35 - 1,0 л/га",
+      "source": "https://www.eridon.ua/evolyushn-21-ke"
+    },
+    {
+      "slug": "kvikfos-tb-upl",
+      "name": "Квікфос, ТБ",
+      "activeIngredient": "Фосфід алюмінію, 560 г/кг",
+      "activeIngredientRu": "Фосфид алюминия, 560 г/кг",
+      "rate": "3 - 9 г/т (1-3 таб./т зерна)",
+      "source": "https://www.eridon.ua/kvikfos-560-tb"
+    },
+    {
+      "slug": "koroza-ev-upl",
+      "name": "Короза, ЕВ",
+      "activeIngredient": "Тебуконазол, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://aoplatforma.com/ru/shop/cpp/fungicides/koroza"
+    },
+    {
+      "slug": "malvin-upl",
+      "name": "Малвін",
+      "activeIngredient": "Каптан, 800 г/кг",
+      "activeIngredientRu": "Каптан, 800 г/кг",
+      "rate": "1,8 - 2,5 кг/га",
+      "source": "https://agroantal.com.ua/product/malvin-28998"
+    },
+    {
+      "slug": "mikrotiol-spetsial-v-h-upl",
+      "name": "Мікротіол Спеціал, в.г.",
+      "activeIngredient": "Сірка, 800 г/кг",
+      "activeIngredientRu": "Сера, 800 г/кг",
+      "rate": "2,0 - 4,0 кг/га",
+      "source": "https://agrarii-razom.com.ua/preparations/mikrotiol-special"
+    },
+    {
+      "slug": "pantera-upl",
+      "name": "Пантера",
+      "activeIngredient": "Хізалофоп-П-тефурил, 40 г/л",
+      "activeIngredientRu": "Хизалофоп-П-тефурил, 40 г/л",
+      "rate": "1,0 - 2,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/pantera"
+    },
+    {
+      "slug": "proponit-upl",
+      "name": "Пропоніт",
+      "activeIngredient": "Пропізохлор, 720 г/л",
+      "activeIngredientRu": "Пропизохлор, 720 г/л",
+      "rate": "2,0 - 3,0 л/га",
+      "source": "https://www.eridon.ua/proponit"
+    },
+    {
+      "slug": "ruter-rk-upl",
+      "name": "Рутер, РК",
+      "activeIngredient": "P2O5, 13%; K2O, 5%; фільтрат водорості Ascophyllum nodosum, 25%",
+      "activeIngredientRu": "P2O5, 13%; K2O, 5%; фильтрат водоросли Ascophyllum nodosum, 25%",
+      "rate": "0,75 - 1,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/ruter-rk"
+    },
+    {
+      "slug": "silvet-hold-upl",
+      "name": "Сільвет Голд",
+      "activeIngredient": "Трисилоксан алкоксилат, 100%",
+      "activeIngredientRu": "Трисилоксан алкоксилат, 100%",
+      "rate": "0,05 - 0,2 л/га",
+      "source": "https://agroantal.com.ua/product/silvet-gold-29015"
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "producer": "Байер",
+  "researchedAt": "2026-05-07T00:00:00Z",
+  "items": [
+    {
+      "slug": "aviator-khpro-225-es-ke-baier",
+      "name": "Авiатор ХPRO 225 ЕС, КЕ",
+      "activeIngredient": "Біксафен, 75 г/л; протіоконазол, 150 г/л",
+      "activeIngredientRu": "Биксафен, 75 г/л; протиоконазол, 150 г/л",
+      "rate": "0,6 - 1,5 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/aviator-xpro-225-ec"
+    },
+    {
+      "slug": "adenho-465-ks-baier",
+      "name": "Аденго 465 КС",
+      "activeIngredient": "Ізоксафлютол, 225 г/л; ципросульфамід, 150 г/л; тієнкарбазон-метил, 90 г/л",
+      "activeIngredientRu": "Изоксафлютол, 225 г/л; ципросульфамид, 150 г/л; тиенкарбазон-метил, 90 г/л",
+      "rate": "0,35 - 0,5 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/adengo-bayer-id810"
+    },
+    {
+      "slug": "alyett-80-wp-zp-baier",
+      "name": "Альєтт 80 WP, ЗП",
+      "activeIngredient": "Фозетил алюмінію, 800 г/кг",
+      "activeIngredientRu": "Фосэтил алюминия, 800 г/кг",
+      "rate": "1,5 - 4,0 кг/га",
+      "source": "https://www.eridon.ua/alett-80procent-zp"
+    },
+    {
+      "slug": "antrakol-70-wg-vh-baier",
+      "name": "Антракол 70 WG, ВГ",
+      "activeIngredient": "Пропінеб, 700 г/кг",
+      "activeIngredientRu": "Пропинеб, 700 г/кг",
+      "rate": "1,5 - 2,0 кг/га",
+      "source": "https://agrarii-razom.com.ua/preparations/antrakol-70-g"
+    },
+    {
+      "slug": "atlantis-star-baier",
+      "name": "Атлантіс стар",
+      "activeIngredient": "Мезосульфурон-метил, 45 г/кг; йодсульфурон-метил, 9 г/кг; тієнкарбазон-метил, 22,5 г/кг; мефенпір-діетил, 135 г/кг",
+      "activeIngredientRu": "Мезосульфурон-метил, 45 г/кг; йодсульфурон-метил, 9 г/кг; тиенкарбазон-метил, 22,5 г/кг; мефенпир-диэтил, 135 г/кг",
+      "rate": "0,33 - 0,35 кг/га",
+      "source": "https://agroantal.com.ua/product/gerbicid-atlantis-star-30253"
+    },
+    {
+      "slug": "bekano-500sc-kc-baier",
+      "name": "Бекано 500SC KC",
+      "activeIngredient": "Індазіфлам, 500 г/л",
+      "activeIngredientRu": "Индазифлам, 500 г/л",
+      "rate": "0,15 - 0,2 л/га",
+      "source": "https://gryadka.ua/bekano-500-sc-ks-herbitsyd-bayer-05-l"
+    },
+    {
+      "slug": "belt-480-sc-ks-baier",
+      "name": "Белт 480 SC, КС",
+      "activeIngredient": "Флубендіамід, 480 г/л",
+      "activeIngredientRu": "Флубендиамид, 480 г/л",
+      "rate": "0,1 - 0,15 л/га",
+      "source": "https://www.eridon.ua/belt-48procent-ks"
+    },
+    {
+      "slug": "betanal-ekspert-274-es-ke-baier",
+      "name": "Бетанал Експерт 274 ЕС, КЕ",
+      "activeIngredient": "Фенмедифам, 91 г/л; десмедифам, 71 г/л; етофумезат, 112 г/л",
+      "activeIngredientRu": "Фенмедифам, 91 г/л; десмедифам, 71 г/л; этофумезат, 112 г/л",
+      "rate": "1,0 - 1,5 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/betanal-ekspert-bayer-id1416"
+    },
+    {
+      "slug": "betanal-maks-pro-209-od-md-baier",
+      "name": "Бетанал Макс Про 209 OD, МД",
+      "activeIngredient": "Фенмедифам, 60 г/л; десмедифам, 47 г/л; етофумезат, 75 г/л; ленацил, 27 г/л",
+      "activeIngredientRu": "Фенмедифам, 60 г/л; десмедифам, 47 г/л; этофумезат, 75 г/л; ленацил, 27 г/л",
+      "rate": "1,25 - 1,5 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/betanal-maks-pro-209-od-bayer-id1414"
+    },
+    {
+      "slug": "biopauer-baier",
+      "name": "Бiопауер",
+      "activeIngredient": "Алкілетер сульфат натрієвої солі, 276,5 г/л",
+      "activeIngredientRu": "Алкилэфир сульфат натриевой соли, 276,5 г/л",
+      "rate": "0,5 - 1,25 л/га",
+      "source": "https://www.eridon.ua/biopauer"
+    },
+    {
+      "slug": "vaiyeho-200sc-ks-baier",
+      "name": "Вайєго 200SC, КС",
+      "activeIngredient": "Тетраніліпрол, 200 г/л",
+      "activeIngredientRu": "Тетранилипрол, 200 г/л",
+      "rate": "0,04 - 0,375 л/га",
+      "source": "https://agroantal.com.ua/product/insekticid-vaego-30372"
+    },
+    {
+      "slug": "hrodil-maksi-375-od-md-baier",
+      "name": "Гродiл Максi 375 OD, МД",
+      "activeIngredient": "Йодосульфурон, 25 г/л; амідосульфурон, 100 г/л; мефенпір-діетил, 250 г/л",
+      "activeIngredientRu": "Йодосульфурон, 25 г/л; амидосульфурон, 100 г/л; мефенпир-диэтил, 250 г/л",
+      "rate": "0,09 - 0,11 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/grodil-maksi-375-od-bayer-id2124"
+    },
+    {
+      "slug": "delaro-forte-280-es-baier",
+      "name": "Деларо Форте 280 ЕС",
+      "activeIngredient": "Трифлоксистробін, 80 г/л; протіоконазол, 93,3 г/л; спіроксамін, 107 г/л",
+      "activeIngredientRu": "Трифлоксистробин, 80 г/л; протиоконазол, 93,3 г/л; спироксамин, 107 г/л",
+      "rate": "0,8 - 1,5 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/delaro-forte-280-es-ke"
+    },
+    {
+      "slug": "detsys-100-es-ke-baier",
+      "name": "Децис 100 ЕС, КЕ",
+      "activeIngredient": "Дельтаметрин, 100 г/л",
+      "activeIngredientRu": "Дельтаметрин, 100 г/л",
+      "rate": "0,05 - 0,25 л/га",
+      "source": "https://agrostart.com.ua/shop/insekticzid-deczis-100-es-ke-1-litr-bayer/"
+    },
+    {
+      "slug": "emesto-silver-baier",
+      "name": "Еместо Сільвер",
+      "activeIngredient": "Пенфлуфен, 100 г/л; протіоконазол, 18 г/л",
+      "activeIngredientRu": "Пенфлуфен, 100 г/л; протиоконазол, 18 г/л",
+      "rate": "0,2 - 0,4 л/т",
+      "source": "https://www.agroxxi.ru/goshandbook/prep/emesto-silver-ks.html"
+    },
+    {
+      "slug": "emesto-kvantum-273-5-fs-tn-baier",
+      "name": "Еместo Квантум 273,5 FS, ТН",
+      "activeIngredient": "Клотіанідин, 207 г/л; пенфлуфен, 66,5 г/л",
+      "activeIngredientRu": "Клотианидин, 207 г/л; пенфлуфен, 66,5 г/л",
+      "rate": "0,3 - 0,35 л/т",
+      "source": "https://agrarii-razom.com.ua/preparations/emesto-kvantum-273-5-fs"
+    },
+    {
+      "slug": "zenkor-likvid-600-sc-ks-baier",
+      "name": "Зенкор Лiквiд 600 SC, КС",
+      "activeIngredient": "Метрибузин, 600 г/л",
+      "activeIngredientRu": "Метрибузин, 600 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/zenkor-likvid-600-sc"
+    },
+    {
+      "slug": "input-klasik-baier",
+      "name": "Інпут Класік",
+      "activeIngredient": "Протіоконазол, 160 г/л; спіроксамін, 300 г/л",
+      "activeIngredientRu": "Протиоконазол, 160 г/л; спироксамин, 300 г/л",
+      "rate": "0,8 - 1,25 л/га",
+      "source": "https://superagronom.com/pesticidi-fungicidi/input-classic-id28936"
+    },
+    {
+      "slug": "infinito-61sc-687-5-ks-baier",
+      "name": "Інфiнiто 61SC, 687,5, КС",
+      "activeIngredient": "Флуопіколід, 62,5 г/л; пропамокарб гідрохлорид, 625 г/л",
+      "activeIngredientRu": "Флуопиколид, 62,5 г/л; пропамокарб гидрохлорид, 625 г/л",
+      "rate": "1,2 - 1,6 л/га",
+      "source": "https://agrostart.com.ua/shop/fungicid-infinito-5l/"
+    },
+    {
+      "slug": "kambalio-praim-20-baier",
+      "name": "Камбаліо Прайм 20",
+      "activeIngredient": "Флуоксапіпролін, 20 г/л",
+      "activeIngredientRu": "Флуоксапипролин, 20 г/л",
+      "rate": "0,6 - 1,0 л/га",
+      "source": "https://agroantal.com.ua/product/fungicid-kambalio-prime-30714"
+    },
+    {
+      "slug": "kambalio-smart-230-baier",
+      "name": "Камбаліо Смарт 230",
+      "activeIngredient": "Флуоксапіпролін, 30 г/л; флуопіколід, 200 г/л",
+      "activeIngredientRu": "Флуоксапипролин, 30 г/л; флуопиколид, 200 г/л",
+      "rate": "0,5 - 0,7 л/га",
+      "source": "https://agroantal.com.ua/product/fungicid-kambalio-smart-30715"
+    },
+    {
+      "slug": "kayunis32-5es-baier",
+      "name": "Каюніс32 5ЕС",
+      "activeIngredient": "Біксафен, 75 г/л; спіроксамін, 150 г/л; трифлоксистробін, 100 г/л",
+      "activeIngredientRu": "Биксафен, 75 г/л; спироксамин, 150 г/л; трифлоксистробин, 100 г/л",
+      "rate": "0,6 - 1,0 л/га",
+      "source": "https://agroexp.com.ua/uk/fungitsid-kayunis-kupit-opisanie-tsena-instruktsiya-ukraina"
+    },
+    {
+      "slug": "konnekt-112-5-sc-ks-baier",
+      "name": "Коннект 112,5 SC, КС",
+      "activeIngredient": "Імідаклоприд, 100 г/л; бета-цифлутрин, 12,5 г/л",
+      "activeIngredientRu": "Имидаклоприд, 100 г/л; бета-цифлутрин, 12,5 г/л",
+      "rate": "0,4 - 0,6 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/konnekt-112-5-sc"
+    },
+    {
+      "slug": "konfidor-200sl-rk-baier",
+      "name": "Конфiдор 200SL, РК",
+      "activeIngredient": "Імідаклоприд, 200 г/л",
+      "activeIngredientRu": "Имидаклоприд, 200 г/л",
+      "rate": "0,15 - 1,0 л/га",
+      "source": "https://superagronom.com/pesticidi-insekticidi-i-akaricidi/konfidor-200-sl-bayer-id3160"
+    },
+    {
+      "slug": "laudis-30-wg-vh-baier",
+      "name": "Лаудіс 30 WG, ВГ",
+      "activeIngredient": "Темботріон, 200 г/кг; ізоксадіфен (антидот), 100 г/кг",
+      "activeIngredientRu": "Тембортион, 200 г/кг; изоксадифен (антидот), 100 г/кг",
+      "rate": "0,4 - 0,5 кг/га",
+      "source": "https://www.eridon.ua/laudis-vg"
+    },
+    {
+      "slug": "luna-senseishn-500-sc-ks-baier",
+      "name": "Луна  Сенсейшн 500 SC, КС",
+      "activeIngredient": "Флуопірам, 250 г/л; трифлоксистробін, 250 г/л",
+      "activeIngredientRu": "Флуопирам, 250 г/л; трифлоксистробин, 250 г/л",
+      "rate": "0,25 - 0,35 л/га",
+      "source": "https://www.eridon.ua/luna-sensejshn-500-sc-ks"
+    },
+    {
+      "slug": "luna-ker-71-6-wg-vh-baier",
+      "name": "Луна Кер 71,6 WG, ВГ",
+      "activeIngredient": "Флуопірам, 50 г/кг; фозетил алюмінію, 666 г/кг",
+      "activeIngredientRu": "Флуопирам, 50 г/кг; фосэтил алюминия, 666 г/кг",
+      "rate": "1,35 - 3,0 кг/га",
+      "source": "https://superagronom.com/pesticidi-fungicidi/luna-ker-id28943"
+    },
+    {
+      "slug": "luna-ekspiriens-400-sc-ks-baier",
+      "name": "Луна Экспiрiенс 400 SC, КС",
+      "activeIngredient": "Флуопірам, 200 г/л; тебуконазол, 200 г/л",
+      "activeIngredientRu": "Флуопирам, 200 г/л; тебуконазол, 200 г/л",
+      "rate": "0,35 - 0,75 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/luna-ekspiriens-400-sc"
+    },
+    {
+      "slug": "maister-pauer-od-md-baier",
+      "name": "МайсТер Пауер OD, МД",
+      "activeIngredient": "Форамсульфурон, 31,5 г/л; йодсульфурон, 1,0 г/л; тієнкарбазон-метил, 10 г/л; ципросульфамід (антидот), 15 г/л",
+      "activeIngredientRu": "Форамсульфурон, 31,5 г/л; йодсульфурон, 1,0 г/л; тиенкарбазон-метил, 10 г/л; ципросульфамид (антидот), 15 г/л",
+      "rate": "1,25 - 1,5 л/га",
+      "source": "https://www.eridon.ua/majster-pauer-575procent-od"
+    },
+    {
+      "slug": "medison-263sc-ks-baier",
+      "name": "Медiсон 263SC, КС",
+      "activeIngredient": "Протіоконазол, 175 г/л; трифлоксистробін, 88 г/л",
+      "activeIngredientRu": "Протиоконазол, 175 г/л; трифлоксистробин, 88 г/л",
+      "rate": "0,4 - 0,9 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/medison-263-sc"
+    },
+    {
+      "slug": "merlin-750wg-vh-baier",
+      "name": "Мерлiн 750WG, ВГ",
+      "activeIngredient": "Ізоксафлютол, 750 г/кг",
+      "activeIngredientRu": "Изоксафлютол, 750 г/кг",
+      "rate": "0,1 - 0,15 кг/га",
+      "source": "https://agrarii-razom.com.ua/preparations/merlin-750-vg"
+    },
+    {
+      "slug": "merlin-fleks-duo-baier",
+      "name": "Мерлiн Флекс Дуо",
+      "activeIngredient": "Ізоксафлютол, 50 г/л; тербутилазин, 375 г/л; ципросульфамід (антидот), 50 г/л",
+      "activeIngredientRu": "Изоксафлютол, 50 г/л; тербутилазин, 375 г/л; ципросульфамид (антидот), 50 г/л",
+      "rate": "1,75 - 2,0 л/га",
+      "source": "https://aridon-agro.com.ua/ua/p1928524690-merlin-fleks-duo.html"
+    },
+    {
+      "slug": "mero-ke-baier",
+      "name": "Меро КЕ",
+      "activeIngredient": "Метиловий ефір ріпакової олії, 810 г/л",
+      "activeIngredientRu": "Метиловый эфир рапсового масла, 810 г/л",
+      "rate": "0,4 - 2,0 л/га",
+      "source": "https://www.eridon.ua/mero-par"
+    },
+    {
+      "slug": "movento-100sc-ks-baier",
+      "name": "Мовенто 100SC, КС",
+      "activeIngredient": "Спіротетрамат, 100 г/л",
+      "activeIngredientRu": "Спиротетрамат, 100 г/л",
+      "rate": "0,75 - 2,25 л/га",
+      "source": "https://www.eridon.ua/movento-ks"
+    },
+    {
+      "slug": "mushket-universal-460od-baier",
+      "name": "Мушкет Універсал 460OD",
+      "activeIngredient": "Йодсульфурон-метил натрію, 5 г/л; 2,4-Д 2-етилгексиловий ефір, 430 г/л; мефенпір-діетил (антидот), 25 г/л",
+      "activeIngredientRu": "Йодсульфурон-метил натрия, 5 г/л; 2,4-Д 2-этилгексиловый эфир, 430 г/л; мефенпир-диэтил (антидот), 25 г/л",
+      "rate": "0,7 - 1,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/mushket-universal-460-od"
+    },
+    {
+      "slug": "nativo-75-wg-vh-baier",
+      "name": "Натiво 75 WG, ВГ",
+      "activeIngredient": "Тебуконазол, 500 г/кг; трифлоксистробін, 250 г/кг",
+      "activeIngredientRu": "Тебуконазол, 500 г/кг; трифлоксистробин, 250 г/кг",
+      "rate": "0,3 - 0,35 кг/га",
+      "source": "https://www.eridon.ua/nativo-75procent-vg"
+    },
+    {
+      "slug": "oberon-rapid-baier",
+      "name": "Оберон Рапід",
+      "activeIngredient": "Спіромезіфен, 228,6 г/л; абамектин, 11,4 г/л",
+      "activeIngredientRu": "Спиромезифен, 228,6 г/л; абамектин, 11,4 г/л",
+      "rate": "0,6 - 0,8 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/oberon-rapid-240-sc-ks"
+    },
+    {
+      "slug": "previkur-enerdzhi-840sl-rk-baier",
+      "name": "Превiкур Енерджі 840SL, РК",
+      "activeIngredient": "Пропамокарб гідрохлорид, 530 г/л; фозетил алюмінію, 310 г/л",
+      "activeIngredientRu": "Пропамокарб гидрохлорид, 530 г/л; фосэтил алюминия, 310 г/л",
+      "rate": "2,0 - 2,5 л/га",
+      "source": "https://agro-zahyst.com.ua/previkur-enerdzhi-840-sl-5l-fungicid-propamokarb-gidrohlorid-fosetil-aljuminiju-bayer-bajier/"
+    },
+    {
+      "slug": "propuls-250se-se-baier",
+      "name": "Пропульс 250SE, СЕ",
+      "activeIngredient": "Флуопірам, 125 г/л; протіоконазол, 125 г/л",
+      "activeIngredientRu": "Флуопирам, 125 г/л; протиоконазол, 125 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.eridon.ua/propuls-25procent-se"
+    },
+    {
+      "slug": "proteus-110od-md-baier",
+      "name": "Протеус 110OD, МД",
+      "activeIngredient": "Тіаклоприд, 100 г/л; дельтаметрин, 10 г/л",
+      "activeIngredientRu": "Тиаклоприд, 100 г/л; дельтаметрин, 10 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.eridon.ua/proteus-11procent-od"
+    },
+    {
+      "slug": "puma-super-ew-ev-baier",
+      "name": "Пума Супер EW, ЕВ",
+      "activeIngredient": "Феноксапроп-П-етил, 69 г/л; мефенпір-діетил (антидот), 75 г/л",
+      "activeIngredientRu": "Феноксапроп-П-этил, 69 г/л; мефенпир-диэтил (антидот), 75 г/л",
+      "rate": "0,8 - 1,0 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/puma-super-bayer-id4369"
+    },
+    {
+      "slug": "rediho-m-120fs-baier",
+      "name": "Редіго М 120FS",
+      "activeIngredient": "Протіоконазол, 100 г/л; металаксил, 20 г/л",
+      "activeIngredientRu": "Протиоконазол, 100 г/л; металаксил, 20 г/л",
+      "rate": "0,6 - 0,8 л/т",
+      "source": "https://www.eridon.ua/redigo-m-12procent-tn"
+    },
+    {
+      "slug": "serenada-aco-sc-ks-baier",
+      "name": "Серенада ACO SC, КС",
+      "activeIngredient": "Bacillus amyloliquefaciens (Bacillus subtilis), штам QST 713",
+      "activeIngredientRu": "Bacillus amyloliquefaciens (Bacillus subtilis), штамм QST 713",
+      "rate": "4,0 - 8,0 л/га",
+      "source": "https://agro-zahyst.com.ua/serenada-aco-sc-10l-fungicid-zhivi-bakterii-bacillus-subtilis-bayer-bajier/"
+    },
+    {
+      "slug": "sivanto-enerdzhi-85es-rk-baier",
+      "name": "Сіванто Енерджі 85ЕС, РК",
+      "activeIngredient": "Флупірадифурон, 75 г/л; дельтаметрин, 10 г/л",
+      "activeIngredientRu": "Флупирадифурон, 75 г/л; дельтаметрин, 10 г/л",
+      "rate": "0,5 - 0,75 л/га",
+      "source": "https://agroexp.com.ua/uk/sivanto-enerdzhi-kupit-opisanie-tsena-instruktsiya-ukraina"
+    },
+    {
+      "slug": "sivanto-praim-200sl-rk-baier",
+      "name": "Сіванто Прайм 200SL, РК",
+      "activeIngredient": "Флупірадифурон, 200 г/л",
+      "activeIngredientRu": "Флупирадифурон, 200 г/л",
+      "rate": "0,25 - 1,0 л/га",
+      "source": "https://agroexp.com.ua/uk/sivanto-praym-kupit-opisanie-tsena-instruktsiya-ukraina"
+    },
+    {
+      "slug": "skala-400sc-ks-baier",
+      "name": "Скала 400SC, КС",
+      "activeIngredient": "Піриметаніл, 400 г/л",
+      "activeIngredientRu": "Пириметанил, 400 г/л",
+      "rate": "0,75 - 2,4 л/га",
+      "source": "https://superagronom.com/pesticidi-fungicidi/skala-400-sc-bayer-id4910"
+    },
+    {
+      "slug": "solihor-425-ec-ke-baier",
+      "name": "Солiгор 425 EC, КЕ",
+      "activeIngredient": "Протіоконазол, 53 г/л; тебуконазол, 148 г/л; спіроксамін, 224 г/л",
+      "activeIngredientRu": "Протиоконазол, 53 г/л; тебуконазол, 148 г/л; спироксамин, 224 г/л",
+      "rate": "0,7 - 1,0 л/га",
+      "source": "https://agro-zahyst.com.ua/soligor-425-es-5l-fungicid-protiokonazol-tebukonazol-spiroksamin-bayer-bajier/"
+    },
+    {
+      "slug": "teldor-50wg-vh-baier",
+      "name": "Тельдор 50WG, ВГ",
+      "activeIngredient": "Фенгексамід, 500 г/кг",
+      "activeIngredientRu": "Фенгексамид, 500 г/кг",
+      "rate": "1,0 - 2,0 кг/га",
+      "source": "https://www.eridon.ua/teldor-50-procent-vdg"
+    },
+    {
+      "slug": "tilmor-240-es-ke-baier",
+      "name": "Тiлмор 240 ЕС, КЕ",
+      "activeIngredient": "Протіоконазол, 80 г/л; тебуконазол, 160 г/л",
+      "activeIngredientRu": "Протиоконазол, 80 г/л; тебуконазол, 160 г/л",
+      "rate": "0,75 - 1,0 л/га",
+      "source": "https://agrarii-razom.com.ua/preparations/tilmor-240-ec"
+    },
+    {
+      "slug": "fandanho-200es-ke-baier",
+      "name": "Фанданго 200ЕС, ке",
+      "activeIngredient": "Флуоксастробін, 100 г/л; протіоконазол, 100 г/л",
+      "activeIngredientRu": "Флуоксастробин, 100 г/л; протиоконазол, 100 г/л",
+      "rate": "1,0 - 1,25 л/га",
+      "source": "https://superagronom.com/pesticidi-fungicidi/fandango-200-es-bayer-id7433"
+    },
+    {
+      "slug": "fever-baier",
+      "name": "Февер",
+      "activeIngredient": "Протіоконазол, 300 г/л",
+      "activeIngredientRu": "Протиоконазол, 300 г/л",
+      "rate": "0,2 - 0,4 л/т",
+      "source": "https://www.eridon.ua/fever-300-fs-tks"
+    },
+    {
+      "slug": "flint-50-ks-baier",
+      "name": "Флiнт 50, КС",
+      "activeIngredient": "Трифлоксистробін, 500 г/кг",
+      "activeIngredientRu": "Трифлоксистробин, 500 г/кг",
+      "rate": "0,15 - 0,25 кг/га",
+      "source": "https://superagronom.com/pesticidi-fungicidi/flint-50-wg-bayer-id5944"
+    },
+    {
+      "slug": "foks-325sc-ks-baier",
+      "name": "Фокс 325SC, КС",
+      "activeIngredient": "Трифлоксистробін, 150 г/л; протіоконазол, 175 г/л",
+      "activeIngredientRu": "Трифлоксистробин, 150 г/л; протиоконазол, 175 г/л",
+      "rate": "0,6 - 0,8 л/га",
+      "source": "https://aop.com.ua/shop/funhitsydy/21128-foks-325-sc-ks"
+    },
+    {
+      "slug": "folikur-250ew-ev-baier",
+      "name": "Фолiкур 250EW, ЕВ",
+      "activeIngredient": "Тебуконазол, 250 г/л",
+      "activeIngredientRu": "Тебуконазол, 250 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.eridon.ua/folikur"
+    },
+    {
+      "slug": "tseron-480-sl-rk-baier",
+      "name": "Церон 480 SL, РК",
+      "activeIngredient": "Етефон, 480 г/л",
+      "activeIngredientRu": "Этефон, 480 г/л",
+      "rate": "0,5 - 1,0 л/га",
+      "source": "https://www.eridon.ua/ru/ceron-48procent-vrk"
+    },
+    {
+      "slug": "chelendzh-600-sc-ks-baier",
+      "name": "Челендж 600 SC, КС",
+      "activeIngredient": "Аклоніфен, 600 г/л",
+      "activeIngredientRu": "Аклонифен, 600 г/л",
+      "rate": "1,0 - 6,0 л/га",
+      "source": "https://superagronom.com/pesticidi-gerbicidi/chelendj-600-sc-bayer-id7513"
+    }
+  ]
+}
