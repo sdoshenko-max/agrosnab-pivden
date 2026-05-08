@@ -15,6 +15,28 @@
 /produkt/raundap-maks-monsanto/*    /produkt/raundap-maks-baier/:splat    301
 /ru/produkt/raundap-maks-monsanto/* /ru/produkt/raundap-maks-baier/:splat 301
 
+# 2026-05-08: склейка варіантів фасовки (slug -2 → канонічний). 8 SKU.
+/produkt/arhument-forte-500-sl-rk-nertus-2/1386/    /produkt/arhument-forte-500-sl-rk-nertus/1386/    301
+/ru/produkt/arhument-forte-500-sl-rk-nertus-2/1386/ /ru/produkt/arhument-forte-500-sl-rk-nertus/1386/ 301
+/produkt/evro-lend-rk-nertus-2/1395/    /produkt/evro-lend-rk-nertus/1395/    301
+/ru/produkt/evro-lend-rk-nertus-2/1395/ /ru/produkt/evro-lend-rk-nertus/1395/ 301
+/produkt/efiron-ke-nertus-2/1397/    /produkt/efiron-ke-nertus/1397/    301
+/ru/produkt/efiron-ke-nertus-2/1397/ /ru/produkt/efiron-ke-nertus/1397/ 301
+/produkt/hlifovit-ekstra-rk-ukravit-2/1512/    /produkt/hlifovit-ekstra-rk-ukravit/1512/    301
+/ru/produkt/hlifovit-ekstra-rk-ukravit-2/1512/ /ru/produkt/hlifovit-ekstra-rk-ukravit/1512/ 301
+/produkt/kanonir-duo-akht-2/3192/    /produkt/kanonir-duo-akht/3192/    301
+/ru/produkt/kanonir-duo-akht-2/3192/ /ru/produkt/kanonir-duo-akht/3192/ 301
+/produkt/zakhvat-oil-ev-ukravit-2/5019/    /produkt/zakhvat-oil-ev-ukravit/5019/    301
+/ru/produkt/zakhvat-oil-ev-ukravit-2/5019/ /ru/produkt/zakhvat-oil-ev-ukravit/5019/ 301
+/produkt/hrou-amino-avanhard-dkm-ukravit-2/6068/    /produkt/hrou-amino-avanhard-dkm-ukravit/6068/    301
+/ru/produkt/hrou-amino-avanhard-dkm-ukravit-2/6068/ /ru/produkt/hrou-amino-avanhard-dkm-ukravit/6068/ 301
+/produkt/stymul-avanhard-ukravit-2/6071/    /produkt/stymul-avanhard-ukravit/6071/    301
+/ru/produkt/stymul-avanhard-ukravit-2/6071/ /ru/produkt/stymul-avanhard-ukravit/6071/ 301
+
+# 2026-05-08: 7029 ПОЛІАМІН видалено як дубль 1449 (та сама фасовка 5 л, той самий виробник)
+/produkt/poliamin-vr-himagro-2/7029/    /produkt/poliamin-vr-himagro/1449/    301
+/ru/produkt/poliamin-vr-himagro-2/7029/ /ru/produkt/poliamin-vr-himagro/1449/ 301
+
 # Auto-generated 2026-05-06: дедуплікація фасовок (Проблеми №3+№4)
 /produkt/avido-tn-alfa-smart-agro/2327/    /produkt/avido-tn-alfa-smart-agro/2236/    301
 /ru/produkt/avido-tn-alfa-smart-agro/2327/ /ru/produkt/avido-tn-alfa-smart-agro/2236/ 301
@@ -122,3 +144,4 @@
 /ru/produkt/karibu-50-z-p-fms/1364/ /ru/produkt/karibu-50-z-p-fms/1290/ 301
 /produkt/kharmoni-fms/1366/    /produkt/kharmoni-fms/1297/    301
 /ru/produkt/kharmoni-fms/1366/ /ru/produkt/kharmoni-fms/1297/ 301
+

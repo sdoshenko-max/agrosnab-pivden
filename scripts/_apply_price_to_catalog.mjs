@@ -208,12 +208,11 @@ for (const row of csvRows) {
       continue;
     }
     // Копіюємо базовий, замінюємо потрібні поля
+    // ВАЖЛИВО: slug у нової фасовки = базовий slug (1:1), без додавання sizeFrag.
+    // Так компонент ProductPage збирає варіанти `p.slug === product.slug` і малює перемикач фасовки.
+    // Розрізняє варіанти `code`, не slug. Дедуплікація нижче пропускає такі new-packaging-колізії.
     const newObj = { ...baseObj };
-    const baseName = baseObj.slug.replace(/^"|"$/g, "");
-    const baseNoMfr = baseName.replace(/-(synhenta|korteva|basf|baier|adama|fms|sammit-agro|defenda|terra-vita|nufarm|upl|monsanto)$/, "");
-    const mfrSlug = manufacturerSlug(priceMfr);
-    const sizeFrag = pkgToSlugFragment(normPkgPrice);
-    const newSlug = `${baseNoMfr}-${sizeFrag}-${mfrSlug}`;
+    const newSlug = baseObj.slug.replace(/^"|"$/g, "");
     newObj.slug = JSON.stringify(newSlug);
     newObj.name = JSON.stringify(priceName);
     newObj.nameRu = JSON.stringify(priceName);
@@ -224,7 +223,7 @@ for (const row of csvRows) {
     newObj.currency = JSON.stringify(currency);
     delete newObj.image; // нова фасовка без фото
     delete newObj._line;
-    newSkus.push({ obj: newObj, code, action, baseSlug: ourSlug });
+    newSkus.push({ obj: newObj, code, action, baseSlug: ourSlug, keepBaseSlug: true });
     newCodesCatalogRows.push({
       code,
       name: priceName,
@@ -274,6 +273,7 @@ for (const row of csvRows) {
 }
 
 // === Дедуплікація нових slug-ів (раптом колізії) ===
+// Виняток: new-packaging навмисно ділить slug із базовим SKU (це і є зв'язка варіантів) — не суфіксуємо.
 const seenSlugs = new Set();
 for (let i = 0; i < lines.length; i++) {
   const m = lines[i].match(skuLineRe);
@@ -281,6 +281,10 @@ for (let i = 0; i < lines.length; i++) {
 }
 for (const ns of newSkus) {
   let slug = ns.obj.slug.replace(/^"|"$/g, "");
+  if (ns.keepBaseSlug) {
+    ns.finalSlug = slug;
+    continue;
+  }
   let suffix = 2;
   while (seenSlugs.has(slug)) {
     slug = `${slug.replace(/-\d+$/, "")}-${suffix++}`;
