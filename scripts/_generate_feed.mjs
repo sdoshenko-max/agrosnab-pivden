@@ -9,6 +9,23 @@
 import fs from 'fs';
 import path from 'path';
 
+// Дублікат логіки з lib/types.ts:getPackSize() — щоб не тягти TS у скрипт.
+// "5 л" → 5, "10 кг" → 10, "500 г" → 0.5, "50 мл" → 0.05, "1 т" → 1000.
+function getPackSize(packaging) {
+  const s = String(packaging || '').toLowerCase();
+  const m = s.match(/(\d+(?:[.,]\d+)?)\s*(кг|мл|гр|г|л|т)/);
+  if (!m) {
+    const n = s.match(/[\d.,]+/);
+    return n ? (parseFloat(n[0].replace(',', '.')) || 1) : 1;
+  }
+  const num = parseFloat(m[1].replace(',', '.')) || 1;
+  const unit = m[2];
+  if (unit === 'г' || unit === 'гр') return num / 1000;
+  if (unit === 'мл') return num / 1000;
+  if (unit === 'т') return num * 1000;
+  return num;
+}
+
 const SITE = 'https://agrosnab-pivden.com';
 const PRODUCTS_FILE = 'lib/products.ts';
 const CULTURES_FILE = 'lib/cultures.ts';
@@ -210,8 +227,11 @@ async function main() {
   for (const p of products) {
     if (!p.code || !p.slug) { skipped++; continue; }
 
+    // priceCash у каталозі — ціна ЗА 1 ЛІТР/КГ. У Prom торгуємо упаковками, тому
+    // множимо на розмір фасовки (10 л → ×10, 500 г → ×0.5).
     const usdRate = p.currency === 'EUR' ? rates.EUR : rates.USD;
-    const priceUah = Math.round(p.priceCash * usdRate);
+    const packSize = getPackSize(p.packaging);
+    const priceUah = Math.round(p.priceCash * packSize * usdRate);
     if (priceUah <= 0 && !p.priceOnRequest) { skipped++; continue; }
 
     const categoryId = categoryIdMap.get(p.groupSlug) || 1;
