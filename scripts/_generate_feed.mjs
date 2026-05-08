@@ -231,8 +231,14 @@ async function main() {
 
     // Характеристики
     out.push(`        <param name="Виробник">${escape(p.manufacturer)}</param>`);
+    out.push(`        <param name="Код запчастини">${escape(p.code)}</param>`);
     if (p.packaging) out.push(`        <param name="Фасовка">${escape(p.packaging)}</param>`);
-    if (p.activeIngredient) out.push(`        <param name="Діюча речовина">${escape(p.activeIngredient)}</param>`);
+    if (p.activeIngredient) {
+      // Prom обмежує param-значення 255 символами. Чистимо переноси і обрізаємо.
+      const aiClean = p.activeIngredient.replace(/[\r\n]+/g, ' ').replace(/\s+/g, ' ').trim();
+      const aiTrimmed = aiClean.length > 250 ? aiClean.slice(0, 247) + '...' : aiClean;
+      out.push(`        <param name="Діюча речовина">${escape(aiTrimmed)}</param>`);
+    }
     if (p.rate) out.push(`        <param name="Норма витрати">${escape(p.rate)}</param>`);
     out.push(`        <param name="Категорія">${escape(p.group)}</param>`);
     out.push(`        <param name="Тип">${escape(
