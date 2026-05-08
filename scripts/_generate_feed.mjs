@@ -24,20 +24,23 @@ const args = Object.fromEntries(
     }),
 );
 
-// 1. Курс НБУ
+// 1. Курс monobank (rateSell — найближчий до міжбанку)
+// API: https://api.monobank.ua/bank/currency
+// Коди ISO 4217: USD=840, EUR=978, UAH=980. Rate-limit: 1 запит/хв.
 async function getRates() {
   if (args['rate-usd'] && args['rate-eur']) {
     return { USD: +args['rate-usd'], EUR: +args['rate-eur'], source: 'argv' };
   }
   try {
-    const res = await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json');
+    const res = await fetch('https://api.monobank.ua/bank/currency');
+    if (!res.ok) throw new Error(`Mono HTTP ${res.status}`);
     const data = await res.json();
-    const usd = data.find(d => d.cc === 'USD');
-    const eur = data.find(d => d.cc === 'EUR');
-    if (!usd || !eur) throw new Error('rates not found');
-    return { USD: +usd.rate.toFixed(2), EUR: +eur.rate.toFixed(2), source: 'NBU' };
+    const usd = data.find(d => d.currencyCodeA === 840 && d.currencyCodeB === 980);
+    const eur = data.find(d => d.currencyCodeA === 978 && d.currencyCodeB === 980);
+    if (!usd?.rateSell || !eur?.rateSell) throw new Error('Mono: USD/EUR rateSell missing');
+    return { USD: +usd.rateSell.toFixed(2), EUR: +eur.rateSell.toFixed(2), source: 'Mono' };
   } catch (e) {
-    console.warn('Не вдалось отримати курс НБУ, fallback 44.00 / 51.70');
+    console.warn(`Не вдалось отримати курс Mono (${e.message}), fallback 44.00 / 51.70`);
     return { USD: 44.00, EUR: 51.70, source: 'fallback' };
   }
 }
