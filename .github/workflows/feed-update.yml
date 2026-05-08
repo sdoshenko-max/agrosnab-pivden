@@ -1,0 +1,33 @@
+name: Update Prom YML feed (daily)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  regenerate-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Regenerate feed.xml
+        run: node scripts/_generate_feed.mjs
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet public/feed.xml; then
+            echo "Feed unchanged - no push needed."
+            exit 0
+          fi
+          git add public/feed.xml
+          git commit -m "chore(feed): auto-update Mono rate (cron)"
+          git push origin main
