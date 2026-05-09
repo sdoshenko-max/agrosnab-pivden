@@ -64,7 +64,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
       <section className="bg-white border-b border-border">
         <div className="container-w py-8 lg:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl border border-border flex items-center justify-center aspect-square overflow-hidden">
-            <ProductImage product={product} alt={name} size="lg" className="w-full h-full object-contain p-2" />
+            <ProductImage product={product} alt={name} size="lg" className="w-full h-full object-contain p-2" priority />
           </div>
           <div>
             <div className="flex items-center gap-2 mb-3 flex-wrap">

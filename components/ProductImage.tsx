@@ -1,39 +1,36 @@
-"use client";
-
-import { useState } from "react";
 import type { Product } from "@/lib/types";
 import { ProductPlaceholder } from "./ProductPlaceholder";
+import { productImageCodes, productImageSlugs } from "@/lib/_image-manifest";
 
 type Props = {
   product: Product;
   alt: string;
   size?: "sm" | "md" | "lg";
   className?: string;
+  priority?: boolean;
 };
 
-// Ланцюг fallback для фото товару:
-// 1) /products/<code>.jpg — фото конкретної фасовки (унікальне)
-// 2) /products/<slug>.jpg — старе generic-фото товара (одне на всі фасовки)
-// 3) <ProductPlaceholder /> — SVG-плашка з абревіатурою назви
-export function ProductImage({ product, alt, size = "md", className }: Props) {
-  type Tier = "code" | "slug" | "placeholder";
-  const [tier, setTier] = useState<Tier>("code");
+// Маніфест формується скриптом scripts/_generate_image_manifest.mjs (запускається у prebuild),
+// тож src вибирається синхронно при SSR — без post-mount onError-fallback, який ламався при гонці гідратації:
+// 404 від <img> прилітав до того, як React встигав прив'язати обробник, і fallback не спрацьовував.
+export function ProductImage({ product, alt, size = "md", className, priority = false }: Props) {
+  const src = productImageCodes.has(product.code)
+    ? `/products/${product.code}.jpg`
+    : productImageSlugs.has(product.slug)
+      ? `/products/${product.slug}.jpg`
+      : null;
 
-  if (tier === "placeholder") {
+  if (!src) {
     return <ProductPlaceholder product={product} size={size} />;
   }
-
-  const src = tier === "code"
-    ? `/products/${product.code}.jpg`
-    : `/products/${product.slug}.jpg`;
 
   return (
     <img
       src={src}
       alt={alt}
       className={className}
-      loading="lazy"
-      onError={() => setTier(tier === "code" ? "slug" : "placeholder")}
+      loading={priority ? "eager" : "lazy"}
+      fetchPriority={priority ? "high" : undefined}
     />
   );
 }
