@@ -16,7 +16,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!p) return {};
   return {
     title: `${p.nameRu} — ${p.activeIngredientRu}`,
-    description: p.descriptionRu || `${p.nameRu} (${p.manufacturer}) — ${p.activeIngredientRu}, ${p.concentration}.`
+    description: p.descriptionRu || `${p.nameRu} (${p.manufacturer}) — ${p.activeIngredientRu}, ${p.concentration}.`,
+    alternates: { canonical: `https://agrosnab-pivden.com/ru/produkt/${p.slug}/${p.code}/` }
   };
 }
 
