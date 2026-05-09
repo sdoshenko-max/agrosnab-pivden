@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-05-09 09:21">
+<yml_catalog date="2026-05-09 10:02">
   <shop>
     <name>Агроснаб Південь</name>
     <company>ТОВ «АГРОСНАБ-ПІВДЕНЬ»</company>
@@ -9494,6 +9494,7 @@ III клас (помірно небезпечна речовина). Засто�
         <param name="Норма витрати">0,6 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="6001" available="true">
         <name>Аміно Ксеріон</name>
@@ -9600,6 +9601,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 кг/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="3001" available="true">
         <name>Аполло KC</name>
@@ -9816,6 +9818,7 @@ II–III клас. Небезпечний для бджіл — обробки �
         <param name="Норма витрати">0,1 - 0,2 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2001" available="true">
         <name>Бампер супер KE</name>
@@ -9918,6 +9921,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2002" available="true">
         <name>Бампер KE</name>
@@ -10024,6 +10028,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2003" available="true">
         <name>Банджо КС</name>
@@ -10130,6 +10135,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,4 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2004" available="true">
         <name>Банджо Форте КС</name>
@@ -10236,6 +10242,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1002" available="true">
         <name>Бельведер Форте КС</name>
@@ -10452,6 +10459,7 @@ III клас.
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1003" available="true">
         <name>Відблок Плюс МЕ</name>
@@ -10554,6 +10562,7 @@ III клас (помірно небезпечна речовина). Імазе�
         <param name="Норма витрати">1,5 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох</param>
       </offer>
       <offer id="3003" available="true">
         <name>Галіл КС</name>
@@ -10660,6 +10669,7 @@ II клас (небезпечна речовина). Токсичний для �
         <param name="Норма витрати">0,15 - 0,25 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1004" available="true">
         <name>Галiган КЕ</name>
@@ -10758,6 +10768,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1005" available="true">
         <name>Глiфоган РК</name>
@@ -11148,6 +11159,7 @@ III клас.
         <param name="Норма витрати">1,5 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Горох</param>
       </offer>
       <offer id="4001" available="true">
         <name>Еко Ойл Спрей</name>
@@ -11374,6 +11386,7 @@ IV клас (малонебезпечна).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1009" available="true">
         <name>Ерроу КЕ</name>
@@ -11476,6 +11489,7 @@ III клас.
         <param name="Норма витрати">0,4 - 1,8 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Сорго, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3004" available="true">
         <name>Інверт КЕ</name>
@@ -11680,6 +11694,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,5 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник</param>
       </offer>
       <offer id="1010" available="true">
         <name>Калiф КС</name>
@@ -11780,6 +11795,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1011" available="true">
         <name>Калiф Мега ФК</name>
@@ -11878,6 +11894,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий</param>
       </offer>
       <offer id="3005" available="true">
         <name>Корморан КЕ</name>
@@ -11984,6 +12001,7 @@ III клас (помірно небезпечна речовина). Токси�
         <param name="Норма витрати">0,3 - 0,8 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2006" available="true">
         <name>Кустодія КС</name>
@@ -12092,6 +12110,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,2 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3006" available="true">
         <name>Ламдекс CK</name>
@@ -12200,6 +12219,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,1 - 0,3 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1012" available="true">
         <name>Легато Тріо КС</name>
@@ -12302,6 +12322,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2007" available="true">
         <name>Лiндер KC</name>
@@ -12396,6 +12417,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="3007" available="true">
         <name>Маврiк EB</name>
@@ -12500,6 +12522,7 @@ III клас (помірно небезпечна речовина). Селек�
         <param name="Норма витрати">0,1 - 0,2 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2008" available="true">
         <name>Максентіс КС</name>
@@ -12604,6 +12627,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,2 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2009" available="true">
         <name>Меганік КЕ</name>
@@ -12706,6 +12730,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2010" available="true">
         <name>Мерпан Платинум ВГ</name>
@@ -12906,6 +12931,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,8 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1014" available="true">
         <name>Нiкоган МД</name>
@@ -13002,6 +13028,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="2011" available="true">
         <name>Орiус EB</name>
@@ -13108,6 +13135,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1015" available="true">
         <name>Пауертвiн КС</name>
@@ -13304,6 +13332,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">3,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="1017" available="true">
         <name>Прометрекс  50 SC</name>
@@ -13406,6 +13435,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля</param>
       </offer>
       <offer id="3008" available="true">
         <name>Пiрiнекс Cупер KE</name>
@@ -13514,6 +13544,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,75 - 1,5 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1018" available="true">
         <name>Рейсер КЕ</name>
@@ -13614,6 +13645,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 4,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля</param>
       </offer>
       <offer id="3009" available="true">
         <name>Рiмон Фаст КС</name>
@@ -13720,6 +13752,7 @@ II клас (небезпечна речовина). Токсичний для �
         <param name="Норма витрати">0,4 - 0,8 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1019" available="true">
         <name>Скудеро 6-25-25 РК</name>
@@ -13942,6 +13975,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1021" available="true">
         <name>Скудеро Мульті РК</name>
@@ -14056,6 +14090,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1022" available="true">
         <name>Скудеро САВ РК</name>
@@ -14168,6 +14203,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1023" available="true">
         <name>Скудеро ZN+PK</name>
@@ -14282,6 +14318,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1024" available="true">
         <name>Султан КС</name>
@@ -14380,6 +14417,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,3 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий</param>
       </offer>
       <offer id="1025" available="true">
         <name>Султан Твiн КС</name>
@@ -14478,6 +14516,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий</param>
       </offer>
       <offer id="2012" available="true">
         <name>Супрiм EB</name>
@@ -14582,6 +14621,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4002" available="true">
         <name>Сферіко ТН</name>
@@ -14682,6 +14722,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,2 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Горох</param>
       </offer>
       <offer id="2013" available="true">
         <name>Сфiнкс Eкстра  ВГ</name>
@@ -14784,6 +14825,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1026" available="true">
         <name>Томiган KE</name>
@@ -14890,6 +14932,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 0,7 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1027" available="true">
         <name>Триггер ВГ</name>
@@ -14984,6 +15027,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">15 - 25 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1028" available="true">
         <name>Трифлурекс КЕ</name>
@@ -15084,6 +15128,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 5,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="2014" available="true">
         <name>Фольпан Голд WG</name>
@@ -15188,6 +15233,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2015" available="true">
         <name>Фольпан WG</name>
@@ -15294,6 +15340,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,5 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="3010" available="true">
         <name>Цезар KE</name>
@@ -15402,6 +15449,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,1 - 0,3 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="6004" available="true">
         <name>Цикоган РК</name>
@@ -15502,6 +15550,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2016" available="true">
         <name>Авiатор ХPRO 225 ЕС, КЕ</name>
@@ -15604,6 +15653,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1029" available="true">
         <name>Аденго 465 КС</name>
@@ -15710,6 +15760,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,35 - 0,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="2017" available="true">
         <name>Альєтт 80 WP, ЗП</name>
@@ -15934,6 +15985,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1030" available="true">
         <name>Атлантіс стар</name>
@@ -16040,6 +16092,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,33 - 0,35 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця</param>
       </offer>
       <offer id="1031" available="true">
         <name>Бекано 500SC KC</name>
@@ -16250,6 +16303,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,1 - 0,15 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="1032" available="true">
         <name>Бетанал Експерт 274 ЕС, КЕ</name>
@@ -16692,6 +16746,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,04 - 0,375 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Картопля, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1034" available="true">
         <name>Гродiл Максi 375 OD, МД</name>
@@ -16788,6 +16843,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,09 - 0,11 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2019" available="true">
         <name>Деларо Форте 280 ЕС</name>
@@ -16898,6 +16954,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="3014" available="true">
         <name>Децис 100 ЕС, КЕ</name>
@@ -17010,6 +17067,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,05 - 0,25 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4003" available="true">
         <name>Еместо Сільвер</name>
@@ -17118,6 +17176,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,4 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4004" available="true">
         <name>Еместo Квантум 273,5 FS, ТН</name>
@@ -17220,6 +17279,7 @@ III клас (помірно небезпечна речовина). Небез�
         <param name="Норма витрати">0,3 - 0,35 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1035" available="true">
         <name>Зенкор Лiквiд 600 SC, КС</name>
@@ -17324,6 +17384,7 @@ III клас (помірно небезпечна речовина). Сорто-
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2020" available="true">
         <name>Інпут Класік</name>
@@ -17424,6 +17485,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2021" available="true">
         <name>Інфiнiто 61SC, 687,5, КС</name>
@@ -17524,6 +17586,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,2 - 1,6 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2022" available="true">
         <name>Камбаліо Прайм 20</name>
@@ -17622,6 +17685,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2023" available="true">
         <name>Камбаліо Смарт 230</name>
@@ -17722,6 +17786,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 0,7 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2024" available="true">
         <name>Каюніс32 5ЕС</name>
@@ -17826,6 +17891,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="3016" available="true">
         <name>Коннект 112,5 SC, КС</name>
@@ -17928,6 +17994,7 @@ II клас (небезпечна речовина). Токсичний для �
         <param name="Норма витрати">0,4 - 0,6 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3017" available="true">
         <name>Конфiдор 200SL, РК</name>
@@ -18030,6 +18097,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,15 - 1,0 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1036" available="true">
         <name>Лаудіс 30 WG, ВГ</name>
@@ -18138,6 +18206,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,5 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="2025" available="true">
         <name>Луна  Сенсейшн 500 SC, КС</name>
@@ -18244,6 +18313,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 - 0,35 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2026" available="true">
         <name>Луна Кер 71,6 WG, ВГ</name>
@@ -18344,6 +18414,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,35 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2027" available="true">
         <name>Луна Экспiрiенс 400 SC, КС</name>
@@ -18552,6 +18623,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,25 - 1,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="2028" available="true">
         <name>Медiсон 263SC, КС</name>
@@ -18656,6 +18728,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,9 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1038" available="true">
         <name>Мерлiн 750WG, ВГ</name>
@@ -18754,6 +18827,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,1 - 0,15 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="1039" available="true">
         <name>Мерлiн Флекс Дуо</name>
@@ -18856,6 +18930,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,75 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="7002" available="true">
         <name>Меро КЕ</name>
@@ -18956,6 +19031,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,4 - 2,0 л/га</param>
         <param name="Категорія">Адʼювант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3018" available="true">
         <name>Мовенто 100SC, КС</name>
@@ -19060,6 +19136,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 2,25 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1040" available="true">
         <name>Мушкет Універсал 460OD</name>
@@ -19160,6 +19237,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,7 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2029" available="true">
         <name>Натiво 75 WG, ВГ</name>
@@ -19266,6 +19344,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,35 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="3019" available="true">
         <name>Оберон Рапід</name>
@@ -19576,6 +19655,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3020" available="true">
         <name>Протеус 110OD, МД</name>
@@ -19682,6 +19762,7 @@ II клас (небезпечна речовина). Токсичний для �
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1041" available="true">
         <name>Пума Супер EW, ЕВ</name>
@@ -19778,6 +19859,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4005" available="true">
         <name>Редіго М 120FS</name>
@@ -19880,6 +19962,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 0,8 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2032" available="true">
         <name>Серенада ACO SC, КС</name>
@@ -19984,6 +20067,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">4,0 - 8,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3021" available="true">
         <name>Сіванто Енерджі 85ЕС, РК</name>
@@ -20090,6 +20174,7 @@ II клас (небезпечна речовина). Дотримуватися 
         <param name="Норма витрати">0,5 - 0,75 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="3022" available="true">
         <name>Сіванто Прайм 200SL, РК</name>
@@ -20194,6 +20279,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 - 1,0 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2033" available="true">
         <name>Скала 400SC, КС</name>
@@ -20400,6 +20486,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,7 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2035" available="true">
         <name>Тельдор 50WG, ВГ</name>
@@ -20604,6 +20691,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2038" available="true">
         <name>Фанданго 200ЕС, ке</name>
@@ -20702,6 +20790,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="4006" available="true">
         <name>Февер</name>
@@ -20800,6 +20889,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,4 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2039" available="true">
         <name>Флiнт 50, КС</name>
@@ -21008,6 +21098,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 0,8 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2041" available="true">
         <name>Фолiкур 250EW, ЕВ</name>
@@ -21110,6 +21201,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="6005" available="true">
         <name>Церон 480 SL, РК</name>
@@ -21212,6 +21304,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1042" available="true">
         <name>Челендж 600 SC, КС</name>
@@ -21318,6 +21411,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля</param>
       </offer>
       <offer id="2042" available="true">
         <name>Абакус</name>
@@ -21428,6 +21522,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,75 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2044" available="true">
         <name>Акріс, СЕ</name>
@@ -21538,6 +21633,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="2045" available="true">
         <name>Акробат МЦ</name>
@@ -21644,6 +21740,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2046" available="true">
         <name>Альтерно</name>
@@ -21750,6 +21847,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2047" available="true">
         <name>Архітект, СЕ</name>
@@ -21850,6 +21948,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий</param>
       </offer>
       <offer id="1044" available="true">
         <name>Базагран ПРО</name>
@@ -21950,6 +22049,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Горох, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1045" available="true">
         <name>Баста 150 SL</name>
@@ -22050,6 +22150,7 @@ II клас (небезпечна речовина). Застосовувати 
         <param name="Норма витрати">1,0 - 7,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="2048" available="true">
         <name>Белліс, ВГ</name>
@@ -22254,6 +22355,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,75 - 2,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1048" available="true">
         <name>Бутiзан АВАНТ, СЕ</name>
@@ -22354,6 +22456,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий</param>
       </offer>
       <offer id="2049" available="true">
         <name>Даксур, КС</name>
@@ -22450,6 +22553,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 0,7 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2050" available="true">
         <name>Делан</name>
@@ -22652,6 +22756,7 @@ II клас (небезпечна речовина). Застосовувати 
         <param name="Норма витрати">0,8 - 1,2 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1050" available="true">
         <name>Євро-лайтнiнг ПЛЮС, РК</name>
@@ -22748,6 +22853,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">1,6 - 2,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1051" available="true">
         <name>Євро-лайтнiнг, РК</name>
@@ -22844,6 +22950,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">1,0 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="4008" available="true">
         <name>Іншур Перформ т.к.с</name>
@@ -22940,6 +23047,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2051" available="true">
         <name>Кабрiо Дуо</name>
@@ -23040,6 +23148,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1052" available="true">
         <name>Камбіо Стар</name>
@@ -23136,6 +23245,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Горох</param>
       </offer>
       <offer id="2054" available="true">
         <name>Колліс</name>
@@ -23334,6 +23444,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,25 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Горох</param>
       </offer>
       <offer id="2055" available="true">
         <name>Кумулюс ДФ</name>
@@ -23538,6 +23649,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 2,5 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="4010" available="true">
         <name>Кiнто Плюс</name>
@@ -23634,6 +23746,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,5 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2056" available="true">
         <name>Малахiт</name>
@@ -23830,6 +23943,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4011" available="true">
         <name>Мерівон Про</name>
@@ -24016,6 +24130,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,625 - 1,25 л/га</param>
         <param name="Категорія">Адʼювант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3023" available="true">
         <name>Номолт к.с.</name>
@@ -24210,6 +24325,7 @@ III клас (помірно небезпечна речовина). Не сія
         <param name="Норма витрати">1,0 - 1,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1055" available="true">
         <name>Нопасаран Флекс</name>
@@ -24310,6 +24426,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">1,2 - 1,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2057" available="true">
         <name>Орвего,кс</name>
@@ -24412,6 +24529,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2058" available="true">
         <name>Осiрiс Про, КЕ</name>
@@ -24512,6 +24630,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,2 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2059" available="true">
         <name>Полiрам ДФ</name>
@@ -24620,6 +24739,7 @@ II клас (небезпечна речовина).
         <param name="Норма витрати">2,0 - 2,5 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2060" available="true">
         <name>Пріаксор</name>
@@ -24722,6 +24842,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2062" available="true">
         <name>Пiктор, КС</name>
@@ -24822,6 +24943,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2063" available="true">
         <name>Ревікер, КЕ</name>
@@ -24920,6 +25042,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 0,8 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2064" available="true">
         <name>Ревіона</name>
@@ -25018,6 +25141,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 2,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="6007" available="true">
         <name>Регалiс Плюс</name>
@@ -25214,6 +25338,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,6 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2066" available="true">
         <name>Рекс Плюс, СЕ</name>
@@ -25312,6 +25437,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,2 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2067" available="true">
         <name>Рекс Про, СЕ</name>
@@ -25410,6 +25536,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,7 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2068" available="true">
         <name>Серкадіс</name>
@@ -25704,6 +25831,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,5 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="4013" available="true">
         <name>Стандак ТОП</name>
@@ -25810,6 +25938,7 @@ II клас (небезпечна речовина). Небезпечний дл
         <param name="Норма витрати">1,0 - 2,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1057" available="true">
         <name>Стеллар Плюс, РК</name>
@@ -25906,6 +26035,7 @@ III клас (помірно небезпечна речовина). Після 
         <param name="Норма витрати">0,8 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Горох</param>
       </offer>
       <offer id="1058" available="true">
         <name>Стомп 330, к.е</name>
@@ -26008,6 +26138,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля</param>
       </offer>
       <offer id="2070" available="true">
         <name>Стробi</name>
@@ -26312,6 +26443,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 - 1,5 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="6008" available="true">
         <name>Терпал РК</name>
@@ -26414,6 +26546,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 2,5 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2072" available="true">
         <name>Флексiтi</name>
@@ -26508,6 +26641,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1060" available="true">
         <name>Фронтьер оптима</name>
@@ -26612,6 +26746,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,4 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1061" available="true">
         <name>Хайкот Супер Extender</name>
@@ -27025,6 +27160,7 @@ III клас (помірно небезпечна речовина). Збері�
         <param name="Норма витрати">1,5 - 2,0 л/т</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1064" available="true">
         <name>Айдахо</name>
@@ -27126,6 +27262,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">1,5 - 2,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="1065" available="true">
         <name>Айлар</name>
@@ -27227,6 +27364,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">3,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Горох, Картопля</param>
       </offer>
       <offer id="1066" available="true">
         <name>Аксакал</name>
@@ -27326,6 +27464,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">20 - 30 г/га + ПАР</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Озима пшениця</param>
       </offer>
       <offer id="3026" available="true">
         <name>Альтрон</name>
@@ -27429,6 +27568,7 @@ II клас (небезпечна речовина). Токсичний для �
         <param name="Норма витрати">0,05 - 0,1 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3027" available="true">
         <name>Альфа Супер</name>
@@ -27532,6 +27672,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,1 - 0,3 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4014" available="true">
         <name>Арес</name>
@@ -27631,6 +27772,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,5 - 3,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох</param>
       </offer>
       <offer id="3028" available="true">
         <name>Атік</name>
@@ -27734,6 +27876,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">0,1 - 0,25 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1067" available="true">
         <name>Бантен</name>
@@ -27837,6 +27980,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Горох, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4015" available="true">
         <name>Бастіон</name>
@@ -27932,6 +28076,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1068" available="true">
         <name>Бетагард</name>
@@ -28122,6 +28267,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 1,8 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Сорго, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3029" available="true">
         <name>Бомбардир</name>
@@ -28223,6 +28369,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,045 - 0,07 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3030" available="true">
         <name>Бомбардир Аква</name>
@@ -28324,6 +28471,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,2 - 0,3 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3031" available="true">
         <name>Бомбардир Дуо</name>
@@ -28427,6 +28575,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,15 - 0,25 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1070" available="true">
         <name>Брокс</name>
@@ -28528,6 +28677,7 @@ III клас (помірно небезпечна речовина). Має пі
         <param name="Норма витрати">0,75 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1071" available="true">
         <name>Дабл трай</name>
@@ -28629,6 +28779,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,3 - 1,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="1072" available="true">
         <name>Дикамба Форте</name>
@@ -28730,6 +28881,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">0,5 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Озима пшениця</param>
       </offer>
       <offer id="5001" available="true">
         <name>Диквалан</name>
@@ -28831,6 +28983,7 @@ II клас (небезпечна речовина). Дотримуватись 
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
         <param name="Категорія">Десикант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="5002" available="true">
         <name>Диквалан Макс</name>
@@ -28932,6 +29085,7 @@ II клас (небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,2 л/га</param>
         <param name="Категорія">Десикант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2074" available="true">
         <name>Дот</name>
@@ -29041,6 +29195,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1073" available="true">
         <name>Ефімер</name>
@@ -29140,6 +29295,7 @@ III клас (помірно небезпечна речовина). Ефірн�
         <param name="Норма витрати">0,6 - 0,8 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Сорго, Озима пшениця</param>
       </offer>
       <offer id="1074" available="true">
         <name>Імпреза</name>
@@ -29235,6 +29391,7 @@ III клас (помірно небезпечна речовина). Має пі
         <param name="Норма витрати">1,0 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="3032" available="true">
         <name>Кайрос</name>
@@ -29336,6 +29493,7 @@ III клас (помірно небезпечна речовина). Безпе�
         <param name="Норма витрати">0,1 - 0,15 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="2075" available="true">
         <name>Камзол</name>
@@ -29439,6 +29597,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2076" available="true">
         <name>Камзол Турбо</name>
@@ -29542,6 +29701,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 0,7 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1075" available="true">
         <name>Кентавр</name>
@@ -29637,6 +29797,7 @@ III клас (помірно небезпечна речовина). Має пі
         <param name="Норма витрати">20 - 25 г/га + ПАР</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="2077" available="true">
         <name>Кітч</name>
@@ -29740,6 +29901,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1076" available="true">
         <name>Клаттер</name>
@@ -29839,6 +30001,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1077" available="true">
         <name>Кушон</name>
@@ -30037,6 +30200,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,5 - 7,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1078" available="true">
         <name>Літерон</name>
@@ -30134,6 +30298,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1079" available="true">
         <name>Матар</name>
@@ -30231,6 +30396,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">0,5 - 0,75 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="4017" available="true">
         <name>Метакса</name>
@@ -30330,6 +30496,7 @@ II клас (небезпечна речовина). Дотримуватись 
         <param name="Норма витрати">6,0 - 10,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2078" available="true">
         <name>Меценат</name>
@@ -30433,6 +30600,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 0,7 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3033" available="true">
         <name>Миральд</name>
@@ -30625,6 +30793,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">1,0 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="1081" available="true">
         <name>Напалм</name>
@@ -30724,6 +30893,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1082" available="true">
         <name>Напалм Супер</name>
@@ -30823,6 +30993,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1083" available="true">
         <name>Напалм Форте</name>
@@ -30922,6 +31093,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3034" available="true">
         <name>Октант</name>
@@ -31021,6 +31193,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,1 - 0,15 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Картопля</param>
       </offer>
       <offer id="3035" available="true">
         <name>Октант Турбо</name>
@@ -31120,6 +31293,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,2 - 0,25 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2079" available="true">
         <name>Парацельс</name>
@@ -31221,6 +31395,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2080" available="true">
         <name>Пегас</name>
@@ -31324,6 +31499,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1084" available="true">
         <name>Перун</name>
@@ -31425,6 +31601,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">2,0 - 5,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Сорго</param>
       </offer>
       <offer id="1085" available="true">
         <name>Піраміда</name>
@@ -31526,6 +31703,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">0,3 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3036" available="true">
         <name>Престо</name>
@@ -31623,6 +31801,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,3 - 0,4 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1086" available="true">
         <name>Примус</name>
@@ -31718,6 +31897,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">0,4 - 0,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="3037" available="true">
         <name>Просенс</name>
@@ -31819,6 +31999,7 @@ II клас (небезпечна речовина). Токсичний для �
         <param name="Норма витрати">0,2 - 0,25 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Картопля</param>
       </offer>
       <offer id="1087" available="true">
         <name>Рим</name>
@@ -31914,6 +32095,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">40 - 50 г/га + ПАР</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2081" available="true">
         <name>Сальто</name>
@@ -32021,6 +32203,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 2,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1088" available="true">
         <name>Сахара</name>
@@ -32118,6 +32301,7 @@ III клас (помірно небезпечна речовина). На дуж
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="3038" available="true">
         <name>Синерид</name>
@@ -32217,6 +32401,7 @@ II клас (небезпечна речовина). Небезпечний дл
         <param name="Норма витрати">0,3 - 0,5 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1089" available="true">
         <name>Сора-Нет</name>
@@ -32316,6 +32501,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2082" available="true">
         <name>Спліт</name>
@@ -32423,6 +32609,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2083" available="true">
         <name>Спліт Дуо</name>
@@ -32530,6 +32717,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля</param>
       </offer>
       <offer id="2084" available="true">
         <name>Старк</name>
@@ -32637,6 +32825,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1090" available="true">
         <name>Старлент</name>
@@ -32732,6 +32921,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">3,2 - 4,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Сорго, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1091" available="true">
         <name>Сумаро</name>
@@ -32825,6 +33015,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">0,25 л/га + ПАР</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="7006" available="true">
         <name>Супер-Мачо</name>
@@ -32924,6 +33115,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,075 - 0,15 л/га</param>
         <param name="Категорія">Адʼювант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="6009" available="true">
         <name>Тава</name>
@@ -33031,6 +33223,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2085" available="true">
         <name>Талер</name>
@@ -33138,6 +33331,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3039" available="true">
         <name>Твікс</name>
@@ -33237,6 +33431,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,5 - 1,1 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2086" available="true">
         <name>Ультралін</name>
@@ -33344,6 +33539,7 @@ III клас (помірно небезпечна речовина). Не зас
         <param name="Норма витрати">0,3 - 0,5 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля</param>
       </offer>
       <offer id="1092" available="true">
         <name>Форит</name>
@@ -33443,6 +33639,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Озима пшениця</param>
       </offer>
       <offer id="4018" available="true">
         <name>Фуксія</name>
@@ -33550,6 +33747,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 6,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох</param>
       </offer>
       <offer id="1093" available="true">
         <name>Харума</name>
@@ -33645,6 +33843,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Сорго, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="4019" available="true">
         <name>Хлорис</name>
@@ -33740,6 +33939,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,75 - 2,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="3040" available="true">
         <name>Циркуль</name>
@@ -33839,6 +34039,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,15 - 0,2 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1094" available="true">
         <name>Шериф</name>
@@ -33932,6 +34133,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">15 - 25 г/га + ПАР</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1095" available="true">
         <name>Шериф Максі</name>
@@ -34025,6 +34227,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">20 - 30 г/га + ПАР</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1096" available="true">
         <name>Айказ</name>
@@ -34233,6 +34436,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1098" available="true">
         <name>Белкар Флекс, КЕ</name>
@@ -34345,6 +34549,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="7007" available="true">
         <name>Біофорж</name>
@@ -34467,6 +34672,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,5 - 1,5 л/га</param>
         <param name="Категорія">Адʼювант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1099" available="true">
         <name>Блу-Н</name>
@@ -34583,6 +34789,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">333 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2088" available="true">
         <name>Вербен, КЕ</name>
@@ -34681,6 +34888,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="7008" available="true">
         <name>Віволт</name>
@@ -34883,6 +35091,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1100" available="true">
         <name>Геліантекс</name>
@@ -34981,6 +35190,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,045 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1101" available="true">
         <name>Геліантекс + Аканто Плюс</name>
@@ -35081,6 +35291,7 @@ III клас (помірно небезпечні речовини).
         <param name="Норма витрати">0,045 л/га (Геліантекс) + 0,5 - 1,0 л/га (Аканто Плюс)</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1102" available="true">
         <name>Геліантекс Про</name>
@@ -35179,6 +35390,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,05 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="3041" available="true">
         <name>Джеронімо</name>
@@ -35385,6 +35597,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,2 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2091" available="true">
         <name>Зорвекс Вінабрія</name>
@@ -35487,6 +35700,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,75 - 2,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2092" available="true">
         <name>Зорвекс Інкантія</name>
@@ -35589,6 +35803,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1103" available="true">
         <name>Квелекс 200вг</name>
@@ -35689,6 +35904,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,05 - 0,06 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1104" available="true">
         <name>Кордус Флекс</name>
@@ -35795,6 +36011,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,48 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="2093" available="true">
         <name>Косайд 2000 в.г.</name>
@@ -36005,6 +36222,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,5 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1105" available="true">
         <name>Лонтрел 300 в.р.</name>
@@ -36103,6 +36321,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,16 - 0,66 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1106" available="true">
         <name>Лортама</name>
@@ -36209,6 +36428,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,25 - 1,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="4020" available="true">
         <name>Лумівія</name>
@@ -36304,6 +36524,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,24 - 29 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="4021" available="true">
         <name>Лумісена</name>
@@ -36400,6 +36621,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,25 - 1,75 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="4022" available="true">
         <name>Лумітрео</name>
@@ -36499,6 +36721,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,35 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="4023" available="true">
         <name>Луміфлекс</name>
@@ -36594,6 +36817,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,053 - 0,18 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1107" available="true">
         <name>Н-Лок Макс</name>
@@ -36708,6 +36932,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,7 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1108" available="true">
         <name>Паллас  Екстра 317 ВГ</name>
@@ -36810,6 +37035,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,075 - 0,09 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1109" available="true">
         <name>Паллас 45OD</name>
@@ -36910,6 +37136,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,4 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця</param>
       </offer>
       <offer id="1112" available="true">
         <name>Пріма Інтенс</name>
@@ -37014,6 +37241,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 0,8 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3042" available="true">
         <name>Радіант</name>
@@ -37114,6 +37342,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,7 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля</param>
       </offer>
       <offer id="3043" available="true">
         <name>Ріджбек</name>
@@ -37308,6 +37537,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1114" available="true">
         <name>Старане Премiум</name>
@@ -37408,6 +37638,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="6010" available="true">
         <name>Стімулейт</name>
@@ -37520,6 +37751,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,25 - 1,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2095" available="true">
         <name>Талендо</name>
@@ -37624,6 +37856,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,175 - 0,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2096" available="true">
         <name>Талiус</name>
@@ -37722,6 +37955,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2097" available="true">
         <name>Танос 50вг</name>
@@ -37826,6 +38060,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,6 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="4024" available="true">
         <name>Тібарі</name>
@@ -37926,6 +38161,7 @@ II клас (небезпечна речовина). Застосовувати 
         <param name="Норма витрати">1,0 - 1,5 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3044" available="true">
         <name>Трансформ, ВГ</name>
@@ -38022,6 +38258,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,024 - 0,125 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1115" available="true">
         <name>Тiтус</name>
@@ -38120,6 +38357,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,03 - 0,05 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Картопля</param>
       </offer>
       <offer id="1116" available="true">
         <name>Тiтус Екстра</name>
@@ -38220,6 +38458,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,04 - 0,05 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Картопля</param>
       </offer>
       <offer id="1137" available="true">
         <name>Агрiтокс 50%</name>
@@ -38326,6 +38565,7 @@ III клас (помірно небезпечна речовина). Засто�
         <param name="Норма витрати">0,5 - 2,8 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Сорго, Озима пшениця</param>
       </offer>
       <offer id="1138" available="true">
         <name>Агрiтокс Турбо</name>
@@ -38428,6 +38668,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">0,6 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Озима пшениця</param>
       </offer>
       <offer id="2116" available="true">
         <name>Айріс, КЕ</name>
@@ -38536,6 +38777,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1139" available="true">
         <name>Астрал</name>
@@ -38638,6 +38880,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="1140" available="true">
         <name>Декстер</name>
@@ -38742,6 +38985,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,75 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Картопля, Сорго, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2117" available="true">
         <name>Джоуст Про</name>
@@ -38856,6 +39100,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1141" available="true">
         <name>Дiкопур ТОП 464</name>
@@ -38964,6 +39209,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Кукурудза</param>
       </offer>
       <offer id="1142" available="true">
         <name>Еквінокс, КС</name>
@@ -39068,6 +39314,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,06 - 0,12 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1143" available="true">
         <name>Естет 905</name>
@@ -39174,6 +39421,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 0,7 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник, Кукурудза</param>
       </offer>
       <offer id="1144" available="true">
         <name>Зеагран 350</name>
@@ -39284,6 +39532,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="1145" available="true">
         <name>Інтерцепт</name>
@@ -39392,6 +39641,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="3057" available="true">
         <name>Кайзо</name>
@@ -39514,6 +39764,7 @@ II клас (небезпечна речовина). Дотримуватися 
         <param name="Норма витрати">0,15 - 0,3 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3058" available="true">
         <name>Кайзо ПРО</name>
@@ -39636,6 +39887,7 @@ II клас (небезпечна речовина). Дотримуватися 
         <param name="Норма витрати">0,1 - 0,15 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="6011" available="true">
         <name>Кампосан eкстра SL</name>
@@ -39748,6 +40000,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,5 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3059" available="true">
         <name>Карнадін</name>
@@ -39862,6 +40115,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">0,12 - 0,2 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1146" available="true">
         <name>Квад 150РК</name>
@@ -39990,6 +40244,7 @@ II клас (небезпечна речовина). Висока токсичн
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1147" available="true">
         <name>Клозе 480 КЕ</name>
@@ -40104,6 +40359,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Картопля</param>
       </offer>
       <offer id="1148" available="true">
         <name>Клiнiк в.р.</name>
@@ -40216,6 +40472,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 5,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Сорго</param>
       </offer>
       <offer id="1149" available="true">
         <name>Клiнiк Ікстрим</name>
@@ -40442,6 +40699,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 4,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2118" available="true">
         <name>Купроксат</name>
@@ -40558,6 +40816,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 5,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1151" available="true">
         <name>Ларс 250, ВГ</name>
@@ -40662,6 +40921,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">15 - 25 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Кукурудза</param>
       </offer>
       <offer id="1152" available="true">
         <name>Ларс дельта</name>
@@ -40766,6 +41026,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,075 - 0,12 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1153" available="true">
         <name>Ларс Комбі</name>
@@ -40878,6 +41139,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">20 г/га (Ларс) + 20 г/га (Тейлор)</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник</param>
       </offer>
       <offer id="1154" available="true">
         <name>Марсель</name>
@@ -40984,6 +41246,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,23 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="6012" available="true">
         <name>Мокса 250</name>
@@ -41096,6 +41359,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,6 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1155" available="true">
         <name>Монітор Плюс</name>
@@ -41206,6 +41470,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">16 - 26 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Кукурудза</param>
       </offer>
       <offer id="4028" available="true">
         <name>Нупрiд 600</name>
@@ -41326,6 +41591,7 @@ II клас (небезпечна речовина). Висока токсичн
         <param name="Норма витрати">0,4 - 0,7 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2119" available="true">
         <name>Орбiт</name>
@@ -41440,6 +41706,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2120" available="true">
         <name>Орбiт Комбі</name>
@@ -41556,6 +41823,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 + 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2121" available="true">
         <name>Протеб, КЕ</name>
@@ -41668,6 +41936,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1156" available="true">
         <name>Селфі</name>
@@ -42018,6 +42287,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="6013" available="true">
         <name>Стабiлан 750 SL</name>
@@ -42136,6 +42406,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2123" available="true">
         <name>Тейзер</name>
@@ -42258,6 +42529,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1158" available="true">
         <name>Тейлор</name>
@@ -42366,6 +42638,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">15 - 25 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1159" available="true">
         <name>Троллер</name>
@@ -42478,6 +42751,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,35 - 0,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник</param>
       </offer>
       <offer id="1160" available="true">
         <name>Тру</name>
@@ -42588,6 +42862,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">15 - 25 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1161" available="true">
         <name>Філдер, КЕ</name>
@@ -42694,6 +42969,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1162" available="true">
         <name>Флойд, КЕ</name>
@@ -42802,6 +43078,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Сорго, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2124" available="true">
         <name>Чемп Ультра DP</name>
@@ -42918,6 +43195,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,1 - 2,5 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2125" available="true">
         <name>Чемпiон, ВГ</name>
@@ -43034,6 +43312,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2126" available="true">
         <name>Чемпiон, ЗП</name>
@@ -43152,6 +43431,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1163" available="true">
         <name>Агер Форте, КС</name>
@@ -43256,6 +43536,7 @@ III клас (помірно небезпечна речовина). Засто�
         <param name="Норма витрати">0,7 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Кукурудза, Озима пшениця</param>
       </offer>
       <offer id="3060" available="true">
         <name>Акарамік, КЕ</name>
@@ -43358,6 +43639,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,7 - 1,5 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1164" available="true">
         <name>Амалгерон Ессенс, РК</name>
@@ -43464,6 +43746,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">2,0 - 2,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1165" available="true">
         <name>Амарон, РК</name>
@@ -43570,6 +43853,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 4,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3061" available="true">
         <name>Аплауд, КС</name>
@@ -43790,6 +44074,7 @@ III клас (помірно небезпечна речовина). Небез�
         <param name="Норма витрати">2,0 - 6,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1166" available="true">
         <name>Асамі, КС</name>
@@ -43890,6 +44175,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1167" available="true">
         <name>Астрел Макс, СЕ</name>
@@ -43990,6 +44276,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,8 - 3,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Сорго</param>
       </offer>
       <offer id="3062" available="true">
         <name>Балазо к.е.(бiфентрiн)</name>
@@ -44094,6 +44381,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,2 - 0,5 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1168" available="true">
         <name>Бамбу 480, ке</name>
@@ -44198,6 +44486,7 @@ III клас (помірно небезпечна речовина). Можли�
         <param name="Норма витрати">0,15 - 0,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1169" available="true">
         <name>Беструк, РК</name>
@@ -44304,6 +44593,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1170" available="true">
         <name>Біфлай, КС</name>
@@ -44408,6 +44698,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Норма витрати">0,75 - 1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1171" available="true">
         <name>Вайс ПРО, КЕ</name>
@@ -44616,6 +44907,7 @@ III клас.
         <param name="Норма витрати">1,5 - 2,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2128" available="true">
         <name>Глорі, ВГ</name>
@@ -44718,6 +45010,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1172" available="true">
         <name>Дікафлор 440, КЕ</name>
@@ -44818,6 +45111,7 @@ III клас (помірно небезпечна речовина). Небез�
         <param name="Норма витрати">0,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="6014" available="true">
         <name>Еріні, КЕ</name>
@@ -44916,6 +45210,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,6 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Ріпак озимий</param>
       </offer>
       <offer id="2129" available="true">
         <name>Зепан, КС</name>
@@ -45020,6 +45315,7 @@ III клас.
         <param name="Норма витрати">0,5 - 0,8 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2130" available="true">
         <name>Ікарус Турбо 430 ЕВ</name>
@@ -45124,6 +45420,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,6 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1173" available="true">
         <name>Імамекс 40 SL BP</name>
@@ -45228,6 +45525,7 @@ III клас (помірно небезпечна речовина). Має ґр
         <param name="Норма витрати">0,75 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох</param>
       </offer>
       <offer id="3063" available="true">
         <name>Іназума, ВГ</name>
@@ -45326,6 +45624,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,2 - 0,4 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1174" available="true">
         <name>Іночі, РК</name>
@@ -45430,6 +45729,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1175" available="true">
         <name>Інфанта, КС</name>
@@ -45530,6 +45830,7 @@ III клас (помірно небезпечна речовина). Небез�
         <param name="Норма витрати">0,05 - 0,07 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1176" available="true">
         <name>Казумiн 2Л</name>
@@ -45856,6 +46157,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,2 - 0,6 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2131" available="true">
         <name>Каллатіс 280SC, КС</name>
@@ -45956,6 +46258,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2132" available="true">
         <name>Кармеліс, КС</name>
@@ -46060,6 +46363,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1179" available="true">
         <name>Кінактив Інішіал, РК</name>
@@ -46168,6 +46472,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1180" available="true">
         <name>Клевердим Гранд, КЕ</name>
@@ -46268,6 +46573,7 @@ III клас.
         <param name="Норма витрати">0,2 - 0,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Сорго, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3064" available="true">
         <name>Лексикон, КС</name>
@@ -46370,6 +46676,7 @@ III клас. Після висихання краплі практично бе
         <param name="Норма витрати">0,3 - 0,4 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2133" available="true">
         <name>Манзат ВГ (манкоцеб)</name>
@@ -46472,6 +46779,7 @@ III клас. Дотримувати засоби індивідуального
         <param name="Норма витрати">1,2 - 3,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1181" available="true">
         <name>Матріка, КС</name>
@@ -46574,6 +46882,7 @@ III клас.
         <param name="Норма витрати">2,0 - 3,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля</param>
       </offer>
       <offer id="2134" available="true">
         <name>Медян Eкстра 350 SC</name>
@@ -46878,6 +47187,7 @@ III клас.
         <param name="Норма витрати">2,0 - 4,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1182" available="true">
         <name>Наруто, КС</name>
@@ -46982,6 +47292,7 @@ III клас.
         <param name="Норма витрати">0,6 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля</param>
       </offer>
       <offer id="2137" available="true">
         <name>Наутіл, ВГ</name>
@@ -47086,6 +47397,7 @@ III клас.
         <param name="Норма витрати">1,8 - 2,0 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1183" available="true">
         <name>Нурспрей (Nurspray), Р</name>
@@ -47196,6 +47508,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1184" available="true">
         <name>Олемiкс 84, КЕ</name>
@@ -47314,6 +47627,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,5 - 5,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1185" available="true">
         <name>Оттер Форте, КС</name>
@@ -47416,6 +47730,7 @@ III клас.
         <param name="Норма витрати">4,0 - 4,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="2138" available="true">
         <name>Парад, КС</name>
@@ -47532,6 +47847,7 @@ III клас.
         <param name="Норма витрати">0,12 - 0,25 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1186" available="true">
         <name>Пледж 50, ЗП</name>
@@ -47636,6 +47952,7 @@ III клас.
         <param name="Норма витрати">0,06 - 0,12 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля</param>
       </offer>
       <offer id="2139" available="true">
         <name>Ранман ТОП, КС</name>
@@ -47732,6 +48049,7 @@ III клас.
         <param name="Норма витрати">0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="1187" available="true">
         <name>Росейт, РК</name>
@@ -47842,6 +48160,7 @@ III клас. Застосовувати з ЗІЗ.
         <param name="Норма витрати">2,0 - 6,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="1188" available="true">
         <name>РоуБэк, КЕ</name>
@@ -47952,6 +48271,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">0,2 - 0,4 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="1189" available="true">
         <name>Сакано, РК</name>
@@ -48056,6 +48376,7 @@ III клас.
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Горох</param>
       </offer>
       <offer id="1190" available="true">
         <name>Самсон Супер 6 OD, МД</name>
@@ -48158,6 +48479,7 @@ III клас.
         <param name="Норма витрати">0,75 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="3067" available="true">
         <name>Санмайт, ЗП</name>
@@ -48376,6 +48698,7 @@ III клас.
         <param name="Норма витрати">0,5 л на 100 л води (засіб для очищення обприскувачів)</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3068" available="true">
         <name>Сілкер, КЕ</name>
@@ -48486,6 +48809,7 @@ IV клас. При перевищенні норми — ризик фітот�
         <param name="Норма витрати">0,05 - 0,15% від робочого розчину</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1192" available="true">
         <name>Сінтмезо, СЕ</name>
@@ -48586,6 +48910,7 @@ III клас.
         <param name="Норма витрати">3,5 - 4,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза</param>
       </offer>
       <offer id="1193" available="true">
         <name>Скаба, КЕ</name>
@@ -48800,6 +49125,7 @@ III клас. Безпечний для бджіл — можна застосо
         <param name="Норма витрати">0,12 - 0,14 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2140" available="true">
         <name>Топсин М 500, КС</name>
@@ -48904,6 +49230,7 @@ III клас. Дотримувати захисну зону для бджіл.
         <param name="Норма витрати">1,2 - 2,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2141" available="true">
         <name>Топсiн-М 500, КС</name>
@@ -49008,6 +49335,7 @@ III клас. Дотримувати захисну зону для бджіл (
         <param name="Норма витрати">1,2 - 2,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1195" available="true">
         <name>Тропіка, КЕ</name>
@@ -49114,6 +49442,7 @@ III клас. Застосовувати з ЗІЗ.
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2142" available="true">
         <name>Ультіма 250</name>
@@ -49216,6 +49545,7 @@ III клас.
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2143" available="true">
         <name>Хансі, КС</name>
@@ -49320,6 +49650,7 @@ III клас.
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1196" available="true">
         <name>Хікару, ВГ</name>
@@ -49418,6 +49749,7 @@ III клас.
         <param name="Норма витрати">0,015 - 0,05 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Озима пшениця</param>
       </offer>
       <offer id="2144" available="true">
         <name>Ютака СЕ</name>
@@ -49524,6 +49856,7 @@ III клас.
         <param name="Норма витрати">0,8 - 1,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2145" available="true">
         <name>Ямато СЕ</name>
@@ -49628,6 +49961,7 @@ III клас.
         <param name="Норма витрати">1,2 - 1,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1197" available="true">
         <name>Акваті 800 EC</name>
@@ -51567,6 +51901,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,25 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="1227" available="true">
         <name>Арія 40 МД</name>
@@ -51662,6 +51997,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="1228" available="true">
         <name>Баккард 125 к.е.</name>
@@ -51759,6 +52095,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="3085" available="true">
         <name>Бестселлер Турбо 200 к.с.</name>
@@ -51858,6 +52195,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,1 - 0,15 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1229" available="true">
         <name>Брітекс 40РК</name>
@@ -51957,6 +52295,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">1,0 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="8005" available="true">
         <name>Бромакем ПР</name>
@@ -52171,6 +52510,7 @@ II клас (небезпечна речовина). Дотримуватися 
         <param name="Норма витрати">0,1 - 0,5 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3087" available="true">
         <name>Вамп 200 Дуо КС</name>
@@ -52274,6 +52614,7 @@ II клас (небезпечна речовина). Небезпечний дл
         <param name="Норма витрати">0,1 - 0,2 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2183" available="true">
         <name>Голдазiм 500 к.с.</name>
@@ -52381,6 +52722,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1230" available="true">
         <name>Грантокс 500 в.р.</name>
@@ -52486,6 +52828,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">1,0 - 1,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4047" available="true">
         <name>Даліла 600 ТН</name>
@@ -52595,6 +52938,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,4 - 9,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1231" available="true">
         <name>Еклат750 в.г</name>
@@ -52692,6 +53036,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">20 - 25 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1232" available="true">
         <name>Екстраклін 607 РК</name>
@@ -53013,6 +53358,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">0,3 - 0,4 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3088" available="true">
         <name>Кассент 400КС</name>
@@ -53116,6 +53462,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,05 - 0,1 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="6015" available="true">
         <name>Келпак РК</name>
@@ -53328,6 +53675,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">1,0 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник</param>
       </offer>
       <offer id="6016" available="true">
         <name>Меквалан 750 РК</name>
@@ -53441,6 +53789,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,75 - 2,0 л/га</param>
         <param name="Категорія">Регулятор росту</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="7010" available="true">
         <name>ПАВ Вопро Вет</name>
@@ -53732,6 +54081,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,4 л/га</param>
         <param name="Категорія">Адʼювант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="7013" available="true">
         <name>ПАВ Саф</name>
@@ -53829,6 +54179,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 1,0 л/га</param>
         <param name="Категорія">Адʼювант</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1236" available="true">
         <name>Пандора</name>
@@ -53932,6 +54283,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">3,0 - 4,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Сорго</param>
       </offer>
       <offer id="4048" available="true">
         <name>Пассаж 190ТН</name>
@@ -54029,6 +54381,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,5 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1237" available="true">
         <name>Проксаніл 720</name>
@@ -54132,6 +54485,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1238" available="true">
         <name>Пiонер 900 к.е.</name>
@@ -54231,6 +54585,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="1239" available="true">
         <name>Радікс 700 КС</name>
@@ -54433,6 +54788,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,6 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="1241" available="true">
         <name>Рімакс 750 ВГ</name>
@@ -54532,6 +54888,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">25 - 30 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1242" available="true">
         <name>Рімакс Плюс</name>
@@ -54631,6 +54988,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">25 - 30 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="1243" available="true">
         <name>Рондос 750 ВГ</name>
@@ -54730,6 +55088,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">25 - 30 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1244" available="true">
         <name>Салют 40МД</name>
@@ -54825,6 +55184,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,0 - 1,25 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="1245" available="true">
         <name>Самум Форте в.р.</name>
@@ -54944,6 +55304,7 @@ II клас (небезпечна речовина). Висока токсичн
         <param name="Норма витрати">0,8 - 1,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2184" available="true">
         <name>Спрінтер 500 КЕ</name>
@@ -55049,6 +55410,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,3 - 0,6 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1246" available="true">
         <name>Старгезан 500 к.с.</name>
@@ -55154,6 +55516,7 @@ III клас (помірно небезпечна речовина). Трива�
         <param name="Норма витрати">2,0 - 5,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Горох, Картопля</param>
       </offer>
       <offer id="3089" available="true">
         <name>Суперкіл</name>
@@ -55255,6 +55618,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2185" available="true">
         <name>Сiнекура 680ке</name>
@@ -55364,6 +55728,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">2,5 кг/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Картопля</param>
       </offer>
       <offer id="2186" available="true">
         <name>Таффiн 320 КС</name>
@@ -55473,6 +55838,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 0,7 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2187" available="true">
         <name>Тебу Топ 250ке</name>
@@ -55582,6 +55948,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2188" available="true">
         <name>Тебукур 250 ке</name>
@@ -55687,6 +56054,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1247" available="true">
         <name>Тесон 417 СЭ</name>
@@ -55786,6 +56154,7 @@ III клас (помірно небезпечна речовина). Дотри�
         <param name="Норма витрати">0,3 - 0,5 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1248" available="true">
         <name>Топланц 240 к.е</name>
@@ -55889,6 +56258,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,2 - 0,8 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Сорго, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="2189" available="true">
         <name>Тріафер Т 300 КС</name>
@@ -55996,6 +56366,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2190" available="true">
         <name>Фулгор 250 кс</name>
@@ -56101,6 +56472,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Озима пшениця</param>
       </offer>
       <offer id="2191" available="true">
         <name>Фулгор Голд 500</name>
@@ -56204,6 +56576,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,6 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2192" available="true">
         <name>Харбор 320 КС</name>
@@ -56319,6 +56692,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,2 - 0,3 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3110" available="true">
         <name>Вантакор</name>
@@ -56427,6 +56801,7 @@ III клас. Має сприятливий профіль безпеки для
         <param name="Норма витрати">35 - 50 мл/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Картопля</param>
       </offer>
       <offer id="3111" available="true">
         <name>Вантекс</name>
@@ -56541,6 +56916,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,04 - 0,06 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Горох, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1286" available="true">
         <name>Вензар 80 з.п.</name>
@@ -56675,6 +57051,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,8 - 2,0 кг/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="3112" available="true">
         <name>Верімарк</name>
@@ -56919,6 +57296,7 @@ III клас (помірно небезпечна речовина). Збері�
         <param name="Норма витрати">1,0 - 1,25 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Горох, Озима пшениця</param>
       </offer>
       <offer id="3113" available="true">
         <name>Данадим Мікс,  к.е</name>
@@ -57015,6 +57393,7 @@ II клас (небезпечна речовина). Високотоксичн�
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3114" available="true">
         <name>Джалентра</name>
@@ -57115,6 +57494,7 @@ III клас. Токсичний для бджіл — захисна зона �
         <param name="Норма витрати">0,2 - 0,4 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
       <offer id="3115" available="true">
         <name>Ексірель 10% с.е</name>
@@ -57313,6 +57693,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">30 - 50 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1288" available="true">
         <name>Експрес Голд</name>
@@ -57415,6 +57796,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">35 - 40 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="1289" available="true">
         <name>Еллай супер</name>
@@ -57511,6 +57893,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">10 - 15 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="2231" available="true">
         <name>Імпакт 500</name>
@@ -57607,6 +57990,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,25 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Озима пшениця</param>
       </offer>
       <offer id="2232" available="true">
         <name>Імпакт Т</name>
@@ -57707,6 +58091,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,6 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="1290" available="true">
         <name>Карiбу 50% з.п</name>
@@ -57933,6 +58318,7 @@ IV клас (малонебезпечна речовина).
         <param name="Норма витрати">1,0 - 5,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Горох, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1291" available="true">
         <name>Комманд</name>
@@ -58041,6 +58427,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,15 - 0,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
       <offer id="3116" available="true">
         <name>Кораген</name>
@@ -58149,6 +58536,7 @@ III клас. Має сприятливий профіль безпеки для
         <param name="Норма витрати">0,1 - 0,2 л/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Горох, Картопля</param>
       </offer>
       <offer id="1292" available="true">
         <name>Нікіт</name>
@@ -58253,6 +58641,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,16 - 0,2 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Сорго</param>
       </offer>
       <offer id="7018" available="true">
         <name>Ол Клиар Екстра</name>
@@ -58479,6 +58868,7 @@ II–III клас. Токсичний для бджіл — оброблене �
         <param name="Норма витрати">0,5 - 7,0 л/т</param>
         <param name="Категорія">Протруйник</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="3117" available="true">
         <name>Простор</name>
@@ -58599,6 +58989,7 @@ II клас (небезпечна речовина). Застосовувати 
         <param name="Норма витрати">12 - 35 мл/100 м²</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="1293" available="true">
         <name>Саксессор</name>
@@ -58725,6 +59116,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">1,5 - 2,0 л/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2234" available="true">
         <name>Тремізія</name>
@@ -58833,6 +59225,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">0,4 - 0,5 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
       <offer id="7019" available="true">
         <name>Тренд 90</name>
@@ -59045,6 +59438,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">20 - 30 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Ярі зернові (ячмінь), Соняшник, Озима пшениця</param>
       </offer>
       <offer id="3119" available="true">
         <name>Фуфанон</name>
@@ -59247,6 +59641,7 @@ III клас (помірно небезпечна речовина).
         <param name="Норма витрати">6 - 25 г/га</param>
         <param name="Категорія">Гербіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="2289" available="true">
         <name>Блу Бордо Дисперс, в.г.</name>
@@ -63037,6 +63432,7 @@ III клас (помірно небезпечна речовина). Небез�
         <param name="Норма витрати">2,5 - 5,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2307" available="true">
         <name>Мiлдiкат 25, КС</name>
@@ -63139,6 +63535,7 @@ III клас.
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
         <param name="Категорія">Фунгіцид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля</param>
       </offer>
       <offer id="2308" available="true">
         <name>Манзат ВГ (манкоцеб)</name>
@@ -65664,6 +66061,7 @@ III клас. Безпечний для бджіл — можна застосо
         <param name="Норма витрати">0,12 - 0,14 кг/га</param>
         <param name="Категорія">Інсектицид</param>
         <param name="Тип">Оригінал</param>
+        <param name="Культури">Картопля, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
       <offer id="4063" available="true">
         <name>Круiзер 350 FS</name>
