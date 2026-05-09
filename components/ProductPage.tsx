@@ -13,6 +13,8 @@ import { RequestModal } from "./RequestModal";
 import { AddToCart } from "./AddToCart";
 import { useCurrency } from "./CurrencyContext";
 import { ProductImage } from "./ProductImage";
+import { LongDescription } from "./LongDescription";
+import { originalsDescriptions } from "@/lib/_descriptions/originals";
 
 const tierLabels: Record<string, { uk: string; ru: string; cls: string }> = {
   econom: { uk: "Економ", ru: "Эконом", cls: "badge-econom" },
@@ -33,6 +35,7 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
   const name = lang === "uk" ? product.name : product.nameRu;
   const ai = lang === "uk" ? product.activeIngredient : product.activeIngredientRu;
   const desc = lang === "uk" ? product.description : product.descriptionRu;
+  const longDesc = originalsDescriptions[product.slug]?.[lang === "uk" ? "ua" : "ru"];
   const tier = tierLabels[product.tier];
   const tierLabel = lang === "uk" ? tier.uk : tier.ru;
 
@@ -150,17 +153,28 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
         </div>
       </section>
 
-      {desc && (<section className="container-w py-8"><h2 className="text-xl font-bold mb-3">{labels.about}</h2><p className="text-muted leading-relaxed max-w-3xl">{desc}</p></section>)}
+      {(longDesc || desc) && (
+        <section className="container-w py-8">
+          <h2 className="text-xl font-bold mb-4">{labels.about}</h2>
+          {longDesc ? (
+            <LongDescription text={longDesc} />
+          ) : (
+            <p className="text-muted leading-relaxed max-w-3xl">{desc}</p>
+          )}
+        </section>
+      )}
 
-      <section className="container-w py-6">
-        <h2 className="text-xl font-bold mb-4 flex items-center gap-2"><Beaker className="w-5 h-5 text-brand" />{labels.regulation}</h2>
-        <div className="card overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead><tr className="border-b border-border"><th className="text-left p-2 font-semibold">{labels.crop}</th><th className="text-left p-2 font-semibold">{labels.target}</th><th className="text-left p-2 font-semibold">{labels.rate}</th></tr></thead>
-            <tbody>{cultureNames.map((cn, i) => (<tr key={i} className="border-b border-border last:border-0"><td className="p-2 font-medium">{cn}</td><td className="p-2 text-muted">{ai}</td><td className="p-2 font-semibold whitespace-nowrap">{product.rate || "—"}</td></tr>))}</tbody>
-          </table>
-        </div>
-      </section>
+      {!longDesc && cultureNames.length > 0 && (
+        <section className="container-w py-6">
+          <h2 className="text-xl font-bold mb-4 flex items-center gap-2"><Beaker className="w-5 h-5 text-brand" />{labels.regulation}</h2>
+          <div className="card overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead><tr className="border-b border-border"><th className="text-left p-2 font-semibold">{labels.crop}</th><th className="text-left p-2 font-semibold">{labels.target}</th><th className="text-left p-2 font-semibold">{labels.rate}</th></tr></thead>
+              <tbody>{cultureNames.map((cn, i) => (<tr key={i} className="border-b border-border last:border-0"><td className="p-2 font-medium">{cn}</td><td className="p-2 text-muted">{ai}</td><td className="p-2 font-semibold whitespace-nowrap">{product.rate || "—"}</td></tr>))}</tbody>
+            </table>
+          </div>
+        </section>
+      )}
 
       {!product.priceOnRequest && <section className="container-w py-6"><AgronomistCalculator product={product} lang={lang} /></section>}
 

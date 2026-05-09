@@ -30,6 +30,7 @@ const SITE = 'https://agrosnab-pivden.com';
 const PRODUCTS_FILE = 'lib/products.ts';
 const CULTURES_FILE = 'lib/cultures.ts';
 const GROUPS_FILE = 'lib/groups.ts';
+const DESCRIPTIONS_FILE = 'lib/_descriptions/originals.ts';
 const OUT_FILE = 'public/feed.xml';
 
 const args = Object.fromEntries(
@@ -136,6 +137,22 @@ function parseGroups() {
   return map;
 }
 
+// Парсимо lib/_descriptions/originals.ts — мапа slug → { ru, ua }.
+// Формат: "<slug>": { ru: `…`, ua: `…` } (template literals, можуть містити будь-які
+// символи окрім backtick — у наших описах backtick'ів немає).
+function parseLongDescriptions() {
+  if (!fs.existsSync(DESCRIPTIONS_FILE)) return new Map();
+  const text = fs.readFileSync(DESCRIPTIONS_FILE, 'utf8');
+  const map = new Map();
+  // Шукаємо блоки виду:  "slug-name": {\n    ru: `…тіло…`,\n    ua: `…тіло…`,\n  },
+  const re = /"([a-z0-9-]+)":\s*\{\s*ru:\s*`([\s\S]*?)`,\s*ua:\s*`([\s\S]*?)`,?\s*\},/g;
+  let m;
+  while ((m = re.exec(text))) {
+    map.set(m[1], { ru: m[2], ua: m[3] });
+  }
+  return map;
+}
+
 // 4. XML утиліти
 const escape = (s) =>
   String(s ?? '')
@@ -196,7 +213,8 @@ async function main() {
 
   const culturesMap = parseCultures();
   const groupsMap = parseGroups();
-  console.log(`Культур: ${culturesMap.size}, груп: ${groupsMap.size}`);
+  const longDescMap = parseLongDescriptions();
+  console.log(`Культур: ${culturesMap.size}, груп: ${groupsMap.size}, довгих описів: ${longDescMap.size}`);
 
   // Категорії: numeric ID → groupSlug
   const groupSlugs = [...groupsMap.keys()];
@@ -249,8 +267,13 @@ async function main() {
     if (picture) out.push(`        <picture>${escape(picture)}</picture>`);
     out.push(`        <vendor>${escape(p.manufacturer)}</vendor>`);
     out.push(`        <vendorCode>${escape(p.code)}</vendorCode>`);
-    out.push(`        <description>${cdata(buildDescription(p, culturesMap, 'ru'))}</description>`);
-    out.push(`        <description_ua>${cdata(buildDescription(p, culturesMap, 'uk'))}</description_ua>`);
+    // Якщо є розгорнутий маркетинговий опис у lib/_descriptions/originals.ts —
+    // використовуємо його. Інакше — fallback на короткий buildDescription().
+    const longDesc = longDescMap.get(p.slug);
+    const descRu = longDesc?.ru || buildDescription(p, culturesMap, 'ru');
+    const descUa = longDesc?.ua || buildDescription(p, culturesMap, 'uk');
+    out.push(`        <description>${cdata(descRu)}</description>`);
+    out.push(`        <description_ua>${cdata(descUa)}</description_ua>`);
 
     // Характеристики
     out.push(`        <param name="Виробник">${escape(p.manufacturer)}</param>`);
