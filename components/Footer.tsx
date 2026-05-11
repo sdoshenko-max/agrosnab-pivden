@@ -35,8 +35,8 @@ export function Footer({ lang }: { lang: Lang }) {
         <div>
           <h3 className="font-bold mb-3">{t.footer.docs}</h3>
           <ul className="space-y-2 text-sm text-slate-300">
-            <li><Link href={`${base}/pro-nas`} className="hover:text-white">Про нас</Link></li>
-            <li><Link href={`${base}/kontakty`} className="hover:text-white">Контакти</Link></li>
+            <li><Link href={`${base}/pro-nas`} className="hover:text-white">{lang === "uk" ? "Про нас" : "О нас"}</Link></li>
+            <li><Link href={`${base}/kontakty`} className="hover:text-white">{lang === "uk" ? "Контакти" : "Контакты"}</Link></li>
             <li><Link href={`${base}/dostavka-i-oplata`} className="hover:text-white">{t.footer.shipping}</Link></li>
             <li><Link href={`${base}/sertyfikaty`} className="hover:text-white">{t.footer.certificates}</Link></li>
             <li><Link href={`${base}/oferta`} className="hover:text-white">{t.footer.offer}</Link></li>

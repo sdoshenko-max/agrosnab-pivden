@@ -20,6 +20,37 @@ import { ProductImage } from "@/components/ProductImage";
 import { Price } from "@/components/Price";
 import type { ArticleBlock, CalloutVariant } from "@/lib/articleBlocks";
 
+export type Lang = "uk" | "ru";
+
+const labels = {
+  uk: {
+    author: "Агроном АГРОСНАБ-ПІВДЕНЬ",
+    toc: "Зміст",
+    activeIngredient: "Діюча речовина",
+    norma: "Норма",
+    budget: "Бюджет / га",
+    analog: "Аналог",
+    cash: "Готівка",
+    vat: "з ПДВ",
+    details: "Подивитися деталі",
+    related: "Схожі статті",
+    productNotFound: "Товар не знайдено",
+  },
+  ru: {
+    author: "Агроном АГРОСНАБ-ПІВДЕНЬ",
+    toc: "Содержание",
+    activeIngredient: "Действующее вещество",
+    norma: "Норма",
+    budget: "Бюджет / га",
+    analog: "Аналог",
+    cash: "Наличными",
+    vat: "с НДС",
+    details: "Посмотреть детали",
+    related: "Похожие статьи",
+    productNotFound: "Товар не найден",
+  },
+} as const;
+
 // ---------- Утиліти ----------
 
 /** Inline-markdown: **жирний** і [текст](url). */
@@ -45,7 +76,8 @@ export function ArticleHeader({
   subtitle,
   date,
   readingTime,
-  author = "Агроном Агроснаб-Південь",
+  author,
+  lang = "uk",
 }: {
   emoji: string;
   category: string;
@@ -54,7 +86,9 @@ export function ArticleHeader({
   date: string;
   readingTime?: string;
   author?: string;
+  lang?: Lang;
 }) {
+  const authorName = author || labels[lang].author;
   return (
     <header className="mb-8">
       <div className="flex items-center gap-2 mb-4">
@@ -72,7 +106,7 @@ export function ArticleHeader({
         </p>
       )}
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted pb-5 border-b border-border">
-        <span>👤 {author}</span>
+        <span>👤 {authorName}</span>
         <span>📅 {date}</span>
         {readingTime && <span>⏱ {readingTime}</span>}
       </div>
@@ -95,12 +129,12 @@ export function Lead({ text }: { text: string }) {
 
 // ---------- TOC (Collapsible) ----------
 
-export function TOC({ items }: { items: { id: string; text: string }[] }) {
+export function TOC({ items, lang = "uk" }: { items: { id: string; text: string }[]; lang?: Lang }) {
   return (
     <details className="my-7 border border-border rounded-xl bg-card group" open>
       <summary className="cursor-pointer list-none flex items-center justify-between p-4 hover:bg-bg rounded-xl">
         <span className="font-bold text-ink flex items-center gap-2">
-          📑 Зміст
+          📑 {labels[lang].toc}
         </span>
         <ChevronRight className="w-5 h-5 text-muted transition-transform group-open:rotate-90" />
       </summary>
@@ -302,6 +336,7 @@ export function ProductCard({
   budgetNote,
   analog,
   note,
+  lang = "uk",
 }: {
   productSlug: string;
   badge?: string;
@@ -310,13 +345,16 @@ export function ProductCard({
   budgetNote: string;
   analog?: string;
   note: string;
+  lang?: Lang;
 }) {
+  const L = labels[lang];
+  const base = lang === "uk" ? "" : "/ru";
   const product = products.find((p) => p.slug === productSlug);
   if (!product) {
     return (
       <div className="card border-rose-300 bg-rose-50">
         <p className="text-rose-700 text-sm">
-          ⚠ Товар не знайдено: <code>{productSlug}</code>
+          ⚠ {L.productNotFound}: <code>{productSlug}</code>
         </p>
       </div>
     );
@@ -340,25 +378,25 @@ export function ProductCard({
       {/* Header: фото + назва */}
       <div className="flex items-start gap-3">
         <Link
-          href={`/produkt/${product.slug}`}
+          href={`${base}/produkt/${product.slug}`}
           className="w-20 h-20 sm:w-24 sm:h-24 shrink-0 bg-bg rounded-lg overflow-hidden flex items-center justify-center border border-border hover:border-brand transition"
         >
           <ProductImage
             product={product}
-            alt={product.name}
+            alt={lang === "ru" ? (product.nameRu || product.name) : product.name}
             size="md"
             className="w-full h-full object-contain"
           />
         </Link>
         <div className="flex-1 min-w-0">
           <Link
-            href={`/produkt/${product.slug}`}
+            href={`${base}/produkt/${product.slug}`}
             className="font-bold text-lg leading-tight hover:text-brand block"
           >
-            {product.name}
+            {lang === "ru" ? (product.nameRu || product.name) : product.name}
           </Link>
           <Link
-            href={`/vyrobnyk/${manufacturerSlug(product.manufacturer)}/`}
+            href={`${base}/vyrobnyk/${manufacturerSlug(product.manufacturer)}/`}
             className="text-xs text-muted hover:text-brand hover:underline"
           >
             {product.manufacturer}
@@ -369,10 +407,12 @@ export function ProductCard({
       {/* Активна д.р. */}
       <div className="bg-brand/5 rounded-lg p-3">
         <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-1">
-          Діюча речовина
+          {L.activeIngredient}
         </p>
         <p className="text-sm font-bold text-ink leading-snug">
-          {product.activeIngredient}
+          {lang === "ru"
+            ? (product.activeIngredientRu || product.activeIngredient)
+            : product.activeIngredient}
           {product.concentration ? `, ${product.concentration}` : ""}
         </p>
       </div>
@@ -380,17 +420,17 @@ export function ProductCard({
       {/* Норма / Бюджет / Аналог */}
       <div className="grid grid-cols-2 gap-2 text-sm">
         <div>
-          <p className="text-xs text-muted">Норма</p>
+          <p className="text-xs text-muted">{L.norma}</p>
           <p className="font-semibold">{rateNote}</p>
         </div>
         <div>
-          <p className="text-xs text-muted">Бюджет / га</p>
+          <p className="text-xs text-muted">{L.budget}</p>
           <p className="font-bold text-brand">{budgetNote}</p>
         </div>
       </div>
       {analog && (
         <p className="text-xs text-muted -mt-1">
-          Аналог: <span className="text-ink font-medium">{analog}</span>
+          {L.analog}: <span className="text-ink font-medium">{analog}</span>
         </p>
       )}
 
@@ -400,14 +440,14 @@ export function ProductCard({
       {/* Ціна: готівка (велика) + з ПДВ (мала, сіра) */}
       <div className="border-t border-border pt-3 mt-auto">
         <div className="flex items-baseline justify-between">
-          <span className="text-xs text-muted">Готівка</span>
+          <span className="text-xs text-muted">{L.cash}</span>
           <span className="text-lg font-bold text-brand whitespace-nowrap">
             <Price amount={product.priceCash} currency={product.currency} showOriginal={false} />
             <span className="text-xs font-normal text-muted"> / {product.unit}</span>
           </span>
         </div>
         <div className="flex items-baseline justify-between mt-0.5">
-          <span className="text-[11px] text-muted/70">з ПДВ</span>
+          <span className="text-[11px] text-muted/70">{L.vat}</span>
           <span className="text-xs text-muted whitespace-nowrap">
             <Price amount={product.priceVat} currency={product.currency} showOriginal={false} /> / {product.unit}
           </span>
@@ -416,10 +456,10 @@ export function ProductCard({
 
       {/* CTA */}
       <Link
-        href={`/produkt/${product.slug}`}
+        href={`${base}/produkt/${product.slug}`}
         className="btn-secondary w-full justify-center text-sm py-2.5"
       >
-        Подивитися деталі <ArrowRight className="w-4 h-4" />
+        {L.details} <ArrowRight className="w-4 h-4" />
       </Link>
     </article>
   );
@@ -429,8 +469,10 @@ export function ProductCard({
 
 export function ProductGrid({
   cards,
+  lang = "uk",
 }: {
   cards: Extract<ArticleBlock, { type: "productCard" }>[];
+  lang?: Lang;
 }) {
   return (
     <div className="grid sm:grid-cols-2 gap-4 my-7">
@@ -444,6 +486,7 @@ export function ProductGrid({
           budgetNote={c.budgetNote}
           analog={c.analog}
           note={c.note}
+          lang={lang}
         />
       ))}
     </div>
@@ -652,13 +695,15 @@ export function CTABlock({
 
 export function RelatedArticles({
   items,
+  lang = "uk",
 }: {
   items: { label: string; href: string; emoji?: string }[];
+  lang?: Lang;
 }) {
   return (
     <div className="my-10 border-t border-border pt-6">
       <h3 className="text-lg font-bold text-ink mb-4 flex items-center gap-2">
-        📚 Схожі статті
+        📚 {labels[lang].related}
       </h3>
       <ul className="space-y-2">
         {items.map((it, i) => (

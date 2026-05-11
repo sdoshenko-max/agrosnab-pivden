@@ -17,9 +17,10 @@ import {
   CTABlock,
   RelatedArticles,
   Divider,
+  type Lang,
 } from "./blocks";
 
-export function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
+export function ArticleBody({ blocks, lang = "uk" }: { blocks: ArticleBlock[]; lang?: Lang }) {
   // Збираємо TOC з h2-заголовків (один прохід)
   const tocItems = blocks
     .filter((b): b is Extract<ArticleBlock, { type: "h2" }> => b.type === "h2")
@@ -34,7 +35,7 @@ export function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
           case "lead":
             return <Lead key={i} text={block.text} />;
           case "toc":
-            return <TOC key={i} items={tocItems} />;
+            return <TOC key={i} items={tocItems} lang={lang} />;
           case "h2":
             h2Counter += 1;
             return (
@@ -69,10 +70,11 @@ export function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
                 budgetNote={block.budgetNote}
                 analog={block.analog}
                 note={block.note}
+                lang={lang}
               />
             );
           case "productGrid":
-            return <ProductGrid key={i} cards={block.cards} />;
+            return <ProductGrid key={i} cards={block.cards} lang={lang} />;
           case "priceTable":
             return (
               <PriceTable
@@ -94,7 +96,7 @@ export function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
               />
             );
           case "relatedArticles":
-            return <RelatedArticles key={i} items={block.items} />;
+            return <RelatedArticles key={i} items={block.items} lang={lang} />;
           case "divider":
             return <Divider key={i} />;
           default:
