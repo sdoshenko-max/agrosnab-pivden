@@ -17,6 +17,7 @@ import {
 import { products } from "@/lib/products";
 import { manufacturerSlug } from "@/lib/manufacturers";
 import { ProductImage } from "@/components/ProductImage";
+import { Price } from "@/components/Price";
 import type { ArticleBlock, CalloutVariant } from "@/lib/articleBlocks";
 
 // ---------- Утиліти ----------
@@ -401,14 +402,14 @@ export function ProductCard({
         <div className="flex items-baseline justify-between">
           <span className="text-xs text-muted">Готівка</span>
           <span className="text-lg font-bold text-brand whitespace-nowrap">
-            ${product.priceCash.toFixed(2)}
+            <Price amount={product.priceCash} currency={product.currency} showOriginal={false} />
             <span className="text-xs font-normal text-muted"> / {product.unit}</span>
           </span>
         </div>
         <div className="flex items-baseline justify-between mt-0.5">
           <span className="text-[11px] text-muted/70">з ПДВ</span>
           <span className="text-xs text-muted whitespace-nowrap">
-            ${product.priceVat.toFixed(2)} / {product.unit}
+            <Price amount={product.priceVat} currency={product.currency} showOriginal={false} /> / {product.unit}
           </span>
         </div>
       </div>
