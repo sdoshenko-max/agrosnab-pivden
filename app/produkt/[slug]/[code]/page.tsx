@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { FloatingCallButton } from "@/components/FloatingCallButton";
 import { ProductPage } from "@/components/ProductPage";
 import { products, getProductByCode } from "@/lib/data";
+import { originalsDescriptions } from "@/lib/_descriptions/originals";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -23,11 +24,12 @@ export async function generateMetadata({ params }: { params: { slug: string; cod
 export default function ProductByCodeRoute({ params }: { params: { slug: string; code: string } }) {
   const product = getProductByCode(params.code);
   if (!product || product.slug !== params.slug) notFound();
+  const longDesc = originalsDescriptions[product.slug]?.ua;
   return (
     <>
       <Header lang="uk" />
       <main>
-        <ProductPage product={product} lang="uk" />
+        <ProductPage product={product} lang="uk" longDesc={longDesc} />
       </main>
       <Footer lang="uk" />
       <FloatingCallButton />

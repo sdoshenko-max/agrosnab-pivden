@@ -14,7 +14,6 @@ import { AddToCart } from "./AddToCart";
 import { useCurrency } from "./CurrencyContext";
 import { ProductImage } from "./ProductImage";
 import { LongDescription } from "./LongDescription";
-import { originalsDescriptions } from "@/lib/_descriptions/originals";
 
 const tierLabels: Record<string, { uk: string; ru: string; cls: string }> = {
   econom: { uk: "Економ", ru: "Эконом", cls: "badge-econom" },
@@ -22,7 +21,7 @@ const tierLabels: Record<string, { uk: string; ru: string; cls: string }> = {
   original: { uk: "Оригінал", ru: "Оригинал", cls: "badge-original" }
 };
 
-export function ProductPage({ product, lang }: { product: Product; lang: Lang }) {
+export function ProductPage({ product, lang, longDesc }: { product: Product; lang: Lang; longDesc?: string }) {
   const t = dict[lang];
   const { format } = useCurrency();
   const base = lang === "uk" ? "" : "/ru";
@@ -35,7 +34,6 @@ export function ProductPage({ product, lang }: { product: Product; lang: Lang })
   const name = lang === "uk" ? product.name : product.nameRu;
   const ai = lang === "uk" ? product.activeIngredient : product.activeIngredientRu;
   const desc = lang === "uk" ? product.description : product.descriptionRu;
-  const longDesc = originalsDescriptions[product.slug]?.[lang === "uk" ? "ua" : "ru"];
   const tier = tierLabels[product.tier];
   const tierLabel = lang === "uk" ? tier.uk : tier.ru;
 
