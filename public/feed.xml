@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-05-12 09:14">
+<yml_catalog date="2026-05-12 09:25">
   <shop>
     <name>Агроснаб Південь</name>
     <company>ТОВ «АГРОСНАБ-ПІВДЕНЬ»</company>
@@ -16,6 +16,7 @@
       <category id="6">Регулятори росту</category>
       <category id="7">Адʼюванти</category>
       <category id="8">Родентициди</category>
+      <category id="9">Мікродобрива</category>
     </categories>
     <offers>
       <offer id="2098" available="true">
@@ -39036,7 +39037,7 @@ III клас (помірно небезпечна речовина). Засто�
         <url>https://agrosnab-pivden.com/ru/produkt/amino-kserion-adama</url>
         <price>1294</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/amino-kserion-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>6001</vendorCode>
@@ -39133,7 +39134,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">1 кг</param>
         <param name="Діюча речовина">Вільні L-амінокислоти, 80% (N орг. &gt;12%)</param>
         <param name="Норма витрати">1,5 - 3,0 кг/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий, Озима пшениця</param>
       </offer>
@@ -43294,7 +43295,7 @@ II клас (небезпечна речовина). Токсичний для �
         <url>https://agrosnab-pivden.com/ru/produkt/skudero-6-25-25-rk-adama</url>
         <price>2880</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/skudero-6-25-25-rk-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>1019</vendorCode>
@@ -43393,7 +43394,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">N 60 г/л; P2O5 250 г/л; K2O 250 г/л + мікроелементи (B, Fe, Cu, Mn, Zn, Mo)</param>
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
       </offer>
       <offer id="1020" available="true">
@@ -43402,7 +43403,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/skudero-boron-rk-adama</url>
         <price>2323</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/skudero-boron-rk-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>1020</vendorCode>
@@ -43507,7 +43508,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Бор, 160 г/л; Азот, 75 г/л</param>
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -43517,7 +43518,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/skudero-multi-rk-adama</url>
         <price>2477</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/skudero-multi-rk-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>1021</vendorCode>
@@ -43622,7 +43623,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">N 123,1 г/л; P2O5 36,9 г/л; K2O 24,6 г/л; B 3,69 г/л; Cu 2,46 г/л; Mn 2,46 г/л; Zn 36,9 г/л; Mo 1,23 г/л</param>
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
@@ -43632,7 +43633,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/skudero-sav-rk-adama</url>
         <price>2292</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/skudero-sav-rk-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>1022</vendorCode>
@@ -43735,7 +43736,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Кальцій (CaO); Бор</param>
         <param name="Норма витрати">1,5 - 3,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -43745,7 +43746,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/skudero-zn-pk-adama</url>
         <price>3194</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/skudero-zn-pk-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>1023</vendorCode>
@@ -43850,7 +43851,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Цинк (нітрат цинку); N; K</param>
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Кукурудза, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
@@ -64091,7 +64092,7 @@ III клас (помірно небезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/bioforzh-korteva</url>
         <price>4720</price>
         <currencyId>UAH</currencyId>
-        <categoryId>7</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/bioforzh-korteva.jpg</picture>
         <vendor>Кортева</vendor>
         <vendorCode>7007</vendorCode>
@@ -64204,7 +64205,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">Азот (N), 2,0%; оксид калію (K₂O), 3,0%; патентований антиоксидантний комплекс N&apos;N-діформілсечовина</param>
         <param name="Норма витрати">0,5 - 1,5 л/га</param>
-        <param name="Категорія">Адʼювант</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -80456,7 +80457,7 @@ III клас (помірно небезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/boroplyus-synhenta</url>
         <price>406</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/boroplyus-synhenta.jpg</picture>
         <vendor>Сингента</vendor>
         <vendorCode>1201</vendorCode>
@@ -80561,7 +80562,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">1 л</param>
         <param name="Діюча речовина">Бор (B), 11%</param>
         <param name="Норма витрати">0,5 - 1,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Ріпак озимий, Горох, Картопля</param>
       </offer>
@@ -80571,7 +80572,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/breksil-miks-zn-synhenta</url>
         <price>2380</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Сингента</vendor>
         <vendorCode>1202</vendorCode>
         <description><![CDATA[Брексіл МІКС ZN (Syngenta / Valagro) — комплексное хелатное микроудобрение для листовой подкормки. Содержит сбалансированный набор семи мезо- и микроэлементов в хелатной форме на основе уникального природного комплексообразователя LSA (лигносульфонат аммония). Универсальное решение при дефиците сразу нескольких элементов — особенно актуально для песчано-глинистых почв юга Украины.
@@ -80669,7 +80670,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">Mg 6%; Zn 5%; B 1,2%; Mn 0,7%; Cu 0,8%; Fe 0,6%; Mo 1%</param>
         <param name="Норма витрати">1,0 - 2,0 кг/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -80679,7 +80680,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/breksil-zn-synhenta</url>
         <price>1553</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Сингента</vendor>
         <vendorCode>1203</vendorCode>
         <description><![CDATA[Брексіл ZN (Syngenta / Valagro) — высокоэффективное хелатное микроудобрение для устранения дефицита цинка. Содержит цинк (Zn) 10% в форме LSA-хелата (лигносульфонат аммония). Цинк — критический микроэлемент для зерновых, кукурузы, сои, плодовых и овощных культур; его дефицит особенно характерен для карбонатных и переизвесткованных почв юга Украины.
@@ -80779,7 +80780,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">Цинк (Zn), 10%</param>
         <param name="Норма витрати">1,0 - 2,0 кг/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Кукурудза, Горох, Ріпак озимий, Ріпак ярий, Озима пшениця, Ярі зернові (ячмінь)</param>
       </offer>
@@ -82659,7 +82660,7 @@ III клас (помірно небезпечна речовина). Увага 
         <url>https://agrosnab-pivden.com/ru/produkt/izabion-synhenta</url>
         <price>4482</price>
         <currencyId>UAH</currencyId>
-        <categoryId>2</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/izabion-synhenta.jpg</picture>
         <vendor>Сингента</vendor>
         <vendorCode>2152</vendorCode>
@@ -82770,7 +82771,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">Амінокислоти та пептиди, 625 г/л; Загальний азот, 10,9%</param>
         <param name="Норма витрати">2,0 - 3,0 л/га</param>
-        <param name="Категорія">Фунгіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -83331,7 +83332,7 @@ III клас (помірно небезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/kvantis-sl-synhenta</url>
         <price>3557</price>
         <currencyId>UAH</currencyId>
-        <categoryId>2</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/kvantis-sl-synhenta.jpg</picture>
         <vendor>Сингента</vendor>
         <vendorCode>2155</vendorCode>
@@ -83422,7 +83423,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Амінокислоти та пептиди, 684 г/л; Калій (K) 7%; Органічний вуглець 15%; Кальцій 0,9%</param>
         <param name="Норма витрати">1,0 - 2,0 л/га</param>
-        <param name="Категорія">Фунгіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Озима пшениця, Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -99595,7 +99596,7 @@ III клас (помірно небезпечна речовина). Врахо�
         <url>https://agrosnab-pivden.com/ru/produkt/boroplyus-synhenta</url>
         <price>3787</price>
         <currencyId>UAH</currencyId>
-        <categoryId>1</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/boroplyus-synhenta.jpg</picture>
         <vendor>Сингента</vendor>
         <vendorCode>1370</vendorCode>
@@ -99700,7 +99701,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Бор (этаноламін бору), 150 г/л</param>
         <param name="Норма витрати">0,5-2,0 л/га</param>
-        <param name="Категорія">Гербіцид</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Соняшник, Ріпак озимий, Ріпак ярий, Картопля, Соя, Горох</param>
       </offer>
@@ -104773,7 +104774,7 @@ III клас (помірно небезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/amino-kserion-adama</url>
         <price>6284</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <picture>https://agrosnab-pivden.com/products/amino-kserion-adama.jpg</picture>
         <vendor>Адама</vendor>
         <vendorCode>6023</vendorCode>
@@ -104870,7 +104871,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">5 кг</param>
         <param name="Діюча речовина">Вільні L-амінокислоти, 80%</param>
         <param name="Норма витрати">1,0 - 2,0 кг/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Оригінал</param>
         <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Ріпак озимий, Ріпак ярий, Соняшник, Кукурудза, Соя, Картопля</param>
       </offer>
@@ -122589,7 +122590,7 @@ IV клас (малонебезпечний).
         <url>https://agrosnab-pivden.com/ru/produkt/akselerator-hidro-bor-vr-himagro</url>
         <price>1632</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Himagro</vendor>
         <vendorCode>6028</vendorCode>
         <description><![CDATA[Микроудобрение Акселератор Гидро Бор, ВР (Himagro) — листовое борное удобрение в хелатной форме для коррекции дефицита бора на основных полевых культурах юга Украины. Экономный аналог импортных бор-содержащих микроудобрений типа «Бороплюс» (Valagro) с той же активной основой и регистрацией в Украине, по цене на 40–60% ниже импортного аналога.
@@ -122685,7 +122686,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">добриво на остнові хелатів В-11%</param>
         <param name="Норма витрати">1,0 - 3,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Ріпак озимий</param>
       </offer>
@@ -122695,7 +122696,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/akselerator-molibden-zp-himagro</url>
         <price>2565</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Himagro</vendor>
         <vendorCode>6029</vendorCode>
         <description><![CDATA[Микроудобрение Акселератор Молибден, ЗП (Himagro) — высококонцентрированное молибденовое удобрение для предпосевной обработки семян и листовых подкормок бобовых, рапса и других культур. Экономный аналог импортных молибденовых удобрений (Solu Mo, Brexil Mo от Valagro) с той же активной основой и регистрацией в Украине, по цене на 40–60% ниже импортного аналога.
@@ -122791,7 +122792,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">1 кг</param>
         <param name="Діюча речовина">молібдат аммонію Mo- 54%</param>
         <param name="Норма витрати">0,5-0,8</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Горох, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -122801,7 +122802,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/akselerator-vp-3-11-38-kp-himagro</url>
         <price>1632</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Himagro</vendor>
         <vendorCode>6030</vendorCode>
         <description><![CDATA[Микроудобрение Акселератор ВП (3-11-38), КП (Himagro) — высококонцентрированное комплексное удобрение NPK с микроэлементами в хелатной форме для листовых подкормок в фазу налива и плодоношения. Экономный аналог импортных стартовых и финишных листовых удобрений (Master, Solu, Plantafol от Valagro/Yara) с той же активной основой и регистрацией в Украине, по цене на 40–60% ниже импортного аналога.
@@ -122897,7 +122898,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">1 кг</param>
         <param name="Діюча речовина">добриво на основі хелатів NPK (3:11:38), MgO – 1,5%, S – 9%, В – 0,15%, Fe – 0,55%, Mn – 0,35%, Zn – 0,17%, Сu – 0,07%, Мо – 0,01%</param>
         <param name="Норма витрати">1,0 - 2,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -122907,7 +122908,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/amisyl-himagro</url>
         <price>1400</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Himagro</vendor>
         <vendorCode>6031</vendorCode>
         <description><![CDATA[Биостимулятор Амисил (Himagro) — комплексный антистрессовый биостимулятор на основе аминокислот, азота и микроэлементов для повышения стрессоустойчивости и продуктивности культур. Экономный аналог импортных аминокислотных биостимуляторов (Megafol от Valagro, Terra-Sorb от Bioiberica) с похожей действующей основой, по цене на 40–60% ниже импортного аналога.
@@ -123003,7 +123004,7 @@ IV клас (малонебезпечна речовина).
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">N ≥ 55 г/л; B ≥ 0,3 г/л; Mn ≥ 5,0 г/л; Zn ≥ 3,0 г/л; органічна речовина ≥ 20 г/л; амінокислоти ≥ 200 г/л</param>
         <param name="Норма витрати">40-220мл/100 л</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Картопля, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -123146,17 +123147,17 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/avanhard-crystalmax-fe-11-ukravit</url>
         <price>457</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Укравіт</vendor>
         <vendorCode>6039</vendorCode>
-        <description><![CDATA[Регулятор росту Авангард CrystalMax Fe-11 (Укравіт, эконом-генерик). Действующее вещество: Fe - 11% (110 г/кг). Кристалiчне добриво. Залiзо повнiстю хелатовано DTPA. Норма расхода: 0,5 - 1,5 кг/га. Фасовка: 1 кг. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Авангард CrystalMax Fe-11 (Укравіт, економ-дженерик). Діюча речовина: Fe - 11% (110 г/кг). Кристалiчне добриво. Залiзо повнiстю хелатовано DTPA. Норма витрати: 0,5 - 1,5 кг/га. Фасовка: 1 кг. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Авангард CrystalMax Fe-11 (Укравіт, эконом-генерик). Действующее вещество: Fe - 11% (110 г/кг). Кристалiчне добриво. Залiзо повнiстю хелатовано DTPA. Норма расхода: 0,5 - 1,5 кг/га. Фасовка: 1 кг. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Авангард CrystalMax Fe-11 (Укравіт, економ-дженерик). Діюча речовина: Fe - 11% (110 г/кг). Кристалiчне добриво. Залiзо повнiстю хелатовано DTPA. Норма витрати: 0,5 - 1,5 кг/га. Фасовка: 1 кг. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Укравіт</param>
         <param name="Код запчастини">6039</param>
         <param name="Фасовка">1 кг</param>
         <param name="Діюча речовина">Fe - 11% (110 г/кг). Кристалiчне добриво. Залiзо повнiстю хелатовано DTPA</param>
         <param name="Норма витрати">0,5 - 1,5 кг/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6040" available="true">
@@ -123773,7 +123774,7 @@ IV клас (малонебезпечна речовина).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-zlaky-nais</url>
         <price>2699</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6072</vendorCode>
         <description><![CDATA[НАЙС Злаки (Найс) — комплексное микроудобрение для листовой подкормки зерновых колосовых (пшеница, ячмень, овёс, тритикале) и других злаков. Высокоазотная композиция с серой, магнием и полным набором микроэлементов в хелатной форме. Экономный аналог листовых формул Yara Vita Gramitrel (Yara) и Wuxal Microplant (Aglukon) — стоимость на 40–60% ниже при сопоставимом отклике на культуре.
@@ -123871,7 +123872,7 @@ IV клас (малонебезпечна речовина). Не фітоток
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-131; K2O-13; MgO-46; SO3-105; B-1; Cu-7;Fe-4; Mn-9; Zn-26; Mo-0,07</param>
         <param name="Норма витрати">0,5-1,5</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Озима пшениця, Ярі зернові (ячмінь), Сорго</param>
       </offer>
@@ -123881,7 +123882,7 @@ IV клас (малонебезпечна речовина). Не фітоток
         <url>https://agrosnab-pivden.com/ru/produkt/nais-tekhnichni-nais</url>
         <price>2531</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6073</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Технические (Найс) — комплексное листовое удобрение для технических культур: сахарной свёклы, картофеля, табака, хлопка, кенафа. Высокий бор (B-19), азот, магний и сера для накопления сахаров, крахмала и волокна. Экономный аналог премиальных составов Yara Vita Sugar / Wuxal Boron / Nutrivant Plus Beet — на 40–60% дешевле.
@@ -123980,7 +123981,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-125; MgO-38; SO3-93; B-19; Cu-6; Fe-1; Mn-6; Zn-6; Mo-0,01</param>
         <param name="Норма витрати">0,5-1,6</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Картопля</param>
       </offer>
@@ -123990,17 +123991,17 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-zernovi-nais</url>
         <price>2531</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6074</vendorCode>
-        <description><![CDATA[Регулятор росту НАЙС Зернові (Найс, эконом-генерик). Действующее вещество: N-129; MgO-45; SO3-103; B-1; Cu-13; Fe-4; Mn-13; Zn-10; Mo-0,03. Норма расхода: 0,5-1,5. Фасовка: 20 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту НАЙС Зернові (Найс, економ-дженерик). Діюча речовина: N-129; MgO-45; SO3-103; B-1; Cu-13; Fe-4; Mn-13; Zn-10; Mo-0,03. Норма витрати: 0,5-1,5. Фасовка: 20 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива НАЙС Зернові (Найс, эконом-генерик). Действующее вещество: N-129; MgO-45; SO3-103; B-1; Cu-13; Fe-4; Mn-13; Zn-10; Mo-0,03. Норма расхода: 0,5-1,5. Фасовка: 20 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива НАЙС Зернові (Найс, економ-дженерик). Діюча речовина: N-129; MgO-45; SO3-103; B-1; Cu-13; Fe-4; Mn-13; Zn-10; Mo-0,03. Норма витрати: 0,5-1,5. Фасовка: 20 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Найс</param>
         <param name="Код запчастини">6074</param>
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-129; MgO-45; SO3-103; B-1; Cu-13; Fe-4; Mn-13; Zn-10; Mo-0,03</param>
         <param name="Норма витрати">0,5-1,5</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6075" available="true">
@@ -124009,7 +124010,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-bobovi-nais</url>
         <price>2531</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6075</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Бобовые (Найс) — комплексное листовое удобрение для гороха, сои, нута, чечевицы, фасоли. Сбалансированный состав макро- и микроэлементов для бобовых: высокая доля серы (SO₃-51), магния (MgO-17), кобальта (Co-0,02) для нодуляции и азотфиксации. Экономный аналог премиальных бобовых составов Yara Mila / Intermag Tytanit — на 40–60% дешевле.
@@ -124099,7 +124100,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-28; MgO-17; SO3-51; B-3; Cu-1; Fe-2; Mn-9; Zn-3; Mo-3; Co-0,02</param>
         <param name="Норма витрати">1,0-2,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Горох</param>
       </offer>
@@ -124109,7 +124110,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-kukurudza-nais</url>
         <price>2531</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6076</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Кукуруза (Найс) — специализированное комплексное удобрение для кукурузы. Высокое содержание азота (N-131), цинка (Zn-26), магния (MgO-46) и серы (SO₃-105) — именно тех элементов, которые наиболее востребованы культурой. Экономный аналог премиальных составов Yara Vita Mais / Wuxal Kukuruz / Nutrivant Plus Maize — на 40–60% дешевле.
@@ -124201,7 +124202,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-131; K2O-13; MgO-46; SO3-105; B-1; Cu-7; Fe-4; Mn-9; Zn-26; Mo-0,07</param>
         <param name="Норма витрати">1,0-3,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Кукурудза</param>
       </offer>
@@ -124211,7 +124212,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-oliini-nais</url>
         <price>2531</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6077</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Масличные (Найс) — специализированное комплексное удобрение для подсолнечника, рапса, сои, льна и других масличных. Сбалансированный состав с акцентом на бор (B-19) — критичный для маслонакопления и развития корзинки/стручка. Экономный аналог премиальных составов Yara Vita Oilseed / Wuxal Microplant / Nutrivant Plus Oil — на 40–60% дешевле.
@@ -124307,7 +124308,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-125; MgO-38; SO3-93; B-19; Cu-6; Fe-1; Mn-6; Zn-6; Mo-0,01</param>
         <param name="Норма витрати">0,5-3,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Ріпак озимий</param>
       </offer>
@@ -124317,7 +124318,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-bor-nais</url>
         <price>3168</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6078</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Бор (Найс) — высококонцентрированное листовое борное удобрение (152 г/л B) с азотной составляющей. Применяется для подсолнечника, рапса, сахарной свёклы, бобовых, плодовых и овощных культур. Экономный аналог премиальных борных удобрений Borogreen L (Yara) / Solubor / Intermag Bor — на 40–60% дешевле.
@@ -124413,7 +124414,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-65; B-152</param>
         <param name="Норма витрати">0,5-2,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Ріпак озимий</param>
       </offer>
@@ -124423,7 +124424,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-tsynk-nais</url>
         <price>3088</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6079</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Цинк (Найс) — высококонцентрированное цинковое удобрение (Zn-76 г/л) с азотом и серой для кукурузы, сои, плодовых, винограда. Цинк — главный лимитирующий элемент кукурузы и плодовых. Экономный аналог премиальных составов Yara Vita Zintrac / Intermag Cynk / Brexil Zn — на 40–60% дешевле.
@@ -124519,7 +124520,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-38; SO3-95, Zn-76</param>
         <param name="Норма витрати">0,5-2,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Кукурудза</param>
       </offer>
@@ -124529,7 +124530,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-marhanets-pro-nais</url>
         <price>3893</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6080</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Марганец Pro (Найс) — усиленная марганцевая формула с увеличенной долей азота (N-121) для активной вегетации. Решает Mn-дефицит и одновременно даёт мощный азотный отклик. Экономный аналог премиальных составов Yara Vita Mantrac Pro / Intermag Mangan Plus / Brexil Mn — на 40–60% дешевле.
@@ -124625,7 +124626,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-121; SO3-93, Mn-74</param>
         <param name="Норма витрати">0,5-2,1</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Горох</param>
       </offer>
@@ -124635,7 +124636,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-marhanets-nais</url>
         <price>2920</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6081</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Марганец (Найс) — высококонцентрированное листовое марганцевое удобрение (Mn-74 г/л) с азотом и серой. Применяется на зерновых, сахарной свёкле, сое, плодовых при дефиците марганца. Экономный аналог премиальных составов Yara Vita Mantrac Pro / Intermag Mangan / Wuxal Mangan — на 40–60% дешевле.
@@ -124731,7 +124732,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-50; SO3-99, Mn-74</param>
         <param name="Норма витрати">0,5-2,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Ярі зернові (ячмінь), Соняшник, Кукурудза, Озима пшениця</param>
       </offer>
@@ -124741,7 +124742,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/nais-molibden-nais</url>
         <price>6017</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6082</vendorCode>
         <description><![CDATA[Микроудобрение НАЙС Молибден (Найс) — концентрированное молибденовое удобрение (Mo-33 г/л) с азотом для бобовых, крестоцветных и овощных. Критичный элемент для азотфиксации сои, гороха, нута и работы Rhizobium. Экономный аналог премиальных составов Yara Vita Molytrac / Intermag Mo / Brexil Mo — на 40–60% дешевле.
@@ -124835,7 +124836,7 @@ IV клас (малонебезпечне).
         <param name="Фасовка">20 л</param>
         <param name="Діюча речовина">N-50; Mo-33</param>
         <param name="Норма витрати">0,5-1,0</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Горох, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -124845,7 +124846,7 @@ IV клас (малонебезпечне).
         <url>https://agrosnab-pivden.com/ru/produkt/vecta-action-nais</url>
         <price>2057</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6083</vendorCode>
         <description><![CDATA[VECTA ACTION (Найс) — биостимулятор-антистрессант с фосфорным акцентом для предпосевной обработки семян и стартовой подкормки. Содержит свободные L-аминокислоты, полисахариды, фитогормоны и сбалансированный NPK с микроэлементами. Экономный аналог Megafol (Valagro) и Radifarm (Valagro) — стоимость на 40–60% ниже при сопоставимом ростостимулирующем эффекте.
@@ -124941,7 +124942,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">N-37; P2O5-129; K2O-44; Zn-3; Fe-3; B-1; Cu-1; Mo-0,9; Mn-0,2;вільні L-амінокислоти-60; полісахариди- 91; фітогормони -1,16</param>
         <param name="Норма витрати">0,5 - 1,5 л/т</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Ріпак озимий, Ріпак ярий</param>
       </offer>
@@ -124951,7 +124952,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/vecta-amino-nais</url>
         <price>3055</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6084</vendorCode>
         <description><![CDATA[VECTA AMINO (Найс) — концентрированный аминокислотный антистрессант с высоким содержанием свободных L-аминокислот (350 г/л) для снятия любого стресса в течение всей вегетации. Экономный аналог Aminocat 30 (Atlántica Agrícola) и Terra-Sorb Foliar (Bioiberica) — стоимость на 40–60% ниже при сопоставимой биологической активности.
@@ -125049,7 +125050,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">N-60, P2O5-30;вільні L-амінокислоти-350</param>
         <param name="Норма витрати">0,3 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Ріпак озимий</param>
       </offer>
@@ -125059,17 +125060,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/vecta-seaweed-nais</url>
         <price>3055</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6085</vendorCode>
-        <description><![CDATA[Регулятор росту VECTA Seaweed (Найс, эконом-генерик). Действующее вещество: Екстракт бурих водоростей Ascophyllum nodosum таLaminaria-300. Норма расхода: 0,3 - 1,5 л/га. Фасовка: 5 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту VECTA Seaweed (Найс, економ-дженерик). Діюча речовина: Екстракт бурих водоростей Ascophyllum nodosum таLaminaria-300. Норма витрати: 0,3 - 1,5 л/га. Фасовка: 5 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива VECTA Seaweed (Найс, эконом-генерик). Действующее вещество: Екстракт бурих водоростей Ascophyllum nodosum таLaminaria-300. Норма расхода: 0,3 - 1,5 л/га. Фасовка: 5 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива VECTA Seaweed (Найс, економ-дженерик). Діюча речовина: Екстракт бурих водоростей Ascophyllum nodosum таLaminaria-300. Норма витрати: 0,3 - 1,5 л/га. Фасовка: 5 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Найс</param>
         <param name="Код запчастини">6085</param>
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">Екстракт бурих водоростей Ascophyllum nodosum таLaminaria-300</param>
         <param name="Норма витрати">0,3 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6086" available="true">
@@ -125078,7 +125079,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/vecta-pmax-nais</url>
         <price>1741</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6086</vendorCode>
         <description><![CDATA[VECTA Pmax (Найс) — высокофосфорное листовое удобрение с микроэлементами и L-аминокислотами для стартовых фаз развития, корнеобразования и закладки урожая. Фосфор — ключевой элемент энергетического обмена (АТФ) и развития корня. Экономный аналог Phosfik (Atlántica Agrícola) и Master P 52 (Valagro) — стоимость на 40–60% ниже при сопоставимом действии.
@@ -125176,7 +125177,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">N-80; P2O5-200; K2O-11; Mn-6; Zn-6; Cu- 6;вільні L-амінокислоти-56</param>
         <param name="Норма витрати">0,5 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Ріпак озимий</param>
       </offer>
@@ -125186,7 +125187,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/vecta-kmax-nais</url>
         <price>1303</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6087</vendorCode>
         <description><![CDATA[VECTA Kmax (Найс) — высококалийное листовое удобрение с L-аминокислотами для фазы налива зерна, плодообразования и созревания. Калий — лимитирующий элемент урожая по массе и качеству. Экономный аналог Kalium Plus (Valagro) и Wuxal Kalium (Aglukon) — стоимость на 40–60% ниже при сопоставимой эффективности.
@@ -125284,7 +125285,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">N-37; K2O-200;вільні L-амінокислоти-80</param>
         <param name="Норма витрати">0,5 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза</param>
       </offer>
@@ -125294,7 +125295,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/vecta-combiplus-nais</url>
         <price>2068</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Найс</vendor>
         <vendorCode>6088</vendorCode>
         <description><![CDATA[VECTA COMBIPlus (Найс) — комбинированный биостимулятор «всё в одном» с NPK, микроэлементами, аминокислотами, полисахаридами и фитогормонами. Универсальная листовая подкормка для всех полевых и овощных культур. Экономный аналог Megafol Combo (Valagro) и Wuxal Combi (Aglukon) — стоимость на 40–60% ниже при аналогичном составе.
@@ -125392,7 +125393,7 @@ IV клас (малонебезпечна речовина). Безпечний 
         <param name="Фасовка">5 л</param>
         <param name="Діюча речовина">N-37; P2O5-129; K2O-44; Zn-3; Fe-3; B-1; Cu-1; Mo-0,9; Mn-0,2;вільні L-амінокислоти-60; полісахариди-91; фітогормони -1,16</param>
         <param name="Норма витрати">0,5 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
         <param name="Культури">Соняшник, Кукурудза, Ріпак озимий</param>
       </offer>
@@ -125402,17 +125403,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/humate-lf-20-laif</url>
         <price>2070</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6089</vendorCode>
-        <description><![CDATA[Регулятор росту Humate LF 20 (Лайф, эконом-генерик). Действующее вещество: Фульвати 20 г/л, гумінові речовини 180 г/л, калій (К₂О) 30 г/л, \r\nамінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма расхода: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Humate LF 20 (Лайф, економ-дженерик). Діюча речовина: Фульвати 20 г/л, гумінові речовини 180 г/л, калій (К₂О) 30 г/л, \r\nамінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма витрати: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Humate LF 20 (Лайф, эконом-генерик). Действующее вещество: Фульвати 20 г/л, гумінові речовини 180 г/л, калій (К₂О) 30 г/л, \r\nамінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма расхода: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Humate LF 20 (Лайф, економ-дженерик). Діюча речовина: Фульвати 20 г/л, гумінові речовини 180 г/л, калій (К₂О) 30 г/л, \r\nамінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма витрати: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6089</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Фульвати 20 г/л, гумінові речовини 180 г/л, калій (К₂О) 30 г/л, \r\nамінокислоти 25 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л</param>
         <param name="Норма витрати">0,2 - 4 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6090" available="true">
@@ -125440,17 +125441,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/humat-start-laif</url>
         <price>2920</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6091</vendorCode>
-        <description><![CDATA[Регулятор росту Гумат Старт (Лайф, эконом-генерик). Действующее вещество: Екстракт морських водоростей - 80 г/л, гумінові речовини 100 г/л, Калій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 80 г/л, амінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма расхода: 0,2 - 2 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Гумат Старт (Лайф, економ-дженерик). Діюча речовина: Екстракт морських водоростей - 80 г/л, гумінові речовини 100 г/л, Калій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 80 г/л, амінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма витрати: 0,2 - 2 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Гумат Старт (Лайф, эконом-генерик). Действующее вещество: Екстракт морських водоростей - 80 г/л, гумінові речовини 100 г/л, Калій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 80 г/л, амінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма расхода: 0,2 - 2 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Гумат Старт (Лайф, економ-дженерик). Діюча речовина: Екстракт морських водоростей - 80 г/л, гумінові речовини 100 г/л, Калій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 80 г/л, амінокислоти 25 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма витрати: 0,2 - 2 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6091</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Екстракт морських водоростей - 80 г/л, гумінові речовини 100 г/л, Калій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 80 г/л, амінокислоти 25 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л</param>
         <param name="Норма витрати">0,2 - 2 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6092" available="true">
@@ -125459,17 +125460,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/fulvihum-laif</url>
         <price>2265</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6092</vendorCode>
-        <description><![CDATA[Регулятор росту Фульвігум (Лайф, эконом-генерик). Действующее вещество: Фульвати 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л , азот (N) 55 г/л, фосфор P2O5 80 г/л, \r\nамінокислоти 50 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма расхода: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Фульвігум (Лайф, економ-дженерик). Діюча речовина: Фульвати 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л , азот (N) 55 г/л, фосфор P2O5 80 г/л, \r\nамінокислоти 50 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма витрати: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Фульвігум (Лайф, эконом-генерик). Действующее вещество: Фульвати 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л , азот (N) 55 г/л, фосфор P2O5 80 г/л, \r\nамінокислоти 50 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма расхода: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Фульвігум (Лайф, економ-дженерик). Діюча речовина: Фульвати 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л , азот (N) 55 г/л, фосфор P2O5 80 г/л, \r\nамінокислоти 50 г/л,  мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма витрати: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6092</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Фульвати 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л , азот (N) 55 г/л, фосфор P2O5 80 г/л, \r\nамінокислоти 50 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л</param>
         <param name="Норма витрати">0,2 - 4 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6093" available="true">
@@ -125497,17 +125498,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/humat-amino-laif</url>
         <price>3389</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6094</vendorCode>
-        <description><![CDATA[Регулятор росту Гумат Аміно (Лайф, эконом-генерик). Действующее вещество: Вільні L-амінокислоти 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 60 г/л, \r\nмікроелементи (Fe, Zn, Mn, Cu, Mg, B)  10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма расхода: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Гумат Аміно (Лайф, економ-дженерик). Діюча речовина: Вільні L-амінокислоти 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 60 г/л, \r\nмікроелементи (Fe, Zn, Mn, Cu, Mg, B)  10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма витрати: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Гумат Аміно (Лайф, эконом-генерик). Действующее вещество: Вільні L-амінокислоти 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 60 г/л, \r\nмікроелементи (Fe, Zn, Mn, Cu, Mg, B)  10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма расхода: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Гумат Аміно (Лайф, економ-дженерик). Діюча речовина: Вільні L-амінокислоти 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 60 г/л, \r\nмікроелементи (Fe, Zn, Mn, Cu, Mg, B)  10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л. Норма витрати: 0,2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6094</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L-амінокислоти 80 г/л, гумінові речовини 100 г/л, \r\nкалій (К₂О) 30 г/л, азот (N) 55 г/л, фосфор P2O5 60 г/л, \r\nмікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 9±1, густина 1200±50 г/л</param>
         <param name="Норма витрати">0,2 - 4 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6095" available="true">
@@ -125516,17 +125517,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/humat-kremnii-si-laif</url>
         <price>3570</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6095</vendorCode>
-        <description><![CDATA[Регулятор росту Гумат кремній (Si) (Лайф, эконом-генерик). Действующее вещество: Кремній (Si) 60 г/л, вільні L-амінокислоти 50 г/л,  гумінові речовини 100 г/л, калій (К₂О) 30 г/л, азот (N) 30 г/л, фосфор P2O5 60 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма расхода: 2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Гумат кремній (Si) (Лайф, економ-дженерик). Діюча речовина: Кремній (Si) 60 г/л, вільні L-амінокислоти 50 г/л,  гумінові речовини 100 г/л, калій (К₂О) 30 г/л, азот (N) 30 г/л, фосфор P2O5 60 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма витрати: 2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Гумат кремній (Si) (Лайф, эконом-генерик). Действующее вещество: Кремній (Si) 60 г/л, вільні L-амінокислоти 50 г/л,  гумінові речовини 100 г/л, калій (К₂О) 30 г/л, азот (N) 30 г/л, фосфор P2O5 60 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма расхода: 2 - 4 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Гумат кремній (Si) (Лайф, економ-дженерик). Діюча речовина: Кремній (Si) 60 г/л, вільні L-амінокислоти 50 г/л,  гумінові речовини 100 г/л, калій (К₂О) 30 г/л, азот (N) 30 г/л, фосфор P2O5 60 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л. Норма витрати: 2 - 4 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6095</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Кремній (Si) 60 г/л, вільні L-амінокислоти 50 г/л, гумінові речовини 100 г/л, калій (К₂О) 30 г/л, азот (N) 30 г/л, фосфор P2O5 60 г/л, мікроелементи (Fe, Zn, Mn, Cu, Mg, B) 10 г/л, \r\npH 1% розчину 10±1, густина 1200±50 г/л</param>
         <param name="Норма витрати">2 - 4 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6096" available="true">
@@ -125535,17 +125536,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/amino-x-laif</url>
         <price>2473</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6096</vendorCode>
-        <description><![CDATA[Регулятор росту Аmino X (Лайф, эконом-генерик). Действующее вещество: Вільні L-амінокислоти 250 г/л,\r\nФітогормони (ауксини, гібереліни, цитокініни) 0,1 г/л,  \r\nмагній (Mg) 10 г/л, залізо (Fe) 10 г/л, сірка (SO₃) 30 г/л, \r\nмарганець (Mn) 19 г/л, цинк (Zn) 12 г/л, мідь (Cu) 7 г/л, \r\npH 3,5±1, густина 1280 ±50 г/л. Норма расхода: 0,1 - 2 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Аmino X (Лайф, економ-дженерик). Діюча речовина: Вільні L-амінокислоти 250 г/л,\r\nФітогормони (ауксини, гібереліни, цитокініни) 0,1 г/л,  \r\nмагній (Mg) 10 г/л, залізо (Fe) 10 г/л, сірка (SO₃) 30 г/л, \r\nмарганець (Mn) 19 г/л, цинк (Zn) 12 г/л, мідь (Cu) 7 г/л, \r\npH 3,5±1, густина 1280 ±50 г/л. Норма витрати: 0,1 - 2 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Аmino X (Лайф, эконом-генерик). Действующее вещество: Вільні L-амінокислоти 250 г/л,\r\nФітогормони (ауксини, гібереліни, цитокініни) 0,1 г/л,  \r\nмагній (Mg) 10 г/л, залізо (Fe) 10 г/л, сірка (SO₃) 30 г/л, \r\nмарганець (Mn) 19 г/л, цинк (Zn) 12 г/л, мідь (Cu) 7 г/л, \r\npH 3,5±1, густина 1280 ±50 г/л. Норма расхода: 0,1 - 2 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Аmino X (Лайф, економ-дженерик). Діюча речовина: Вільні L-амінокислоти 250 г/л,\r\nФітогормони (ауксини, гібереліни, цитокініни) 0,1 г/л,  \r\nмагній (Mg) 10 г/л, залізо (Fe) 10 г/л, сірка (SO₃) 30 г/л, \r\nмарганець (Mn) 19 г/л, цинк (Zn) 12 г/л, мідь (Cu) 7 г/л, \r\npH 3,5±1, густина 1280 ±50 г/л. Норма витрати: 0,1 - 2 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6096</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L-амінокислоти 250 г/л,\r\nФітогормони (ауксини, гібереліни, цитокініни) 0,1 г/л, \r\nмагній (Mg) 10 г/л, залізо (Fe) 10 г/л, сірка (SO₃) 30 г/л, \r\nмарганець (Mn) 19 г/л, цинк (Zn) 12 г/л, мідь (Cu) 7 г/л, \r\npH 3,5±1, густина 1280 ±50 г/л</param>
         <param name="Норма витрати">0,1 - 2 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6097" available="true">
@@ -125554,17 +125555,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/stop-lid-laif</url>
         <price>2274</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6097</vendorCode>
-        <description><![CDATA[Регулятор росту СТОП ЛІД (Лайф, эконом-генерик). Действующее вещество: Комплекс кріопротекторів (в т.ч. манітол, аліфатичні спирти) 350 г/л, Фосфор (P2O5) 130 г/л, калій (K2O) 140 г/л, магній (MgO) 2 г/л, бор (B) 1,5 г/л, амінокислоти 1 г/л, \r\nгустина 1250 ±50 г/л.. Норма расхода: 3 - 5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту СТОП ЛІД (Лайф, економ-дженерик). Діюча речовина: Комплекс кріопротекторів (в т.ч. манітол, аліфатичні спирти) 350 г/л, Фосфор (P2O5) 130 г/л, калій (K2O) 140 г/л, магній (MgO) 2 г/л, бор (B) 1,5 г/л, амінокислоти 1 г/л, \r\nгустина 1250 ±50 г/л.. Норма витрати: 3 - 5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива СТОП ЛІД (Лайф, эконом-генерик). Действующее вещество: Комплекс кріопротекторів (в т.ч. манітол, аліфатичні спирти) 350 г/л, Фосфор (P2O5) 130 г/л, калій (K2O) 140 г/л, магній (MgO) 2 г/л, бор (B) 1,5 г/л, амінокислоти 1 г/л, \r\nгустина 1250 ±50 г/л.. Норма расхода: 3 - 5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива СТОП ЛІД (Лайф, економ-дженерик). Діюча речовина: Комплекс кріопротекторів (в т.ч. манітол, аліфатичні спирти) 350 г/л, Фосфор (P2O5) 130 г/л, калій (K2O) 140 г/л, магній (MgO) 2 г/л, бор (B) 1,5 г/л, амінокислоти 1 г/л, \r\nгустина 1250 ±50 г/л.. Норма витрати: 3 - 5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6097</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Комплекс кріопротекторів (в т.ч. манітол, аліфатичні спирти) 350 г/л, Фосфор (P2O5) 130 г/л, калій (K2O) 140 г/л, магній (MgO) 2 г/л, бор (B) 1,5 г/л, амінокислоти 1 г/л, \r\nгустина 1250 ±50 г/л.</param>
         <param name="Норма витрати">3 - 5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6098" available="true">
@@ -125573,17 +125574,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/antistress-03-laif</url>
         <price>6225</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6098</vendorCode>
-        <description><![CDATA[Регулятор росту Antistress 03 (Лайф, эконом-генерик). Действующее вещество: Екстракт морських водоростей 100 г/л\r\nГумінові речовини 100 г/л, фульвати 150 г/л\r\nВільні L-амінокислоти 100 г/л, \r\nазот (N) 85 г/л, фосфор P2O5 60 г/л, калій (К₂О) 55 г/л,  мікроелементи 10 г/л, \r\npH 1% розчину 9 ± 1, густина 1300 ±50 г/л. Норма расхода: 0,2 - 0,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Antistress 03 (Лайф, економ-дженерик). Діюча речовина: Екстракт морських водоростей 100 г/л\r\nГумінові речовини 100 г/л, фульвати 150 г/л\r\nВільні L-амінокислоти 100 г/л, \r\nазот (N) 85 г/л, фосфор P2O5 60 г/л, калій (К₂О) 55 г/л,  мікроелементи 10 г/л, \r\npH 1% розчину 9 ± 1, густина 1300 ±50 г/л. Норма витрати: 0,2 - 0,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Antistress 03 (Лайф, эконом-генерик). Действующее вещество: Екстракт морських водоростей 100 г/л\r\nГумінові речовини 100 г/л, фульвати 150 г/л\r\nВільні L-амінокислоти 100 г/л, \r\nазот (N) 85 г/л, фосфор P2O5 60 г/л, калій (К₂О) 55 г/л,  мікроелементи 10 г/л, \r\npH 1% розчину 9 ± 1, густина 1300 ±50 г/л. Норма расхода: 0,2 - 0,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Antistress 03 (Лайф, економ-дженерик). Діюча речовина: Екстракт морських водоростей 100 г/л\r\nГумінові речовини 100 г/л, фульвати 150 г/л\r\nВільні L-амінокислоти 100 г/л, \r\nазот (N) 85 г/л, фосфор P2O5 60 г/л, калій (К₂О) 55 г/л,  мікроелементи 10 г/л, \r\npH 1% розчину 9 ± 1, густина 1300 ±50 г/л. Норма витрати: 0,2 - 0,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6098</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Екстракт морських водоростей 100 г/л\r\nГумінові речовини 100 г/л, фульвати 150 г/л\r\nВільні L-амінокислоти 100 г/л, \r\nазот (N) 85 г/л, фосфор P2O5 60 г/л, калій (К₂О) 55 г/л, мікроелементи 10 г/л, \r\npH 1% розчину 9 ± 1, густина 1300 ±50 г/л</param>
         <param name="Норма витрати">0,2 - 0,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6099" available="true">
@@ -125744,17 +125745,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/marhanets-turbo-laif</url>
         <price>1460</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6107</vendorCode>
-        <description><![CDATA[Регулятор росту Марганець Турбо (Лайф, эконом-генерик). Действующее вещество: Марганець (Mn) 130 г/л, азот (N) 17 г/л, сірка (SO3) 76 г/л, амінокислоти 10 г/л, рН 1,5, густина 1350±50  г/л.. Норма расхода: 0,5 - 1 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Марганець Турбо (Лайф, економ-дженерик). Діюча речовина: Марганець (Mn) 130 г/л, азот (N) 17 г/л, сірка (SO3) 76 г/л, амінокислоти 10 г/л, рН 1,5, густина 1350±50  г/л.. Норма витрати: 0,5 - 1 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Марганець Турбо (Лайф, эконом-генерик). Действующее вещество: Марганець (Mn) 130 г/л, азот (N) 17 г/л, сірка (SO3) 76 г/л, амінокислоти 10 г/л, рН 1,5, густина 1350±50  г/л.. Норма расхода: 0,5 - 1 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Марганець Турбо (Лайф, економ-дженерик). Діюча речовина: Марганець (Mn) 130 г/л, азот (N) 17 г/л, сірка (SO3) 76 г/л, амінокислоти 10 г/л, рН 1,5, густина 1350±50  г/л.. Норма витрати: 0,5 - 1 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6107</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Марганець (Mn) 130 г/л, азот (N) 17 г/л, сірка (SO3) 76 г/л, амінокислоти 10 г/л, рН 1,5, густина 1350±50 г/л.</param>
         <param name="Норма витрати">0,5 - 1 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6108" available="true">
@@ -126047,17 +126048,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/nasinnya-turbo-laif</url>
         <price>3212</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6123</vendorCode>
-        <description><![CDATA[Регулятор росту Насіння Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 45 г/л, сірка (SO3) 42 г/л, бор (B) 2,5 г/л, залізо  (Fe) 2,5 г/л, магній (MgO) 0,6 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л. молібден (Mo) 1,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,06 г/л, густина 1300±50 г/л. Норма расхода: 1,0 л/т. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Насіння Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 45 г/л, сірка (SO3) 42 г/л, бор (B) 2,5 г/л, залізо  (Fe) 2,5 г/л, магній (MgO) 0,6 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л. молібден (Mo) 1,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,06 г/л, густина 1300±50 г/л. Норма витрати: 1,0 л/т. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Насіння Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 45 г/л, сірка (SO3) 42 г/л, бор (B) 2,5 г/л, залізо  (Fe) 2,5 г/л, магній (MgO) 0,6 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л. молібден (Mo) 1,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,06 г/л, густина 1300±50 г/л. Норма расхода: 1,0 л/т. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Насіння Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 45 г/л, сірка (SO3) 42 г/л, бор (B) 2,5 г/л, залізо  (Fe) 2,5 г/л, магній (MgO) 0,6 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л. молібден (Mo) 1,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,06 г/л, густина 1300±50 г/л. Норма витрати: 1,0 л/т. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6123</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 45 г/л, сірка (SO3) 42 г/л, бор (B) 2,5 г/л, залізо (Fe) 2,5 г/л, магній (MgO) 0,6 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л. мол...</param>
         <param name="Норма витрати">1,0 л/т</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6124" available="true">
@@ -126066,17 +126067,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/zernovyi-turbo-laif</url>
         <price>2818</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6124</vendorCode>
-        <description><![CDATA[Регулятор росту Зерновий Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л,азот загальний (N) 80 г/л, фосфор (P2O5) 70 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 42 г/л, бор (B) 2,3 г/л, залізо  (Fe) 3 г/л, магній (MgO) 2 г/л марганець (Mn) 14,1 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,12 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Зерновий Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л,азот загальний (N) 80 г/л, фосфор (P2O5) 70 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 42 г/л, бор (B) 2,3 г/л, залізо  (Fe) 3 г/л, магній (MgO) 2 г/л марганець (Mn) 14,1 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,12 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Зерновий Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л,азот загальний (N) 80 г/л, фосфор (P2O5) 70 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 42 г/л, бор (B) 2,3 г/л, залізо  (Fe) 3 г/л, магній (MgO) 2 г/л марганець (Mn) 14,1 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,12 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Зерновий Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л,азот загальний (N) 80 г/л, фосфор (P2O5) 70 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 42 г/л, бор (B) 2,3 г/л, залізо  (Fe) 3 г/л, магній (MgO) 2 г/л марганець (Mn) 14,1 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,12 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6124</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L – амінокислоти 50 г/л,азот загальний (N) 80 г/л, фосфор (P2O5) 70 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 42 г/л, бор (B) 2,3 г/л, залізо (Fe) 3 г/л, магній (MgO) 2 г/л марганець (Mn) 14,1 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, моліб...</param>
         <param name="Норма витрати">1,0 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6125" available="true">
@@ -126085,17 +126086,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/oliinyi-turbo-laif</url>
         <price>2924</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6125</vendorCode>
-        <description><![CDATA[Регулятор росту Олійний Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 47,3 г/л, сірка (SO3) 42 г/л, бор (B) 2,8 г/л, залізо (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,07 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Олійний Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 47,3 г/л, сірка (SO3) 42 г/л, бор (B) 2,8 г/л, залізо (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,07 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Олійний Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 47,3 г/л, сірка (SO3) 42 г/л, бор (B) 2,8 г/л, залізо (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,07 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Олійний Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 47,3 г/л, сірка (SO3) 42 г/л, бор (B) 2,8 г/л, залізо (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,07 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6125</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (К2О) 47,3 г/л, сірка (SO3) 42 г/л, бор (B) 2,8 г/л, залізо (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 12,5 г/л, мідь (Cu) 16 г/л, цинк (Zn) 13,5 г/л, м...</param>
         <param name="Норма витрати">1,0 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6126" available="true">
@@ -126104,17 +126105,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/kukurudza-turbo-laif</url>
         <price>2920</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6126</vendorCode>
-        <description><![CDATA[Регулятор росту Кукурудза Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65,8 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 40,1 г/л, бор (B) 2,3 г/л, залізо  (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 11,4 г/л, мідь (Cu) 16 г/л, цинк (Zn) 14,9 г/л, молібден (Mo) 0,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Кукурудза Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65,8 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 40,1 г/л, бор (B) 2,3 г/л, залізо  (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 11,4 г/л, мідь (Cu) 16 г/л, цинк (Zn) 14,9 г/л, молібден (Mo) 0,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Кукурудза Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65,8 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 40,1 г/л, бор (B) 2,3 г/л, залізо  (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 11,4 г/л, мідь (Cu) 16 г/л, цинк (Zn) 14,9 г/л, молібден (Mo) 0,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Кукурудза Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65,8 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 40,1 г/л, бор (B) 2,3 г/л, залізо  (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 11,4 г/л, мідь (Cu) 16 г/л, цинк (Zn) 14,9 г/л, молібден (Mo) 0,5 г/л, кобальт (Co) 0,13 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6126</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 65,8 г/л, калій (К2О) 40,5 г/л, сірка (SO3) 40,1 г/л, бор (B) 2,3 г/л, залізо (Fe) 2,3 г/л, магній (MgO) 1,1 г/л, марганець (Mn) 11,4 г/л, мідь (Cu) 16 г/л, цинк (Zn) 14,9 г/...</param>
         <param name="Норма витрати">1,0 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6127" available="true">
@@ -126123,17 +126124,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/bobovyi-turbo-laif</url>
         <price>3106</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6127</vendorCode>
-        <description><![CDATA[Регулятор росту Бобовий Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 67 г/л, калій (К2О) 42,8 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо  (Fe) 2,8 г/л, магній (MgO) 6,4 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 15,2 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,7 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Бобовий Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 67 г/л, калій (К2О) 42,8 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо  (Fe) 2,8 г/л, магній (MgO) 6,4 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 15,2 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,7 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Бобовий Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 67 г/л, калій (К2О) 42,8 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо  (Fe) 2,8 г/л, магній (MgO) 6,4 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 15,2 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,7 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма расхода: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Бобовий Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 67 г/л, калій (К2О) 42,8 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо  (Fe) 2,8 г/л, магній (MgO) 6,4 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 15,2 г/л, цинк (Zn) 13,5 г/л, молібден (Mo) 1,7 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л.. Норма витрати: 1,0 - 1,5 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6127</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L – амінокислоти 50 г/л, азот загальний (N) 80 г/л, фосфор (P2O5) 67 г/л, калій (К2О) 42,8 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо (Fe) 2,8 г/л, магній (MgO) 6,4 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 15,2 г/л, цинк (Zn) 13,5 г/л,...</param>
         <param name="Норма витрати">1,0 - 1,5 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6128" available="true">
@@ -126142,17 +126143,17 @@ IV клас (малонебезпечна речовина). Безпечний 
         <url>https://agrosnab-pivden.com/ru/produkt/buryakovyi-turbo-laif</url>
         <price>3044</price>
         <currencyId>UAH</currencyId>
-        <categoryId>6</categoryId>
+        <categoryId>9</categoryId>
         <vendor>Лайф</vendor>
         <vendorCode>6128</vendorCode>
-        <description><![CDATA[Регулятор росту Буряковий Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (K2O) 47 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо (Fe) 2,7 г/л, магній (MgO) 0,8 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л. Норма расхода: 1 - 2 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
-        <description_ua><![CDATA[Регулятор росту Буряковий Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (K2O) 47 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо (Fe) 2,7 г/л, магній (MgO) 0,8 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л. Норма витрати: 1 - 2 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
+        <description><![CDATA[Мікродобрива Буряковий Турбо (Лайф, эконом-генерик). Действующее вещество: Вільні L – амінокислоти, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (K2O) 47 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо (Fe) 2,7 г/л, магній (MgO) 0,8 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л. Норма расхода: 1 - 2 л/га. Фасовка: 10 л. Доставка по всей Украине. Наличный/безналичный расчёт.]]></description>
+        <description_ua><![CDATA[Мікродобрива Буряковий Турбо (Лайф, економ-дженерик). Діюча речовина: Вільні L – амінокислоти, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (K2O) 47 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо (Fe) 2,7 г/л, магній (MgO) 0,8 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден (Mo) 1,4 г/л, кобальт (Co) 0,14 г/л, фітогормони 0,05 г/л, густина 1300±50 г/л. Норма витрати: 1 - 2 л/га. Фасовка: 10 л. Доставка по всій Україні. Готівка/безготівка.]]></description_ua>
         <param name="Виробник">Лайф</param>
         <param name="Код запчастини">6128</param>
         <param name="Фасовка">10 л</param>
         <param name="Діюча речовина">Вільні L – амінокислоти, азот загальний (N) 80 г/л, фосфор (P2O5) 65 г/л, калій (K2O) 47 г/л, сірка (SO3) 42 г/л, бор (B) 4,9 г/л, залізо (Fe) 2,7 г/л, магній (MgO) 0,8 г/л, марганець (Mn) 13,8 г/л, мідь (Cu) 17,6 г/л, цинк (Zn) 12,2 г/л, молібден...</param>
         <param name="Норма витрати">1 - 2 л/га</param>
-        <param name="Категорія">Регулятор росту</param>
+        <param name="Категорія">Мікродобрива</param>
         <param name="Тип">Економ-дженерик</param>
       </offer>
       <offer id="6129" available="true">
