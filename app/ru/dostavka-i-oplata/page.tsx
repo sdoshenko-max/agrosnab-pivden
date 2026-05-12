@@ -18,7 +18,7 @@ export default function DeliveryPayment() {
         </div>
         <h2 className="text-xl font-bold mb-3">Как оформить заказ</h2>
         <ol className="list-decimal pl-5 space-y-2 text-muted mb-8">
-          <li>Оставьте заявку через сайт или позвоните на <a href="tel:+380660321997" className="text-brand font-semibold">+380 66 032 19 97</a></li>
+          <li>Оставьте заявку через сайт или позвоните на <a href="tel:+380770321997" className="text-brand font-semibold">+380 77 032 19 97</a></li>
           <li>Менеджер перезвонит в течение 15 минут и уточнит детали</li>
           <li>Подтверждаем наличие, формируем счёт, договариваемся о дате отгрузки</li>
           <li>Получаете товар с сертификатами и документами качества</li>

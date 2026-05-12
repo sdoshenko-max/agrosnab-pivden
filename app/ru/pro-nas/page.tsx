@@ -28,7 +28,7 @@ export default function About() {
           </div>
           <div className="card bg-bg">
             <h3 className="font-bold mb-2">Реквизиты</h3>
-            <p className="text-sm text-muted">ООО «АГРОСНАБ-ПІВДЕНЬ»<br />ЕГРПОУ: 35674029<br />Email: sdoshenko@gmail.com<br />Телефон: <a href="tel:+380660321997" className="text-brand">+380 66 032 19 97</a></p>
+            <p className="text-sm text-muted">ООО «АГРОСНАБ-ПІВДЕНЬ»<br />ЕГРПОУ: 35674029<br />Email: sdoshenko@gmail.com<br />Телефон: <a href="tel:+380770321997" className="text-brand">+380 77 032 19 97</a></p>
           </div>
         </section>
       </main>
