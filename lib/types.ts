@@ -6,7 +6,7 @@ export type Product = {
   name: string;
   nameRu: string;
   manufacturer: string;
-  tier: Tier;
+  tier: string; // "econom" | "premium" | "original" — використовуємо string щоб уникнути TS «union too complex» при 1400+ SKU
   group: string;
   groupSlug: string;
   activeIngredient: string;
@@ -17,8 +17,8 @@ export type Product = {
   priceVat: number;
   priceCash: number;
   priceOnRequest?: boolean;
-  unit: "л" | "кг";
-  currency: "USD" | "EUR";
+  unit: string; // "л" | "кг"
+  currency: string; // "USD" | "EUR"
   analog?: string;
   saveFromOriginal?: number;
   cultures: string[];

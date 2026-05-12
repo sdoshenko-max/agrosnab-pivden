@@ -8,11 +8,11 @@ export type CartItem = {
   manufacturer: string;
   packaging: string;
   packSize: number;       // розмір однієї каністри (5, 10, 20)
-  unit: "л" | "кг";
+  unit: string; // "л" | "кг"
   qty: number;            // кількість КАНІСТР
   priceVat: number;       // ціна за 1 л/кг
   priceCash: number;      // ціна за 1 л/кг
-  currency: "USD" | "EUR";
+  currency: string; // "USD" | "EUR"
 };
 
 type CartState = { items: CartItem[] };

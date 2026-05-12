@@ -4,7 +4,7 @@ import { useCurrency } from "./CurrencyContext";
 
 export function Price({ amount, currency = "USD", showOriginal = true, className = "", suffix = "" }: {
   amount: number;
-  currency?: "USD" | "EUR";
+  currency?: string;
   showOriginal?: boolean;
   className?: string;
   suffix?: string;

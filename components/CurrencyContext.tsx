@@ -8,7 +8,7 @@ const DEFAULT_RATES: Rates = { USD: 44.00, EUR: 51.70, date: "2026-05-05" };
 const STORAGE_KEY = "agrosnab_rates_mono_v1";
 const TTL_HOURS = 6;
 
-const Ctx = createContext<{ rates: Rates; format: (usd: number, currency?: "USD" | "EUR") => string; loading: boolean }>({
+const Ctx = createContext<{ rates: Rates; format: (usd: number, currency?: string) => string; loading: boolean }>({
   rates: DEFAULT_RATES,
   format: (u: number) => "",
   loading: false
@@ -51,7 +51,7 @@ export function CurrencyProvider({ children }: { children: ReactNode }) {
       .finally(() => setLoading(false));
   }, []);
 
-  function format(amount: number, currency: "USD" | "EUR" = "USD"): string {
+  function format(amount: number, currency: string = "USD"): string {
     const rate = currency === "EUR" ? rates.EUR : rates.USD;
     const uah = Math.round(amount * rate);
     return uah.toLocaleString("uk-UA").replace(/,/g, " ") + " ₴";
