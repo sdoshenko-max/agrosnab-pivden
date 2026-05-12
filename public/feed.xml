@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-05-12 08:35">
+<yml_catalog date="2026-05-12 08:42">
   <shop>
     <name>Агроснаб Південь</name>
     <company>ТОВ «АГРОСНАБ-ПІВДЕНЬ»</company>
@@ -26021,7 +26021,7 @@ II клас (небезпечна речовина). Увага: високот�
         <name>Торсида, КЕ</name>
         <name_ua>Торсіда, КЕ</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/torsida-ke-nertus</url>
-        <price>24011</price>
+        <price>4802</price>
         <currencyId>UAH</currencyId>
         <categoryId>3</categoryId>
         <picture>https://agrosnab-pivden.com/products/torsida-ke-nertus.jpg</picture>
@@ -30622,7 +30622,7 @@ III клас (помірно небезпечна речовина). Небез�
         <name>Бакаш, ТН</name>
         <name_ua>Бакаш, ТН</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/bakash-tn-nertus</url>
-        <price>235</price>
+        <price>1174</price>
         <currencyId>UAH</currencyId>
         <categoryId>4</categoryId>
         <vendor>Нертус</vendor>
@@ -104131,7 +104131,7 @@ III клас (помірно небезпечна речовина).
         <name>Серп, РК</name>
         <name_ua>Серп, РК</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/serp-rk-nertus</url>
-        <price>945</price>
+        <price>1889</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <vendor>Нертус</vendor>
@@ -104589,7 +104589,7 @@ III клас (помірно небезпечний).
         <name>Табезон, РК</name>
         <name_ua>Табезон, РК</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/tabezon-rk-nertus</url>
-        <price>951</price>
+        <price>1905</price>
         <currencyId>UAH</currencyId>
         <categoryId>1</categoryId>
         <vendor>Нертус</vendor>
@@ -105502,7 +105502,7 @@ III клас (помірно небезпечна речовина).
         <name>Фаер, ТН</name>
         <name_ua>Фаер, ТН</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/faer-tn-nertus</url>
-        <price>38245</price>
+        <price>7649</price>
         <currencyId>UAH</currencyId>
         <categoryId>4</categoryId>
         <vendor>Нертус</vendor>
@@ -110531,7 +110531,7 @@ III клас (помірно небезпечна речовина).
         <name>Купер, м.с.</name>
         <name_ua>Купер, м.с.</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/kuper-m-s-nertus</url>
-        <price>12365</price>
+        <price>2473</price>
         <currencyId>UAH</currencyId>
         <categoryId>2</categoryId>
         <vendor>Нертус</vendor>
@@ -114670,7 +114670,7 @@ II клас (небезпечний). Працювати в ЗІЗ, обереж
         <name>Скорпіон Форте, РК</name>
         <name_ua>Скорпіон Форте, РК</name_ua>
         <url>https://agrosnab-pivden.com/ru/produkt/skorpion-forte-rk-nertus</url>
-        <price>1336</price>
+        <price>2677</price>
         <currencyId>UAH</currencyId>
         <categoryId>5</categoryId>
         <vendor>Нертус</vendor>
