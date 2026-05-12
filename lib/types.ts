@@ -45,6 +45,26 @@ export type Culture = {
   image?: string;
 };
 
+export type City = {
+  slug: string;             // латиниця, kebab-case: voznesensk, mykolaiv, novyi-buh
+  nameUk: string;           // називний: "Вознесенськ"
+  inCity: string;           // повна форма з прийменником: "у Вознесенську" (або "в Очакові")
+  nameGen: string;          // родовий (для «з/до …»): "Вознесенська"
+  district: string;         // "Вознесенський район"
+  region: string;           // "Миколаївська область"
+  distanceKm: number;       // відстань від складу в Миколаєві
+  coordinates: { lat: number; lng: number };
+  population?: number;      // приблизна (довоєнна) кількість мешканців
+  intro: string;            // лід-абзац (~3-4 речення) — клімат, агроактивність району
+  mainCultureSlugs: string[]; // основні культури зони, з cultures.ts
+  climateZone: string;      // короткий опис кліматичної зони (одне речення)
+  localChallenges: { title: string; desc: string }[]; // 3 типові проблеми району
+  seasonalCalendar: { month: string; tasks: string }[]; // календар обробок (4-6 рядків)
+  faq: { q: string; a: string }[]; // 4-5 локальних питань
+  metaTitle: string;        // SEO title
+  metaDescription: string;  // SEO description
+};
+
 export type TankMix = {
   slug: string;
   cultureSlug: string;

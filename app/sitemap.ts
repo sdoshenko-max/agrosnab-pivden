@@ -4,6 +4,7 @@ import { groups } from "@/lib/groups";
 import { activeIngredients } from "@/lib/activeIngredients";
 import { allManufacturers } from "@/lib/manufacturers";
 import { articles } from "@/lib/articles";
+import { cities } from "@/lib/cities";
 
 const BASE = "https://agrosnab-pivden.com";
 
@@ -11,7 +12,7 @@ const BASE = "https://agrosnab-pivden.com";
 const STATIC_UA = [
   "/", "/kultury/", "/grupy/", "/diiucha-rechovyna/", "/bakovi-sumishi/",
   "/kontakty/", "/pro-nas/", "/dostavka-i-oplata/", "/oferta/",
-  "/konfidentsiynist/", "/sertyfikaty/", "/baza-znan/"
+  "/konfidentsiynist/", "/sertyfikaty/", "/baza-znan/", "/mista/"
 ];
 // RU локалізація неповна — у /app/ru/ існують лише ці статичні сторінки.
 const STATIC_RU = [
@@ -50,6 +51,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Статті бази знань — лише UA, /ru/baza-znan/ не існує.
   articles.forEach(a => push(`/baza-znan/${a.slug}/`));
+
+  // Міські лендинги — лише UA (RU-версії немає за рішенням від 2026-05-12).
+  cities.forEach(c => push(`/mista/${c.slug}/`));
 
   return urls;
 }

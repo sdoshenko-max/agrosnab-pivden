@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import { Logo } from "./Logo";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
+import { cities } from "@/lib/cities";
 
 export function Footer({ lang }: { lang: Lang }) {
   const t = dict[lang];
@@ -44,6 +45,32 @@ export function Footer({ lang }: { lang: Lang }) {
           </ul>
         </div>
       </div>
+      {lang === "uk" && cities.length > 0 && (
+        <div className="border-t border-slate-800">
+          <div className="container-w py-6">
+            <h3 className="text-xs uppercase tracking-wide text-slate-400 mb-3 font-semibold">
+              Регіони обслуговування
+            </h3>
+            <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+              {cities.map(c => (
+                <Link
+                  key={c.slug}
+                  href={`/mista/${c.slug}`}
+                  className="text-slate-300 hover:text-white transition-colors"
+                >
+                  {c.nameUk}
+                </Link>
+              ))}
+              <Link
+                href="/mista"
+                className="text-slate-400 hover:text-white transition-colors font-semibold"
+              >
+                всі регіони →
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="border-t border-slate-800">
         <div className="container-w py-4 text-xs text-slate-400 text-center">
           © {new Date().getFullYear()} {companyName}. {t.footer.rights}.
