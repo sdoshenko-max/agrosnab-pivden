@@ -1,0 +1,2844 @@
+{
+  "summary": {
+    "total_skus": 92,
+    "matched_on_official_site": 91,
+    "not_found_on_official_site": 1,
+    "packaging_mismatches": 24,
+    "category_mismatches": 17,
+    "active_ingredient_mismatches": 36
+  },
+  "skus": [
+    {
+      "code": "1384",
+      "slug": "advokat-ks-nertus",
+      "name_catalog": "Адвокат, КС",
+      "name_official": "Адвокат",
+      "official_url": "https://nertus.ua/zzr/view/Advokat",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/advokat-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Advokat_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "метрибузин,  600 г/л",
+        "official": "метрибузин, 600 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "2314",
+      "slug": "akkord-m-s-nertus",
+      "name_catalog": "Аккорд, м.с.",
+      "name_official": "Аккорд",
+      "official_url": "https://nertus.ua/zzr/view/Akkord",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/akkord-m-s-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Akkord_ms.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "гідроксид міді, 150 г/л; сірка, 300 г/л",
+        "official": "гідроксид міді, 150 г/л; сірка, 300 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "масляна суспензія"
+    },
+    {
+      "code": "2315",
+      "slug": "almaz-100-ke-nertus",
+      "name_catalog": "Алмаз 100, КЕ",
+      "name_official": "Алмаз 100",
+      "official_url": "https://nertus.ua/zzr/view/Almaz_100",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 1л",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "1 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/almaz-100-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Almaz_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "пенконазол, 100 г/л",
+        "official": "пенконазол, 100 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2098",
+      "slug": "antal-tn-nertus",
+      "name_catalog": "Антал, ТН",
+      "name_official": "Антал",
+      "official_url": "https://nertus.ua/zzr/view/Antal",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/antal-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Antal_TN.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Тіабендазол, 80 г/л; імазаліл, 125 г/л; тебуконазол, 60 г/л",
+        "official": "тіабендазол, 80 г/л; імазаліл, 125 г/л; тебуконазол, 60 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "2323",
+      "slug": "antal-tn-nertus",
+      "name_catalog": "Антал, ТН",
+      "name_official": "Антал",
+      "official_url": "https://nertus.ua/zzr/view/Antal",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/antal-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Antal_TN.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "тіабендазол, 80 г/л; імазаліл, 125 г/л; тебуконазол, 60 г/л",
+        "official": "тіабендазол, 80 г/л; імазаліл, 125 г/л; тебуконазол, 60 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "1385",
+      "slug": "arhument-forte-500-sl-rk-nertus",
+      "name_catalog": "Аргумент Форте 500 SL, РК",
+      "name_official": "Аргумент Форте 500SL",
+      "official_url": "https://nertus.ua/zzr/view/Argument_Forte_500SL",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/arhument-forte-500-sl-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Argument_Forte_500SL_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "калійна сіль гліфосату, у кислотному екв., 500 г/л",
+        "official": "калійна сіль гліфосата у кислотному еквіваленті, 500 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1386",
+      "slug": "arhument-forte-500-sl-rk-nertus",
+      "name_catalog": "Аргумент Форте 500 SL, РК",
+      "name_official": "Аргумент Форте 500SL",
+      "official_url": "https://nertus.ua/zzr/view/Argument_Forte_500SL",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/arhument-forte-500-sl-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Argument_Forte_500SL_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "калійна сіль гліфосату, у кислотному екв., 500 г/л",
+        "official": "калійна сіль гліфосата у кислотному еквіваленті, 500 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1117",
+      "slug": "arhument-rk-nertus",
+      "name_catalog": "Аргумент, РК",
+      "name_official": "Аргумент",
+      "official_url": "https://nertus.ua/zzr/view/Argument",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 1л; каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "1 л",
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/arhument-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Аргумент1_5ffee04fe8c46.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Ізопропіламінна сіль гліфосату у кислотному еквіваленті, 360 г/л",
+        "official": "ізопропіламінна сіль гліфосату, 480 г/л; у кислотному еквіваленті, 360 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водний розчин"
+    },
+    {
+      "code": "4025",
+      "slug": "bakash-tn-nertus",
+      "name_catalog": "Бакаш, ТН",
+      "name_official": "Бакаш",
+      "official_url": "https://nertus.ua/zzr/view/Bakash",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 1л",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "1 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/bakash-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_64c10bb7e3cb5.png"
+      },
+      "active_ingredient": {
+        "catalog": "Дифеноконазол, 50 г/л, імазаліл, 50г/л, азоксистробін, 20г/л, тіаметоксам, 250 г/л",
+        "official": "дифеноконазол, 50 г/л; імазаліл, 50 г/л; азоксистробін, 20 г/л; тіаметоксам, 250 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Протруйник",
+        "official": "Протруйники",
+        "match": true
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "1387",
+      "slug": "batu-rh-nertus",
+      "name_catalog": "Бату, РГ",
+      "name_official": "Бату",
+      "official_url": "https://nertus.ua/zzr/view/Batu",
+      "packaging": {
+        "catalog": "0.25 л",
+        "official": "банка 500г.",
+        "catalog_normalized": "0.25 л",
+        "official_variants": [
+          "500 г"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/batu-rh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Бату1_5ffee53d35946.png"
+      },
+      "active_ingredient": {
+        "catalog": "римсульфурон, 500 г/кг; тифенсульфурон-метил, 250 г/кг",
+        "official": "римсульфурон, 500 г/кг; тифенсульфурон-метил, 250 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водорозчинні гранули"
+    },
+    {
+      "code": "2099",
+      "slug": "berkut-forte-ke-nertus",
+      "name_catalog": "Беркут Форте, КЕ",
+      "name_official": "Беркут Форте",
+      "official_url": "https://nertus.ua/zzr/view/Berkut_forte",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/berkut-forte-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6368329480ab4.png"
+      },
+      "active_ingredient": {
+        "catalog": "Тебуконазол, 600 г/л",
+        "official": "тебуконазол, 600 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "2100",
+      "slug": "berkut-ke-nertus",
+      "name_catalog": "Беркут, КЕ",
+      "name_official": "Беркут",
+      "official_url": "https://nertus.ua/zzr/view/Berkut",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/berkut-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Berkut_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Тебуконазол, 250 г/л",
+        "official": "тебуконазол, 250 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1413",
+      "slug": "bimmer-k-e-nertus",
+      "name_catalog": "Біммер, к.е.",
+      "name_official": "Біммер",
+      "official_url": "https://nertus.ua/zzr/view/Bimmer",
+      "packaging": {
+        "catalog": "10 л",
+        "official": "каністра 1л; каністра 10л.",
+        "catalog_normalized": "10 л",
+        "official_variants": [
+          "1 л",
+          "10 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/bimmer-k-e-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Bimmer_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "діметоат, 400 г/л",
+        "official": "диметоат, 400 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Iнсектициди",
+        "match": false
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "3045",
+      "slug": "bokser-ks-nertus",
+      "name_catalog": "Боксер, КС",
+      "name_official": "Боксер",
+      "official_url": "https://nertus.ua/zzr/view/Boxer",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/bokser-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_61829c9d9dea9.png"
+      },
+      "active_ingredient": {
+        "catalog": "Ацетаміприд, 115 г/л, лямбда-цигалотрин, 106 г/л",
+        "official": "ацетаміприд, 115 г/л; лямбда-цигалотрин, 106 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "2101",
+      "slug": "brander-ks-nertus",
+      "name_catalog": "Брандер, КС",
+      "name_official": "Брандер",
+      "official_url": "https://nertus.ua/zzr/view/Brander",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/brander-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Brander_ks.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Азоксістробін, 200 г/л; тебуконазол, 160 г/л",
+        "official": "тебуконазол, 160 г/л; азоксистробін, 200 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1392",
+      "slug": "dekabryst-480-rk-nertus",
+      "name_catalog": "Декабрист 480, РК",
+      "name_official": "Декабрист 480",
+      "official_url": "https://nertus.ua/zzr/view/Dekabrist_480",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/dekabryst-480-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Dekabrist_480_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "дикамба, 480 г/л",
+        "official": "дикамба, 480 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "2316",
+      "slug": "dezal-ks-nertus",
+      "name_catalog": "Дезал, КС",
+      "name_official": "Дезал",
+      "official_url": "https://nertus.ua/zzr/view/Dezal",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/dezal-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Dezal_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "карбендазим, 500 г/л",
+        "official": "карбендазим, 500 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1414",
+      "slug": "dozor-zp-nertus",
+      "name_catalog": "Дозор, ЗП",
+      "name_official": "Дозор",
+      "official_url": "https://nertus.ua/zzr/view/Dozor",
+      "packaging": {
+        "catalog": "0.6 кг",
+        "official": "пакет 600г",
+        "catalog_normalized": "0.6 кг",
+        "official_variants": [
+          "600 г"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/dozor-zp-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Дозор1_5ffee82eb3f83.png"
+      },
+      "active_ingredient": {
+        "catalog": "феноксикарб, 250 г/кг",
+        "official": "феноксикарб, 250 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Iнсектициди",
+        "match": false
+      },
+      "formulation_official": "порошок, що змочується"
+    },
+    {
+      "code": "1396",
+      "slug": "efiron-ke-nertus",
+      "name_catalog": "Ефірон, КЕ",
+      "name_official": "Ефірон",
+      "official_url": "https://nertus.ua/zzr/view/Efron",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.; каністра 20л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л",
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/efiron-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Efron_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "2-етилгексиловый ефір 2,4-Д , 564 г/л",
+        "official": "2-етилгексиловий ефір 2,4-Д, 850 г/л; у кислотному еквіваленті, 564 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1397",
+      "slug": "efiron-ke-nertus",
+      "name_catalog": "Ефірон, КЕ",
+      "name_official": "Ефірон",
+      "official_url": "https://nertus.ua/zzr/view/Efron",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 5л.; каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "5 л",
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/efiron-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Efron_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "2-етилгексиловый ефір 2,4-Д , 564 г/л",
+        "official": "2-етилгексиловий ефір 2,4-Д, 850 г/л; у кислотному еквіваленті, 564 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1393",
+      "slug": "evro-lanh-r-k-nertus",
+      "name_catalog": "Евро-Ланг, р.к",
+      "name_official": "Євро-Ланг",
+      "official_url": "https://nertus.ua/zzr/view/evroLang",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/evro-lanh-r-k-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/vroLang_rk.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "імазетапір, 100 г/л, біоактиватор NN-21",
+        "official": "імазетапір, 100 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1394",
+      "slug": "evro-lend-rk-nertus",
+      "name_catalog": "Евро-Ленд, РК",
+      "name_official": "Євро-Ленд",
+      "official_url": "https://nertus.ua/zzr/view/ЕvroLend",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/evro-lend-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/vroLend_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "імазамокс, 33 г/л; імазапір, 15 г/л",
+        "official": "імазамокс, 33 г/л; імазапір, 15 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1395",
+      "slug": "evro-lend-rk-nertus",
+      "name_catalog": "Евро-Ленд, РК",
+      "name_official": "Євро-Ленд",
+      "official_url": "https://nertus.ua/zzr/view/ЕvroLend",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/evro-lend-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/vroLend_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "імазамокс, 33 г/л; імазапір, 15 г/л",
+        "official": "імазамокс, 33 г/л; імазапір, 15 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1417",
+      "slug": "faer-tn-nertus",
+      "name_catalog": "Фаер, ТН",
+      "name_official": "Фаер",
+      "official_url": "https://nertus.ua/zzr/view/Faer",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/faer-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Faer_TN.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "тирам, 400 г/л; тібендазол, 20 г/л; металаксил-М, 116 г/л",
+        "official": "тирам, 400 г/л; тіабендазол, 20 г/л; металаксил-М, 116 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "1411",
+      "slug": "fantastyk-md-new-nertus",
+      "name_catalog": "Фантастик, МД NEW",
+      "name_official": "Фантастік",
+      "official_url": "https://nertus.ua/zzr/view/Fantastik",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/fantastyk-md-new-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Фантастік1_6928ba4f39ca5.png"
+      },
+      "active_ingredient": {
+        "catalog": "мезотріон, 75 г/л +нікосульфурон, 30 г/л, + тієнкарбазон-метил, 10г/л + ципросульфамід, 15г/л",
+        "official": "мезотріон, 75 г/л; нікосульфурон, 30 г/л; тієнкарбазон-метил, 10 г/л; ципросульфамід, 15 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "масляна дисперсія"
+    },
+    {
+      "code": "3053",
+      "slug": "fatrin-ke-nertus",
+      "name_catalog": "Фатрін  КЕ",
+      "name_official": "Фатрін",
+      "official_url": "https://nertus.ua/zzr/view/Fatrn",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/fatrin-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Fatrn_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Альфа-циперметрин, 100 г/л",
+        "official": "альфа-циперметрин, 100 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2109",
+      "slug": "fidelis-ks-nertus",
+      "name_catalog": "Фіделіс, КС",
+      "name_official": "Фіделіс",
+      "official_url": "https://nertus.ua/zzr/view/Fidelis",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/fidelis-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6183aa98da72e.png"
+      },
+      "active_ingredient": {
+        "catalog": "Дифеноконазол, 104 г/л, тіофанат-метил, 333г/л",
+        "official": "дифеноконазол, 104 г/л; тіофанат-метил, 333 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "2320",
+      "slug": "fidelis-ks-nertus",
+      "name_catalog": "Фіделіс, КС",
+      "name_official": "Фіделіс",
+      "official_url": "https://nertus.ua/zzr/view/Fidelis",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/fidelis-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6183aa98da72e.png"
+      },
+      "active_ingredient": {
+        "catalog": "дифеноконазол, 104 г/л, тіофанат-метил, 333г/л",
+        "official": "дифеноконазол, 104 г/л; тіофанат-метил, 333 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "2110",
+      "slug": "fluafol-ks-nertus",
+      "name_catalog": "Флуафол, КС",
+      "name_official": "Флуафол",
+      "official_url": "https://nertus.ua/zzr/view/Fluafol",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/fluafol-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Флуафол1_5ffee91dd0ad3.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Флутріафол, 250 г/л",
+        "official": "флутріафол, 250 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1126",
+      "slug": "folio-ke-nertus",
+      "name_catalog": "Фоліо, КЕ",
+      "name_official": "Фоліо",
+      "official_url": "https://nertus.ua/zzr/view/Folio",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/folio-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Фоліо1_5fcfbcc917e40.png"
+      },
+      "active_ingredient": {
+        "catalog": "Пропізохлор, 580 г/л; флурохлорідон, 200 г/л",
+        "official": "пропізохлор, 580 г/л; флурохлорідон, 200 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2111",
+      "slug": "fontes-zp-nertus",
+      "name_catalog": "Фонтес ЗП",
+      "name_official": "Фонтес",
+      "official_url": "https://nertus.ua/zzr/view/Fontes",
+      "packaging": {
+        "catalog": "5 кг",
+        "official": "пакет 25г.",
+        "catalog_normalized": "5 кг",
+        "official_variants": [
+          "25 г"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/fontes-zp-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Фонтес1_5ddfb77c98127.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Манкоцеб, 800 г/кг",
+        "official": "манкоцеб, 800 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "порошок, що змочується"
+    },
+    {
+      "code": "2321",
+      "slug": "fontes-zp-nertus",
+      "name_catalog": "Фонтес ЗП",
+      "name_official": "Фонтес",
+      "official_url": "https://nertus.ua/zzr/view/Fontes",
+      "packaging": {
+        "catalog": "1 кг",
+        "official": "пакет 25г.",
+        "catalog_normalized": "1 кг",
+        "official_variants": [
+          "25 г"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/fontes-zp-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Фонтес1_5ddfb77c98127.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "манкоцеб, 800 г/кг",
+        "official": "манкоцеб, 800 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "порошок, що змочується"
+    },
+    {
+      "code": "8001",
+      "slug": "fosminii-tabl-nertus",
+      "name_catalog": "Фосміній, табл.",
+      "name_official": "Фосміній",
+      "official_url": "https://nertus.ua/zzr/view/Fosmny_tabl",
+      "packaging": {
+        "catalog": "1 кг",
+        "official": "банка 1кг",
+        "catalog_normalized": "1 кг",
+        "official_variants": [
+          "1 кг"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/fosminii-tabl-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Fosmny_tabl.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Фосфід алюмінію, 560г/кг",
+        "official": "фосфід алюмінію, 560 г/кг",
+        "match": false
+      },
+      "category": {
+        "catalog": "Родентицид",
+        "official": "Iнсектициди",
+        "match": false
+      },
+      "formulation_official": "таблетки"
+    },
+    {
+      "code": "1118",
+      "slug": "herb-900-ke-nertus",
+      "name_catalog": "Герб 900, КЕ",
+      "name_official": "Герб 900",
+      "official_url": "https://nertus.ua/zzr/view/Gerb_900",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/herb-900-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Gerb_900_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Ацетохлор, 900 г/л",
+        "official": "ацетохлор, 900 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "3046",
+      "slug": "hotika-ks-nertus",
+      "name_catalog": "Готіка, КС",
+      "name_official": "Готіка",
+      "official_url": "https://nertus.ua/zzr/view/Gotika",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/hotika-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_63c53516b1026.png"
+      },
+      "active_ingredient": {
+        "catalog": "Лямбда-цигалотрин, 106 г/л тіаметоксам, 141 г/л",
+        "official": "лямбда-цигалотрин, 106 г/л; тіаметоксам, 141 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "3176",
+      "slug": "hotika-ks-nertus",
+      "name_catalog": "Готіка, КС",
+      "name_official": "Готіка",
+      "official_url": "https://nertus.ua/zzr/view/Gotika",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/hotika-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_63c53516b1026.png"
+      },
+      "active_ingredient": {
+        "catalog": "лямбда-цигалотрин, 106 г/л тіаметоксам, 141 г/л",
+        "official": "лямбда-цигалотрин, 106 г/л; тіаметоксам, 141 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1391",
+      "slug": "hriznyi-ekspert-vh-nertus",
+      "name_catalog": "Грізний Експерт, ВГ",
+      "name_official": "Грізний Експерт",
+      "official_url": "https://nertus.ua/zzr/view/Grzniy_Ekspert",
+      "packaging": {
+        "catalog": "0.25 л",
+        "official": "",
+        "catalog_normalized": "0.25 л",
+        "official_variants": [],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/hriznyi-ekspert-vh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Грізний Експерт1_5fbd29641b6e6.png"
+      },
+      "active_ingredient": {
+        "catalog": "трибенурон-метил, 750 г/кг",
+        "official": "трибенурон-метил, 750 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водорозчинні гранули"
+    },
+    {
+      "code": "1390",
+      "slug": "hriznyi-vh-nertus",
+      "name_catalog": "Грізний, ВГ",
+      "name_official": "Грізний",
+      "official_url": "https://nertus.ua/zzr/view/Grizniy",
+      "packaging": {
+        "catalog": "0.25 л",
+        "official": "",
+        "catalog_normalized": "0.25 л",
+        "official_variants": [],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/hriznyi-vh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Грізний1_5fbd293e2e838.png"
+      },
+      "active_ingredient": {
+        "catalog": "трибенурон-метил, 750 г/кг",
+        "official": "трибенурон-метил, 750 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "вододисперсні гранули"
+    },
+    {
+      "code": "3047",
+      "slug": "kaizer-nertus",
+      "name_catalog": "Кайзер",
+      "name_official": "Кайзер",
+      "official_url": "https://nertus.ua/zzr/view/Kaizer",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/kaizer-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Кайзер1_5ffee87019aa4.png"
+      },
+      "active_ingredient": {
+        "catalog": "Тіаметоксам, 350г/л",
+        "official": "тіаметоксам, 350 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучий концентрат для обробки насіння"
+    },
+    {
+      "code": "3179",
+      "slug": "kaizer-nertus",
+      "name_catalog": "Кайзер",
+      "name_official": "Кайзер",
+      "official_url": "https://nertus.ua/zzr/view/Kaizer",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/kaizer-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Кайзер1_5ffee87019aa4.png"
+      },
+      "active_ingredient": {
+        "catalog": "тіаметоксам, 350г/л",
+        "official": "тіаметоксам, 350 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучий концентрат для обробки насіння"
+    },
+    {
+      "code": "1398",
+      "slug": "kapral-ks-nertus",
+      "name_catalog": "Капрал, КС",
+      "name_official": "Капрал",
+      "official_url": "https://nertus.ua/zzr/view/Kapral",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/kapral-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kapral_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "прометрин, 500 г/л",
+        "official": "прометрин, 500 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1119",
+      "slug": "kare-zp-nertus",
+      "name_catalog": "Каре, ЗП",
+      "name_official": "Каре",
+      "official_url": "https://nertus.ua/zzr/view/Kare",
+      "packaging": {
+        "catalog": "0.6 кг",
+        "official": "пакет (містить 20 водорозчинних пакетів по 30 г) 600г.",
+        "catalog_normalized": "0.6 кг",
+        "official_variants": [
+          "30 г",
+          "600 г"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/kare-zp-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kare_ZP.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Трифлусульфурон-метил, 500 г/кг",
+        "official": "трифлусульфурон-метил, 500 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "порошок, що змочується"
+    },
+    {
+      "code": "2103",
+      "slug": "kiper-ks-nertus",
+      "name_catalog": "Кіпер, КС",
+      "name_official": "Кіпер",
+      "official_url": "https://nertus.ua/zzr/view/Kiper",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/kiper-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kper_ks.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Тебуконазол, 162,5 г/л; тіабендазол 250 г/л",
+        "official": "тебуконазол, 162,5 г/л; тіабендазол, 250 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "3048",
+      "slug": "kontador-duo-ks-nertus",
+      "name_catalog": "Контадор Дуо, КС",
+      "name_official": "Контадор Дуо",
+      "official_url": "https://nertus.ua/zzr/view/Kontador_Duo",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 1л",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "1 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/kontador-duo-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kontador_Duo_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Імідаклоприд, 300 г/л; лямбда-цигалотрин, 100 г/л",
+        "official": "імідаклоприд, 300 г/л; лямбда-цигалотрин, 100 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "3049",
+      "slug": "kontador-maksy-tn-nertus",
+      "name_catalog": "Контадор Макси, ТН",
+      "name_official": "Контадор Макси",
+      "official_url": "https://nertus.ua/zzr/view/Kontador_Maksi",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/kontador-maksy-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kontador_Maksi_TN.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Імідаклоприд, 600 г/л",
+        "official": "імідаклоприд, 600 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "3178",
+      "slug": "kontador-maksy-tn-nertus",
+      "name_catalog": "Контадор Макси, ТН",
+      "name_official": "Контадор Макси",
+      "official_url": "https://nertus.ua/zzr/view/Kontador_Maksi",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/kontador-maksy-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kontador_Maksi_TN.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "імідаклоприд, 600 г/л",
+        "official": "імідаклоприд, 600 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "1399",
+      "slug": "konvoi-vh-nertus",
+      "name_catalog": "Конвой, ВГ",
+      "name_official": "Конвой",
+      "official_url": "https://nertus.ua/zzr/view/Konvoi",
+      "packaging": {
+        "catalog": "0.25 кг",
+        "official": "пляшка 0,25кг",
+        "catalog_normalized": "0.25 кг",
+        "official_variants": [
+          "0.25 кг"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/konvoi-vh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Конвой1_5ffee8b14d042.png"
+      },
+      "active_ingredient": {
+        "catalog": "трибенурон-метил, 300 г/кг;      флорасулам, 105 г/кг;           триасульфурон, 95 г/кг",
+        "official": "трибенурон-метил, 300 г/кг; флорасулам, 105 г/кг; триасульфурон, 95 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "вододисперсні гранули"
+    },
+    {
+      "code": "2317",
+      "slug": "kuper-m-s-nertus",
+      "name_catalog": "Купер, м.с.",
+      "name_official": "Купер",
+      "official_url": "https://nertus.ua/zzr/view/Kuper",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/kuper-m-s-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Kuper_ms.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "гідроксид міді, 300 г/л",
+        "official": "гідроксид міді, 300 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "масляна суспензія"
+    },
+    {
+      "code": "1400",
+      "slug": "lehenda-md-nertus",
+      "name_catalog": "Легенда, МД",
+      "name_official": "Легенда",
+      "official_url": "https://nertus.ua/zzr/view/Legenda",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/lehenda-md-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Легенда1_5fcfbe4ea8b11.png"
+      },
+      "active_ingredient": {
+        "catalog": "мезотріон, 75 г/л +нікосульфурон, 30 г/л",
+        "official": "мезотріон, 75 г/л; нікосульфурон, 30 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "масляна дисперсія"
+    },
+    {
+      "code": "1401",
+      "slug": "lemur-ke-nertus",
+      "name_catalog": "Лемур, КЕ",
+      "name_official": "Лемур",
+      "official_url": "https://nertus.ua/zzr/view/Lemur",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/lemur-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Lemur_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "хізалафоп-П-тефурил, 40 г/л",
+        "official": "хізалофоп-п-тефурил, 40 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1120",
+      "slug": "maitus-rh-nertus",
+      "name_catalog": "Майтус, РГ",
+      "name_official": "Майтус",
+      "official_url": "https://nertus.ua/zzr/view/Maytus",
+      "packaging": {
+        "catalog": "0.25 л",
+        "official": "банка 500г.",
+        "catalog_normalized": "0.25 л",
+        "official_variants": [
+          "500 г"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/maitus-rh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Майтус1_5fbd2a0ad8aae.png"
+      },
+      "active_ingredient": {
+        "catalog": "Римсульфурон, 250 г/кг",
+        "official": "римсульфурон, 250 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водорозчинні гранули"
+    },
+    {
+      "code": "1402",
+      "slug": "mikado-rk-nertus",
+      "name_catalog": "Мікадо, РК",
+      "name_official": "Мікадо",
+      "official_url": "https://nertus.ua/zzr/view/Mikado",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/mikado-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Mkado_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "клопіралід, 267 г/л; піклорам,67 г/л",
+        "official": "клопіралід, 267 г/л; піклорам, 67 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1122",
+      "slug": "milafuron-ks-kytai-nertus",
+      "name_catalog": "Мілафурон, КС КИТАЙ",
+      "name_official": "Мілафурон",
+      "official_url": "https://nertus.ua/zzr/view/Mlafuron",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/milafuron-ks-kytai-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Mlafuron_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Нікосульфурон, 40 г/л",
+        "official": "нікосульфурон, 40 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1121",
+      "slug": "milafuron-ks-nertus",
+      "name_catalog": "Мілафурон, КС",
+      "name_official": "Мілафурон",
+      "official_url": "https://nertus.ua/zzr/view/Mlafuron",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/milafuron-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Mlafuron_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Нікосульфурон, 40 г/л",
+        "official": "нікосульфурон, 40 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1403",
+      "slug": "motor-rk-nertus",
+      "name_catalog": "Мотор РК",
+      "name_official": "Мотор",
+      "official_url": "https://nertus.ua/zzr/view/Motor",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/motor-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Мотор1_5ffee8cf02168.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "імазамокс, 40 г/л",
+        "official": "імазамокс, 40 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "8011",
+      "slug": "mysholov-r-nertus",
+      "name_catalog": "Мишолов, р",
+      "name_official": "Мишолов",
+      "official_url": "https://nertus.ua/zzr/view/Misholov",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 1л",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "1 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/mysholov-r-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Misholov_r.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "бродіфакум, 0,25 г/л",
+        "official": "бродіфакум, 0,25 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Родентицид",
+        "official": "Родентициди",
+        "match": true
+      },
+      "formulation_official": "розчин"
+    },
+    {
+      "code": "1123",
+      "slug": "premium-hold-ks-nertus",
+      "name_catalog": "Преміум Голд, КС",
+      "name_official": "Преміум Голд",
+      "official_url": "https://nertus.ua/zzr/view/Premium_Gold",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/premium-hold-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Premum_Gold_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "С-метолахлор, 312,5 г/л; тербутилазин, 187,5 г/л",
+        "official": "С-метолахлор, 312,5 г/л; тербутилазин, 187,5 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "2318",
+      "slug": "prenta-ke-nertus",
+      "name_catalog": "Прента, КЕ",
+      "name_official": "Прента",
+      "official_url": "https://nertus.ua/zzr/view/Prenta",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/prenta-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6182a0b41afe5.png"
+      },
+      "active_ingredient": {
+        "catalog": "дифеноконазол, 125 г/л, триадимефон, 125 г/л",
+        "official": "дифеноконазол, 125 г/л; триадимефон, 125 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "3050",
+      "slug": "prezyden-ks-nertus",
+      "name_catalog": "Президен, КС",
+      "name_official": "Прeзидент",
+      "official_url": "https://nertus.ua/zzr/view/president",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/prezyden-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_63c5434f99d43.png"
+      },
+      "active_ingredient": {
+        "catalog": "Імідаклоприд, 140 г/л, лямбда-цигалотрин, 100 г/л ацетаміприд, 160 г/л",
+        "official": "імідаклоприд, 140 г/л; лямбда-цигалотрин, 100 г/л; ацетаміприд, 160 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "1404",
+      "slug": "prius-se-nertus",
+      "name_catalog": "Пріус, СЕ",
+      "name_official": "Пріус",
+      "official_url": "https://nertus.ua/zzr/view/Prus",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/prius-se-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Prus_SE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "флорасулам, 6,25 г/л; 2,4-Д етилгексиловый ефір, 452,42 г/л",
+        "official": "флорасулам, 6,25 г/л; 2,4-Д етилгексиловий ефір, 452,42 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "суспензійна емульсія"
+    },
+    {
+      "code": "2322",
+      "slug": "rezydent-ks-nertus",
+      "name_catalog": "Резидент КС",
+      "name_official": "Резидент",
+      "official_url": "https://nertus.ua/zzr/view/Rezident",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/rezydent-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6334031c6a584.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "піридабен, 300 г/л; фенпіроксимат, 120 г/л",
+        "official": "фенпіроксимат, 120 г/л; піридабен, 300 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Акарициди",
+        "match": false
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2104",
+      "slug": "rinkotseb-z-p-nertus",
+      "name_catalog": "Рінкоцеб, з.п.",
+      "name_official": "Рінкоцеб",
+      "official_url": "https://nertus.ua/zzr/view/Rinkoceb",
+      "packaging": {
+        "catalog": "1 кг",
+        "official": "",
+        "catalog_normalized": "1 кг",
+        "official_variants": [],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/rinkotseb-z-p-nertus.jpg",
+        "official_url": ""
+      },
+      "active_ingredient": {
+        "catalog": "Металаксил, 80 г/кг; манкоцеб, 640 г/кг",
+        "official": "",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "",
+        "match": false
+      },
+      "formulation_official": ""
+    },
+    {
+      "code": "1405",
+      "slug": "saber-vh-nertus",
+      "name_catalog": "Сабер, ВГ",
+      "name_official": "Сабер",
+      "official_url": "https://nertus.ua/zzr/view/saber",
+      "packaging": {
+        "catalog": "0.25 кг",
+        "official": "пляшка 0,25кг",
+        "catalog_normalized": "0.25 кг",
+        "official_variants": [
+          "0.25 кг"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/saber-vh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_657ab75d57f61.png"
+      },
+      "active_ingredient": {
+        "catalog": "трибенурон-метил,310 г/кг; флорасулам, 95 г/кг; флуметсулам, 95г/кг",
+        "official": "трибенурон-метил, 310 г/кг; флорасулам, 95 г/кг; флуметсулам, 95 г /кг",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водорозчинні гранули"
+    },
+    {
+      "code": "1124",
+      "slug": "sentynel-ke-nertus",
+      "name_catalog": "Сентинел КЕ",
+      "name_official": "Сентинел",
+      "official_url": "https://nertus.ua/zzr/view/Sentinel",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/sentynel-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Сентинел1_5ddfb7baa4b5e.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Пропізохлор, 576 г/л; метрибузин, 60 г/л",
+        "official": "пропізохлор, 576 г/л; метрибузин, 60 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водний розчин"
+    },
+    {
+      "code": "1406",
+      "slug": "sentynel-ke-nertus",
+      "name_catalog": "Сентинел КЕ",
+      "name_official": "Сентинел",
+      "official_url": "https://nertus.ua/zzr/view/Sentinel",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/sentynel-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Сентинел1_5ddfb7baa4b5e.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "пропізохлор, 576 г/л; метрибузин, 60 г/л",
+        "official": "пропізохлор, 576 г/л; метрибузин, 60 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водний розчин"
+    },
+    {
+      "code": "1407",
+      "slug": "serp-rk-nertus",
+      "name_catalog": "Серп, РК",
+      "name_official": "Серп",
+      "official_url": "https://nertus.ua/zzr/view/Serp",
+      "packaging": {
+        "catalog": "10 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "10 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/serp-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Serp_vrk.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "імазетапір, 100 г/л",
+        "official": "імазетапір, 100 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водорозчинний концентрат"
+    },
+    {
+      "code": "3054",
+      "slug": "shaman-ke-nertus",
+      "name_catalog": "Шаман, КЕ",
+      "name_official": "Шаман",
+      "official_url": "https://nertus.ua/zzr/view/Shaman",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/shaman-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Shaman_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Хлорпірифос, 500 г/л; циперметрин, 50 г/л",
+        "official": "хлорпірифос, 500 г/л; циперметрин, 50 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "3177",
+      "slug": "shaman-ke-nertus",
+      "name_catalog": "Шаман, КЕ",
+      "name_official": "Шаман",
+      "official_url": "https://nertus.ua/zzr/view/Shaman",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/shaman-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Shaman_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "хлорпірифос, 500 г/л; циперметрин, 50 г/л",
+        "official": "хлорпірифос, 500 г/л; циперметрин, 50 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2112",
+      "slug": "shlyakh-ke-new-nertus",
+      "name_catalog": "Шлях, КЕ NEW",
+      "name_official": "Шлях",
+      "official_url": "https://nertus.ua/zzr/view/shlyah",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/shlyakh-ke-new-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Шлях1_6928b4c6a6630.png"
+      },
+      "active_ingredient": {
+        "catalog": "Протіоконазол, 80г/л + тебуконазол, 160г/л",
+        "official": "протіоконазол, 80 г/л; тебуконазол, 160 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2105",
+      "slug": "skorazol-k-e-nertus",
+      "name_catalog": "Скоразол, к.е.",
+      "name_official": "Скоразол",
+      "official_url": "https://nertus.ua/zzr/view/Skorazol",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 1л",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "1 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/skorazol-k-e-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Skorazol_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Дифеноконазол, 250 г/л",
+        "official": "дифеноконазол, 250 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "5014",
+      "slug": "skorpion-forte-rk-nertus",
+      "name_catalog": "Скорпіон Форте, РК",
+      "name_official": "Скорпіон Форте",
+      "official_url": "https://nertus.ua/zzr/view/Skorpon_Forte",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 10л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "10 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/skorpion-forte-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Скорпіон Форте1_5d7b4371ec30c.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "дикват дібромід, 280 г/л",
+        "official": "дикват дибромід, 280 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Десикант",
+        "official": "Десиканти",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "5013",
+      "slug": "skorpion-maksi-rk-nertus",
+      "name_catalog": "Скорпіон Максі, РК",
+      "name_official": "Скорпіон Максі",
+      "official_url": "https://nertus.ua/zzr/view/SkorpionMaxi",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/skorpion-maksi-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_657ab31d0b973.png"
+      },
+      "active_ingredient": {
+        "catalog": "дикват дибромід, 480 г/л + дикват іон, 257г/л",
+        "official": "дикват дибромід, 480 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Десикант",
+        "official": "Десиканти",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    },
+    {
+      "code": "1409",
+      "slug": "sokil-ke-nertus",
+      "name_catalog": "Сокіл, КЕ",
+      "name_official": "Сокіл",
+      "official_url": "https://nertus.ua/zzr/view/Sokil",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/sokil-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Сокіл1_5fcfbeb00ea16.png"
+      },
+      "active_ingredient": {
+        "catalog": "хізалафоп-П-етил, 125 г/л",
+        "official": "хізалофоп-П-етил, 125 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1408",
+      "slug": "sonkhus-vh-nertus",
+      "name_catalog": "Сонхус, ВГ",
+      "name_official": "Сонхус",
+      "official_url": "https://nertus.ua/zzr/view/Sonhus",
+      "packaging": {
+        "catalog": "0.25 кг",
+        "official": "пляшка 0,25кг",
+        "catalog_normalized": "0.25 кг",
+        "official_variants": [
+          "0.25 кг"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/sonkhus-vh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Сонхус1_5fbd2a38479b8.png"
+      },
+      "active_ingredient": {
+        "catalog": "клопіралід, 750 г/кг",
+        "official": "клопіралід, 750 г/кг",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водорозчинні гранули"
+    },
+    {
+      "code": "1415",
+      "slug": "spiker-ke-nertus",
+      "name_catalog": "Спікер, КЕ",
+      "name_official": "Спікер",
+      "official_url": "https://nertus.ua/zzr/view/Spiker",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/spiker-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Спікер1_6194f93b82e46.png"
+      },
+      "active_ingredient": {
+        "catalog": "Диметоат, 300г/л; бетаципереметрин, 40 г/л",
+        "official": "діметоат, 300 г/л; бета-циперметрин, 40 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Iнсектициди",
+        "match": false
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1410",
+      "slug": "tabezon-rk-nertus",
+      "name_catalog": "Табезон, РК",
+      "name_official": "Табезон",
+      "official_url": "https://nertus.ua/zzr/view/Tabezon",
+      "packaging": {
+        "catalog": "10 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "10 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/tabezon-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Tabezon_RK.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "бентазон, 480 г/л",
+        "official": "бентазон, 480 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "водний розчин"
+    },
+    {
+      "code": "2106",
+      "slug": "taurt-tn-nertus",
+      "name_catalog": "Таурт, ТН",
+      "name_official": "Таурт",
+      "official_url": "https://nertus.ua/zzr/view/Taurt",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/taurt-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6182a79c9aa5a.png"
+      },
+      "active_ingredient": {
+        "catalog": "Дифеноконазол, 100 г/л, імазаліл, 100 г/л, азоксистробін, 40г/л",
+        "official": "дифеноконазол, 100 г/л; імазаліл, 100 г/л; азоксистробін, 40 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "1125",
+      "slug": "terts-rk-nertus",
+      "name_catalog": "Терц, РК",
+      "name_official": "Терц",
+      "official_url": "https://nertus.ua/zzr/view/Terts",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/terts-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_618bc2fde6ddf.png"
+      },
+      "active_ingredient": {
+        "catalog": "Пропізохлор, 720 г/л",
+        "official": "пропізохлор, 720 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "3051",
+      "slug": "tiara-vh-nertus",
+      "name_catalog": "Тіара, ВГ",
+      "name_official": "Тіара",
+      "official_url": "https://nertus.ua/zzr/view/Tiara",
+      "packaging": {
+        "catalog": "0.25 кг",
+        "official": "пляшка 0,25кг",
+        "catalog_normalized": "0.25 кг",
+        "official_variants": [
+          "0.25 кг"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/tiara-vh-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_5ddfbb6453bb5.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Тіаметоксам, 250г/кг",
+        "official": "тіаметоксам, 250 г/кг",
+        "match": false
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "водорозчинний концентрат"
+    },
+    {
+      "code": "2319",
+      "slug": "tinazol-ke-nertus",
+      "name_catalog": "Тіназол, КЕ",
+      "name_official": "Тіназол",
+      "official_url": "https://nertus.ua/zzr/view/Tinazol",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/tinazol-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Tinazol_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "пропіконазол, 250 г/л",
+        "official": "пропіконазол, 250 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2107",
+      "slug": "tioma-ks-nertus",
+      "name_catalog": "Тіома, КС",
+      "name_official": "Тіома",
+      "official_url": "https://nertus.ua/zzr/view/Tioma",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/tioma-ks-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Tioma_KS.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Тіофанат-метил, 500 г/л",
+        "official": "тіофанат-метил, 500 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат суспензії"
+    },
+    {
+      "code": "3052",
+      "slug": "torsida-ke-nertus",
+      "name_catalog": "Торсіда, КЕ",
+      "name_official": "Торсіда",
+      "official_url": "https://nertus.ua/zzr/view/torsida",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/torsida-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_63c54497d18d5.png"
+      },
+      "active_ingredient": {
+        "catalog": "Лямбда-цигалотрин, 300 г/л",
+        "official": "лямбда-цигалотрин, 300 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2324",
+      "slug": "trynavata-tn-5-nertus",
+      "name_catalog": "Тринавата, ТН",
+      "name_official": "Тринаванта",
+      "official_url": "https://nertus.ua/zzr/view/Trinavanta",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/trynavata-tn-5-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_61a88fccbc569.png"
+      },
+      "active_ingredient": {
+        "catalog": "дифеноконазол, 50 г/л, азоксистробін, 20г/л, тіаметоксам, 250 г/л",
+        "official": "дифеноконазол, 50 г/л; азоксистробін, 20 г/л; тіаметоксам, 250 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "4026",
+      "slug": "trynavata-tn-nertus",
+      "name_catalog": "Тринаванта, ТН",
+      "name_official": "Тринаванта",
+      "official_url": "https://nertus.ua/zzr/view/Trinavanta",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/trynavata-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_61a88fccbc569.png"
+      },
+      "active_ingredient": {
+        "catalog": "Дифеноконазол, 50 г/л, азоксистробін, 20г/л, тіаметоксам, 250 г/л",
+        "official": "дифеноконазол, 50 г/л; азоксистробін, 20 г/л; тіаметоксам, 250 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Протруйник",
+        "official": "Протруйники",
+        "match": true
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "1412",
+      "slug": "tsetodym-k-e-par-fofir-nertus",
+      "name_catalog": "Цетодим, к.е. + ПАР Фофір",
+      "name_official": "Цетодим",
+      "official_url": "https://nertus.ua/zzr/view/Cetodim",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.; каністра 1л",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л",
+          "1 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/tsetodym-k-e-par-fofir-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Cetodim_ke.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "клетодим, 200 г/л",
+        "official": "клетодим, 240 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "2108",
+      "slug": "tumen-tn-nertus",
+      "name_catalog": "Тумен, ТН",
+      "name_official": "Тумен",
+      "official_url": "https://nertus.ua/zzr/view/Tumen",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/tumen-tn-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/1_6183a4dc465b8.png"
+      },
+      "active_ingredient": {
+        "catalog": "Дифеноконазол, 167 г/л, азоксистробін, 67 г/л",
+        "official": "дифеноконазол, 167 г/л; азоксистробін, 67 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "текучій концентрат суспензії"
+    },
+    {
+      "code": "3175",
+      "slug": "veteran-rk-nertus",
+      "name_catalog": "Ветеран РК",
+      "name_official": "Ветеран",
+      "official_url": "https://nertus.ua/zzr/view/Veteran",
+      "packaging": {
+        "catalog": "1 л",
+        "official": "каністра 1л",
+        "catalog_normalized": "1 л",
+        "official_variants": [
+          "1 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/veteran-rk-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Ветеран1_5ffee7a496f97.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "ацетаміприд, 200 г/л",
+        "official": "ацетаміприд, 200 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Інсектицид",
+        "official": "Iнсектициди",
+        "match": true
+      },
+      "formulation_official": "водний розчин"
+    },
+    {
+      "code": "1416",
+      "slug": "vikinh-v-s-k-u-razi-kupivli-preparatu-bilshe-300l-znyzhka-2-5-bilshe-500l-znyzhka-5-nertus",
+      "name_catalog": "Вікінг, в.с.к. *у разі купівлі препарату більше 300л знижка 2,5%, більше 500л знижка 5%",
+      "name_official": "Вікінг",
+      "official_url": "https://nertus.ua/zzr/view/Viking",
+      "packaging": {
+        "catalog": "20 л",
+        "official": "каністра 20л.",
+        "catalog_normalized": "20 л",
+        "official_variants": [
+          "20 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/vikinh-v-s-k-u-razi-kupivli-preparatu-bilshe-300l-znyzhka-2-5-bilshe-500l-znyzhka-5-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Вікінг1_5f3d2185e27b8.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "карбоксин, 200 г/л; тирам, 200 г/л",
+        "official": "карбоксин, 200 г/л; тирам, 200 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Протруйники",
+        "match": false
+      },
+      "formulation_official": "водосуспензіонний концентрат"
+    },
+    {
+      "code": "2102",
+      "slug": "virtuoz-ke-nertus",
+      "name_catalog": "Віртуоз, КЕ",
+      "name_official": "Віртуоз",
+      "official_url": "https://nertus.ua/zzr/view/Virtuoz",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/virtuoz-ke-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Virtuoz_KE.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "Пропіконазол, 250 г/л; ципроконазол, 80 г/л",
+        "official": "пропіконазол, 250 г/л; ципроконазол, 80 г/л",
+        "match": true
+      },
+      "category": {
+        "catalog": "Фунгіцид",
+        "official": "Фунгіциди",
+        "match": true
+      },
+      "formulation_official": "концентрат емульсії"
+    },
+    {
+      "code": "1388",
+      "slug": "volens-me-nertus",
+      "name_catalog": "Воленс МЕ",
+      "name_official": "Воленс",
+      "official_url": "https://nertus.ua/zzr/view/Volens",
+      "packaging": {
+        "catalog": "5 л",
+        "official": "каністра 5л.",
+        "catalog_normalized": "5 л",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": true
+      },
+      "photo": {
+        "catalog": "/products/volens-me-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Воленс1_5ffee7c105b8d.jpg"
+      },
+      "active_ingredient": {
+        "catalog": "ацифлоурфен, 200 г/л; кломазон, 42 г/л",
+        "official": "ацифлуорфен, 200 г/л; кломазон, 42 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "мікроемульсія"
+    },
+    {
+      "code": "1389",
+      "slug": "volodar-forte-rk-new-nertus",
+      "name_catalog": "Володар Форте, РК NEW",
+      "name_official": "Володар Форте",
+      "official_url": "https://nertus.ua/zzr/view/VolodarForte",
+      "packaging": {
+        "catalog": "",
+        "official": "каністра 5л.",
+        "catalog_normalized": "",
+        "official_variants": [
+          "5 л"
+        ],
+        "match": false
+      },
+      "photo": {
+        "catalog": "/products/volodar-forte-rk-new-nertus.jpg",
+        "official_url": "https://nertus.ua/goodsImg/Володар Форте1_6928b2eca25f8.png"
+      },
+      "active_ingredient": {
+        "catalog": "2-метил-4-хлорфериксиоцтова кислота у формі диметиламінної солі, 750г/л, у кислотному еквіваленті, 613г/л",
+        "official": "2-Метил-4-хлорфеноксиоцтова кислота у формі диметиламінної солі, 750 г/л",
+        "match": false
+      },
+      "category": {
+        "catalog": "Гербіцид",
+        "official": "Гербіциди",
+        "match": true
+      },
+      "formulation_official": "розчинний концентрат"
+    }
+  ],
+  "not_found": [
+    {
+      "code": "1418",
+      "slug": "talant-par-nertus",
+      "name": "Талант ПАР",
+      "tried_urls": [
+        "https://nertus.ua/zzr/view/talant-par"
+      ],
+      "reason": "product not present on nertus.ua/zzr"
+    }
+  ]
+}
