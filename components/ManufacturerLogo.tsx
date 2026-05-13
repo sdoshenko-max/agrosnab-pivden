@@ -19,8 +19,8 @@ const MAP: Record<string, Meta> = {
   байер: { file: "bayer.svg", bgFallback: "#0080C9", initials: "BA" },
   syngenta: { file: "syngenta.svg", bgFallback: "#1F3864", initials: "SY" },
   сингента: { file: "syngenta.svg", bgFallback: "#1F3864", initials: "SY" },
-  corteva: { file: "corteva.png", bgFallback: "#0033A0", initials: "CO" },
-  кортева: { file: "corteva.png", bgFallback: "#0033A0", initials: "CO" },
+  corteva: { file: "corteva.svg", bgFallback: "#0033A0", initials: "CO" },
+  кортева: { file: "corteva.svg", bgFallback: "#0033A0", initials: "CO" },
   adama: { file: "adama.png", bgFallback: "#003D7D", initials: "AD" },
   адама: { file: "adama.png", bgFallback: "#003D7D", initials: "AD" },
   fmc: { file: "fmc.svg", bgFallback: "#005EB8", initials: "FM" },
@@ -50,9 +50,9 @@ const MAP: Record<string, Meta> = {
   нопосон: { file: "noposon.png", bgFallback: "#0066CC", initials: "НП" },
 
   // Українськi дженерики
-  grinexpress: { file: "grin-express.svg", bgFallback: "#2D8C3C", initials: "ГЕ" },
-  грінекспрес: { file: "grin-express.svg", bgFallback: "#2D8C3C", initials: "ГЕ" },
-  гринекспресс: { file: "grin-express.svg", bgFallback: "#2D8C3C", initials: "ГЕ" },
+  grinexpress: { file: "grin-express.png", bgFallback: "#2D8C3C", initials: "ГЕ" },
+  грінекспрес: { file: "grin-express.png", bgFallback: "#2D8C3C", initials: "ГЕ" },
+  гринекспресс: { file: "grin-express.png", bgFallback: "#2D8C3C", initials: "ГЕ" },
   life: { file: "life.png", bgFallback: "#88AB42", initials: "L" },
   лайф: { file: "life.png", bgFallback: "#88AB42", initials: "Л" },
   akht: { file: "akht.png", bgFallback: "#0066CC", initials: "АХ" },
