@@ -12,13 +12,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Байер",
       "name": "Конфiдор 200SL, РК",
-      "priceVat": 50.67,
+      "priceCash": 46.45,
       "url": "/produkt/konfidor-200sl-rk-baier/3017"
     },
     "our": {
       "brand": "Himagro",
       "name": "ЗЕНІТ, РК",
-      "priceVat": 19.55,
+      "priceCash": 17.92,
       "url": "/produkt/zenit-rk-himagro/3137"
     }
   },
@@ -31,13 +31,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Байер",
       "name": "Бiскайя 240 OD, МД",
-      "priceVat": 65.38,
+      "priceCash": 59.93,
       "url": "/produkt/biskaiya-240-od-baier/3167"
     },
     "our": {
       "brand": "Укравіт",
       "name": "Лювітор, КС",
-      "priceVat": 26.45,
+      "priceCash": 24.25,
       "url": "/produkt/lyuvitor-ks-ukravit/3102"
     }
   },
@@ -50,13 +50,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Сингента",
       "name": "Гезагард 500FW",
-      "priceVat": 11.75,
+      "priceCash": 10.77,
       "url": "/produkt/hezahard-500fw-synhenta/1204"
     },
     "our": {
       "brand": "Alfa Smart Agro",
       "name": "Альфа-Прометрин, КС",
-      "priceVat": 5.06,
+      "priceCash": 4.63,
       "url": "/produkt/alfa-prometryn-ks-alfa-smart-agro/1305"
     }
   },
@@ -69,13 +69,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "UPL",
       "name": "Пропоніт",
-      "priceVat": 11.04,
+      "priceCash": 10.12,
       "url": "/produkt/proponit-upl/1353"
     },
     "our": {
       "brand": "PEST.UA",
       "name": "Стівен, КЕ",
-      "priceVat": 4.91,
+      "priceCash": 4.5,
       "url": "/produkt/stiven-ke-pest-ua/1347"
     }
   },
@@ -88,13 +88,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Байер",
       "name": "Зенкор Лiквiд 600 SC, КС",
-      "priceVat": 49,
+      "priceCash": 44.92,
       "url": "/produkt/zenkor-likvid-600-sc-ks-baier/1035"
     },
     "our": {
       "brand": "Нертус",
       "name": "Адвокат, КС",
-      "priceVat": 22.11,
+      "priceCash": 20.27,
       "url": "/produkt/advokat-ks-nertus/1384"
     }
   },
@@ -107,13 +107,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Сингента",
       "name": "Фюзiлад Форте150ЕС",
-      "priceVat": 25.93,
+      "priceCash": 23.77,
       "url": "/produkt/fyuzilad-forte150es-synhenta/1225"
     },
     "our": {
       "brand": "Himagro",
       "name": "ЛУАЗИТ, КС",
-      "priceVat": 12.65,
+      "priceCash": 11.59,
       "url": "/produkt/luazyt-ks-himagro/1438"
     }
   },
@@ -126,13 +126,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Самміт-Агро",
       "name": "Імамекс 40 SL BP",
-      "priceVat": 22.29,
+      "priceCash": 20.44,
       "url": "/produkt/imameks-40-sl-bp-sammit-agro/1173"
     },
     "our": {
       "brand": "Укравіт",
       "name": "Імі-Віт,РК",
-      "priceVat": 11.27,
+      "priceCash": 10.33,
       "url": "/produkt/imi-vit-rk-ukravit/1514"
     }
   },
@@ -145,13 +145,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Терра Віта",
       "name": "Пiонер 900 к.е.",
-      "priceVat": 9.43,
+      "priceCash": 8.64,
       "url": "/produkt/pioner-900-k-e-terra-vita/1238"
     },
     "our": {
       "brand": "PEST.UA",
       "name": "Прагмат, КЕ",
-      "priceVat": 5.34,
+      "priceCash": 4.89,
       "url": "/produkt/prahmat-ke-pest-ua/1342"
     }
   },
@@ -164,13 +164,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Самміт-Агро",
       "name": "Ікарус Турбо 430 ЕВ",
-      "priceVat": 19.83,
+      "priceCash": 18.17,
       "url": "/produkt/ikarus-turbo-430-ev-sammit-agro/2130"
     },
     "our": {
       "brand": "АХТ",
       "name": "Полігард Максі",
-      "priceVat": 11.39,
+      "priceCash": 10.44,
       "url": "/produkt/polihard-maksi-akht/2359"
     }
   },
@@ -183,13 +183,13 @@ export const SAVE_PAIRS: SavePair[] = [
     "orig": {
       "brand": "Самміт-Агро",
       "name": "Топсiн-М 500, КС",
-      "priceVat": 16.07,
+      "priceCash": 14.73,
       "url": "/produkt/topsin-m-500-ks-sammit-agro/2141"
     },
     "our": {
       "brand": "Нертус",
       "name": "Тіома, КС",
-      "priceVat": 9.57,
+      "priceCash": 8.77,
       "url": "/produkt/tioma-ks-nertus/2107"
     }
   }

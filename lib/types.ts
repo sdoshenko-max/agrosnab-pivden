@@ -71,8 +71,9 @@ export type SavePair = {
   packaging: string;
   unit: "л" | "кг";
   currency: "USD" | "EUR";
-  orig: { brand: string; name: string; priceVat: number; url: string };
-  our:  { brand: string; name: string; priceVat: number; url: string };
+  // Цiна готiвкою (priceCash) — як показано на сторiнцi товару в рядку «готiвка».
+  orig: { brand: string; name: string; priceCash: number; url: string };
+  our:  { brand: string; name: string; priceCash: number; url: string };
 };
 
 export type TankMix = {

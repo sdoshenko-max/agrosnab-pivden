@@ -28,7 +28,7 @@ const norm = (s) => String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
 
 const groups = new Map();
 for (const p of products) {
-  if (!p.activeIngredient || !p.priceVat || p.priceOnRequest) continue;
+  if (!p.activeIngredient || !p.priceCash || p.priceOnRequest) continue;
   const k = norm(p.activeIngredient);
   if (!groups.has(k)) groups.set(k, []);
   groups.get(k).push(p);
@@ -44,14 +44,14 @@ for (const [, items] of groups) {
   const byKey = (i) => `${i.packaging}|${i.unit}|${i.currency}`;
   const oByKey = new Map();
   const usByKey = new Map();
-  originals.forEach(o => { if (!oByKey.has(byKey(o)) || oByKey.get(byKey(o)).priceVat < o.priceVat) oByKey.set(byKey(o), o); });
-  ours.forEach(u => { if (!usByKey.has(byKey(u)) || usByKey.get(byKey(u)).priceVat > u.priceVat) usByKey.set(byKey(u), u); });
+  originals.forEach(o => { if (!oByKey.has(byKey(o)) || oByKey.get(byKey(o)).priceCash < o.priceCash) oByKey.set(byKey(o), o); });
+  ours.forEach(u => { if (!usByKey.has(byKey(u)) || usByKey.get(byKey(u)).priceCash > u.priceCash) usByKey.set(byKey(u), u); });
 
   for (const [key, orig] of oByKey) {
     const our = usByKey.get(key);
     if (!our) continue;
-    if (orig.priceVat <= 0 || our.priceVat <= 0) continue;
-    const spread = (orig.priceVat - our.priceVat) / orig.priceVat * 100;
+    if (orig.priceCash <= 0 || our.priceCash <= 0) continue;
+    const spread = (orig.priceCash - our.priceCash) / orig.priceCash * 100;
     if (spread < 40 || spread > 65) continue;
     pairs.push({
       ai: orig.activeIngredient,
@@ -62,13 +62,13 @@ for (const [, items] of groups) {
       orig: {
         brand: orig.manufacturer,
         name: orig.name,
-        priceVat: orig.priceVat,
+        priceCash: orig.priceCash,
         url: `/produkt/${orig.slug}/${orig.code}`,
       },
       our: {
         brand: our.manufacturer,
         name: our.name,
-        priceVat: our.priceVat,
+        priceCash: our.priceCash,
         url: `/produkt/${our.slug}/${our.code}`,
       },
       _spread: spread,

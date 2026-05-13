@@ -13,20 +13,36 @@ const pkgWord = (unit: string) => (unit === "кг" ? "пакет" : "каніс�
 
 export function SaveCard({ lang = "uk" }: { lang?: "uk" | "ru" }) {
   // Перший рендер (SSR + initial hydration) — детерміновано перша пара.
-  // На клієнті після mount — рандом, щоб уникнути SSR/CSR mismatch.
+  // На клієнті після mount: тягнемо сохранену пару з localStorage (TTL 5 хв),
+  // щоб користувач бачив той самий приклад при поверненнях/перезавантаженнях.
   const [pair, setPair] = useState<SavePair>(SAVE_PAIRS[0]);
   const { rates } = useCurrency();
 
   useEffect(() => {
-    setPair(SAVE_PAIRS[Math.floor(Math.random() * SAVE_PAIRS.length)]);
+    const KEY = "sc:pair";
+    const TTL_MS = 5 * 60 * 1000; // 5 хв
+    try {
+      const raw = localStorage.getItem(KEY);
+      if (raw) {
+        const { idx, ts } = JSON.parse(raw);
+        if (typeof idx === "number" && typeof ts === "number" &&
+            Date.now() - ts < TTL_MS && idx >= 0 && idx < SAVE_PAIRS.length) {
+          setPair(SAVE_PAIRS[idx]);
+          return;
+        }
+      }
+    } catch { /* localStorage заблокований — падаємо до випадкового вибору */ }
+    const idx = Math.floor(Math.random() * SAVE_PAIRS.length);
+    setPair(SAVE_PAIRS[idx]);
+    try { localStorage.setItem(KEY, JSON.stringify({ idx, ts: Date.now() })); } catch {}
   }, []);
 
   if (!pair) return null;
 
   const rate = pair.currency === "EUR" ? rates.EUR : rates.USD;
   const packSize = getPackSize(pair.packaging);
-  const origUah = pair.orig.priceVat * packSize * rate;
-  const ourUah = pair.our.priceVat * packSize * rate;
+  const origUah = pair.orig.priceCash * packSize * rate;
+  const ourUah = pair.our.priceCash * packSize * rate;
   const saveAbs = origUah - ourUah;
   const percent = Math.round(((origUah - ourUah) / origUah) * 100);
 
