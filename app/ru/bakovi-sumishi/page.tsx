@@ -13,10 +13,10 @@ export default function MixesListRu() {
         <section className="bg-gradient-to-br from-brand to-brand-dark text-white">
           <div className="container-w py-10">
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">Готовые баковые смеси</h1>
-            <p className="text-white/80">Проверенные комбинации препаратов для типичных ситуаций на Юге Украины · цена обработки 1 гектара (наличные)</p>
+            <p className="text-white/80">Проверенные комбинации препаратов для типичных ситуаций · цена обработки 1 гектара (наличные)</p>
           </div>
         </section>
-        <TankMixesGrid lang="ru" />
+        <TankMixesGrid lang="ru" enableCultureFilter />
       </main>
       <Footer lang="ru" />
       <FloatingCallButton />

@@ -75,12 +75,12 @@ function fallbackInitials(name: string): string {
   );
 }
 
-export function ManufacturerLogo({ name, size = 20 }: { name: string; size?: number }) {
+export function ManufacturerLogo({ name, size = 44 }: { name: string; size?: number }) {
   const meta = getMeta(name);
   if (meta) {
     return (
       <span
-        className="inline-flex items-center justify-center rounded-full bg-white border border-border shrink-0 overflow-hidden"
+        className="inline-flex items-center justify-center rounded-md bg-white shrink-0 overflow-hidden"
         style={{ width: size, height: size }}
         aria-hidden="true"
       >
@@ -89,22 +89,23 @@ export function ManufacturerLogo({ name, size = 20 }: { name: string; size?: num
           alt=""
           loading="lazy"
           decoding="async"
-          className="w-full h-full object-contain p-[2px]"
+          className="w-full h-full object-contain"
+          style={{ padding: Math.max(1, Math.round(size * 0.04)) }}
         />
       </span>
     );
   }
 
-  // Fallback: кольоровий круг з iнiцiалами
+  // Fallback: кольоровий квадрат з iнiцiалами
   const initials = fallbackInitials(name);
   return (
     <span
-      className="inline-flex items-center justify-center rounded-full font-extrabold text-white shrink-0 select-none leading-none"
+      className="inline-flex items-center justify-center rounded-md font-extrabold text-white shrink-0 select-none leading-none"
       style={{
         width: size,
         height: size,
-        background: "#64748b",
-        fontSize: Math.max(8, Math.round(size * 0.42)),
+        background: meta?.bgFallback ?? "#64748b",
+        fontSize: Math.max(10, Math.round(size * 0.42)),
         letterSpacing: initials.length === 1 ? 0 : -0.5,
       }}
       aria-hidden="true"

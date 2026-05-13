@@ -19,7 +19,7 @@ export default function Home() {
         <MagnetCards lang="uk" />
         <GroupsStrip lang="uk" />
         <CulturesGrid lang="uk" />
-        <TankMixesGrid lang="uk" />
+        <TankMixesGrid lang="uk" oneCardPerCulture showAllButton />
         <WhyUs lang="uk" />
         <HowItWorks lang="uk" />
         <QuickCallForm lang="uk" />

@@ -26,7 +26,7 @@ export default function HomeRu() {
         <MagnetCards lang="ru" />
         <GroupsStrip lang="ru" />
         <CulturesGrid lang="ru" />
-        <TankMixesGrid lang="ru" />
+        <TankMixesGrid lang="ru" oneCardPerCulture showAllButton />
         <WhyUs lang="ru" />
         <HowItWorks lang="ru" />
         <QuickCallForm lang="ru" />

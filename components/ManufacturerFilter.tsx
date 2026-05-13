@@ -15,35 +15,41 @@ export function ManufacturerFilter({
 }) {
   const active = (v: string) =>
     v === value
-      ? "border-brand bg-brand/10 text-brand"
-      : "border-border bg-white hover:border-brand/40";
+      ? "border-brand bg-brand/5 ring-2 ring-brand/30"
+      : "border-border bg-white hover:border-brand/40 hover:bg-bg/50";
 
   return (
-    <div className="grid grid-cols-2 gap-1.5">
+    <div className="grid gap-2" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(84px, 1fr))" }}>
       <button
         type="button"
         onClick={() => onChange("all")}
-        className={`flex items-center gap-2 px-2.5 py-2 rounded-lg border text-xs font-semibold transition-colors text-left ${active("all")}`}
+        className={`flex flex-col items-center justify-center gap-1.5 px-2 py-3 rounded-lg border transition-all ${active("all")}`}
+        aria-pressed={value === "all"}
       >
         <span
-          className="inline-flex items-center justify-center rounded-full text-muted bg-bg border border-border shrink-0"
-          style={{ width: 20, height: 20, fontSize: 10 }}
+          className="inline-flex items-center justify-center rounded-full text-muted bg-bg border border-border"
+          style={{ width: 44, height: 44, fontSize: 22 }}
           aria-hidden="true"
         >
           ∗
         </span>
-        <span className="truncate">{allLabel}</span>
+        <span className="text-[11px] font-semibold leading-tight text-center text-ink line-clamp-2">
+          {allLabel}
+        </span>
       </button>
       {options.map((m) => (
         <button
           key={m}
           type="button"
           onClick={() => onChange(m)}
-          className={`flex items-center gap-2 px-2.5 py-2 rounded-lg border text-xs font-semibold transition-colors text-left ${active(m)}`}
+          className={`flex flex-col items-center justify-center gap-1.5 px-2 py-3 rounded-lg border transition-all ${active(m)}`}
           aria-pressed={value === m}
+          title={m}
         >
-          <ManufacturerLogo name={m} size={20} />
-          <span className="truncate">{m}</span>
+          <ManufacturerLogo name={m} size={44} />
+          <span className="text-[11px] font-semibold leading-tight text-center text-ink line-clamp-2">
+            {m}
+          </span>
         </button>
       ))}
     </div>
