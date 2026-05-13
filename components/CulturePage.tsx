@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, Suspense } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Beaker } from "lucide-react";
@@ -78,13 +78,25 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
     });
   }, [products, stage, tech, culture.technologies]);
 
+  // Каскаднi фiльтри: виробники залежать вiд поточного tier, tier — вiд поточного виробника.
   const manufacturerOptions = useMemo(() => {
-    return Array.from(new Set(productsForOptions.map(p => p.manufacturer))).sort();
-  }, [productsForOptions]);
+    const src = tier === "all"
+      ? productsForOptions
+      : productsForOptions.filter(p => p.tier === tier);
+    return Array.from(new Set(src.map(p => p.manufacturer))).sort();
+  }, [productsForOptions, tier]);
 
   const tierOptions = useMemo(() => {
-    return Array.from(new Set(productsForOptions.map(p => p.tier)));
-  }, [productsForOptions]);
+    const src = manufacturer === "all"
+      ? productsForOptions
+      : productsForOptions.filter(p => p.manufacturer === manufacturer);
+    return Array.from(new Set(src.map(p => p.tier)));
+  }, [productsForOptions, manufacturer]);
+
+  // Якщо обраний виробник зник пiсля змiни tier — скидаємо на "Усi".
+  useEffect(() => {
+    if (manufacturer !== "all" && !manufacturerOptions.includes(manufacturer)) setManufacturer("all");
+  }, [manufacturerOptions, manufacturer]);
 
   const filtered = useMemo(() => {
     return productsForOptions.filter(p => {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, Suspense } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Filter, X } from "lucide-react";
@@ -69,27 +69,50 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
   const [requestProduct, setRequestProduct] = useState<string>("");
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  const manufacturers = Array.from(new Set(baseProducts.map(p => p.manufacturer))).sort();
-  const productCultures = Array.from(new Set(baseProducts.flatMap(p => p.cultures)));
-  const aiSet = new Map<string, string>();
-  baseProducts.forEach(p => {
-    const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
-    const firstRu = p.activeIngredientRu.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
-    if (firstUk) aiSet.set(firstUk, lang === "uk" ? firstUk : firstRu);
-  });
-  const aiList = Array.from(aiSet.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+  const firstAi = (p: typeof baseProducts[number], inLang: Lang) => {
+    const src = inLang === "uk" ? p.activeIngredient : p.activeIngredientRu;
+    return src.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
+  };
+
+  // Каскаднi фiльтри: списки опцiй кожного фiльтра враховують усi iншi активнi фiльтри (крiм самого себе).
+  const matchAllExcept = (p: typeof baseProducts[number], skip: "tier" | "manufacturer" | "culture" | "ai") => {
+    if (skip !== "tier" && tier !== "all" && p.tier !== tier) return false;
+    if (skip !== "manufacturer" && manufacturer !== "all" && p.manufacturer !== manufacturer) return false;
+    if (skip !== "culture" && culture !== "all" && !p.cultures.includes(culture)) return false;
+    if (skip !== "ai" && ai !== "all" && firstAi(p, "uk") !== ai) return false;
+    return true;
+  };
+
+  const manufacturers = useMemo(
+    () => Array.from(new Set(baseProducts.filter(p => matchAllExcept(p, "manufacturer")).map(p => p.manufacturer))).sort(),
+    [baseProducts, tier, culture, ai]
+  );
+  const productCultures = useMemo(
+    () => Array.from(new Set(baseProducts.filter(p => matchAllExcept(p, "culture")).flatMap(p => p.cultures))),
+    [baseProducts, tier, manufacturer, ai]
+  );
+  const aiList = useMemo(() => {
+    const set = new Map<string, string>();
+    baseProducts.filter(p => matchAllExcept(p, "ai")).forEach(p => {
+      const uk = firstAi(p, "uk");
+      if (uk) set.set(uk, lang === "uk" ? uk : firstAi(p, "ru"));
+    });
+    return Array.from(set.entries()).sort((a, b) => a[0].localeCompare(b[0]));
+  }, [baseProducts, tier, manufacturer, culture, lang]);
+
+  // Якщо активний фiльтр зник зi списку опцiй (наприклад tier=original виключає Нертус) — скидаємо.
+  useEffect(() => {
+    if (manufacturer !== "all" && !manufacturers.includes(manufacturer)) setManufacturer("all");
+  }, [manufacturers, manufacturer]);
+  useEffect(() => {
+    if (culture !== "all" && !productCultures.includes(culture)) setCulture("all");
+  }, [productCultures, culture]);
+  useEffect(() => {
+    if (ai !== "all" && !aiList.find(([k]) => k === ai)) setAi("all");
+  }, [aiList, ai]);
 
   const filtered = useMemo(() => {
-    return baseProducts.filter(p => {
-      if (tier !== "all" && p.tier !== tier) return false;
-      if (manufacturer !== "all" && p.manufacturer !== manufacturer) return false;
-      if (culture !== "all" && !p.cultures.includes(culture)) return false;
-      if (ai !== "all") {
-        const firstUk = p.activeIngredient.split(/\s*\+\s*/)[0].replace(/\s*\([^)]+\)\s*/g, "").replace(/\s*[,;]?\s*\d+([.,]\d+)?\s*(г|мг|кг)\/[лкт][гр]?\s*$/, "").replace(/[,;]\s*$/, "").trim();
-        if (firstUk !== ai) return false;
-      }
-      return true;
-    });
+    return baseProducts.filter(p => matchAllExcept(p, "tier") && (tier === "all" || p.tier === tier));
   }, [baseProducts, tier, manufacturer, culture, ai]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
