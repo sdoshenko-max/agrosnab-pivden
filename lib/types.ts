@@ -65,6 +65,16 @@ export type City = {
   metaDescription: string;  // SEO description
 };
 
+export type SavePair = {
+  ai: string;
+  groupName: string;
+  packaging: string;
+  unit: "л" | "кг";
+  currency: "USD" | "EUR";
+  orig: { brand: string; name: string; priceVat: number; url: string };
+  our:  { brand: string; name: string; priceVat: number; url: string };
+};
+
 export type TankMix = {
   slug: string;
   cultureSlug: string;

@@ -14,10 +14,12 @@ const STATIC_UA = [
   "/kontakty/", "/pro-nas/", "/dostavka-i-oplata/", "/oferta/",
   "/konfidentsiynist/", "/sertyfikaty/", "/baza-znan/", "/mista/"
 ];
-// RU локалізація неповна — у /app/ru/ існують лише ці статичні сторінки.
+// RU статичні сторінки — звіряти з папкою /app/ru/ при додаванні нових.
 const STATIC_RU = [
   "/ru/", "/ru/kultury/", "/ru/grupy/", "/ru/diiucha-rechovyna/",
-  "/ru/bakovi-sumishi/", "/ru/kontakty/"
+  "/ru/bakovi-sumishi/", "/ru/kontakty/", "/ru/pro-nas/",
+  "/ru/dostavka-i-oplata/", "/ru/oferta/", "/ru/konfidentsiynist/",
+  "/ru/sertyfikaty/", "/ru/baza-znan/"
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -49,8 +51,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     products.forEach(p => push(`${lang}/produkt/${p.slug}/${p.code}/`));
   }
 
-  // Статті бази знань — лише UA, /ru/baza-znan/ не існує.
-  articles.forEach(a => push(`/baza-znan/${a.slug}/`));
+  // Статті бази знань — UA + RU.
+  articles.forEach(a => {
+    push(`/baza-znan/${a.slug}/`);
+    push(`/ru/baza-znan/${a.slug}/`);
+  });
 
   // Міські лендинги — лише UA (RU-версії немає за рішенням від 2026-05-12).
   cities.forEach(c => push(`/mista/${c.slug}/`));

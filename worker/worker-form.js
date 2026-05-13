@@ -4,12 +4,25 @@
 // Адаптовано з worker-form.js mltd.com.ua
 // =====================================================================
 
+const ALLOWED_ORIGINS = new Set([
+  "https://agrosnab-pivden.com",
+  "https://www.agrosnab-pivden.com",
+  "https://agrosnab-pivden.com.ua",
+  "https://www.agrosnab-pivden.com.ua",
+  "https://agrosnab-pivden.pages.dev",
+  "http://localhost:3000",
+  "http://localhost:3001",
+]);
+
 export default {
   async fetch(request, env) {
+    const reqOrigin = request.headers.get("origin") || "";
+    const allowOrigin = ALLOWED_ORIGINS.has(reqOrigin) ? reqOrigin : "";
     const cors = {
-      "Access-Control-Allow-Origin": "*", // після релізу замінити на https://agrosnab-pivden.com.ua
+      "Access-Control-Allow-Origin": allowOrigin,
       "Access-Control-Allow-Methods": "POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type",
+      "Vary": "Origin",
     };
 
     if (request.method === "OPTIONS") {
@@ -17,6 +30,9 @@ export default {
     }
     if (request.method !== "POST") {
       return new Response("Method not allowed", { status: 405, headers: cors });
+    }
+    if (!allowOrigin) {
+      return new Response("Forbidden", { status: 403 });
     }
 
     // Parse body

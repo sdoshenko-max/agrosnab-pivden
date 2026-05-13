@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ArrowRight, Phone, TrendingDown, MessageCircle, Truck } from "lucide-react";
 import { dict, type Lang } from "@/lib/i18n";
 import { CallbackModal } from "./CallbackModal";
+import { SaveCard } from "./SaveCard";
 
 export function Hero({ lang }: { lang: Lang }) {
   const t = dict[lang];
@@ -24,53 +25,61 @@ export function Hero({ lang }: { lang: Lang }) {
     : <>Честные дженерики с идентичным действующим веществом. Без переплаты за бренд — экономия до <b className="bg-accent text-white px-1.5 rounded">60%</b> с тем же результатом.</>;
 
   return (
-    <section className="relative bg-gradient-to-br from-brand via-brand to-brand-dark text-white overflow-hidden">
-      {/* SVG-фон з полем соняшників */}
-      <div className="absolute inset-0 opacity-20">
-        <svg className="w-full h-full" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#fbbf24" />
-              <stop offset="100%" stopColor="#166534" />
-            </linearGradient>
-          </defs>
-          <rect width="1200" height="350" fill="url(#sky)" opacity="0.5" />
-          <path d="M0,400 Q300,380 600,400 T1200,400 L1200,500 L0,500 Z" fill="#22c55e" opacity="0.6" />
-          <path d="M0,440 Q400,420 800,440 T1200,440 L1200,500 L0,500 Z" fill="#166534" opacity="0.7" />
-          {[...Array(8)].map((_, i) => (
-            <g key={i} transform={`translate(${100 + i * 150}, ${380 - (i % 2) * 20})`}>
-              <line x1="0" y1="0" x2="0" y2="60" stroke="#15803d" strokeWidth="3" />
-              <circle cx="0" cy="0" r="14" fill="#fbbf24" />
-              <circle cx="0" cy="0" r="6" fill="#78350f" />
-            </g>
-          ))}
-        </svg>
-      </div>
+    <section className="relative bg-brand-dark text-white overflow-hidden">
+      {/* Фото-фон: соняшник і соя півдня України */}
+      <picture>
+        <source srcSet="/hero/hero_v1.webp" type="image/webp" />
+        <img
+          src="/hero/hero_v1.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      {/* Затемнення зліва для читабельності тексту */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(100deg, rgba(20,83,45,0.92) 0%, rgba(20,83,45,0.70) 35%, rgba(20,83,45,0.20) 65%, transparent 90%), linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.25) 100%)",
+        }}
+      />
+
       <div className="container-w py-12 lg:py-20 relative">
-        <div className="max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-4">{t.hero.title}</h1>
-          <p className="text-lg lg:text-xl text-white/95 mb-6 max-w-2xl leading-relaxed">{tagline}</p>
-          <div className="flex flex-col sm:flex-row gap-3 mb-8">
-            <a href="#cultures" className="btn-primary !bg-accent hover:!bg-accent-dark !text-white">
-              {t.hero.cta1}
-              <ArrowRight className="w-5 h-5" />
-            </a>
-            <button onClick={() => setCallbackOpen(true)} className="btn-outline !border-white !text-white hover:!bg-white hover:!text-brand">
-              <Phone className="w-5 h-5" />
-              {t.hero.cta2}
-            </button>
-          </div>
-          {/* Плашки переваг */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 max-w-3xl">
-            {badges.map((b, i) => (
-              <div key={i} className="bg-white/10 backdrop-blur border border-white/20 rounded-lg px-3 py-2.5 flex items-center gap-2.5">
-                <b.icon className="w-5 h-5 shrink-0 text-accent-light" style={{color: "#fbbf24"}} />
-                <div className="leading-tight">
-                  <p className="font-bold text-sm">{b.text}</p>
-                  <p className="text-[11px] text-white/70">{b.sub}</p>
+        <div className="grid lg:grid-cols-[1.2fr_1fr] gap-8 lg:gap-12 items-center">
+          {/* Ліва колонка — заголовок, текст, CTA, плашки переваг */}
+          <div>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-4 drop-shadow-[0_2px_20px_rgba(0,0,0,0.35)]">{t.hero.title}</h1>
+            <p className="text-lg lg:text-xl text-white/95 mb-6 max-w-2xl leading-relaxed">{tagline}</p>
+            <div className="flex flex-col sm:flex-row gap-3 mb-8">
+              <a href="#cultures" className="btn-primary !bg-accent hover:!bg-accent-dark !text-white">
+                {t.hero.cta1}
+                <ArrowRight className="w-5 h-5" />
+              </a>
+              <button onClick={() => setCallbackOpen(true)} className="btn-outline !border-white !text-white hover:!bg-white hover:!text-brand">
+                <Phone className="w-5 h-5" />
+                {t.hero.cta2}
+              </button>
+            </div>
+            {/* Плашки переваг */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 max-w-3xl">
+              {badges.map((b, i) => (
+                <div key={i} className="bg-white/10 backdrop-blur border border-white/20 rounded-lg px-3 py-2.5 flex items-center gap-2.5">
+                  <b.icon className="w-5 h-5 shrink-0" style={{color: "#fbbf24"}} />
+                  <div className="leading-tight">
+                    <p className="font-bold text-sm">{b.text}</p>
+                    <p className="text-[11px] text-white/70">{b.sub}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          {/* Права колонка — клікабельна картка економії з прикладом з каталогу */}
+          <div className="flex justify-center lg:justify-end">
+            <SaveCard lang={lang} />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/_generate_image_manifest.mjs",
+    "prebuild": "node scripts/_generate_image_manifest.mjs && node scripts/_generate_save_pairs.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

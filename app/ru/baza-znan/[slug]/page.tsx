@@ -1,3 +1,4 @@
+import React from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -20,19 +21,43 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return { title: i.title, description: i.description };
 }
 
-// Legacy-рендер для статей без blocks: строки на абзацы, **жирный** на <strong>, [текст](ссылка) на <a>.
-function renderBody(body: string) {
-  const html = body.split("\n\n").map(p => {
-    let line = p
-      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-brand underline">$1</a>')
-      .replace(/\n/g, "<br/>");
-    if (line.startsWith("<strong>") && line.includes("</strong>") && line.indexOf("</strong>") < 100) {
-      return `<h2 class="text-xl font-bold mt-6 mb-2">${line.replace(/<\/?strong>/g, "")}</h2>`;
+// Безопасный рендер для статей без blocks — без dangerouslySetInnerHTML.
+function parseInline(text: string, baseKey: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  const re = /\*\*([^*]+)\*\*|\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let m: RegExpExecArray | null;
+  let i = 0;
+  const pushText = (s: string) => {
+    const parts = s.split("\n");
+    parts.forEach((p, idx) => {
+      if (idx > 0) nodes.push(<br key={`${baseKey}-br-${i++}`} />);
+      if (p) nodes.push(<React.Fragment key={`${baseKey}-t-${i++}`}>{p}</React.Fragment>);
+    });
+  };
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > lastIndex) pushText(text.slice(lastIndex, m.index));
+    if (m[1] !== undefined) {
+      nodes.push(<strong key={`${baseKey}-b-${i++}`}>{m[1]}</strong>);
+    } else if (m[2] !== undefined && m[3] !== undefined) {
+      nodes.push(<a key={`${baseKey}-l-${i++}`} href={m[3]} className="text-brand underline">{m[2]}</a>);
     }
-    return `<p class="mb-4">${line}</p>`;
-  }).join("");
-  return html;
+    lastIndex = re.lastIndex;
+  }
+  if (lastIndex < text.length) pushText(text.slice(lastIndex));
+  return nodes;
+}
+
+function renderBody(body: string): React.ReactNode {
+  return body.split("\n\n").map((p, pi) => {
+    const key = `p-${pi}`;
+    const headEnd = p.startsWith("**") ? p.indexOf("**", 2) : -1;
+    if (headEnd > 0 && headEnd < 100) {
+      const stripped = p.replace(/\*\*/g, "");
+      return <h2 key={key} className="text-xl font-bold mt-6 mb-2">{stripped}</h2>;
+    }
+    return <p key={key} className="mb-4">{parseInline(p, key)}</p>;
+  });
 }
 
 export default function ArticlePageRu({ params }: { params: { slug: string } }) {
@@ -67,10 +92,9 @@ export default function ArticlePageRu({ params }: { params: { slug: string } }) 
             <div className="text-5xl mb-3">{article.emoji}</div>
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">{i.title}</h1>
             <p className="text-muted text-sm mb-6">{article.date}</p>
-            <article
-              className="text-base leading-relaxed"
-              dangerouslySetInnerHTML={{ __html: renderBody(i.body) }}
-            />
+            <article className="text-base leading-relaxed">
+              {renderBody(i.body)}
+            </article>
           </>
         )}
       </main>

@@ -53,18 +53,18 @@ const labels = {
 
 // ---------- Утиліти ----------
 
-/** Inline-markdown: **жирний** і [текст](url). */
+/** Inline-markdown: **жирний** і [текст](url). Безпечно — escape `&<>"` і whitelist схем URL. */
 function inlineHtml(text: string): string {
   return text
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
-    // Повертаємо назад розмітку
+    .replace(/"/g, "&quot;")
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-    .replace(
-      /\[([^\]]+)\]\(([^)]+)\)/g,
-      '<a href="$2" class="text-brand hover:underline font-medium">$1</a>'
-    );
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label, url) => {
+      const safe = /^(https?:\/\/|mailto:|tel:|#|\/)/i.test(url) ? url : "#";
+      return `<a href="${safe}" class="text-brand hover:underline font-medium">${label}</a>`;
+    });
 }
 
 // ---------- Шапка статті ----------
