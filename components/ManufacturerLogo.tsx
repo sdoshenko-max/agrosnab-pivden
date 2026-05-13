@@ -104,7 +104,7 @@ export function ManufacturerLogo({ name, size = 44 }: { name: string; size?: num
       style={{
         width: size,
         height: size,
-        background: meta?.bgFallback ?? "#64748b",
+        background: "#64748b",
         fontSize: Math.max(10, Math.round(size * 0.42)),
         letterSpacing: initials.length === 1 ? 0 : -0.5,
       }}
