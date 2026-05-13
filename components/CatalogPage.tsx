@@ -201,7 +201,7 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
 
         <div className="grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-6">
           <aside className={`${filtersOpen ? "block" : "hidden"} lg:block space-y-4`}>
-            <div className="card !p-4 lg:sticky lg:top-20">
+            <div className="card !p-4 lg:sticky lg:top-20 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto lg:overscroll-contain">
               <div className="flex items-center justify-between mb-3">
                 <h2 className="font-bold flex items-center gap-2"><Filter className="w-4 h-4" />{labels.filters}</h2>
                 {hasActiveFilter && (<button onClick={reset} className="text-xs text-accent flex items-center gap-1"><X className="w-3 h-3" />{labels.reset}</button>)}

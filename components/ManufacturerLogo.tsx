@@ -55,8 +55,8 @@ const MAP: Record<string, Meta> = {
   гринекспресс: { file: "grin-express.svg", bgFallback: "#2D8C3C", initials: "ГЕ" },
   life: { file: "life.png", bgFallback: "#88AB42", initials: "L" },
   лайф: { file: "life.png", bgFallback: "#88AB42", initials: "Л" },
-  akht: { file: "akht.svg", bgFallback: "#0066CC", initials: "АХ" },
-  ахт: { file: "akht.svg", bgFallback: "#0066CC", initials: "АХ" },
+  akht: { file: "akht.png", bgFallback: "#0066CC", initials: "АХ" },
+  ахт: { file: "akht.png", bgFallback: "#0066CC", initials: "АХ" },
   nice: { file: "nice.png", bgFallback: "#E55B25", initials: "Н" },
   найс: { file: "nice.png", bgFallback: "#E55B25", initials: "Н" },
 };
