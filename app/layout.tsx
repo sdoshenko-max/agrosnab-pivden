@@ -7,7 +7,7 @@ import { Analytics } from "@/components/Analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://agrosnab-pivden.com"),
-  title: { default: "АГРОСНАБ-ПІВДЕНЬ — засоби захисту рослин для Півдня України", template: "%s | АГРОСНАБ-ПІВДЕНЬ" },
+  title: { default: "АГРОСНАБ-ПІВДЕНЬ — засоби захисту рослин для України", template: "%s | АГРОСНАБ-ПІВДЕНЬ" },
   description: "Інтернет-каталог ЗЗР для фермерів Миколаївської, Херсонської, Одеської областей. Чесні дженерики, економія до 60% від оригіналу.",
   icons: { icon: "/favicon.svg" },
   openGraph: { type: "website", locale: "uk_UA", siteName: "АГРОСНАБ-ПІВДЕНЬ", images: ["/og.png"] },

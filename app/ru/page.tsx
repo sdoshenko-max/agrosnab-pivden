@@ -12,7 +12,7 @@ import { FloatingCallButton } from "@/components/FloatingCallButton";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "АГРОСНАБ-ПІВДЕНЬ — средства защиты растений для Юга Украины",
+  title: "АГРОСНАБ-ПІВДЕНЬ — средства защиты растений для Украины",
   description:
     "Интернет-каталог СЗР для фермеров Николаевской, Херсонской, Одесской областей. Честные дженерики, экономия до 60% от оригинала. Самовывоз Николаев или Новая Почта."
 };

@@ -12,7 +12,7 @@ export default function About() {
         <section className="bg-gradient-to-br from-brand to-brand-dark text-white py-12">
           <div className="container-w">
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-3">О компании АГРОСНАБ-ПІВДЕНЬ</h1>
-            <p className="text-white/90 max-w-2xl">Поставщик средств защиты растений для фермеров Юга Украины.</p>
+            <p className="text-white/90 max-w-2xl">Поставщик средств защиты растений для фермеров Украины.</p>
           </div>
         </section>
         <section className="container-w py-10 max-w-4xl">
@@ -22,7 +22,7 @@ export default function About() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <div className="card"><Sprout className="w-8 h-8 text-brand mb-2" /><h3 className="font-bold mb-1">Специализация</h3><p className="text-sm text-muted">Гербициды, фунгициды, инсектициды, протравители, регуляторы роста, микроудобрения, прилипатели</p></div>
-            <div className="card"><MapPin className="w-8 h-8 text-brand mb-2" /><h3 className="font-bold mb-1">Регион</h3><p className="text-sm text-muted">Юг Украины. Склад в Николаеве, доставка по всей стране Новой Почтой</p></div>
+            <div className="card"><MapPin className="w-8 h-8 text-brand mb-2" /><h3 className="font-bold mb-1">Регион</h3><p className="text-sm text-muted">Склад в Николаеве, доставка по всей Украине Новой Почтой</p></div>
             <div className="card"><Wallet className="w-8 h-8 text-brand mb-2" /><h3 className="font-bold mb-1">Цена</h3><p className="text-sm text-muted">Наличными или безналичный расчёт с НДС. Без переплат за «бренд»</p></div>
             <div className="card"><Phone className="w-8 h-8 text-brand mb-2" /><h3 className="font-bold mb-1">Поддержка</h3><p className="text-sm text-muted">Бесплатная консультация агронома по телефону или в Viber</p></div>
           </div>

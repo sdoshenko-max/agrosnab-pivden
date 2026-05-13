@@ -8,6 +8,7 @@ import type { Culture, Product, TankMix } from "@/lib/data";
 import { dict, type Lang } from "@/lib/i18n";
 import { ProductCardFull } from "./ProductCardFull";
 import { RequestModal } from "./RequestModal";
+import { ManufacturerFilter } from "./ManufacturerFilter";
 
 const TIER_LABELS: Record<string, { uk: string; ru: string }> = {
   econom: { uk: "Економ", ru: "Эконом" },
@@ -213,10 +214,12 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
             {manufacturerOptions.length > 1 && (
               <div>
                 <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-2">{labels.manufacturer}</p>
-                <select value={manufacturer} onChange={e => setManufacturer(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-border bg-white text-ink text-sm">
-                  <option value="all">{labels.all}</option>
-                  {manufacturerOptions.map(m => <option key={m} value={m}>{m}</option>)}
-                </select>
+                <ManufacturerFilter
+                  value={manufacturer}
+                  onChange={setManufacturer}
+                  options={manufacturerOptions}
+                  allLabel={labels.all}
+                />
               </div>
             )}
           </div>

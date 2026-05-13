@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { FloatingCallButton } from "@/components/FloatingCallButton";
 import { articles, getArticleI18n } from "@/lib/articles";
 import { ArrowRight } from "lucide-react";
-export const metadata = { title: "База знаний", description: "Полезные материалы для агрономов и фермеров Юга Украины" };
+export const metadata = { title: "База знаний", description: "Полезные материалы для агрономов и фермеров Украины" };
 
 export default function KnowledgeRu() {
   return (

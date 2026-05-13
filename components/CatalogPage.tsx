@@ -9,6 +9,7 @@ import { groups } from "@/lib/groups";
 import { type Lang } from "@/lib/i18n";
 import { ProductCardFull } from "./ProductCardFull";
 import { RequestModal } from "./RequestModal";
+import { ManufacturerFilter } from "./ManufacturerFilter";
 
 const PAGE_SIZE = 12;
 
@@ -215,10 +216,12 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
               </div>
               <div className="mb-4">
                 <p className="text-xs text-muted font-semibold mb-2 uppercase">{labels.manufacturer}</p>
-                <select value={manufacturer} onChange={e => setManufacturer(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-border bg-white text-sm">
-                  <option value="all">{labels.all}</option>
-                  {manufacturers.map(m => <option key={m} value={m}>{m}</option>)}
-                </select>
+                <ManufacturerFilter
+                  value={manufacturer}
+                  onChange={setManufacturer}
+                  options={manufacturers}
+                  allLabel={labels.all}
+                />
               </div>
               <div className="mb-4">
                 <p className="text-xs text-muted font-semibold mb-2 uppercase">{labels.culture}</p>

@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import { FloatingCallButton } from "@/components/FloatingCallButton";
 import { TankMixesGrid } from "@/components/TankMixesGrid";
 
-export const metadata = { title: "Готовые баковые смеси", description: "Проверенные комбинации препаратов для Юга Украины — стоимость обработки 1 гектара" };
+export const metadata = { title: "Готовые баковые смеси", description: "Проверенные комбинации препаратов для Украины — стоимость обработки 1 гектара" };
 
 export default function MixesListRu() {
   return (
