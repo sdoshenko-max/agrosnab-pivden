@@ -20,7 +20,16 @@ export function CulturesGrid({ lang }: { lang: Lang }) {
             href={`${base}/kultury/${c.slug}`}
             className="card flex flex-col items-center text-center group hover:border-brand hover:bg-brand/5 hover:shadow-lg transition-all duration-200"
           >
-            <div className="text-5xl mb-3 transition-transform duration-200 group-hover:-translate-y-2 group-hover:scale-110">{c.emoji}</div>
+            {c.image ? (
+              <img
+                src={c.image}
+                alt={lang === "uk" ? c.nameUk : c.nameRu}
+                loading="lazy"
+                className="w-20 h-20 lg:w-24 lg:h-24 mb-3 rounded-full object-cover ring-1 ring-border transition-transform duration-200 group-hover:-translate-y-2 group-hover:scale-110"
+              />
+            ) : (
+              <div className="text-5xl mb-3 transition-transform duration-200 group-hover:-translate-y-2 group-hover:scale-110">{c.emoji}</div>
+            )}
             <h3 className="font-bold text-base mb-2 group-hover:text-brand transition-colors">
               {lang === "uk" ? c.nameUk : c.nameRu}
             </h3>
