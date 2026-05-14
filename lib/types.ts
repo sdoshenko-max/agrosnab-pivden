@@ -6,7 +6,7 @@ export type Product = {
   name: string;
   nameRu: string;
   manufacturer: string;
-  tier: string; // "econom" | "premium" | "original" — використовуємо string щоб уникнути TS «union too complex» при 1400+ SKU
+  tier: string; // string вместо union, чтобы TypeScript не падал на 1400+ SKU.
   group: string;
   groupSlug: string;
   activeIngredient: string;
@@ -17,7 +17,7 @@ export type Product = {
   priceVat: number;
   priceCash: number;
   priceOnRequest?: boolean;
-  unit: string; // "л" | "кг"
+  unit: string;
   currency: string; // "USD" | "EUR"
   analog?: string;
   saveFromOriginal?: number;
@@ -46,23 +46,23 @@ export type Culture = {
 };
 
 export type City = {
-  slug: string;             // латиниця, kebab-case: voznesensk, mykolaiv, novyi-buh
-  nameUk: string;           // називний: "Вознесенськ"
-  inCity: string;           // повна форма з прийменником: "у Вознесенську" (або "в Очакові")
-  nameGen: string;          // родовий (для «з/до …»): "Вознесенська"
-  district: string;         // "Вознесенський район"
-  region: string;           // "Миколаївська область"
-  distanceKm: number;       // відстань від складу в Миколаєві
+  slug: string;
+  nameUk: string;
+  inCity: string;
+  nameGen: string;
+  district: string;
+  region: string;
+  distanceKm: number;
   coordinates: { lat: number; lng: number };
-  population?: number;      // приблизна (довоєнна) кількість мешканців
-  intro: string;            // лід-абзац (~3-4 речення) — клімат, агроактивність району
-  mainCultureSlugs: string[]; // основні культури зони, з cultures.ts
-  climateZone: string;      // короткий опис кліматичної зони (одне речення)
-  localChallenges: { title: string; desc: string }[]; // 3 типові проблеми району
-  seasonalCalendar: { month: string; tasks: string }[]; // календар обробок (4-6 рядків)
-  faq: { q: string; a: string }[]; // 4-5 локальних питань
-  metaTitle: string;        // SEO title
-  metaDescription: string;  // SEO description
+  population?: number;
+  intro: string;
+  mainCultureSlugs: string[];
+  climateZone: string;
+  localChallenges: { title: string; desc: string }[];
+  seasonalCalendar: { month: string; tasks: string }[];
+  faq: { q: string; a: string }[];
+  metaTitle: string;
+  metaDescription: string;
 };
 
 export type SavePair = {
@@ -71,7 +71,6 @@ export type SavePair = {
   packaging: string;
   unit: "л" | "кг";
   currency: "USD" | "EUR";
-  // Цiна готiвкою (priceCash) — як показано на сторiнцi товару в рядку «готiвка».
   orig: { brand: string; name: string; priceCash: number; url: string };
   our:  { brand: string; name: string; priceCash: number; url: string };
 };
@@ -84,14 +83,14 @@ export type TankMix = {
   descUk: string;
   descRu: string;
   components: {
-    slug?: string;        // якщо співпадає з products[] — для додавання в кошик
+    slug?: string;
     name: string;
     manufacturer: string;
     role: string;
-    ratePerHa: number;    // л/кг на гектар
-    packSize: number;     // фасовка (5, 10, 20)
+    ratePerHa: number;
+    packSize: number;
     unit: "л" | "кг";
-    priceVat: number;     // ціна за 1 л/кг
+    priceVat: number;
     priceCash: number;
   }[];
 };
@@ -100,69 +99,118 @@ export function calcCash(priceVat: number): number {
   return Math.round((priceVat / 1.2) * 1.1 * 100) / 100;
 }
 
-// Витягуємо розмір фасовки в базовій одиниці (л або кг).
-// "5 л" → 5; "0.5 кг" → 0.5; "500 г" → 0.5; "50 мл" → 0.05; "1 т" → 1000.
-// Для комбо-фасовок типу "1кг+5л" — повертає число першої частини.
-// (JS regex \b не працює з кирилицею — використовуємо явну перевірку без \b.)
+export type PackagingHints = {
+  name?: string;
+  activeIngredient?: string;
+  rate?: string;
+};
+
+export type PackUnit = "л" | "кг" | "комплект";
+
+function normalizeHintText(hints?: PackagingHints): string {
+  if (!hints) return "";
+  return [hints.name || "", hints.activeIngredient || "", hints.rate || ""].join(" ").toLowerCase();
+}
+
+export function isDryProductLike(hints?: PackagingHints): boolean {
+  const text = normalizeHintText(hints);
+  if (!text) return false;
+
+  const sep = "[^a-zа-яёіїєґ0-9]";
+  const hasDryForm = new RegExp("(^|" + sep + ")(вг|в\\.г|вдг|в\\.д\\.г|зп|з\\.п|вп|в\\.п|сг|с\\.г|тб)(?=$|" + sep + ")", "i").test(text);
+  const hasDryActive = /г\s*\/\s*кг/i.test(text);
+  const hasDryRate = /(^|[^а-яёіїєґ])(кг|г|гр)\s*\/\s*(га|т|100)/i.test(text);
+  const hasLiquidActive = /г\s*\/\s*л/i.test(text);
+  const hasLiquidRate = /(л|мл)\s*\/\s*(га|т|100)/i.test(text);
+  const explicitlyLiquid = new RegExp("(^|" + sep + ")(ліквід|liquid|рк|р\\.к|кс|к\\.с|ке|к\\.е|мк|м\\.к|се|с\\.е|ме|м\\.е|вс|в\\.с|концентрат\\s+суспензії|эмульсии)(?=$|" + sep + ")", "i").test(text);
+
+  if (explicitlyLiquid) return false;
+  if (hasLiquidActive && !hasDryActive && !hasDryRate) return false;
+  if (hasLiquidActive && hasLiquidRate && !hasDryActive && !hasDryRate) return false;
+  if (hasDryActive && !hasLiquidActive) return true;
+  if ((hasDryForm || hasDryActive) && hasDryRate) return true;
+  if (hasDryForm && !explicitlyLiquid) return true;
+  return false;
+}
+
+function removePackageWords(value: string): string {
+  return value
+    .replace(/(^|[\s,;()])(?:пляш(?:к[аи])?|флакон|ящик|ящ|пак(?:ет)?|банк[аи]?|туба|каніст(?:р[аи])?)(?=$|[\s,;()])/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function formatPkgNumber(num: number): string {
+  return String(num).replace(/^0\.0+$/, "0");
+}
+
+function liquidEquivalentToDry(num: number, unit: "л" | "мл"): string {
+  const kg = unit === "мл" ? num / 1000 : num;
+  if (kg >= 1) return formatPkgNumber(kg) + " кг";
+  const grams = Math.round(kg * 1000 * 1000) / 1000;
+  return formatPkgNumber(grams) + " г";
+}
+
 export function getPackSize(packaging: string): number {
   const s = String(packaging || "").toLowerCase();
-  // Парсимо число + одиницю. Порядок альтернатив у regex важливий:
-  // довші варіанти першими (кг перед г, мл перед л) інакше "кг" зматчить як "г".
-  const m = s.match(/(\d+(?:[.,]\d+)?)\s*(кг|мл|гр|г|л|т)/);
+  if (/(комплект|комбі-пак|комби-пак|набір|набор)/i.test(s)) {
+    const n = s.match(/[\d.,]+/);
+    return n ? (parseFloat(n[0].replace(",", ".")) || 1) : 1;
+  }
+
+  const m = s.match(/(\d+(?:[.,]\d+)?)\s*(кг|мл|гр|г|л|т)/i);
   if (!m) {
     const n = s.match(/[\d.,]+/);
     return n ? (parseFloat(n[0].replace(",", ".")) || 1) : 1;
   }
   const num = parseFloat(m[1].replace(",", ".")) || 1;
-  const unit = m[2];
-  if (unit === "г" || unit === "гр") return num / 1000;  // 500 г → 0.5 (кг)
-  if (unit === "мл") return num / 1000;                  // 50 мл → 0.05 (л)
-  if (unit === "т") return num * 1000;                   // 1 т → 1000 (кг)
-  return num; // кг, л — базова одиниця
+  const unit = m[2].toLowerCase();
+  if (unit === "г" || unit === "гр") return num / 1000;
+  if (unit === "мл") return num / 1000;
+  if (unit === "т") return num * 1000;
+  return num;
 }
 
-// Нормалізує запис фасовки до канонічної форми:
-//   "4*5л.", "5л.", "5 л", "5л" → "5 л"
-//   "0,25 кг", "0.25кг" → "0.25 кг"
-//   "500гр", "500 г" → "500 г"
-//   "10*500гр" → "500 г"
-//   "0,5л пляш" → "0.5 л"
-//   "40гр+100г/л" → "40гр+100г/л" (комбо лишається без змін)
-export function normalizePkg(raw: string | null | undefined): string {
+export function normalizePkg(raw: string | null | undefined, hints?: PackagingHints): string {
   if (!raw) return "";
   let s = String(raw).trim();
-  // Комбо-форми ("1кг+5л", "40гр+100г/л") — лишаємо як є
-  if (/[+]/.test(s) && !/(кг|л)\s*$/.test(s)) {
-    return s.replace(/\s+/g, "");
+  const lower = s.toLowerCase();
+  if (/(комплект|комбі-пак|комби-пак|набір|набор)/i.test(lower)) {
+    const n = lower.match(/[\d.,]+/);
+    const qty = n ? (parseFloat(n[0].replace(",", ".")) || 1) : 1;
+    return formatPkgNumber(qty) + " комплект";
   }
-  // Видаляємо мультиплікатор: "4*5л" → "5л", "20*250гр" → "250гр", "4×5 л" → "5 л"
+
+  if (/[+]/.test(s) && !/(кг|л)\s*$/i.test(s)) return s.replace(/\s+/g, "");
+
   const mult = s.match(/^\s*\d+\s*[*×xх]\s*(.+)$/i);
   if (mult) s = mult[1].trim();
-  // Прибираємо описові слова: "пляш", "флакон", "ящик", "пак", "банка"
-  s = s.replace(/\b(пляш(к[аи])?|флакон|ящик|ящ|пак(ет)?|банк[аи]?|туба|каніст(р[аи])?)\b/gi, "").trim();
-  // Витягуємо число + одиницю
+  s = removePackageWords(s);
+
   const m = s.match(/(\d+(?:[.,]\d+)?)\s*([а-яёa-z]+\.?)?/i);
   if (!m) return s;
   const num = parseFloat(m[1].replace(",", ".")) || 0;
-  let unit = (m[2] || "л").toLowerCase().replace(/\.+$/, "");
-  // Канонічні одиниці
+  let unit = (m[2] || (isDryProductLike(hints) ? "кг" : "л")).toLowerCase().replace(/\.+$/, "");
+
   if (/^кг$/.test(unit)) unit = "кг";
   else if (/^л$/.test(unit)) unit = "л";
   else if (/^(г|гр)$/.test(unit)) unit = "г";
   else if (/^мл$/.test(unit)) unit = "мл";
   else if (/^т$/.test(unit)) unit = "т";
-  else unit = "л"; // fallback
-  // Число без зайвих нулів
-  const numStr = String(num).replace(/^0\.0+$/, "0");
-  return `${numStr} ${unit}`;
+  else unit = isDryProductLike(hints) ? "кг" : "л";
+
+  if (isDryProductLike(hints) && (unit === "л" || unit === "мл")) {
+    return liquidEquivalentToDry(num, unit);
+  }
+  return formatPkgNumber(num) + " " + unit;
 }
 
-// Базова одиниця для фасовки: "500 г" → "кг", "5 л" → "л", "50 мл" → "л".
-// (JS regex \b не працює з кирилицею, тому через нормалізацію.)
-export function unitFromPkg(packaging: string): "л" | "кг" {
+export function unitFromPkg(packaging: string, hints?: PackagingHints): PackUnit {
   const s = String(packaging || "").toLowerCase().replace(/\s+/g, "");
+  if (/(комплект|комбі-пак|комби-пак|набір|набор)/i.test(s)) return "комплект";
   if (/^\d+(?:[.,]\d+)?кг$/.test(s)) return "кг";
-  if (/^\d+(?:[.,]\d+)?гр?$/.test(s)) return "кг"; // 500г, 500гр
-  if (/кг/.test(s)) return "кг"; // на всяк випадок: "0.25кг", "10*500гр"
+  if (/^\d+(?:[.,]\d+)?гр?$/.test(s)) return "кг";
+  if (/кг/.test(s)) return "кг";
+  if (isDryProductLike(hints)) return "кг";
   return "л";
 }

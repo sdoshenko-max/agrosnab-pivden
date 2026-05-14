@@ -9,39 +9,10 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { normalizePkg, unitFromPkg } from "./_lib_packaging.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-
-// === Канонічна нормалізація фасовки (та сама логіка що в lib/types.ts) ===
-function normalizePkg(raw) {
-  if (!raw) return "";
-  let s = String(raw).trim();
-  if (/[+]/.test(s) && !/(кг|л)\s*$/.test(s)) return s.replace(/\s+/g, "");
-  const mult = s.match(/^\s*\d+\s*[*×xх]\s*(.+)$/i);
-  if (mult) s = mult[1].trim();
-  s = s.replace(/\b(пляш(к[аи])?|флакон|ящик|ящ|пак(ет)?|банк[аи]?|туба|каніст(р[аи])?)\b/gi, "").trim();
-  const m = s.match(/(\d+(?:[.,]\d+)?)\s*([а-яёa-z]+\.?)?/i);
-  if (!m) return s;
-  const num = parseFloat(m[1].replace(",", ".")) || 0;
-  let unit = (m[2] || "л").toLowerCase().replace(/\.+$/, "");
-  if (/^кг$/.test(unit)) unit = "кг";
-  else if (/^л$/.test(unit)) unit = "л";
-  else if (/^(г|гр)$/.test(unit)) unit = "г";
-  else if (/^мл$/.test(unit)) unit = "мл";
-  else if (/^т$/.test(unit)) unit = "т";
-  else unit = "л";
-  const numStr = String(num);
-  return `${numStr} ${unit}`;
-}
-
-function unitFromPkg(pkg) {
-  const s = String(pkg || "").toLowerCase().replace(/\s+/g, "");
-  if (/^\d+(?:[.,]\d+)?кг$/.test(s)) return "кг";
-  if (/^\d+(?:[.,]\d+)?гр?$/.test(s)) return "кг";
-  if (/кг/.test(s)) return "кг";
-  return "л";
-}
 
 // === products.ts ===
 const productsPath = path.join(root, "lib", "products.ts");
@@ -87,6 +58,13 @@ const buildLine = (slug, code, fields, indent = "  ") => {
   return `${indent}{ ${parts.join(", ")} },`;
 };
 
+const unquote = (value) => String(value || "").replace(/^"|"$/g, "");
+const packagingHintsFromFields = (fields) => ({
+  name: unquote(fields.name),
+  activeIngredient: unquote(fields.activeIngredient),
+  rate: unquote(fields.rate),
+});
+
 // === Прохід 1: нормалізація packaging + unit ===
 const skuList = []; // [{lineIdx, slug, code, fields, pkgOriginal, pkgNormalized}]
 let renamedPkg = 0;
@@ -98,9 +76,10 @@ for (let i = 0; i < lines.length; i++) {
   const slug = m[2], code = m[3];
   const fields = parseFields(m[4]);
   const pkgOld = (fields.packaging || '""').replace(/^"|"$/g, "");
-  const pkgNew = normalizePkg(pkgOld);
+  const packagingHints = packagingHintsFromFields(fields);
+  const pkgNew = normalizePkg(pkgOld, packagingHints);
   const unitOld = (fields.unit || '"л"').replace(/^"|"$/g, "");
-  const unitNew = unitFromPkg(pkgNew);
+  const unitNew = unitFromPkg(pkgNew, packagingHints);
   if (pkgOld !== pkgNew) { fields.packaging = JSON.stringify(pkgNew); renamedPkg++; }
   if (unitOld !== unitNew) { fields.unit = JSON.stringify(unitNew); fixedUnit++; }
   skuList.push({ lineIdx: i, slug, code, fields, pkgNew, manufacturer: (fields.manufacturer || '""').replace(/^"|"$/g, "") });
@@ -136,8 +115,9 @@ for (let i = 0; i < newLines.length; i++) {
   const slug = m[2], code = m[3];
   const fields = parseFields(m[4]);
   const pkgOld = (fields.packaging || '""').replace(/^"|"$/g, "");
-  const pkgNew = normalizePkg(pkgOld);
-  const unitNew = unitFromPkg(pkgNew);
+  const packagingHints = packagingHintsFromFields(fields);
+  const pkgNew = normalizePkg(pkgOld, packagingHints);
+  const unitNew = unitFromPkg(pkgNew, packagingHints);
   if (pkgOld !== pkgNew) fields.packaging = JSON.stringify(pkgNew);
   fields.unit = JSON.stringify(unitNew);
   newLines[i] = buildLine(slug, code, fields, m[1]);

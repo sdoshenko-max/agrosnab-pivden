@@ -7,6 +7,50 @@ import { type Lang } from "@/lib/i18n";
 import { useCart } from "./CartContext";
 import { useCurrency } from "./CurrencyContext";
 
+function parseNumber(value: string): number {
+  return parseFloat(value.replace(",", "."));
+}
+
+function formatRate(rate: number): string {
+  return rate.toFixed(rate < 0.1 ? 3 : 2).replace(/0+$/, "").replace(/\.$/, "");
+}
+
+function parseRateInfo(rateText: string, productUnit: string): { defaultRate: string; unitLabel: string } {
+  const lower = rateText.toLowerCase();
+  const kitRange = lower.match(/(\d+(?:[.,]\d+)?)\s*(?:комплект|комбі-пак|комби-пак|набір|набор).*?на\s*(\d+(?:[.,]\d+)?)\s*[-–]\s*(\d+(?:[.,]\d+)?)\s*га/);
+  if (kitRange) {
+    const kits = parseNumber(kitRange[1]);
+    const minHa = parseNumber(kitRange[2]);
+    const maxHa = parseNumber(kitRange[3]);
+    const rate = kits / ((minHa + maxHa) / 2);
+    return { defaultRate: formatRate(rate), unitLabel: productUnit + "/га" };
+  }
+
+  const kitSingle = lower.match(/(\d+(?:[.,]\d+)?)\s*(?:комплект|комбі-пак|комби-пак|набір|набор).*?на\s*(\d+(?:[.,]\d+)?)\s*га/);
+  if (kitSingle) {
+    const rate = parseNumber(kitSingle[1]) / parseNumber(kitSingle[2]);
+    return { defaultRate: formatRate(rate), unitLabel: productUnit + "/га" };
+  }
+
+  const values = rateText.match(/[\d.,]+/g)?.map(parseNumber).filter(v => Number.isFinite(v)) || [];
+  if (!values.length) return { defaultRate: "", unitLabel: productUnit + "/га" };
+
+  const hasGramPerHa = /(^|[^а-яёіїєґ])г\s*\/\s*га/i.test(lower) || /гр\s*\/\s*га/i.test(lower);
+  const hasMlPerHa = /мл\s*\/\s*га/i.test(lower);
+  let divisor = 1;
+
+  if (productUnit === "кг" && hasGramPerHa) divisor = 1000;
+  if (productUnit === "л" && hasMlPerHa) divisor = 1000;
+
+  const converted = values.map(v => v / divisor);
+  const rate = converted.length >= 2 ? (converted[0] + converted[1]) / 2 : converted[0];
+
+  return {
+    defaultRate: formatRate(rate),
+    unitLabel: productUnit + "/га",
+  };
+}
+
 export function AgronomistCalculator({ product, lang }: { product: Product; lang: Lang }) {
   const cart = useCart();
   const { format } = useCurrency();
@@ -15,16 +59,11 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
   const [added, setAdded] = useState<boolean>(false);
   const packSize = getPackSize(product.packaging);
 
-  const defaultRate = useMemo(() => {
-    const m = product.rate.match(/[\d.,]+/g);
-    if (m && m.length >= 2) return ((parseFloat(m[0].replace(",", ".")) + parseFloat(m[1].replace(",", "."))) / 2).toFixed(2);
-    if (m && m.length === 1) return m[0].replace(",", ".");
-    return "";
-  }, [product.rate]);
+  const rateInfo = useMemo(() => parseRateInfo(product.rate, product.unit), [product.rate, product.unit]);
 
   const result = useMemo(() => {
     const a = parseFloat(area);
-    const r = parseFloat(rate || defaultRate);
+    const r = parseFloat(rate || rateInfo.defaultRate);
     if (!a || !r) return null;
     const total = a * r;
     const cansCeil = packSize > 0 ? Math.ceil(total / packSize) : 0;
@@ -41,11 +80,12 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
     const priceVatFloor = volFloor * product.priceVat;
     const isExact = Math.abs(surplus) < 0.01;
     return { area: a, rate: r, total, cansCeil, cansFloor, volCeil, volFloor, surplus, shortage, extraHa, shortHa, priceCeil, priceFloor, priceVatCeil, priceVatFloor, isExact };
-  }, [area, rate, defaultRate, product, packSize]);
+  }, [area, rate, rateInfo.defaultRate, product, packSize]);
 
   const labels = lang === "uk"
-    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buyFull: "Повне покриття", buySave: "Купити менше", cansLabel: "каністр", vatLabel: "з ПДВ", added: "Додано в кошик", surplusTpl: "{vol} {unit} = вистачить на всю площу. Залишок {surplus} {unit} ({extra} га).", shortageTpl: "{vol} {unit} = вистачить тільки на {covered} га. Не вистачить {short} {unit} — потрібно докупити ще 1 каністру.", exactInfo: "Рівно під вашу площу — без залишку." }
-    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buyFull: "Полное покрытие", buySave: "Купить меньше", cansLabel: "канистр", vatLabel: "с НДС", added: "Добавлено в корзину", surplusTpl: "{vol} {unit} = хватит на всю площадь. Остаток {surplus} {unit} ({extra} га).", shortageTpl: "{vol} {unit} = хватит только на {covered} га. Не хватит {short} {unit} — нужно докупить ещё 1 канистру.", exactInfo: "Ровно под вашу площадь — без остатка." };
+    ? { title: "Калькулятор агронома", area: "Площа поля, га", rate: "Норма витрати", need: "Потрібно за нормою", buyFull: "Повне покриття", buySave: "Купити менше", cansLabel: "каністр", kitLabel: "комплектів", vatLabel: "з ПДВ", added: "Додано в кошик", surplusTpl: "{vol} {unit} = вистачить на всю площу. Залишок {surplus} {unit} ({extra} га).", shortageTpl: "{vol} {unit} = вистачить тільки на {covered} га. Не вистачить {short} {unit} - потрібно докупити ще 1 упаковку.", exactInfo: "Рівно під вашу площу - без залишку." }
+    : { title: "Калькулятор агронома", area: "Площадь поля, га", rate: "Норма расхода", need: "Нужно по норме", buyFull: "Полное покрытие", buySave: "Купить меньше", cansLabel: "канистр", kitLabel: "комплектов", vatLabel: "с НДС", added: "Добавлено в корзину", surplusTpl: "{vol} {unit} = хватит на всю площадь. Остаток {surplus} {unit} ({extra} га).", shortageTpl: "{vol} {unit} = хватит только на {covered} га. Не хватит {short} {unit} - нужно докупить ещё 1 упаковку.", exactInfo: "Ровно под вашу площадь - без остатка." };
+  const packLabel = product.unit === "комплект" ? labels.kitLabel : labels.cansLabel;
 
   function fmt(n: number, dec: number = 1): string {
     return packSize % 1 ? n.toFixed(dec) : n.toFixed(0);
@@ -89,8 +129,8 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
           <input type="number" min="1" max="100000" step="1" value={area} onChange={e => { const v = e.target.value; if (v === "" || (parseFloat(v) >= 0 && parseFloat(v) <= 100000)) setArea(v); }} placeholder="100" className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
         </div>
         <div>
-          <label className="text-xs text-muted">{labels.rate} ({product.unit}/га)</label>
-          <input type="number" min="0.01" max="20" step="0.01" value={rate} onChange={e => { const v = e.target.value; if (v === "" || (parseFloat(v) >= 0 && parseFloat(v) <= 20)) setRate(v); }} placeholder={defaultRate || product.rate} className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
+          <label className="text-xs text-muted">{labels.rate} ({rateInfo.unitLabel})</label>
+          <input type="number" min="0.001" max="20" step="0.001" value={rate} onChange={e => { const v = e.target.value; if (v === "" || (parseFloat(v) >= 0 && parseFloat(v) <= 20)) setRate(v); }} placeholder={rateInfo.defaultRate || product.rate} className="w-full px-3 py-2 rounded-lg border border-border focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none" />
         </div>
       </div>
       {result && (
@@ -100,7 +140,6 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
             <span className="font-semibold text-ink">{result.total.toFixed(2)} {product.unit}</span>
           </div>
 
-          {/* Полное покрытие — основной выбор */}
           <div className="border-t border-border pt-3 space-y-2">
             <div className="flex items-center justify-between gap-2">
               <span className="text-xs uppercase tracking-wide text-brand font-bold">{labels.buyFull}</span>
@@ -111,14 +150,13 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
             </div>
             <p className="flex items-start gap-1.5 text-xs text-muted bg-brand/5 p-2 rounded leading-snug">
               <Info className="w-3.5 h-3.5 text-brand mt-0.5 shrink-0" />
-              <span><b className="text-ink">{result.cansCeil} {labels.cansLabel} × {product.packaging}</b> = {result.isExact ? labels.exactInfo : tplSurplus(result.volCeil, result.surplus, result.extraHa)}</span>
+              <span><b className="text-ink">{result.cansCeil} {packLabel} x {product.packaging}</b> = {result.isExact ? labels.exactInfo : tplSurplus(result.volCeil, result.surplus, result.extraHa)}</span>
             </p>
-            <button onClick={() => addToCart(result.cansCeil)} className={`btn-primary w-full !py-2 text-sm ${added ? "!bg-brand-dark" : ""}`}>
-              {added ? <><Check className="w-4 h-4" />{labels.added}</> : <><ShoppingCart className="w-4 h-4" />{result.cansCeil} {labels.cansLabel}</>}
+            <button onClick={() => addToCart(result.cansCeil)} className={"btn-primary w-full !py-2 text-sm " + (added ? "!bg-brand-dark" : "")}>
+              {added ? <><Check className="w-4 h-4" />{labels.added}</> : <><ShoppingCart className="w-4 h-4" />{result.cansCeil} {packLabel}</>}
             </button>
           </div>
 
-          {/* Альтернатива «купить меньше» */}
           {!result.isExact && result.cansFloor > 0 && (
             <div className="border-t border-border pt-3 space-y-2">
               <div className="flex items-center justify-between gap-2">
@@ -130,10 +168,10 @@ export function AgronomistCalculator({ product, lang }: { product: Product; lang
               </div>
               <p className="flex items-start gap-1.5 text-xs text-muted bg-amber-50 border border-amber-200 p-2 rounded leading-snug">
                 <AlertCircle className="w-3.5 h-3.5 text-amber-600 mt-0.5 shrink-0" />
-                <span><b className="text-ink">{result.cansFloor} {labels.cansLabel} × {product.packaging}</b> = {tplShortage(result.volFloor, result.shortage, result.area - result.shortHa)}</span>
+                <span><b className="text-ink">{result.cansFloor} {packLabel} x {product.packaging}</b> = {tplShortage(result.volFloor, result.shortage, result.area - result.shortHa)}</span>
               </p>
               <button onClick={() => addToCart(result.cansFloor)} className="btn-outline w-full !py-2 text-sm">
-                <ShoppingCart className="w-4 h-4" />{result.cansFloor} {labels.cansLabel}
+                <ShoppingCart className="w-4 h-4" />{result.cansFloor} {packLabel}
               </button>
             </div>
           )}

@@ -99,6 +99,25 @@ export const SAVE_PAIRS: SavePair[] = [
     }
   },
   {
+    "ai": "Ацетаміприд, 200 г/кг",
+    "groupName": "Інсектицид",
+    "packaging": "1 кг",
+    "unit": "кг",
+    "currency": "USD",
+    "orig": {
+      "brand": "Терра Віта",
+      "name": "Вамп 200 ВП",
+      "priceCash": 19.92,
+      "url": "/produkt/vamp-200-vp-terra-vita/3086"
+    },
+    "our": {
+      "brand": "Укравіт",
+      "name": "АЦ Люкс, ЗП",
+      "priceCash": 9.49,
+      "url": "/produkt/ats-lyuks-zp-ukravit/3095"
+    }
+  },
+  {
     "ai": "Флуазифоп-П-бутил, 150 г/л",
     "groupName": "Гербіцид",
     "packaging": "20 л",
@@ -172,25 +191,6 @@ export const SAVE_PAIRS: SavePair[] = [
       "name": "Полігард Максі",
       "priceCash": 10.44,
       "url": "/produkt/polihard-maksi-akht/2359"
-    }
-  },
-  {
-    "ai": "Тіофанат-метил, 500 г/л",
-    "groupName": "Фунгіцид",
-    "packaging": "5 л",
-    "unit": "л",
-    "currency": "USD",
-    "orig": {
-      "brand": "Самміт-Агро",
-      "name": "Топсiн-М 500, КС",
-      "priceCash": 14.73,
-      "url": "/produkt/topsin-m-500-ks-sammit-agro/2141"
-    },
-    "our": {
-      "brand": "Нертус",
-      "name": "Тіома, КС",
-      "priceCash": 8.77,
-      "url": "/produkt/tioma-ks-nertus/2107"
     }
   }
 ];

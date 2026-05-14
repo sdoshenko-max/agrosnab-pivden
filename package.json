@@ -7,7 +7,8 @@
     "prebuild": "node scripts/_generate_image_manifest.mjs && node scripts/_generate_save_pairs.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "audit:packaging": "node scripts/_audit_packaging_units.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.460.0",

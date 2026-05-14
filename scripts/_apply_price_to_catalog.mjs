@@ -8,6 +8,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { translit, slugify, manufacturerSlug } from "./_lib_normalize.mjs";
+import { normalizePkg, unitFromPkg } from "./_lib_packaging.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -36,17 +37,12 @@ const pkgToSlugFragment = (pkg) => {
     .toLowerCase()
     .replace(/\*/g, "x")
     .replace(/[.,]/g, "")
-    .replace(/л\b/g, "l")
-    .replace(/кг\b/g, "kg")
-    .replace(/гр\b/g, "gr")
-    .replace(/г\b/g, "g")
+    .replace(/кг/g, "kg")
+    .replace(/гр/g, "gr")
+    .replace(/мл/g, "ml")
+    .replace(/г/g, "g")
+    .replace(/л/g, "l")
     .replace(/[^a-z0-9-]/g, "");
-};
-
-const unitFromPkg = (pkg) => {
-  const x = String(pkg || "").toLowerCase();
-  if (/кг|гр|\bг\b/.test(x)) return "кг";
-  return "л";
 };
 
 // === Парсинг CSV (просто, з підтримкою quoted) ===
@@ -213,11 +209,17 @@ for (const row of csvRows) {
     // Розрізняє варіанти `code`, не slug. Дедуплікація нижче пропускає такі new-packaging-колізії.
     const newObj = { ...baseObj };
     const newSlug = baseObj.slug.replace(/^"|"$/g, "");
+    const packagingHints = {
+      name: priceName,
+      activeIngredient: (baseObj.activeIngredient || "").replace(/^"|"$/g, ""),
+      rate: (baseObj.rate || "").replace(/^"|"$/g, ""),
+    };
+    const normalizedPkg = normalizePkg(normPkgPrice, packagingHints);
     newObj.slug = JSON.stringify(newSlug);
     newObj.name = JSON.stringify(priceName);
     newObj.nameRu = JSON.stringify(priceName);
-    newObj.packaging = JSON.stringify(normPkgPrice);
-    newObj.unit = JSON.stringify(unitFromPkg(normPkgPrice));
+    newObj.packaging = JSON.stringify(normalizedPkg);
+    newObj.unit = JSON.stringify(unitFromPkg(normalizedPkg, packagingHints));
     newObj.priceVat = String(priceVat);
     newObj.priceCash = String(priceCash);
     newObj.currency = JSON.stringify(currency);
@@ -236,7 +238,9 @@ for (const row of csvRows) {
   } else if (action.startsWith("new-sku")) {
     const cat = CAT_FROM_DIGIT[code[0]];
     const mfrSlug = manufacturerSlug(priceMfr);
-    const sizeFrag = pkgToSlugFragment(normPkgPrice);
+    const packagingHints = { name: priceName };
+    const normalizedPkg = normalizePkg(normPkgPrice, packagingHints);
+    const sizeFrag = pkgToSlugFragment(normalizedPkg);
     const nameSlugBase = slugify(translit(priceName));
     const newSlug = `${nameSlugBase}-${sizeFrag}-${mfrSlug}`;
     const newObj = {
@@ -250,11 +254,11 @@ for (const row of csvRows) {
       activeIngredient: '""',
       activeIngredientRu: '""',
       concentration: '""',
-      packaging: JSON.stringify(normPkgPrice),
+      packaging: JSON.stringify(normalizedPkg),
       rate: '""',
       priceVat: String(priceVat),
       priceCash: String(priceCash),
-      unit: JSON.stringify(unitFromPkg(normPkgPrice)),
+      unit: JSON.stringify(unitFromPkg(normalizedPkg, packagingHints)),
       currency: JSON.stringify(currency),
       cultures: "[]",
       stage: "[]",

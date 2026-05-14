@@ -10,6 +10,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { translit, slugify, manufacturerSlug } from "./_lib_normalize.mjs";
+import { normalizePkg, unitFromPkg } from "./_lib_packaging.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -45,15 +46,9 @@ const pkgToSlugFragment = (pkg) => String(pkg || "")
   .toLowerCase()
   .replace(/\*/g, "x")
   .replace(/[.,]/g, "")
-  .replace(/л\b/g, "l").replace(/кг\b/g, "kg")
-  .replace(/гр\b/g, "gr").replace(/г\b/g, "g")
+  .replace(/кг/g, "kg").replace(/гр/g, "gr")
+  .replace(/мл/g, "ml").replace(/г/g, "g").replace(/л/g, "l")
   .replace(/[^a-z0-9-]/g, "");
-
-const unitFromPkg = (pkg) => {
-  const x = String(pkg || "").toLowerCase();
-  if (/кг|гр|\bг\b/.test(x)) return "кг";
-  return "л";
-};
 
 const csvRows = parseCsv(readFileSync(path.join(root, "_price_with_codes_generics.csv"), "utf8"));
 const header = csvRows.shift();
@@ -166,16 +161,22 @@ for (const row of csvRows) {
     const baseM = lines[baseIdx].match(skuLineRe);
     const baseFields = parseSkuFields(baseM[4]);
     const baseSlug = baseM[2];
+    const packagingHints = {
+      name: priceName,
+      activeIngredient: dr || (baseFields.activeIngredient || "").replace(/^"|"$/g, ""),
+      rate: rate || (baseFields.rate || "").replace(/^"|"$/g, ""),
+    };
+    const normalizedPkg = normalizePkg(pkg, packagingHints);
 
     const mfrSlug = manufacturerSlug(manufacturer);
-    const sizeFrag = pkgToSlugFragment(pkg);
+    const sizeFrag = pkgToSlugFragment(normalizedPkg);
     const newSlug = baseSlug; // тримаємо базовий slug — фасовка розрізняється кодом
 
     const newFields = { ...baseFields };
     newFields.name = JSON.stringify(priceName);
     newFields.nameRu = JSON.stringify(priceName);
-    newFields.packaging = JSON.stringify(pkg);
-    newFields.unit = JSON.stringify(unitFromPkg(pkg));
+    newFields.packaging = JSON.stringify(normalizedPkg);
+    newFields.unit = JSON.stringify(unitFromPkg(normalizedPkg, packagingHints));
     newFields.priceVat = String(priceVat);
     newFields.priceCash = String(priceCash);
     newFields.currency = JSON.stringify(currency);
@@ -186,14 +187,16 @@ for (const row of csvRows) {
     if (rate) newFields.rate = JSON.stringify(rate);
     delete newFields.image;
 
-    newSkus.push({ obj: newFields, code, slug: newSlug, action, manufacturer, name: priceName, pkg, categorySlug });
+    newSkus.push({ obj: newFields, code, slug: newSlug, action, manufacturer, name: priceName, pkg: normalizedPkg, categorySlug });
     newCodesCatalogRows.push({ code, name: priceName, manufacturer, tier: baseFields.tier?.replace(/^"|"$/g, "") || "econom", group: CAT_NAME[categorySlug] || categoryName, slug: newSlug });
     stats.newPkg++;
 
   } else if (action.startsWith("new-sku")) {
     // Slug: <name>-<size>-<mfr>
     const mfrSlug = manufacturerSlug(manufacturer);
-    const sizeFrag = pkgToSlugFragment(pkg);
+    const packagingHints = { name: priceName, activeIngredient: dr, rate };
+    const normalizedPkg = normalizePkg(pkg, packagingHints);
+    const sizeFrag = pkgToSlugFragment(normalizedPkg);
     const nameSlug = slugify(translit(priceName));
     const baseSlug = `${nameSlug}-${mfrSlug}`;
     // Якщо такий slug вже існує — додаємо розмір
@@ -215,16 +218,16 @@ for (const row of csvRows) {
       activeIngredient: JSON.stringify(dr || ""),
       activeIngredientRu: JSON.stringify(dr || ""),
       concentration: '""',
-      packaging: JSON.stringify(pkg || ""),
+      packaging: JSON.stringify(normalizedPkg || ""),
       rate: JSON.stringify(rate || ""),
       priceVat: String(priceVat),
       priceCash: String(priceCash),
-      unit: JSON.stringify(unitFromPkg(pkg)),
+      unit: JSON.stringify(unitFromPkg(normalizedPkg, packagingHints)),
       currency: JSON.stringify(currency),
       cultures: "[]",
       stage: "[]",
     };
-    newSkus.push({ obj: newFields, code, slug: finalSlug, action, manufacturer, name: priceName, pkg, categorySlug });
+    newSkus.push({ obj: newFields, code, slug: finalSlug, action, manufacturer, name: priceName, pkg: normalizedPkg, categorySlug });
     newCodesCatalogRows.push({ code, name: priceName, manufacturer, tier, group: CAT_NAME[categorySlug] || "Гербіцид", slug: finalSlug });
     stats.newSku++;
   }

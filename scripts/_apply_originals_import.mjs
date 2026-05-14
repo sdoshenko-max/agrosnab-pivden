@@ -14,6 +14,7 @@ import { readFileSync, writeFileSync, appendFileSync, existsSync } from "node:fs
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { slugify, manufacturerCanonical as mfrCanonical, manufacturerSlug as mfrToSlug } from "./_lib_normalize.mjs";
+import { normalizePkg, unitFromPkg } from "./_lib_packaging.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -38,18 +39,18 @@ const categoryMap = (c) => {
 };
 
 // Парсинг фасовки з рядка прайсу: "12*1л" / "4*5л" / "20л" / "1кг" / "10*1л"
-const parsePackaging = (raw, unit) => {
+const parsePackaging = (raw, unit, hints = {}) => {
   const s = String(raw || "").replace(/\s/g, "").toLowerCase();
   // знаходимо число + одиницю в кінці
   const m = s.match(/^(?:(\d+)\*)?(\d+(?:[.,]\d+)?)(л|кг|мл|г|т)?$/);
   if (m) {
     const qty = m[2].replace(",", ".");
     const u = m[3] || (unit || "л").toLowerCase();
-    return `${qty} ${u}`;
+    return normalizePkg(`${qty} ${u}`, hints);
   }
   // fallback — як було, прибрати множник
   const m2 = s.match(/^(?:\d+\*)?(.+)$/);
-  return m2 ? m2[1] : raw;
+  return normalizePkg(m2 ? m2[1] : raw, hints);
 };
 
 // === Збираємо зміни для products.ts ===
@@ -117,13 +118,15 @@ for (const a of diff.buckets.add) {
 
   // Обираємо першу фасовку як «основну»
   const pkg = a.packagings[0];
-  const packaging = parsePackaging(pkg.packaging, a.unit);
+  const packagingHints = { name: baseName };
+  const packaging = parsePackaging(pkg.packaging, a.unit, packagingHints);
   // Тип unit обмежений до "л" | "кг". Нестандартні одиниці (уп, компл, шт)
   // намагаюся розпізнати за фасовкою; якщо не виходить — пропускаю SKU.
   let unit;
-  if (a.unit === "л" || a.unit === "кг") unit = a.unit;
+  if (a.unit === "л" || a.unit === "кг") unit = unitFromPkg(packaging, packagingHints);
   else if (/кг/i.test(packaging) && !/л/i.test(packaging)) unit = "кг";
-  else if (/\bл\b/i.test(packaging) && !/кг/i.test(packaging)) unit = "л";
+  else if (/л/i.test(packaging) && !/кг/i.test(packaging)) unit = "л";
+  else if (/\d+(?:[.,]\d+)?\s*(кг|г|гр|л|мл)/i.test(packaging)) unit = unitFromPkg(packaging, packagingHints);
   else { skipped.push({producer: a.producer, name: a.name, reason: `unit="${a.unit}", packaging="${pkg.packaging}"`}); continue; }
 
   // Об'єкт для рядка products.ts. БЕЗ activeIngredient/activeIngredientRu/cultures/stage/image —
