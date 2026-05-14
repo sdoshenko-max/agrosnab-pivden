@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "rates:update": "node scripts/_update_minfin_rates.mjs",
     "audit:packaging": "node scripts/_audit_packaging_units.mjs"
   },
   "dependencies": {

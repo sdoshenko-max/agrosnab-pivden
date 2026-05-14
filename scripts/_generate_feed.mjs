@@ -1,5 +1,5 @@
 // Генерує public/feed.xml — YML-фід для Prom.ua / Rozetka / Hotline / OLX Бізнес.
-// Ціна — готівка (priceCash) × актуальний курс НБУ → гривня.
+// Ціна — готівка (priceCash) × курс міжбанку Minfin → гривня.
 //
 // Запуск:
 //   node scripts/_generate_feed.mjs
@@ -42,23 +42,20 @@ const args = Object.fromEntries(
     }),
 );
 
-// 1. Курс monobank (rateSell — найближчий до міжбанку)
-// API: https://api.monobank.ua/bank/currency
-// Коди ISO 4217: USD=840, EUR=978, UAH=980. Rate-limit: 1 запит/хв.
+// 1. Курс міжбанку Minfin. Сам API викликає scripts/_update_minfin_rates.mjs,
+// тут читаємо готовий public/currency-rates.json, щоб не витрачати ліміт API.
 async function getRates() {
   if (args['rate-usd'] && args['rate-eur']) {
     return { USD: +args['rate-usd'], EUR: +args['rate-eur'], source: 'argv' };
   }
   try {
-    const res = await fetch('https://api.monobank.ua/bank/currency');
-    if (!res.ok) throw new Error(`Mono HTTP ${res.status}`);
-    const data = await res.json();
-    const usd = data.find(d => d.currencyCodeA === 840 && d.currencyCodeB === 980);
-    const eur = data.find(d => d.currencyCodeA === 978 && d.currencyCodeB === 980);
-    if (!usd?.rateSell || !eur?.rateSell) throw new Error('Mono: USD/EUR rateSell missing');
-    return { USD: +usd.rateSell.toFixed(2), EUR: +eur.rateSell.toFixed(2), source: 'Mono' };
+    const data = JSON.parse(fs.readFileSync('public/currency-rates.json', 'utf8'));
+    const usd = Number(data?.rates?.USD);
+    const eur = Number(data?.rates?.EUR);
+    if (!Number.isFinite(usd) || !Number.isFinite(eur)) throw new Error('Minfin rates missing');
+    return { USD: usd, EUR: eur, source: data.provider || 'Minfin' };
   } catch (e) {
-    console.warn(`Не вдалось отримати курс Mono (${e.message}), fallback 44.00 / 51.70`);
+    console.warn(`Не вдалось прочитати курс Minfin (${e.message}), fallback 44.00 / 51.70`);
     return { USD: 44.00, EUR: 51.70, source: 'fallback' };
   }
 }
