@@ -28,7 +28,7 @@ export default function Privacy() {
           <h2 className="text-xl font-bold mt-6">5. Cookies</h2>
           <p>Сайт использует локальное хранилище браузера (localStorage) для сохранения корзины. Никаких трекинг-cookies сторонних сервисов мы не устанавливаем.</p>
           <h2 className="text-xl font-bold mt-6">6. Ваши права</h2>
-          <p>Вы вправе запросить доступ к своим данным, исправить их или удалить. Обращайтесь: sdoshenko@gmail.com.</p>
+          <p>Вы вправе запросить доступ к своим данным, исправить их или удалить. Обращайтесь: agrosnabpivden@gmail.com.</p>
         </div>
       </main>
       <Footer lang="ru" />

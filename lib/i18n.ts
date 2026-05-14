@@ -216,7 +216,7 @@ export const COMPANY = {
   // phone — окремий номер тільки для дзвінків (call-tracking, ЗЗР Агроснаб, з 2026-05-12).
   // viber/telegram — основний особистий номер Сергія (для месенджерів і контактів ТОВ).
   phone: "+380770321997",
-  email: "sdoshenko@gmail.com",
+  email: "agrosnabpivden@gmail.com",
   warehouse: "м. Миколаїв",
   warehouseRu: "г. Николаев",
   viber: "+380660321997",

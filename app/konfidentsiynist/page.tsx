@@ -28,7 +28,7 @@ export default function Privacy() {
           <h2 className="text-xl font-bold mt-6">5. Cookies</h2>
           <p>Сайт використовує локальне сховище браузера (localStorage) для збереження кошика. Жодних трекінг-cookies сторонніх сервісів ми не встановлюємо.</p>
           <h2 className="text-xl font-bold mt-6">6. Ваші права</h2>
-          <p>Ви маєте право запросити доступ до своїх даних, виправити їх або видалити. Звертайтеся: sdoshenko@gmail.com.</p>
+          <p>Ви маєте право запросити доступ до своїх даних, виправити їх або видалити. Звертайтеся: agrosnabpivden@gmail.com.</p>
         </div>
       </main>
       <Footer lang="uk" />

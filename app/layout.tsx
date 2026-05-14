@@ -23,7 +23,7 @@ const orgSchema = {
   "url": "https://agrosnab-pivden.com",
   "logo": "https://agrosnab-pivden.com/logo.svg",
   "telephone": "+380770321997",
-  "email": "sdoshenko@gmail.com",
+  "email": "agrosnabpivden@gmail.com",
   "address": { "@type": "PostalAddress", "addressLocality": "Миколаїв", "addressCountry": "UA" },
   "areaServed": ["Миколаївська область", "Херсонська область", "Одеська область"]
 };

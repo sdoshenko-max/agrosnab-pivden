@@ -23,7 +23,7 @@ export default function Contacts() {
           <div className="space-y-3">
             <a href={`tel:${COMPANY.phone}`} className="card flex items-center gap-4 hover:border-brand hover:bg-brand/5 transition-all duration-200 group">
               <div className="w-12 h-12 rounded-full bg-brand/10 flex items-center justify-center group-hover:scale-110 transition-transform"><Phone className="w-6 h-6 text-brand" /></div>
-              <div><p className="text-xs text-muted">Телефон</p><p className="font-bold text-lg">+380 66 032 19 97</p></div>
+              <div><p className="text-xs text-muted">Телефон</p><p className="font-bold text-lg">+380 77 032 19 97</p></div>
             </a>
 
             <div className="card flex items-center gap-4">
