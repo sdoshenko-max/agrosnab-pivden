@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
@@ -9,6 +10,16 @@ import { WhyUs } from "@/components/WhyUs";
 import { HowItWorks } from "@/components/HowItWorks";
 import { QuickCallForm } from "@/components/QuickCallForm";
 import { FloatingCallButton } from "@/components/FloatingCallButton";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://agrosnab-pivden.com/",
+    languages: {
+      uk: "https://agrosnab-pivden.com/",
+      ru: "https://agrosnab-pivden.com/ru/",
+    },
+  },
+};
 
 export default function Home() {
   return (

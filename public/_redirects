@@ -1,3 +1,7 @@
+https://www.agrosnab-pivden.com/* https://agrosnab-pivden.com/:splat 301
+http://www.agrosnab-pivden.com/* https://agrosnab-pivden.com/:splat 301
+http://agrosnab-pivden.com/* https://agrosnab-pivden.com/:splat 301
+
 /produkt/pulsar-40-basf/    /produkt/pulsar-flex-basf/    301
 /produkt/pulsar-40-basf     /produkt/pulsar-flex-basf/    301
 /ru/produkt/pulsar-40-basf/ /ru/produkt/pulsar-flex-basf/ 301
@@ -144,4 +148,3 @@
 /ru/produkt/karibu-50-z-p-fms/1364/ /ru/produkt/karibu-50-z-p-fms/1290/ 301
 /produkt/kharmoni-fms/1366/    /produkt/kharmoni-fms/1297/    301
 /ru/produkt/kharmoni-fms/1366/ /ru/produkt/kharmoni-fms/1297/ 301
-
