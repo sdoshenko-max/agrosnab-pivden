@@ -150,7 +150,15 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
         <div className="container-w py-10 lg:py-14">
           <button onClick={() => { if (typeof window !== "undefined" && window.history.length > 1) window.history.back(); else window.location.href = `${base}/kultury`; }} className="inline-flex items-center gap-1 text-white/80 hover:text-white text-sm mb-4"><ChevronLeft className="w-4 h-4" />{labels.back}</button>
           <div>
-            <span className="float-left mr-4 mb-2 text-6xl lg:text-7xl leading-none select-none">{culture.emoji}</span>
+            {culture.image ? (
+              <img
+                src={culture.image}
+                alt={lang === "uk" ? culture.nameUk : culture.nameRu}
+                className="float-left mr-4 mb-2 w-20 h-20 lg:w-28 lg:h-28 rounded-full object-cover ring-2 ring-white/30 shadow-lg"
+              />
+            ) : (
+              <span className="float-left mr-4 mb-2 text-6xl lg:text-7xl leading-none select-none">{culture.emoji}</span>
+            )}
             <h1 className="text-3xl lg:text-4xl font-extrabold mb-2">
               {lang === "uk"
                 ? `${culture.nameUk} — захист і схема обробки`
