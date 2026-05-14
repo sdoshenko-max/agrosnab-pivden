@@ -99,6 +99,21 @@ export default {
         (sourceHost ? `🌍 <b>Сайт:</b> ${esc(sourceHost)}\n` : "") +
         `🌐 Мова: ${esc(lang.toUpperCase())}\n` +
         `⏰ ${time} (Київ)`;
+    } else if (formType === "consultation") {
+      text =
+        `🌱 <b>КОНСУЛЬТАЦІЯ АГРОНОМА — АГРОСНАБ-ПІВДЕНЬ</b>\n` +
+        `━━━━━━━━━━━━━━━━━━━━━━\n` +
+        `👤 <b>Ім'я:</b> ${esc(name) || "<i>(не вказано)</i>"}\n` +
+        `📞 <b>Телефон:</b> ${esc(phoneClean)}\n` +
+        (product ? `🛒 <b>Дивився товар:</b> ${esc(product)}\n` : "") +
+        (comment ? `💬 <b>Проблема / питання:</b>\n<i>${esc(comment)}</i>\n` : "") +
+        `━━━━━━━━━━━━━━━━━━━━━━\n` +
+        (sourceHost ? `🌍 <b>Сайт:</b> ${esc(sourceHost)}\n` : "") +
+        `🌐 Мова: ${esc(lang.toUpperCase())}\n` +
+        (fullProductUrl ? `🔗 ${esc(fullProductUrl)}\n` : "") +
+        `⏰ ${time} (Київ)\n` +
+        `\n` +
+        `<b>⚡ Передзвонити протягом 15 хв</b>`;
     } else {
       text =
         `🌾 <b>НОВА ЗАЯВКА — АГРОСНАБ-ПІВДЕНЬ</b>\n` +

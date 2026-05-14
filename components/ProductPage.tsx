@@ -9,6 +9,7 @@ import { products as allProducts, cultures as allCultures } from "@/lib/data";
 import { manufacturerSlug } from "@/lib/manufacturers";
 import { dict, type Lang, COMPANY } from "@/lib/i18n";
 import { AgronomistCalculator } from "./AgronomistCalculator";
+import { ConsultationForm } from "./ConsultationForm";
 import { RequestModal } from "./RequestModal";
 import { AddToCart } from "./AddToCart";
 import { useCurrency } from "./CurrencyContext";
@@ -38,11 +39,10 @@ export function ProductPage({ product, lang, longDesc }: { product: Product; lan
   const tierLabel = lang === "uk" ? tier.uk : tier.ru;
 
   const cultureNames = product.cultures.map(slug => allCultures.find(c => c.slug === slug)).filter(Boolean).map(c => lang === "uk" ? c!.nameUk : c!.nameRu);
-  const related = allProducts.filter(p => p.slug !== product.slug).filter(p => p.cultures.some(c => product.cultures.includes(c))).filter(p => p.stage.some(s => product.stage.includes(s))).slice(0, 4);
 
   const labels = lang === "uk"
-    ? { back: "Назад", regulation: "Регламент застосування", related: "Часто беруть разом", crop: "Культура", target: "Призначення", rate: "Норма", manufacturer: "Виробник", about: "Про препарат" }
-    : { back: "Назад", regulation: "Регламент применения", related: "Часто берут вместе", crop: "Культура", target: "Назначение", rate: "Норма", manufacturer: "Производитель", about: "О препарате" };
+    ? { back: "Назад", regulation: "Регламент застосування", crop: "Культура", target: "Призначення", rate: "Норма", manufacturer: "Виробник", about: "Про препарат" }
+    : { back: "Назад", regulation: "Регламент применения", crop: "Культура", target: "Назначение", rate: "Норма", manufacturer: "Производитель", about: "О препарате" };
 
   return (
     <>
@@ -176,27 +176,7 @@ export function ProductPage({ product, lang, longDesc }: { product: Product; lan
 
       {!product.priceOnRequest && <section className="container-w py-6"><AgronomistCalculator product={product} lang={lang} /></section>}
 
-      {related.length > 0 && (
-        <section className="bg-white border-t border-border py-8">
-          <div className="container-w">
-            <h2 className="text-xl font-bold mb-4">{labels.related}</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-              {related.map(p => (
-                <Link key={p.slug} href={`${base}/produkt/${p.slug}`} className="card hover:border-brand group">
-                  <span className={`badge ${tierLabels[p.tier].cls} mb-2 inline-block`}>{lang === "uk" ? tierLabels[p.tier].uk : tierLabels[p.tier].ru}</span>
-                  <h3 className="font-bold text-sm mb-1 group-hover:text-brand">{lang === "uk" ? p.name : p.nameRu}</h3>
-                  <p className="text-xs text-muted mb-2">{p.manufacturer}</p>
-                  {p.priceOnRequest ? (
-                    <p className="text-sm font-bold text-amber-700">{t.productCard.onRequest}</p>
-                  ) : (
-                    <p className="text-base font-bold text-brand whitespace-nowrap">{format(p.priceCash * getPackSize(p.packaging), p.currency)}<span className="text-xs font-normal text-muted"> / {p.packaging}</span></p>
-                  )}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      <ConsultationForm lang={lang} productName={name} productSlug={product.slug} />
 
       <RequestModal open={requestOpen} onClose={() => setRequestOpen(false)} productName={name} lang={lang} />
     </>
