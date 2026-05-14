@@ -209,7 +209,7 @@ function CulturePageInner({ culture, products, tankMixes, lang }: CulturePagePro
 
         {/* Додаткові фільтри: рівень, виробник */}
         {(manufacturerOptions.length > 1 || tierOptions.length > 1) && (
-          <div className="card !p-4 mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="card !p-4 mb-6 grid grid-cols-1 gap-4">
             {tierOptions.length > 1 && (
               <div>
                 <p className="text-xs uppercase tracking-wide text-muted font-semibold mb-2">{labels.tier}</p>
