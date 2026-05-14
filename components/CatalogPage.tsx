@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, Suspense } from "react";
+import { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ChevronLeft, ChevronRight, Filter, X } from "lucide-react";
@@ -50,13 +50,21 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
   const ai = searchParams.get("ai") || "all";
   const page = Math.max(1, parseInt(searchParams.get("page") || "1", 10) || 1);
 
+  // Тримаємо актуальний query string у ref — синхронно оновлюємо при кожному
+  // кліку. useSearchParams і window.location.search оновлюються асинхронно
+  // (router.replace використовує transitions), тому при швидких послідовних
+  // кліках сусідній клік бачив застарілий стан і затирав попередні параметри.
+  const queryRef = useRef<string>(searchParams.toString());
+  useEffect(() => { queryRef.current = searchParams.toString(); }, [searchParams]);
+
   function updateParams(updates: Record<string, string | number | null>) {
-    const sp = new URLSearchParams(searchParams.toString());
+    const sp = new URLSearchParams(queryRef.current);
     for (const [k, v] of Object.entries(updates)) {
       if (v === null || v === "" || v === undefined || v === "all") sp.delete(k);
       else sp.set(k, String(v));
     }
     const qs = sp.toString();
+    queryRef.current = qs;
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
   }
   const setTier = (v: string) => updateParams({ tier: v, page: null });
@@ -272,7 +280,7 @@ function CatalogPageInner({ title, titleRu, productSlugs, lang, hideAiFilter, cu
             ) : (
               <>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-                  {pageItems.map(p => (<ProductCardFull key={p.slug} product={p} lang={lang} onRequest={openRequest} />))}
+                  {pageItems.map(p => (<ProductCardFull key={p.code || p.slug} product={p} lang={lang} onRequest={openRequest} />))}
                 </div>
 
                 {totalPages > 1 && (
