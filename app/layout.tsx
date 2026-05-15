@@ -4,6 +4,7 @@ import { CartProvider } from "@/components/CartContext";
 import { GlobalCartDrawer } from "@/components/GlobalCartDrawer";
 import { CurrencyProvider } from "@/components/CurrencyContext";
 import { Analytics } from "@/components/Analytics";
+import { MobileContactBar } from "@/components/MobileContactBar";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://agrosnab-pivden.com"),
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <CartProvider>
             {children}
             <GlobalCartDrawer />
+            <MobileContactBar />
           </CartProvider>
         </CurrencyProvider>
       </body>

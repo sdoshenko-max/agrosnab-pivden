@@ -11,16 +11,22 @@ export function Analytics() {
       const a = target?.closest("a");
       if (!a) return;
       const href = a.getAttribute("href") || "";
+      const path = window.location.pathname;
       if (href.startsWith("tel:")) {
-        track("phone_click", { phone_number: href.slice(4), location: window.location.pathname });
+        track("phone_click", { phone_number: href.slice(4), location: path });
       } else if (href.startsWith("mailto:")) {
-        track("email_click", { email: href.slice(7), location: window.location.pathname });
+        track("email_click", { email: href.slice(7), location: path });
       } else if (/wa\.me|whatsapp\.com/i.test(href)) {
-        track("whatsapp_click", { location: window.location.pathname });
+        track("whatsapp_click", { location: path });
       } else if (href.startsWith("viber:") || /viber\.com/i.test(href)) {
-        track("viber_click", { location: window.location.pathname });
+        track("viber_click", { location: path });
       } else if (/t\.me\/|telegram\.me\/|tg:\/\//i.test(href)) {
-        track("telegram_click", { location: window.location.pathname });
+        track("telegram_click", { location: path });
+      }
+      const customEvent = a.getAttribute("data-event");
+      if (customEvent) {
+        const customLocation = a.getAttribute("data-location") || path;
+        track(customEvent, { location: customLocation, path });
       }
     }
     document.addEventListener("click", onClick);

@@ -7,7 +7,7 @@ export function FloatingCallButton() {
   return (
     <a
       href={`tel:${COMPANY.phone}`}
-      className="fixed bottom-5 right-5 z-30 w-14 h-14 lg:w-16 lg:h-16 rounded-full bg-accent hover:bg-accent-dark text-white flex items-center justify-center shadow-xl transition-transform hover:scale-110 group"
+      className="fixed bottom-5 right-5 z-30 w-14 h-14 lg:w-16 lg:h-16 rounded-full bg-accent hover:bg-accent-dark text-white hidden md:flex items-center justify-center shadow-xl transition-transform hover:scale-110 group"
       aria-label="Call us"
     >
       <Phone className="w-6 h-6 lg:w-7 lg:h-7" />
