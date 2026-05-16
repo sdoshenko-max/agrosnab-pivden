@@ -65,6 +65,12 @@ export default {
     const comment = trim(data.comment, 500);
     const productUrl = trim(data.productUrl, 200);
     const lang = trim(data.lang || "uk", 4);
+    // problem-picker (підбір препарату під проблему)
+    const selectedScenario = trim(data.selected_scenario, 50);
+    const problemText = trim(data.problem_text, 1000);
+    const contactMethod = trim(data.contact_method, 20);
+    const source = trim(data.source, 50);
+    const pageUrl = trim(data.page_url, 300);
 
     if (!phone || phone.length < 10) {
       return json({ error: "Phone required" }, 400, cors);
@@ -88,8 +94,41 @@ export default {
     });
     const phoneClean = "+" + phone.replace(/\D/g, "");
 
+    // Mapping scenario id → human-readable label (для красивого виводу в Telegram)
+    const SCENARIO_LABELS = {
+      herb_corn: "Гербіцид по кукурудзі",
+      fung_wheat: "Фунгіцид по пшениці",
+      sunflower: "Захист соняшнику",
+      insect: "Інсектицид від шкідників",
+      analog: "Аналог дорогого препарату",
+      dontknow: "Не знає, що потрібно",
+    };
+    const CONTACT_LABELS = {
+      call: "📞 Дзвінок",
+      telegram: "💬 Telegram",
+      viber: "💜 Viber",
+    };
+
     let text;
-    if (formType === "quick-call") {
+    if (formType === "problem-picker") {
+      const scenarioLabel = SCENARIO_LABELS[selectedScenario] || (selectedScenario ? esc(selectedScenario) : "<i>(не обрано)</i>");
+      const contactLabel = CONTACT_LABELS[contactMethod] || (contactMethod ? esc(contactMethod) : "<i>(не обрано)</i>");
+      text =
+        `🌱 <b>ПІДБІР ПРЕПАРАТУ — АГРОСНАБ-ПІВДЕНЬ</b>\n` +
+        `━━━━━━━━━━━━━━━━━━━━━━\n` +
+        `📞 <b>Телефон:</b> ${esc(phoneClean)}\n` +
+        `🤝 <b>Зв'язок:</b> ${contactLabel}\n` +
+        `🎯 <b>Сценарій:</b> ${scenarioLabel}\n` +
+        (problemText ? `💬 <b>Проблема клієнта:</b>\n<i>${esc(problemText)}</i>\n` : "") +
+        `━━━━━━━━━━━━━━━━━━━━━━\n` +
+        (sourceHost ? `🌍 <b>Сайт:</b> ${esc(sourceHost)}\n` : "") +
+        (source ? `📌 <b>Source:</b> ${esc(source)}\n` : "") +
+        (pageUrl ? `🔗 ${esc(pageUrl)}\n` : "") +
+        `🌐 Мова: ${esc(lang.toUpperCase())}\n` +
+        `⏰ ${time} (Київ)\n` +
+        `\n` +
+        `<b>⚡ Підібрати препарат і передзвонити</b>`;
+    } else if (formType === "quick-call") {
       text =
         `📞 <b>ШВИДКИЙ ДЗВІНОК — АГРОСНАБ-ПІВДЕНЬ</b>\n` +
         `━━━━━━━━━━━━━━━━━━━━━━\n` +

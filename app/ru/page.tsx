@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
-import { MagnetCards } from "@/components/MagnetCards";
+import { ProblemPicker } from "@/components/ProblemPicker";
 import { GroupsStrip } from "@/components/GroupsStrip";
 import { CulturesGrid } from "@/components/CulturesGrid";
 import { TankMixesGrid } from "@/components/TankMixesGrid";
@@ -23,7 +23,7 @@ export default function HomeRu() {
       <Header lang="ru" />
       <main>
         <Hero lang="ru" />
-        <MagnetCards lang="ru" />
+        <ProblemPicker lang="ru" />
         <GroupsStrip lang="ru" />
         <CulturesGrid lang="ru" />
         <TankMixesGrid lang="ru" oneCardPerCulture showAllButton />

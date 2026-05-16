@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
-import { MagnetCards } from "@/components/MagnetCards";
+import { ProblemPicker } from "@/components/ProblemPicker";
 import { GroupsStrip } from "@/components/GroupsStrip";
 import { CulturesGrid } from "@/components/CulturesGrid";
 import { TankMixesGrid } from "@/components/TankMixesGrid";
@@ -27,7 +27,7 @@ export default function Home() {
       <Header lang="uk" />
       <main>
         <Hero lang="uk" />
-        <MagnetCards lang="uk" />
+        <ProblemPicker lang="uk" />
         <GroupsStrip lang="uk" />
         <CulturesGrid lang="uk" />
         <TankMixesGrid lang="uk" oneCardPerCulture showAllButton />
