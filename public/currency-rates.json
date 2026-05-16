@@ -1,29 +1,29 @@
 {
   "source": "minfin-interbank",
   "provider": "Minfin.com.ua",
-  "fetchedAt": "2026-05-14T06:06:29.210Z",
-  "date": "2026-05-13",
+  "fetchedAt": "2026-05-16T10:04:18.474Z",
+  "date": "2026-05-15",
   "rates": {
-    "USD": 43.98,
-    "EUR": 51.5005
+    "USD": 44.16,
+    "EUR": 51.3271
   },
   "currencies": {
     "USD": {
-      "bid": 43.95,
-      "ask": 43.98,
-      "date": "2026-05-13 17:00:00",
-      "pointDate": "2026-05-13 17:31:01"
+      "bid": 44.12,
+      "ask": 44.16,
+      "date": "2026-05-15 17:00:00",
+      "pointDate": "2026-05-15 17:31:01"
     },
     "EUR": {
-      "bid": 51.4786,
-      "ask": 51.5005,
-      "date": "2026-05-13 17:00:00",
-      "pointDate": "2026-05-13 17:31:01"
+      "bid": 51.2895,
+      "ask": 51.3271,
+      "date": "2026-05-15 17:00:00",
+      "pointDate": "2026-05-15 17:31:01"
     }
   },
   "limit": {
     "month": "2026-05",
-    "requestsThisMonth": 4,
+    "requestsThisMonth": 5,
     "maxRequestsPerMonth": 10
   }
 }
