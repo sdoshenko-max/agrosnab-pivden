@@ -223,7 +223,7 @@ export const articles: Article[] = [
         type: "ctaBlock",
         title: "Готові закрити пшеницю від клопа?",
         buttons: [
-          { label: "Усі інсектициди для пшениці", href: "/kultury/ozyma-pshenytsa/insecticid-naliv", variant: "primary", icon: "arrow" },
+          { label: "Усі інсектициди для пшениці", href: "/kultury/ozyma-pshenytsa?stage=insecticid-naliv", variant: "primary", icon: "arrow" },
           { label: "Консультація агронома", href: "https://t.me/SergeyMLTD", variant: "secondary", icon: "chat" }
         ],
         links: [
@@ -401,7 +401,7 @@ export const articles: Article[] = [
         type: "ctaBlock",
         title: "Готовы закрыть пшеницу от клопа?",
         buttons: [
-          { label: "Все инсектициды для пшеницы", href: "/kultury/ozyma-pshenytsa/insecticid-naliv", variant: "primary", icon: "arrow" },
+          { label: "Все инсектициды для пшеницы", href: "/ru/kultury/ozyma-pshenytsa?stage=insecticid-naliv", variant: "primary", icon: "arrow" },
           { label: "Консультация агронома", href: "https://t.me/SergeyMLTD", variant: "secondary", icon: "chat" }
         ],
         links: [
