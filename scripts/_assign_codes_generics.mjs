@@ -21,6 +21,15 @@ const num = (v) => {
   return Number.isFinite(n) ? n : null;
 };
 
+const round2 = (n) => Math.round(n * 100) / 100;
+
+const priceUahPerKgFromName = (name) => {
+  const m = String(name || "").match(/(\d[\d\s.,]*)\s*грн\s*\/\s*(?:т|тонн?[а-я]*)\s*(?:з|с)\s*пдв/i);
+  if (!m) return null;
+  const perTonne = num(m[1]);
+  return perTonne ? round2(perTonne / 1000) : null;
+};
+
 // Нормалізація фасовки. Якщо в комірці число (5) і unit невідомий — повертаємо "5 л".
 const parsePkg = (raw, defaultUnit = "л") => {
   if (raw === null || raw === undefined || raw === "") return null;
@@ -147,11 +156,11 @@ for (const cfg of SHEETS) {
     const priceWoVatRaw = num(row[cfg.cols.priceWoVat]);
     if (priceWoVatRaw === null && priceVatRaw === null) { stats.skippedNoPrice++; continue; }
     if (priceWoVatRaw === 0 && (priceVatRaw === 0 || priceVatRaw === null)) { stats.skippedNoPrice++; continue; }
-    const priceWoVat = priceWoVatRaw ?? 0;
+    let priceWoVat = priceWoVatRaw ?? 0;
     let priceVat = priceVatRaw;
     if (priceVat === null && cfg.priceVatFrom === "calc") priceVat = Math.round(priceWoVat * 1.20 * 100) / 100;
     if (priceVat === null) priceVat = Math.round(priceWoVat * 1.20 * 100) / 100;
-    const priceCash = Math.round(priceWoVat * 1.10 * 100) / 100;
+    let priceCash = Math.round(priceWoVat * 1.10 * 100) / 100;
 
     // Фасовка
     let pkgRaw = "";
@@ -160,7 +169,14 @@ for (const cfg of SHEETS) {
 
     const dr = String(row[cfg.cols.dr] ?? "").trim();
     const rate = cfg.cols.rate !== undefined ? String(row[cfg.cols.rate] ?? "").trim() : "";
-    const currency = cfg.cols.currency !== undefined ? detectCurrency(row[cfg.cols.currency]) : "USD";
+    let currency = cfg.cols.currency !== undefined ? detectCurrency(row[cfg.cols.currency]) : "USD";
+    const uahPerKgVat = priceUahPerKgFromName(name);
+    if (uahPerKgVat !== null) {
+      currency = "UAH";
+      priceVat = uahPerKgVat;
+      priceWoVat = round2(priceVat / 1.2);
+      priceCash = round2((priceVat / 1.2) * 1.10);
+    }
 
     // Категорія
     let categorySlug = null;

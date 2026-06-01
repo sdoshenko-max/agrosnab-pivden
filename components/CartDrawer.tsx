@@ -28,6 +28,15 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
     ? { title: "Ваш кошик", empty: "Кошик порожній", continueShopping: "Продовжити обирати товари", checkout: "Оформити заявку", removeAll: "Очистити кошик", positions: "позицій", cans: "каністр" }
     : { title: "Ваша корзина", empty: "Корзина пуста", continueShopping: "Продолжить выбор товаров", checkout: "Оформить заявку", removeAll: "Очистить корзину", positions: "позиций", cans: "канистр" };
 
+  const toUah = (amount: number, currency: string = "USD") => {
+    const rate = currency === "EUR" ? rates.EUR : currency === "UAH" ? 1 : rates.USD;
+    return Math.round(amount * rate);
+  };
+  const formatUah = (amount: number) => amount.toLocaleString("uk-UA").replace(/,/g, " ") + " ₴";
+  const moneySymbol = (currency: string) => currency === "EUR" ? "€" : currency === "UAH" ? "₴" : "$";
+  const totalVatUah = cart.items.reduce((s, i) => s + toUah(i.qty * i.packSize * i.priceVat, i.currency), 0);
+  const totalCashUah = cart.items.reduce((s, i) => s + toUah(i.qty * i.packSize * i.priceCash, i.currency), 0);
+
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     if (!consent || !isValidPhone(phone) || cart.items.length === 0) return;
@@ -35,9 +44,9 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
     const cartText = cart.items.map(i => {
       const totalVol = i.qty * i.packSize;
       const sumUah = format(totalVol * i.priceVat, i.currency);
-      return `• ${i.name} (${i.manufacturer}) — ${i.qty} × ${i.packaging} = ${totalVol} ${i.unit} = ${sumUah} (${i.currency === "EUR" ? "€" : "$"}${(totalVol * i.priceVat).toFixed(2)})`;
+      return `• ${i.name} (${i.manufacturer}) — ${i.qty} × ${i.packaging} = ${totalVol} ${i.unit} = ${sumUah} (${moneySymbol(i.currency)}${(totalVol * i.priceVat).toFixed(2)})`;
     }).join("\n");
-    const productSummary = `${cart.items.length} ${labels.positions}\nЗ ПДВ: ${format(cart.totalVat, "USD")} / Готівка: ${format(cart.totalCash, "USD")}\nКурс: ${rates.USD} ₴/$\n\n${cartText}`;
+    const productSummary = `${cart.items.length} ${labels.positions}\nЗ ПДВ: ${formatUah(totalVatUah)} / Готівка: ${formatUah(totalCashUah)}\nКурс: ${rates.USD} ₴/$\n\n${cartText}`;
     try {
       const res = await fetch(WORKER_URL, {
         method: "POST", headers: { "Content-Type": "application/json" },
@@ -51,7 +60,6 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
 
   useLockBodyScroll(open);
   if (!open) return null;
-  const cur = cart.items[0]?.currency || "USD";
 
   return (
     <div className="fixed inset-0 z-[60] bg-black/60 flex justify-end overflow-y-auto overscroll-contain" onClick={onClose}>
@@ -97,8 +105,8 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
                 <button onClick={() => cart.clear()} className="text-xs text-muted hover:text-red-600 flex items-center gap-1"><Trash2 className="w-3 h-3" />{labels.removeAll}</button>
               </div>
               <div className="sticky bottom-0 bg-white border-t border-border p-4 space-y-2">
-                <div className="flex justify-between text-sm"><span className="text-muted">{t.productCard.priceCash}</span><span className="font-bold text-brand text-lg whitespace-nowrap">{format(cart.totalCash, cur)}</span></div>
-                <div className="flex justify-between text-xs"><span className="text-muted">{t.productCard.priceVat}</span><span className="text-muted whitespace-nowrap">{format(cart.totalVat, cur)}</span></div>
+                <div className="flex justify-between text-sm"><span className="text-muted">{t.productCard.priceCash}</span><span className="font-bold text-brand text-lg whitespace-nowrap">{formatUah(totalCashUah)}</span></div>
+                <div className="flex justify-between text-xs"><span className="text-muted">{t.productCard.priceVat}</span><span className="text-muted whitespace-nowrap">{formatUah(totalVatUah)}</span></div>
                 <div className="grid grid-cols-2 gap-2"><button onClick={onClose} className="btn-outline">{labels.continueShopping}</button><button onClick={() => setStage("form")} className="btn-primary">{labels.checkout}</button></div>
               </div>
             </>
@@ -112,7 +120,7 @@ export function CartDrawer({ open, onClose, lang }: { open: boolean; onClose: ()
             <select value={payment} onChange={e => setPayment(e.target.value)} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink">{t.form.paymentOpts.map(o => <option key={o} value={o}>{o}</option>)}</select>
             <textarea placeholder={t.form.comment} value={comment} onChange={e => setComment(e.target.value)} rows={2} className="w-full px-4 py-2.5 rounded-lg border border-border bg-white text-ink placeholder:text-muted focus:border-brand focus:ring-2 focus:ring-brand/20 outline-none resize-none" />
             <label className="flex items-start gap-2 text-xs text-muted"><input type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} className="mt-0.5" required /><span>{t.form.consent}</span></label>
-            <div className="bg-bg p-3 rounded-lg text-sm"><div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{format(cart.totalCash, cur)}</span></div></div>
+            <div className="bg-bg p-3 rounded-lg text-sm"><div className="flex justify-between"><span className="text-muted">{cart.items.length} {labels.positions}</span><span className="font-bold text-brand">{formatUah(totalCashUah)}</span></div></div>
             <div className="grid grid-cols-2 gap-2">
               <button type="button" onClick={() => setStage("cart")} className="btn-outline">←</button>
               <button type="submit" disabled={status === "sending" || !consent || !isValidPhone(phone)} className="btn-primary disabled:opacity-50">{status === "sending" ? t.form.sending : t.form.submit}<Send className="w-4 h-4" /></button>

@@ -49,7 +49,7 @@ export function CurrencyProvider({ children }: { children: ReactNode }) {
   }, []);
 
   function format(amount: number, currency: string = "USD"): string {
-    const rate = currency === "EUR" ? rates.EUR : rates.USD;
+    const rate = currency === "EUR" ? rates.EUR : currency === "UAH" ? 1 : rates.USD;
     const uah = Math.round(amount * rate);
     return uah.toLocaleString("uk-UA").replace(/,/g, " ") + " ₴";
   }

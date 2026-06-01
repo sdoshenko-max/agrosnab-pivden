@@ -18,7 +18,7 @@ export type Product = {
   priceCash: number;
   priceOnRequest?: boolean;
   unit: string;
-  currency: string; // "USD" | "EUR"
+  currency: string; // "USD" | "EUR" | "UAH"
   analog?: string;
   saveFromOriginal?: number;
   cultures: string[];

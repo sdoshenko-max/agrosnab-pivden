@@ -244,7 +244,7 @@ async function main() {
 
     // priceCash у каталозі — ціна ЗА 1 ЛІТР/КГ. У Prom торгуємо упаковками, тому
     // множимо на розмір фасовки (10 л → ×10, 500 г → ×0.5).
-    const usdRate = p.currency === 'EUR' ? rates.EUR : rates.USD;
+    const usdRate = p.currency === 'EUR' ? rates.EUR : p.currency === 'UAH' ? 1 : rates.USD;
     const packSize = getPackSize(p.packaging);
     const priceUah = Math.round(p.priceCash * packSize * usdRate);
     if (priceUah <= 0 && !p.priceOnRequest) { skipped++; continue; }
